@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1776814769,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ztd…pump · ACTIVE_TRAP→STAIRCASE · top -18.96%",
+      "mint": "2ztdZkbLMyZMNUV8VdFcs8QughZrJw8opTb9WSrCpump",
+      "signature": null
+    },
+    {
+      "ts": 1776814697,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 6ikH…pump · top 23.75%→26.25% (+2.50%) · DEVELOPING",
+      "mint": "6ikH3UfNYgJchr1sdwTRWRrEit54kvVEDRpqnmhrpump",
+      "signature": null
+    },
+    {
+      "ts": 1776814676,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 6ikH…pump · mom 61 · top 23.75% · 20 holders",
+      "mint": "6ikH3UfNYgJchr1sdwTRWRrEit54kvVEDRpqnmhrpump",
+      "signature": null
+    },
+    {
       "ts": 1776813670,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
