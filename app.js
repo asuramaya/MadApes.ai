@@ -192,9 +192,115 @@ function formatMcap(n) {
   return n.toFixed(0);
 }
 
+// --- render: ticker strip (arena-inspired) ---
+function renderTicker(health, pnl, calls) {
+  const el = document.getElementById("ticker");
+  if (!el) return;
+  clear(el);
+  const items = [];
+  if (health && health.sol_price_usd) {
+    items.push({
+      sym: "SOL",
+      val: "$" + health.sol_price_usd.toFixed(2),
+      pct: null,
+    });
+  }
+  if (pnl && pnl.total_value_usd != null) {
+    items.push({
+      sym: "BAG",
+      val: fmtUsd(pnl.total_value_usd),
+      pct: pnl.unrealized_pnl_usd
+        ? fmtPct((pnl.unrealized_pnl_usd / (pnl.total_value_usd || 1)) * 100)
+        : null,
+    });
+  }
+  if (calls && calls.length) {
+    for (const c of calls.slice(0, 4)) {
+      items.push({
+        sym: c.symbol ? "$" + c.symbol.toUpperCase() : shortAddr(c.mint),
+        val: c.current_mcap_usd ? "$" + formatMcap(c.current_mcap_usd) : "—",
+        pct: fmtPct(c.pct_from_call),
+      });
+    }
+  }
+  if (!items.length) {
+    el.appendChild(el_("div", { class: "ticker-empty", text: "no live values yet" }));
+    return;
+  }
+  for (const item of items) {
+    const node = el_("div", { class: "ticker-item" }, [
+      el_("span", { class: "ticker-sym", text: item.sym }),
+      el_("span", { class: "ticker-val", text: item.val }),
+      item.pct
+        ? el_("span", {
+            class: "ticker-pct " + pnlClass(parseFloat(item.pct)),
+            text: item.pct,
+          })
+        : null,
+    ]);
+    el.appendChild(node);
+  }
+}
+
+// el conflicts with existing function name; local alias for ticker.
+function el_(tag, attrs, children) {
+  return el(tag, attrs, children);
+}
+
+// --- render: live stream side-panel ---
+function renderStream(stream) {
+  const body = document.getElementById("stream-body");
+  const status = document.getElementById("stream-status");
+  if (!body) return;
+  clear(body);
+  const events = (stream && stream.events) || [];
+  if (!events.length) {
+    body.appendChild(el("div", { class: "stream-empty", text: "no events yet" }));
+    if (status) status.textContent = "—";
+    return;
+  }
+  if (status) status.textContent = events.length + " events";
+  for (const ev of events) {
+    const head = el("div", { class: "stream-event-head" }, [
+      el("span", { class: "stream-kind stream-kind-" + ev.kind, text: ev.tag || ev.kind }),
+      el("span", { class: "stream-ts", text: fmtTimeAgo(ev.ts) }),
+    ]);
+    const summary = el("div", { class: "stream-event-summary", text: ev.summary || "" });
+    const links = el("div", { class: "stream-event-links" });
+    if (ev.mint) {
+      links.appendChild(
+        el("a", {
+          href: DEXSCREENER + "/" + ev.mint,
+          target: "_blank",
+          rel: "noopener",
+          text: "chart",
+        })
+      );
+    }
+    if (ev.signature) {
+      if (ev.mint) links.appendChild(document.createTextNode(" · "));
+      links.appendChild(
+        el("a", {
+          href: SOLSCAN + "/tx/" + ev.signature,
+          target: "_blank",
+          rel: "noopener",
+          text: "tx",
+        })
+      );
+    }
+    const evEl = el("div", { class: "stream-event" }, [head, summary]);
+    if (links.children.length) evEl.appendChild(links);
+    body.appendChild(evEl);
+  }
+}
+
 // --- render: pnl ---
+let PNL_DATA = null;
+let CHART_WINDOW = "1h";
+
 function renderPnl(pnl) {
   if (!pnl) return;
+  PNL_DATA = pnl;
   const totalEl = document.getElementById("total-value");
   const realizedEl = document.getElementById("realized-pnl");
   const unrealizedEl = document.getElementById("unrealized-pnl");
@@ -205,7 +311,35 @@ function renderPnl(pnl) {
   unrealizedEl.textContent = fmtUsd(pnl.unrealized_pnl_usd);
   unrealizedEl.className = "big " + pnlClass(pnl.unrealized_pnl_usd || 0);
 
-  renderChart(pnl.series || [], pnl.trades || []);
+  redrawChart();
+}
+
+function redrawChart() {
+  if (!PNL_DATA) return;
+  const series = PNL_DATA.series || [];
+  const trades = PNL_DATA.trades || [];
+  const now = Date.now() / 1000;
+  const windowSec = {
+    "1h": 3600,
+    "6h": 21600,
+    "24h": 86400,
+    all: Infinity,
+  }[CHART_WINDOW];
+  const cutoff = now - windowSec;
+  const filteredSeries = series.filter((p) => p.ts >= cutoff);
+  const filteredTrades = trades.filter((t) => t.ts >= cutoff);
+  renderChart(filteredSeries, filteredTrades);
+}
+
+function wireChartTabs() {
+  const tabs = document.querySelectorAll(".chart-tab");
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      CHART_WINDOW = tab.dataset.window;
+      tabs.forEach((t) => t.classList.toggle("active", t === tab));
+      redrawChart();
+    });
+  });
 }
 
 function renderChart(series, trades) {
@@ -527,19 +661,24 @@ function renderThoughtBody(bodyEl, md, manifestEntries) {
 
 // --- bootstrap ---
 async function main() {
-  const [health, pnl, positions, activity, calls, thoughtsIndex] = await Promise.all([
-    loadJson("data/health.json"),
-    loadJson("data/pnl.json"),
-    loadJson("data/positions.json"),
-    loadJson("data/activity.json"),
-    loadJson("data/calls.json"),
-    loadJson("thoughts/index.json"),
-  ]);
+  const [health, pnl, positions, activity, calls, stream, thoughtsIndex] =
+    await Promise.all([
+      loadJson("data/health.json"),
+      loadJson("data/pnl.json"),
+      loadJson("data/positions.json"),
+      loadJson("data/activity.json"),
+      loadJson("data/calls.json"),
+      loadJson("data/stream.json"),
+      loadJson("thoughts/index.json"),
+    ]);
   renderHealth(health);
+  renderTicker(health, pnl, calls && calls.active);
   renderPnl(pnl);
+  wireChartTabs();
   renderPositions(positions && positions.positions);
   renderCalls(calls && calls.active);
   renderActivity(activity && activity.activity);
+  renderStream(stream);
   await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
 }
 

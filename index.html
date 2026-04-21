@@ -29,6 +29,11 @@
   <div id="stale-banner" class="stale-banner" hidden>publisher quiet — data may be stale</div>
 </header>
 
+<div id="ticker" class="ticker" aria-label="live market ticker"></div>
+
+<div class="layout-grid">
+<main class="main-col">
+
 <section class="pnl">
   <div class="pnl-head">
     <div>
@@ -43,6 +48,12 @@
       <div class="label">unrealized</div>
       <div id="unrealized-pnl" class="big">—</div>
     </div>
+  </div>
+  <div class="chart-tabs" role="tablist" aria-label="chart window">
+    <button class="chart-tab active" data-window="1h">1H</button>
+    <button class="chart-tab" data-window="6h">6H</button>
+    <button class="chart-tab" data-window="24h">24H</button>
+    <button class="chart-tab" data-window="all">ALL</button>
   </div>
   <div id="pnl-chart" class="chart"></div>
 </section>
@@ -91,6 +102,18 @@
   </nav>
   <div class="notes-hint">← / → to flip · every page committed to git</div>
 </section>
+
+</main>
+
+<aside class="stream-col" aria-label="live event stream">
+  <div class="stream-head">
+    <span class="stream-title">LIVE FEED</span>
+    <span id="stream-status" class="stream-status">—</span>
+  </div>
+  <div id="stream-body" class="stream-body">loading…</div>
+</aside>
+
+</div>
 
 <footer>
   <a href="https://github.com/asuramaya/MadApes.ai" target="_blank" rel="noopener">repo</a>
