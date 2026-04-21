@@ -1,6 +1,7 @@
 // notes.html archive page — renders every note in /thoughts, newest first.
 // Shares DOM-safe rendering conventions with app.js: createElement for data,
-// DOMPurify-sanitized template parse for rendered markdown.
+// DOMPurify-sanitized template parse for rendered markdown, manifest-driven
+// placeholder→figure transformation so the original md is never edited.
 
 async function loadJson(path) {
   try {
@@ -38,17 +39,33 @@ function el(tag, attrs, children) {
 
 function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
 
-async function renderNoteBody(body, path) {
-  const md = await loadText(path);
-  if (!md || typeof marked === "undefined") return;
+function renderThoughtBody(bodyEl, md, manifestEntries) {
   const raw = marked.parse(md);
   const clean = typeof DOMPurify !== "undefined" ? DOMPurify.sanitize(raw) : "";
-  // Parse sanitized HTML into a detached template, then move its nodes into
-  // the body. Using a template fragment here keeps the scripts + event-
-  // handlers inert per spec; DOMPurify already stripped everything active.
   const tpl = document.createElement("template");
   tpl["inner" + "HTML"] = clean;
-  body.appendChild(tpl.content.cloneNode(true));
+  const frag = tpl.content.cloneNode(true);
+  const placeholders = frag.querySelectorAll("div.img-placeholder");
+  const byIdx = new Map();
+  for (const entry of manifestEntries || []) byIdx.set(entry.idx, entry);
+  placeholders.forEach((ph, i) => {
+    const entry = byIdx.get(i);
+    if (!entry) return;
+    const fig = document.createElement("figure");
+    fig.className = "thought-figure";
+    const img = document.createElement("img");
+    img.src = entry.asset;
+    img.alt = entry.caption || "";
+    img.loading = "lazy";
+    fig.appendChild(img);
+    if (entry.caption) {
+      const cap = document.createElement("figcaption");
+      cap.textContent = entry.caption;
+      fig.appendChild(cap);
+    }
+    ph.replaceWith(fig);
+  });
+  bodyEl.appendChild(frag);
 }
 
 async function main() {
@@ -59,6 +76,7 @@ async function main() {
     container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
     return;
   }
+  const assets = (await loadJson("thoughts/assets.json")) || {};
   const sorted = [...index.thoughts].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   clear(container);
   for (const t of sorted) {
@@ -74,7 +92,10 @@ async function main() {
       ]),
     ]);
     const body = el("div", { class: "thought-body" });
-    await renderNoteBody(body, "thoughts/" + t.file);
+    const md = await loadText("thoughts/" + t.file);
+    if (md && typeof marked !== "undefined") {
+      renderThoughtBody(body, md, assets[t.file] || []);
+    }
     container.appendChild(el("article", { class: "thought", id: anchorId }, [head, body]));
   }
 }

@@ -218,6 +218,32 @@ h2 {
   line-height: 1.5;
 }
 
+/* Rendered thought figure — cinematic 2:1 photoreal image + mono caption.
+   Breaks out of the 780px content column to 100vw when there's room,
+   giving the image the widescreen feel the narrative device needs. */
+.thought-body .thought-figure {
+  margin: 32px 0 40px;
+}
+.thought-body .thought-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
+  background: var(--bg-elev);
+}
+.thought-body .thought-figure figcaption {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg-dim);
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  font-style: italic;
+}
+
 .notes-browse {
   display: flex;
   justify-content: flex-end;

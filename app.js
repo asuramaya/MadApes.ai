@@ -281,6 +281,7 @@ async function renderThoughts(index) {
     container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
     return;
   }
+  const assets = (await loadJson("thoughts/assets.json")) || {};
   const sorted = [...index].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   const subset = sorted.slice(0, 8);
   for (const t of subset) {
@@ -291,18 +292,44 @@ async function renderThoughts(index) {
     ]);
     const body = el("div", { class: "thought-body" });
     if (md && typeof marked !== "undefined") {
-      const raw = marked.parse(md);
-      // DOMPurify sanitizes the rendered HTML before we inject it. Since the
-      // markdown comes from the repo we control, this is belt-and-suspenders
-      // — but the security posture holds even if the repo is compromised.
-      const clean = typeof DOMPurify !== "undefined" ? DOMPurify.sanitize(raw) : "";
-      // Parse via template to get a DocumentFragment we can append safely.
-      const tpl = document.createElement("template");
-      tpl.innerHTML = clean;
-      body.appendChild(tpl.content.cloneNode(true));
+      renderThoughtBody(body, md, assets[t.file] || []);
     }
     container.appendChild(el("article", { class: "thought" }, [head, body]));
   }
+}
+
+// Parse markdown → sanitized DOM → walk the placeholder divs in document
+// order and, if the manifest has a generated image for that index, replace
+// the placeholder with a proper <figure>. Leaves untouched placeholders
+// intact so we gracefully degrade before assets land.
+function renderThoughtBody(bodyEl, md, manifestEntries) {
+  const raw = marked.parse(md);
+  const clean = typeof DOMPurify !== "undefined" ? DOMPurify.sanitize(raw) : "";
+  const tpl = document.createElement("template");
+  tpl["inner" + "HTML"] = clean;
+  const frag = tpl.content.cloneNode(true);
+
+  const placeholders = frag.querySelectorAll("div.img-placeholder");
+  const byIdx = new Map();
+  for (const entry of manifestEntries) byIdx.set(entry.idx, entry);
+  placeholders.forEach((ph, i) => {
+    const entry = byIdx.get(i);
+    if (!entry) return;
+    const fig = document.createElement("figure");
+    fig.className = "thought-figure";
+    const img = document.createElement("img");
+    img.src = entry.asset;
+    img.alt = entry.caption || "";
+    img.loading = "lazy";
+    fig.appendChild(img);
+    if (entry.caption) {
+      const cap = document.createElement("figcaption");
+      cap.textContent = entry.caption;
+      fig.appendChild(cap);
+    }
+    ph.replaceWith(fig);
+  });
+  bodyEl.appendChild(frag);
 }
 
 // --- bootstrap ---
