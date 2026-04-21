@@ -298,6 +298,56 @@ h1 .dot { color: var(--accent); }
 }
 .stream-event-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
+/* Inline $SYMBOL links in stream summaries. Subtle accent underline. */
+.stream-event-summary a.inline-sym {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 122, 26, 0.35);
+}
+.stream-event-summary a.inline-sym:hover { border-bottom-color: var(--accent); }
+
+/* New event flash — a brief warm border glow on just-arrived items so
+   the feed reads as live. The key-frame fades the accent out rather
+   than in, so by the time the next 30-sec poll fires, the row is
+   visually settled. */
+.stream-event-new {
+  animation: stream-flash 3.2s ease-out;
+  position: relative;
+}
+@keyframes stream-flash {
+  0%   { background: rgba(255, 122, 26, 0.14); box-shadow: inset 2px 0 0 var(--accent); }
+  70%  { background: rgba(255, 122, 26, 0.04); box-shadow: inset 2px 0 0 rgba(255, 122, 26, 0.2); }
+  100% { background: transparent; box-shadow: none; }
+}
+
+/* Copy-to-clipboard flash on the header wallet address. */
+#wallet-addr {
+  border-bottom: 1px dotted var(--fg-faint);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+#wallet-addr:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.copy-flash {
+  color: var(--green) !important;
+  border-bottom-color: var(--green) !important;
+}
+
+/* Subtle accent pulse on the MADAPES wordmark dot — signals that this
+   site is alive, not a screenshot. Slow enough to not be annoying. */
+h1 .dot {
+  animation: dot-pulse 2.8s ease-in-out infinite;
+}
+@keyframes dot-pulse {
+  0%, 100% { opacity: 1; text-shadow: 0 0 0 transparent; }
+  50%      { opacity: 0.65; text-shadow: 0 0 12px var(--accent); }
+}
+
+/* Updated-Xs-ago tick — softer color when freshness drops below 1 min,
+   accent when longer so the eye catches stalled updates. */
+#last-update { transition: color 0.25s ease; }
+
 /* --- sections --- */
 section { margin: 48px 0; }
 

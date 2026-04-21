@@ -95,22 +95,27 @@ async function loadText(path) {
 }
 
 // --- render: health/header ---
+let HEALTH_DATA = null;
+
 function renderHealth(h) {
   if (!h) return;
+  HEALTH_DATA = h;
   const addr = document.getElementById("wallet-addr");
-  addr.textContent = shortAddr(h.wallet || "");
-  addr.setAttribute("title", h.wallet || "");
+  const short = shortAddr(h.wallet || "");
+  addr.textContent = short;
+  addr.setAttribute("title", "click to copy · " + (h.wallet || ""));
+  addr.setAttribute("role", "button");
+  addr.style.cursor = "pointer";
+  addr.onclick = () => copyToClipboard(h.wallet || "", addr);
+
   const solText =
     h.sol_balance != null
       ? h.sol_balance.toFixed(3) + " SOL" +
         (h.sol_price_usd ? " @ $" + h.sol_price_usd.toFixed(0) : "")
       : "—";
   document.getElementById("sol-bal").textContent = solText;
-  document.getElementById("last-update").textContent =
-    h.last_update ? "updated " + fmtTimeAgo(h.last_update) : "—";
+  refreshLastUpdate();
 
-  // Staleness banner: publisher pulses every 5 min. Anything older than
-  // 12 min is a real "photon is quiet" signal, not a normal tick gap.
   const banner = document.getElementById("stale-banner");
   if (banner && h.last_update) {
     const ageSec = Date.now() / 1000 - h.last_update;
@@ -120,6 +125,27 @@ function renderHealth(h) {
       banner.textContent = "publisher quiet — last pulse " + fmtTimeAgo(h.last_update);
     }
   }
+}
+
+// Re-rendered every second by the live ticker so "updated Xs ago" ticks.
+function refreshLastUpdate() {
+  if (!HEALTH_DATA || !HEALTH_DATA.last_update) return;
+  const el = document.getElementById("last-update");
+  if (el) el.textContent = "updated " + fmtTimeAgo(HEALTH_DATA.last_update);
+}
+
+function copyToClipboard(text, anchorEl) {
+  if (!text || !navigator.clipboard) return;
+  navigator.clipboard.writeText(text).then(() => {
+    if (!anchorEl) return;
+    const original = anchorEl.textContent;
+    anchorEl.textContent = "copied";
+    anchorEl.classList.add("copy-flash");
+    setTimeout(() => {
+      anchorEl.textContent = original;
+      anchorEl.classList.remove("copy-flash");
+    }, 900);
+  });
 }
 
 // --- render: calls ---
@@ -216,8 +242,11 @@ function renderTicker(health, pnl, calls) {
   }
   if (calls && calls.length) {
     for (const c of calls.slice(0, 4)) {
+      const symText = c.symbol && c.symbol.trim()
+        ? "$" + c.symbol.toUpperCase()
+        : shortAddr(c.mint);
       items.push({
-        sym: c.symbol ? "$" + c.symbol.toUpperCase() : shortAddr(c.mint),
+        sym: symText,
         val: c.current_mcap_usd ? "$" + formatMcap(c.current_mcap_usd) : "—",
         pct: fmtPct(c.pct_from_call),
       });
@@ -248,24 +277,82 @@ function el_(tag, attrs, children) {
 }
 
 // --- render: live stream side-panel ---
+// Tracks which event timestamps we've already seen so "new" ones flash
+// briefly on arrival — makes the feed feel alive between refresh ticks.
+const SEEN_STREAM = new Set();
+let STREAM_FIRST_RENDER = true;
+
+// Split a summary string and turn any `$SYMBOL` run into a link to the
+// mint's DexScreener chart when we know the mint. Keeps everything else
+// as textNodes so no HTML injection surface.
+function linkifySummary(host, text, mint) {
+  const re = /\$[A-Za-z0-9]+/g;
+  const matches = [...text.matchAll(re)];
+  let last = 0;
+  for (const match of matches) {
+    if (match.index > last) {
+      host.appendChild(document.createTextNode(text.slice(last, match.index)));
+    }
+    if (mint) {
+      host.appendChild(
+        el("a", {
+          href: DEXSCREENER + "/" + mint,
+          target: "_blank",
+          rel: "noopener",
+          class: "inline-sym",
+          text: match[0],
+        })
+      );
+    } else {
+      host.appendChild(document.createTextNode(match[0]));
+    }
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) host.appendChild(document.createTextNode(text.slice(last)));
+}
+
+function timeOfDay() {
+  const d = new Date();
+  return (
+    String(d.getHours()).padStart(2, "0") +
+    ":" +
+    String(d.getMinutes()).padStart(2, "0") +
+    ":" +
+    String(d.getSeconds()).padStart(2, "0")
+  );
+}
+
 function renderStream(stream) {
   const body = document.getElementById("stream-body");
   const status = document.getElementById("stream-status");
   if (!body) return;
-  clear(body);
   const events = (stream && stream.events) || [];
+
+  const newSignatures = new Set();
+  for (const ev of events) {
+    const sig = ev.ts + "|" + (ev.summary || "");
+    if (!STREAM_FIRST_RENDER && !SEEN_STREAM.has(sig)) {
+      newSignatures.add(sig);
+    }
+    SEEN_STREAM.add(sig);
+  }
+
+  clear(body);
   if (!events.length) {
     body.appendChild(el("div", { class: "stream-empty", text: "no events yet" }));
     if (status) status.textContent = "—";
+    STREAM_FIRST_RENDER = false;
     return;
   }
-  if (status) status.textContent = events.length + " events";
+  if (status) status.textContent = events.length + " events · " + timeOfDay();
+
   for (const ev of events) {
     const head = el("div", { class: "stream-event-head" }, [
       el("span", { class: "stream-kind stream-kind-" + ev.kind, text: ev.tag || ev.kind }),
-      el("span", { class: "stream-ts", text: fmtTimeAgo(ev.ts) }),
+      el("span", { class: "stream-ts", text: fmtTimeAgo(ev.ts), "data-ts": ev.ts }),
     ]);
-    const summary = el("div", { class: "stream-event-summary", text: ev.summary || "" });
+    const summaryEl = el("div", { class: "stream-event-summary" });
+    linkifySummary(summaryEl, ev.summary || "", ev.mint);
     const links = el("div", { class: "stream-event-links" });
     if (ev.mint) {
       links.appendChild(
@@ -274,6 +361,15 @@ function renderStream(stream) {
           target: "_blank",
           rel: "noopener",
           text: "chart",
+        })
+      );
+      links.appendChild(document.createTextNode(" · "));
+      links.appendChild(
+        el("a", {
+          href: SOLSCAN + "/token/" + ev.mint,
+          target: "_blank",
+          rel: "noopener",
+          text: "solscan",
         })
       );
     }
@@ -288,10 +384,13 @@ function renderStream(stream) {
         })
       );
     }
-    const evEl = el("div", { class: "stream-event" }, [head, summary]);
+    const evSig = ev.ts + "|" + (ev.summary || "");
+    const cls = "stream-event" + (newSignatures.has(evSig) ? " stream-event-new" : "");
+    const evEl = el("div", { class: cls }, [head, summaryEl]);
     if (links.children.length) evEl.appendChild(links);
     body.appendChild(evEl);
   }
+  STREAM_FIRST_RENDER = false;
 }
 
 // --- render: pnl ---
@@ -326,7 +425,12 @@ function redrawChart() {
     all: Infinity,
   }[CHART_WINDOW];
   const cutoff = now - windowSec;
-  const filteredSeries = series.filter((p) => p.ts >= cutoff);
+  // Skip zero-value samples — those come from transient RPC failures
+  // where sol_balance fetched as 0. They'd drag the chart to the floor
+  // and misrepresent reality.
+  const filteredSeries = series.filter(
+    (p) => p.ts >= cutoff && p.value_usd > 0
+  );
   const filteredTrades = trades.filter((t) => t.ts >= cutoff);
   renderChart(filteredSeries, filteredTrades);
 }
@@ -660,26 +764,49 @@ function renderThoughtBody(bodyEl, md, manifestEntries) {
 }
 
 // --- bootstrap ---
-async function main() {
-  const [health, pnl, positions, activity, calls, stream, thoughtsIndex] =
-    await Promise.all([
-      loadJson("data/health.json"),
-      loadJson("data/pnl.json"),
-      loadJson("data/positions.json"),
-      loadJson("data/activity.json"),
-      loadJson("data/calls.json"),
-      loadJson("data/stream.json"),
-      loadJson("thoughts/index.json"),
-    ]);
+let BOOTSTRAPPED = false;
+
+// Fast path — the parts of the site that change between 5-min publisher
+// ticks. Called on initial load AND every 30s so the page feels live.
+// Thoughts + chart-tabs wiring only happen once at bootstrap.
+async function refreshLiveData() {
+  const [health, pnl, positions, activity, calls, stream] = await Promise.all([
+    loadJson("data/health.json"),
+    loadJson("data/pnl.json"),
+    loadJson("data/positions.json"),
+    loadJson("data/activity.json"),
+    loadJson("data/calls.json"),
+    loadJson("data/stream.json"),
+  ]);
   renderHealth(health);
   renderTicker(health, pnl, calls && calls.active);
   renderPnl(pnl);
-  wireChartTabs();
   renderPositions(positions && positions.positions);
   renderCalls(calls && calls.active);
   renderActivity(activity && activity.activity);
   renderStream(stream);
+}
+
+async function main() {
+  await refreshLiveData();
+  wireChartTabs();
+  const thoughtsIndex = await loadJson("thoughts/index.json");
   await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
+
+  // Poll every 30s for fresh JSONs. The publisher ticks every 5 min, so
+  // most polls are no-ops — but when a new pulse lands, the ticker,
+  // stream, and ticker numbers update without a full reload.
+  if (!BOOTSTRAPPED) {
+    BOOTSTRAPPED = true;
+    setInterval(() => {
+      refreshLiveData().catch((e) =>
+        console.warn("refresh failed:", e)
+      );
+    }, 30_000);
+    // Live "updated Xs ago" ticker — re-rendered every second on the
+    // header so visitors see the freshness number tick.
+    setInterval(refreshLastUpdate, 1_000);
+  }
 }
 
 if (document.readyState === "loading") {
