@@ -127,7 +127,7 @@ function renderChart(series) {
   clear(container);
   if (typeof uPlot === "undefined" || !series.length) {
     const hint = el("div", { class: "chart-hint" }, [
-      "no data yet — publisher hasn't pushed the first snapshot",
+      "ape is still sniffing — no banana count yet",
     ]);
     container.appendChild(hint);
     return;
@@ -165,7 +165,7 @@ function renderPositions(positions) {
   const container = document.getElementById("positions-list");
   clear(container);
   if (!positions || !positions.length) {
-    container.appendChild(el("div", { class: "empty", text: "no open positions" }));
+    container.appendChild(el("div", { class: "empty", text: "bag is empty" }));
     return;
   }
   for (const p of positions) {
@@ -192,7 +192,7 @@ function renderActivity(acts) {
   const container = document.getElementById("activity-list");
   clear(container);
   if (!acts || !acts.length) {
-    container.appendChild(el("div", { class: "empty", text: "no activity yet" }));
+    container.appendChild(el("div", { class: "empty", text: "quiet in the jungle" }));
     return;
   }
   for (const a of acts) {
@@ -232,7 +232,7 @@ async function renderThoughts(index) {
   const container = document.getElementById("thoughts-list");
   clear(container);
   if (!index || !index.length) {
-    container.appendChild(el("div", { class: "empty", text: "no thoughts yet" }));
+    container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
     return;
   }
   const sorted = [...index].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
