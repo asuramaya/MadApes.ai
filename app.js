@@ -108,6 +108,63 @@ function renderHealth(h) {
   document.getElementById("sol-bal").textContent = solText;
   document.getElementById("last-update").textContent =
     h.last_update ? "updated " + fmtTimeAgo(h.last_update) : "—";
+
+  // Staleness banner: publisher pulses every 5 min. Anything older than
+  // 12 min is a real "photon is quiet" signal, not a normal tick gap.
+  const banner = document.getElementById("stale-banner");
+  if (banner && h.last_update) {
+    const ageSec = Date.now() / 1000 - h.last_update;
+    const stale = ageSec > 12 * 60;
+    banner.hidden = !stale;
+    if (stale) {
+      banner.textContent = "publisher quiet — last pulse " + fmtTimeAgo(h.last_update);
+    }
+  }
+}
+
+// --- render: calls ---
+function renderCalls(calls) {
+  const container = document.getElementById("calls-list");
+  clear(container);
+  if (!calls || !calls.length) {
+    container.appendChild(el("div", { class: "empty", text: "no active calls" }));
+    return;
+  }
+  for (const c of calls) {
+    const sym = c.symbol
+      ? "$" + c.symbol
+      : shortAddr(c.mint || "");
+    const pctCls = pnlClass(c.pct_from_call || 0);
+    const entryStr = c.entry_mcap_usd
+      ? "entry $" + formatMcap(c.entry_mcap_usd)
+      : "—";
+    const nowStr = c.current_mcap_usd
+      ? "now $" + formatMcap(c.current_mcap_usd)
+      : "—";
+    const age = fmtTimeAgo(c.called_at);
+
+    const symEl = el("div", { class: "sym", text: sym });
+    const detail = el("div", { class: "detail" }, [
+      entryStr + " · " + nowStr + " · " + age + " · ",
+      el("a", {
+        href: DEXSCREENER + "/" + c.mint,
+        target: "_blank",
+        rel: "noopener",
+        text: "chart",
+      }),
+    ]);
+    const numEl = el("div", {
+      class: "num " + pctCls,
+      text: fmtPct(c.pct_from_call),
+    });
+    container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
+  }
+}
+
+function formatMcap(n) {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + "M";
+  if (n >= 1_000) return (n / 1_000).toFixed(0) + "k";
+  return n.toFixed(0);
 }
 
 // --- render: pnl ---
@@ -336,16 +393,18 @@ function renderThoughtBody(bodyEl, md, manifestEntries) {
 
 // --- bootstrap ---
 async function main() {
-  const [health, pnl, positions, activity, thoughtsIndex] = await Promise.all([
+  const [health, pnl, positions, activity, calls, thoughtsIndex] = await Promise.all([
     loadJson("data/health.json"),
     loadJson("data/pnl.json"),
     loadJson("data/positions.json"),
     loadJson("data/activity.json"),
+    loadJson("data/calls.json"),
     loadJson("thoughts/index.json"),
   ]);
   renderHealth(health);
   renderPnl(pnl);
   renderPositions(positions && positions.positions);
+  renderCalls(calls && calls.active);
   renderActivity(activity && activity.activity);
   await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
 }

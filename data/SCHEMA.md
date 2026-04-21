@@ -50,6 +50,41 @@ prices. Both can go negative.
 }
 ```
 
+## calls.json
+
+The ape's public commitments. Every call posted to the Telegram Calls
+channel freezes its entry state and lands here. Live `current_*` fields
+are refreshed by the publisher each tick so the site can show `pct_from_call`
+honestly.
+
+```jsonc
+{
+  "active": [
+    {
+      "id": 1,
+      "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
+      "symbol": "PsyopAnime",
+      "classification": "MANUAL",       // or STAIRCASE/GRINDER/SPRING when from notifier
+      "confidence": 0,
+      "called_at": 1776800000,
+      "note": "operator narrative",
+      "source": "dm",                   // 'notifier' | 'dm' | 'mcp'
+      "status": "active",
+      "entry_mcap_usd": 1970000,
+      "entry_price_usd": 0.0031,
+      "entry_liquidity_usd": 368000,
+      "entry_top_holder_pct": 5.95,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 2100000,
+      "current_price_usd": 0.0033,
+      "current_liquidity_usd": 375000,
+      "pct_from_call": 6.4
+    }
+  ],
+  "history": [ /* closed calls, same shape + closed_at/exit_price_usd/exit_note */ ]
+}
+```
+
 ## activity.json
 
 Curated and human-readable. The publisher pulls wallet trades + swaps from

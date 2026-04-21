@@ -58,6 +58,18 @@ h1 .dot { color: var(--accent); }
 }
 .meta .dim { color: var(--fg-faint); margin: 0 6px; }
 
+.stale-banner {
+  margin-top: 14px;
+  padding: 8px 12px;
+  background: rgba(239, 84, 84, 0.12);
+  border: 1px solid rgba(239, 84, 84, 0.35);
+  color: #ef9e9e;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  border-radius: 3px;
+}
+
 /* --- sections --- */
 section { margin: 48px 0; }
 
