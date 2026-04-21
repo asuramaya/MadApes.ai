@@ -1,7 +1,15 @@
-// notes.html archive page — renders every note in /thoughts, newest first.
-// Shares DOM-safe rendering conventions with app.js: createElement for data,
-// DOMPurify-sanitized template parse for rendered markdown, manifest-driven
-// placeholder→figure transformation so the original md is never edited.
+// the jungle book — single-page-at-a-time reader, starts on latest.
+//
+// Pages ordered newest-first. The book OPENS on page 1 (most recent note).
+// Prev button flips to older pages (higher index). Next flips to newer
+// (lower index). Keyboard ←/→ mirrors the buttons. Hash routing keeps
+// deep links stable: #<filename>.md lands directly on that page.
+//
+// Source markdown is never touched. The assets.json manifest places the
+// generated cinematic images where their [IMAGE: ...] placeholders lived.
+
+let PAGES = [];     // notes newest-first: [{ date, file, title, md, assets }]
+let CURRENT = 0;
 
 async function loadJson(path) {
   try {
@@ -68,36 +76,135 @@ function renderThoughtBody(bodyEl, md, manifestEntries) {
   bodyEl.appendChild(frag);
 }
 
-async function main() {
-  const container = document.getElementById("notes-archive");
-  const index = await loadJson("thoughts/index.json");
-  if (!index || !index.thoughts || !index.thoughts.length) {
-    clear(container);
+function renderPage() {
+  const container = document.getElementById("page-body");
+  clear(container);
+  if (!PAGES.length) {
     container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    updateCounters();
     return;
   }
-  const assets = (await loadJson("thoughts/assets.json")) || {};
-  const sorted = [...index.thoughts].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-  clear(container);
-  for (const t of sorted) {
-    const anchorId = "n-" + (t.file || "").replace(/[^a-z0-9-]/gi, "-");
-    const head = el("div", { class: "thought-head" }, [
-      el("div", { class: "thought-date", text: t.date || "" }),
-      el("div", { class: "thought-title" }, [
-        el("a", {
-          href: "#" + anchorId,
-          style: "color:inherit;text-decoration:none;",
-          text: t.title || t.file,
-        }),
-      ]),
-    ]);
+  CURRENT = Math.max(0, Math.min(CURRENT, PAGES.length - 1));
+  const page = PAGES[CURRENT];
+
+  // Fade-out/in transition — subtle, reads like turning a page.
+  container.classList.add("page-turning");
+  setTimeout(() => {
+    clear(container);
+
+    const article = el("article", { class: "book-page" });
+    article.appendChild(el("div", { class: "page-date", text: page.date || "" }));
+    article.appendChild(
+      el("h2", { class: "page-title", text: page.title || page.file })
+    );
     const body = el("div", { class: "thought-body" });
-    const md = await loadText("thoughts/" + t.file);
-    if (md && typeof marked !== "undefined") {
-      renderThoughtBody(body, md, assets[t.file] || []);
+    if (page.md && typeof marked !== "undefined") {
+      renderThoughtBody(body, page.md, page.assets || []);
     }
-    container.appendChild(el("article", { class: "thought", id: anchorId }, [head, body]));
+    article.appendChild(body);
+    container.appendChild(article);
+
+    container.classList.remove("page-turning");
+    updateCounters();
+    updateHash(page);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, 140);
+}
+
+function updateCounters() {
+  const pos = PAGES.length ? CURRENT + 1 : 0;
+  const total = PAGES.length;
+  const page = PAGES[CURRENT];
+  const title = page ? page.title || page.file : "";
+  const txt = total
+    ? `page ${pos} of ${total}${title ? "  ·  " + title : ""}`
+    : "—";
+  document.getElementById("page-counter").textContent = txt;
+  document.getElementById("page-counter-2").textContent = total
+    ? `${pos} / ${total}`
+    : "—";
+
+  const atNewest = CURRENT === 0;
+  const atOldest = CURRENT === PAGES.length - 1;
+  for (const id of ["nav-prev", "nav-prev-2"]) {
+    document.getElementById(id).disabled = atOldest;
   }
+  for (const id of ["nav-next", "nav-next-2"]) {
+    document.getElementById(id).disabled = atNewest;
+  }
+}
+
+function updateHash(page) {
+  if (!page) return;
+  const h = "#" + encodeURIComponent(page.file || "");
+  if (location.hash !== h) {
+    history.replaceState(null, "", h);
+  }
+}
+
+function readHashIndex() {
+  const raw = decodeURIComponent(location.hash.replace(/^#/, ""));
+  if (!raw) return 0;
+  const idx = PAGES.findIndex((p) => p.file === raw);
+  return idx >= 0 ? idx : 0;
+}
+
+function goPrev() {
+  if (CURRENT < PAGES.length - 1) {
+    CURRENT++;
+    renderPage();
+  }
+}
+function goNext() {
+  if (CURRENT > 0) {
+    CURRENT--;
+    renderPage();
+  }
+}
+
+async function main() {
+  const [index, assets] = await Promise.all([
+    loadJson("thoughts/index.json"),
+    loadJson("thoughts/assets.json"),
+  ]);
+  const rawList = (index && index.thoughts) || [];
+  if (!rawList.length) {
+    renderPage();
+    return;
+  }
+  // Newest-first: sort by date desc, stable on file name as tiebreak so same-day
+  // notes have a deterministic order.
+  const sorted = [...rawList].sort((a, b) => {
+    const d = (b.date || "").localeCompare(a.date || "");
+    if (d !== 0) return d;
+    return (b.file || "").localeCompare(a.file || "");
+  });
+  // Load all markdown up front — the book is short and caching is nice.
+  const mdList = await Promise.all(
+    sorted.map((t) => loadText("thoughts/" + t.file))
+  );
+  PAGES = sorted.map((t, i) => ({
+    ...t,
+    md: mdList[i] || "",
+    assets: (assets && assets[t.file]) || [],
+  }));
+  CURRENT = readHashIndex();
+
+  document.getElementById("nav-prev").addEventListener("click", goPrev);
+  document.getElementById("nav-prev-2").addEventListener("click", goPrev);
+  document.getElementById("nav-next").addEventListener("click", goNext);
+  document.getElementById("nav-next-2").addEventListener("click", goNext);
+  window.addEventListener("keydown", (e) => {
+    if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+    if (e.key === "ArrowLeft") goPrev();
+    if (e.key === "ArrowRight") goNext();
+  });
+  window.addEventListener("hashchange", () => {
+    const idx = readHashIndex();
+    if (idx !== CURRENT) { CURRENT = idx; renderPage(); }
+  });
+
+  renderPage();
 }
 
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", main);

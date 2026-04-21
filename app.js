@@ -282,8 +282,10 @@ async function renderThoughts(index) {
     return;
   }
   const assets = (await loadJson("thoughts/assets.json")) || {};
+  // Main page shows only the latest note as a teaser. The full archive
+  // lives in the book at /notes.html — flip through it there.
   const sorted = [...index].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-  const subset = sorted.slice(0, 8);
+  const subset = sorted.slice(0, 1);
   for (const t of subset) {
     const md = await loadText("thoughts/" + t.file);
     const head = el("div", { class: "thought-head" }, [
