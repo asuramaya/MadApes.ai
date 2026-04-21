@@ -355,30 +355,138 @@ function renderActivity(acts) {
   }
 }
 
-// --- render: thoughts ---
+// --- render: thoughts (inline book reader) ---
+//
+// Notes from the jungle render on the main page as a flip-through book:
+// one page visible at a time, lands on the newest. Prev/next buttons +
+// keyboard arrows move through the archive. URL hash deep-links into
+// any page. Same markdown source, same assets.json manifest, same
+// append-only safety — just turned into a reader instead of a stack.
+
+let BOOK_PAGES = [];
+let BOOK_CURRENT = 0;
+
 async function renderThoughts(index) {
-  const container = document.getElementById("thoughts-list");
-  clear(container);
+  const body = document.getElementById("page-body");
+  clear(body);
   if (!index || !index.length) {
-    container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    body.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    updateBookCounters();
     return;
   }
   const assets = (await loadJson("thoughts/assets.json")) || {};
-  // Main page shows only the latest note as a teaser. The full archive
-  // lives in the book at /notes.html — flip through it there.
-  const sorted = [...index].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-  const subset = sorted.slice(0, 1);
-  for (const t of subset) {
-    const md = await loadText("thoughts/" + t.file);
-    const head = el("div", { class: "thought-head" }, [
-      el("div", { class: "thought-date", text: t.date || "" }),
-      el("div", { class: "thought-title", text: t.title || t.file }),
-    ]);
-    const body = el("div", { class: "thought-body" });
-    if (md && typeof marked !== "undefined") {
-      renderThoughtBody(body, md, assets[t.file] || []);
+  const sorted = [...index].sort((a, b) => {
+    const d = (b.date || "").localeCompare(a.date || "");
+    if (d !== 0) return d;
+    return (b.file || "").localeCompare(a.file || "");
+  });
+  const mds = await Promise.all(
+    sorted.map((t) => loadText("thoughts/" + t.file))
+  );
+  BOOK_PAGES = sorted.map((t, i) => ({
+    ...t,
+    md: mds[i] || "",
+    assets: assets[t.file] || [],
+  }));
+  BOOK_CURRENT = readBookHashIndex();
+
+  for (const id of ["nav-prev", "nav-prev-2"]) {
+    document.getElementById(id).addEventListener("click", bookPrev);
+  }
+  for (const id of ["nav-next", "nav-next-2"]) {
+    document.getElementById(id).addEventListener("click", bookNext);
+  }
+  window.addEventListener("keydown", (e) => {
+    if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+    if (e.key === "ArrowLeft") bookPrev();
+    if (e.key === "ArrowRight") bookNext();
+  });
+  window.addEventListener("hashchange", () => {
+    const idx = readBookHashIndex();
+    if (idx !== BOOK_CURRENT) {
+      BOOK_CURRENT = idx;
+      renderBookPage();
     }
-    container.appendChild(el("article", { class: "thought" }, [head, body]));
+  });
+  renderBookPage();
+}
+
+function renderBookPage() {
+  const container = document.getElementById("page-body");
+  if (!BOOK_PAGES.length) {
+    clear(container);
+    container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    return;
+  }
+  BOOK_CURRENT = Math.max(0, Math.min(BOOK_CURRENT, BOOK_PAGES.length - 1));
+  const page = BOOK_PAGES[BOOK_CURRENT];
+  container.classList.add("page-turning");
+  setTimeout(() => {
+    clear(container);
+    const article = el("article", { class: "book-page" });
+    article.appendChild(el("div", { class: "page-date", text: page.date || "" }));
+    article.appendChild(
+      el("h3", { class: "page-title", text: page.title || page.file })
+    );
+    const body = el("div", { class: "thought-body" });
+    if (page.md && typeof marked !== "undefined") {
+      renderThoughtBody(body, page.md, page.assets || []);
+    }
+    article.appendChild(body);
+    container.appendChild(article);
+    container.classList.remove("page-turning");
+    updateBookCounters();
+    updateBookHash(page);
+  }, 140);
+}
+
+function updateBookCounters() {
+  const total = BOOK_PAGES.length;
+  const pos = total ? BOOK_CURRENT + 1 : 0;
+  const page = BOOK_PAGES[BOOK_CURRENT];
+  const title = page ? page.title || page.file : "";
+  document.getElementById("page-counter").textContent = total
+    ? `page ${pos} of ${total}${title ? "  ·  " + title : ""}`
+    : "—";
+  document.getElementById("page-counter-2").textContent = total
+    ? `${pos} / ${total}`
+    : "—";
+  const atNewest = BOOK_CURRENT === 0;
+  const atOldest = BOOK_CURRENT === total - 1;
+  for (const id of ["nav-prev", "nav-prev-2"]) {
+    const b = document.getElementById(id);
+    if (b) b.disabled = atOldest || !total;
+  }
+  for (const id of ["nav-next", "nav-next-2"]) {
+    const b = document.getElementById(id);
+    if (b) b.disabled = atNewest || !total;
+  }
+}
+
+function updateBookHash(page) {
+  if (!page || !page.file) return;
+  const h = "#note=" + encodeURIComponent(page.file);
+  if (location.hash !== h) history.replaceState(null, "", h);
+}
+
+function readBookHashIndex() {
+  const m = location.hash.match(/#note=([^&]+)/);
+  if (!m) return 0;
+  const file = decodeURIComponent(m[1]);
+  const idx = BOOK_PAGES.findIndex((p) => p.file === file);
+  return idx >= 0 ? idx : 0;
+}
+
+function bookPrev() {
+  if (BOOK_CURRENT < BOOK_PAGES.length - 1) {
+    BOOK_CURRENT++;
+    renderBookPage();
+  }
+}
+function bookNext() {
+  if (BOOK_CURRENT > 0) {
+    BOOK_CURRENT--;
+    renderBookPage();
   }
 }
 
@@ -405,6 +513,7 @@ function renderThoughtBody(bodyEl, md, manifestEntries) {
     img.src = entry.asset;
     img.alt = entry.caption || "";
     img.loading = "lazy";
+    img.decoding = "async";
     fig.appendChild(img);
     if (entry.caption) {
       const cap = document.createElement("figcaption");

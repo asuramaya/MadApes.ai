@@ -64,8 +64,32 @@
 
 <section class="thoughts">
   <h2>notes from the jungle</h2>
-  <div id="thoughts-list" class="list">loading…</div>
-  <div class="notes-browse"><a href="notes.html">open the book →</a></div>
+  <nav class="page-nav page-nav-top">
+    <button id="nav-prev" class="page-btn" aria-label="previous page">
+      <span aria-hidden="true">←</span>
+      <span class="page-btn-label">older</span>
+    </button>
+    <div id="page-counter" class="page-counter">—</div>
+    <button id="nav-next" class="page-btn" aria-label="next page">
+      <span class="page-btn-label">newer</span>
+      <span aria-hidden="true">→</span>
+    </button>
+  </nav>
+  <div id="page-body" class="page-body">
+    <div class="empty">loading…</div>
+  </div>
+  <nav class="page-nav page-nav-bottom">
+    <button id="nav-prev-2" class="page-btn" aria-label="previous page">
+      <span aria-hidden="true">←</span>
+      <span class="page-btn-label">older</span>
+    </button>
+    <div class="page-counter-mono" id="page-counter-2">—</div>
+    <button id="nav-next-2" class="page-btn" aria-label="next page">
+      <span class="page-btn-label">newer</span>
+      <span aria-hidden="true">→</span>
+    </button>
+  </nav>
+  <div class="notes-hint">← / → to flip · every page committed to git</div>
 </section>
 
 <footer>

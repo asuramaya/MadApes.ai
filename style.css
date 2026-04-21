@@ -24,12 +24,46 @@ html, body {
   font-size: 15px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
+
+html { scroll-behavior: smooth; }
 
 body {
   max-width: 780px;
   margin: 0 auto;
   padding: 48px 24px 96px;
+}
+
+/* Skeleton shimmer for list sections while data is loading in.
+   Applied automatically to any `.list` that still contains "loading…". */
+.list:empty::before,
+.list > :only-child:is([class*="empty"]) {
+  display: block;
+  content: "";
+  height: 14px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--bg-elev) 0%,
+    #1a1a1a 50%,
+    var(--bg-elev) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s linear infinite;
+  opacity: 0.55;
+}
+@keyframes skeleton-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Better tap targets for interactive elements on touch devices. */
+@media (hover: none) {
+  .page-btn, .row a, .act a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 /* --- header --- */
@@ -124,6 +158,117 @@ h2 {
 .list { display: flex; flex-direction: column; }
 .empty { padding: 12px 0; color: var(--fg-dim); font-size: 14px; }
 .chart-hint { padding: 20px; color: var(--fg-dim); font-family: var(--mono); font-size: 12px; }
+
+/* --- inline book reader (main page, under tracks) --- */
+.thoughts .page-nav {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.thoughts .page-nav-top { margin-bottom: 24px; }
+.thoughts .page-nav-bottom { margin-top: 32px; }
+
+.thoughts .page-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 6px 12px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.thoughts .page-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.thoughts .page-btn:disabled {
+  color: var(--fg-faint);
+  border-color: var(--border);
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+.thoughts .page-btn-label { display: inline-block; margin: 0 4px; }
+
+.thoughts .page-counter {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--fg-dim);
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.thoughts .page-counter-mono {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg-faint);
+  letter-spacing: 0.08em;
+}
+
+.thoughts .page-body {
+  min-height: 40vh;
+  transition: opacity 0.14s ease;
+}
+.thoughts .page-body.page-turning { opacity: 0; }
+
+.thoughts .book-page {
+  animation: page-enter 0.32s ease-out;
+  /* Long notes benefit from content-visibility — the browser can skip
+     layout/paint until the element enters the viewport. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1000px;
+}
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.thoughts .page-date {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin-bottom: 8px;
+}
+.thoughts .page-title {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--fg);
+  margin-bottom: 22px;
+  letter-spacing: -0.01em;
+  border: none;
+  text-transform: none;
+  padding-bottom: 0;
+}
+
+.thoughts .thought-body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+.thoughts .thought-body .thought-figure {
+  margin: 32px -20px 40px;
+}
+
+.notes-hint {
+  text-align: center;
+  margin-top: 16px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--fg-faint);
+  letter-spacing: 0.08em;
+}
 
 .row {
   display: grid;
@@ -422,8 +567,16 @@ footer .dim { color: var(--fg-faint); margin: 0 6px; }
 
 /* --- responsive --- */
 @media (max-width: 640px) {
-  body { padding: 32px 16px 64px; }
-  .pnl-head { grid-template-columns: 1fr; gap: 16px; }
-  .big { font-size: 20px; }
-  h1 { font-size: 22px; }
+  body { padding: 28px 14px 56px; }
+  .pnl-head { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .pnl-head > div:first-child { grid-column: 1 / -1; }
+  .big { font-size: 19px; }
+  h1 { font-size: 21px; }
+  .thoughts .page-title { font-size: 22px; }
+  .thoughts .thought-body .thought-figure { margin: 24px -14px 32px; }
+  .thoughts .thought-body { font-size: 15px; }
+  .thoughts .page-counter { font-size: 11px; }
+  .row { grid-template-columns: auto 1fr auto; column-gap: 8px; }
+  .detail { font-size: 13px; }
+  .act .body { font-size: 13px; }
 }
