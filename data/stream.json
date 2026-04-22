@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1776817807,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 6PPX…pump · top 17.99%→51.87% (+33.88%) · DEVELOPING",
+      "mint": "6PPX433GUrTGFyZDQRcSuhNEGHGu8hKq1gfcd6Ncpump",
+      "signature": null
+    },
+    {
+      "ts": 1776817807,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6PPX…pump · STAIRCASE→DEVELOPING · top +33.88%",
+      "mint": "6PPX433GUrTGFyZDQRcSuhNEGHGu8hKq1gfcd6Ncpump",
+      "signature": null
+    },
+    {
       "ts": 1776817590,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
