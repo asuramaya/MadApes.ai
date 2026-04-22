@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1776870859,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 7EHU…pump · top 22.89%→25.52% (+2.62%) · DEVELOPING",
+      "mint": "7EHU2LBjVRY1Z1YnfaSrJohLB6hNLqQzqavGrZq1pump",
+      "signature": null
+    },
+    {
+      "ts": 1776870859,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7EHU…pump · STAIRCASE→DEVELOPING · top +2.62%",
+      "mint": "7EHU2LBjVRY1Z1YnfaSrJohLB6hNLqQzqavGrZq1pump",
+      "signature": null
+    },
+    {
+      "ts": 1776870819,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7EHU…pump · DEVELOPING→STAIRCASE · top +0.76%",
+      "mint": "7EHU2LBjVRY1Z1YnfaSrJohLB6hNLqQzqavGrZq1pump",
+      "signature": null
+    },
+    {
       "ts": 1776870788,
       "kind": "alert",
       "tag": "DEVELOPING",
