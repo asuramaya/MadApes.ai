@@ -10,19 +10,19 @@
     "verdict": "error"
   },
   "mint": "8BbZu1vPCh2iPpXynKKHzx1gFzyuAWGGXoqtUJ9Tpump",
-  "snapshot_ts": 1776884624,
+  "snapshot_ts": 1776885229,
   "symbol": "Michael",
   "whales": [
     {
-      "action": "distributing",
-      "balance_ui": 161377413.228756,
-      "net_change_24h_ui": -1488757.6411109865,
-      "net_change_7d_ui": -1488757.6411109865,
+      "action": "accumulating",
+      "balance_ui": 167777272.095019,
+      "net_change_24h_ui": 2016715.7996820211,
+      "net_change_7d_ui": 2016715.7996820211,
       "owner": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
-      "pct_of_supply": 16.140447533104023,
+      "pct_of_supply": 16.780540741834315,
       "token_account": "Cr6TxpfzSxMAZhtEPVjZPKLvEV8r7f9iJw2eBic44XJ6",
-      "tx_count_24h": 15,
-      "tx_count_7d": 15
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
     },
     {
       "action": "accumulating",
@@ -102,17 +102,6 @@
       "tx_count_7d": 4
     },
     {
-      "action": "distributing",
-      "balance_ui": 13097828.5218,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "26y6zi367hwNzHY8K8wtmdJ9hNAKAMhkej4DhdatkMfY",
-      "pct_of_supply": 1.3100024955415255,
-      "token_account": "AdKE9qpNbFXXSBJUYXS1YATL1FZyfHBwKh7UF39Q9qsN",
-      "tx_count_24h": 6,
-      "tx_count_7d": 6
-    },
-    {
       "action": "accumulating",
       "balance_ui": 13092474.613943,
       "net_change_24h_ui": 13092474.613943,
@@ -122,6 +111,17 @@
       "token_account": "5P6y73xj5AQmb9oGy32Z6drFLhoFkuLnQ3voB6Yqim6a",
       "tx_count_24h": 8,
       "tx_count_7d": 8
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 12566600.560769,
+      "net_change_24h_ui": 12566600.560769,
+      "net_change_7d_ui": 12566600.560769,
+      "owner": "AfQZPTEKBsPxCEaLEEQ3kAPVSWmxPLAoDLGk3Gm8syyd",
+      "pct_of_supply": 1.256870791038464,
+      "token_account": "128yoiK6W22nQkhneYyhkjZZoZNt1VzqjmckGoUTjJjK",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
     }
   ]
 }
