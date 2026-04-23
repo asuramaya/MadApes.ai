@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1776917326,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 8116…BAGS · vel 9.48x→0.26x · tpm 0.3",
+      "mint": "8116V1BW9zaXUM6pVhWVaAduKrLcEBi3RGXedKTrBAGS",
+      "signature": null
+    },
+    {
+      "ts": 1776917326,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8116…BAGS · GRINDER→CRASHING · top +0.00%",
+      "mint": "8116V1BW9zaXUM6pVhWVaAduKrLcEBi3RGXedKTrBAGS",
+      "signature": null
+    },
+    {
       "ts": 1776915624,
       "kind": "alert",
       "tag": "DEVELOPING",
