@@ -1,4 +1,4 @@
-# MadApes.ai
+# MadApesAI.com
 
 https://madapesai.com
 
