@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777048402,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 2S7z…6XQN · mom 76 · dist 58 · top 9.40%",
+      "mint": "2S7zLqH7GbKeRkwrB2yog4k7TB26rgFFiwK1EGMK6XQN",
+      "signature": null
+    },
+    {
+      "ts": 1777048402,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING D9nf…4t9e · mom 57 · top 1.00% · 105 holders",
+      "mint": "D9nfhojVgNv9o7LLMBc7pdtSik7zSeC6H5yg2jVz4t9e",
+      "signature": null
+    },
+    {
       "ts": 1777047961,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -86,54 +102,6 @@
       "tag": "STAIRCASE",
       "summary": "STAIRCASE 94qu…4KXc · mom 78 · dist 58 · top 5.95%",
       "mint": "94quoY9i45X2nkjzkPHpfxmMGRAbqYtwRgBFnWut4KXc",
-      "signature": null
-    },
-    {
-      "ts": 1777046541,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 26Ni…LMu7 · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "26NicmeRCDxqrvRgfjRHJspi79EEWnD5UWvjjJfyLMu7",
-      "signature": null
-    },
-    {
-      "ts": 1777046460,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING A7bd…QXaS · mom 66 · top 11.19% · 60828 holders",
-      "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-      "signature": null
-    },
-    {
-      "ts": 1777046460,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING J6pQ…Mfvd · mom 74 · top 17.50% · 20734 holders",
-      "mint": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
-      "signature": null
-    },
-    {
-      "ts": 1777046459,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE TdcY…jFcL · mom 77 · dist 58 · top 1.83%",
-      "mint": "TdcYqgBAkeLLxsmR2jhvL7w6jBmA2EcGGxBipefjFcL",
-      "signature": null
-    },
-    {
-      "ts": 1777046459,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE HRiC…v7k8 · mom 82 · dist 51 · top 40.20%",
-      "mint": "HRiCfdAwZ7PGujWUr7w4PNssnzamfSqCn2jSWzn1v7k8",
-      "signature": null
-    },
-    {
-      "ts": 1777046459,
-      "kind": "alert",
-      "tag": "GRINDER",
-      "summary": "GRINDER Crei…pump · top 17.63% · dist 56 · tpm 2.8",
-      "mint": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
       "signature": null
     },
     {
