@@ -1,6 +1,46 @@
 {
   "events": [
     {
+      "ts": 1777023690,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · DEVELOPING→STAIRCASE · top -0.04%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023663,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH DACY…bonk · vel 1.67x→0.47x · tpm 17.6",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023663,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · STAIRCASE→DEVELOPING · top -0.00%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023614,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING DACY…bonk · deployer down 10.4% (134028950 → 120125111)",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023563,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING DACY…bonk · deployer down 10.1% (134028950 → 120425885)",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
       "ts": 1777023516,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
