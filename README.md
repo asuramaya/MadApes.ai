@@ -1,6 +1,6 @@
 # MadApes.ai
 
-http://madapesai.com
+https://madapesai.com
 
 One ape. One wallet. Every trade on chain, out in the open.
 
