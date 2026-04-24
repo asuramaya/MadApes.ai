@@ -1,6 +1,118 @@
 {
   "events": [
     {
+      "ts": 1777052249,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING DtR4…k9B2 · mom 70 · top 6.72% · 67127 holders",
+      "mint": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+      "signature": null
+    },
+    {
+      "ts": 1777052167,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
+      "signature": null
+    },
+    {
+      "ts": 1777052165,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE XGbM…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "XGbMLzy8r7iJN96huatiyv3VtJ3o1VYjpVzSz7Zpump",
+      "signature": null
+    },
+    {
+      "ts": 1777052156,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DitH…pump · STAIRCASE→DEVELOPING · top +0.02%",
+      "mint": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+      "signature": null
+    },
+    {
+      "ts": 1777052115,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING XGbM…pump · mom 64 · top 1.87% · 1735 holders",
+      "mint": "XGbMLzy8r7iJN96huatiyv3VtJ3o1VYjpVzSz7Zpump",
+      "signature": null
+    },
+    {
+      "ts": 1777052080,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DitH…pump · DEVELOPING→STAIRCASE · top +0.03%",
+      "mint": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+      "signature": null
+    },
+    {
+      "ts": 1777052076,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5YNn…XuMu · DEVELOPING→STAIRCASE · top -0.02%",
+      "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+      "signature": null
+    },
+    {
+      "ts": 1777052073,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Gg3g…MJ3g · DEVELOPING→STAIRCASE · top -0.00%",
+      "mint": "Gg3gYix6aL2HXj6UyJ5cH8UnLsXxK19BaPJMjUKYMJ3g",
+      "signature": null
+    },
+    {
+      "ts": 1777052006,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · DEVELOPING→STAIRCASE · top +0.05%",
+      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
+      "signature": null
+    },
+    {
+      "ts": 1777052004,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE FzA3…ewTL · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "FzA3cr4CHpPyMRwk5H5X8sCx2rFLTArkigVNZDyQewTL",
+      "signature": null
+    },
+    {
+      "ts": 1777051999,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Eg2y…2agu · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+      "signature": null
+    },
+    {
+      "ts": 1777051924,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4UeL…BAGS · GRINDER→DEVELOPING · top +0.00%",
+      "mint": "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS",
+      "signature": null
+    },
+    {
+      "ts": 1777051913,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE FzA3…ewTL · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "FzA3cr4CHpPyMRwk5H5X8sCx2rFLTArkigVNZDyQewTL",
+      "signature": null
+    },
+    {
+      "ts": 1777051911,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Goc4…TQgT · STAIRCASE→DEVELOPING · top -0.03%",
+      "mint": "Goc4y6MsH55zZqFxSNszupQn4KA1Dw3yvyz2FiHwTQgT",
+      "signature": null
+    },
+    {
       "ts": 1777051870,
       "kind": "alert",
       "tag": "STAIRCASE",
@@ -14,22 +126,6 @@
       "tag": "STAIRCASE",
       "summary": "STAIRCASE Q8mM…NLKo · mom 75 · dist 57 · top 9.11%",
       "mint": "Q8mMu5MHfF9vDsmEhndaiebkeRDNSE44JzSt3vDNLKo",
-      "signature": null
-    },
-    {
-      "ts": 1777051835,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Do9Z…6hmq · STAIRCASE→DEVELOPING · top +0.15%",
-      "mint": "Do9Zm1feHVUTmR4ErS3GC8jxFmUWWMzapenPHZXj6hmq",
-      "signature": null
-    },
-    {
-      "ts": 1777051829,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HRiC…v7k8 · deployer down 16.6% (401238510 → 334510492)",
-      "mint": "HRiCfdAwZ7PGujWUr7w4PNssnzamfSqCn2jSWzn1v7k8",
       "signature": null
     },
     {
@@ -81,14 +177,6 @@
       "signature": null
     },
     {
-      "ts": 1777051668,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING Do9Z…6hmq · mom 68 · top 6.61% · 20 holders",
-      "mint": "Do9Zm1feHVUTmR4ErS3GC8jxFmUWWMzapenPHZXj6hmq",
-      "signature": null
-    },
-    {
       "ts": 1777051621,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -137,14 +225,6 @@
       "signature": null
     },
     {
-      "ts": 1777051226,
-      "kind": "alert",
-      "tag": "GRINDER",
-      "summary": "GRINDER DYjZ…pump · top 10.94% · dist 54 · tpm 138.5",
-      "mint": "DYjZvo3k77xjKMp61FjxXdAkbvEMzAVxfLQEGgUkpump",
-      "signature": null
-    },
-    {
       "ts": 1777051179,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -158,14 +238,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 9UfB…A5fw · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "9UfB6Xgqgrdxf3mmFbtUaUNSRmrGX9FcUPDgx1VrA5fw",
-      "signature": null
-    },
-    {
-      "ts": 1777051124,
-      "kind": "alert",
-      "tag": "GRINDER",
-      "summary": "GRINDER 3qq5…pump · top 8.85% · dist 56 · tpm 1800.0",
-      "mint": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
       "signature": null
     },
     {
@@ -217,14 +289,6 @@
       "signature": null
     },
     {
-      "ts": 1777050799,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 69G8…pump · mom 65 · top 7.06% · 7767 holders",
-      "mint": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
-      "signature": null
-    },
-    {
       "ts": 1777050689,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -254,70 +318,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE DitH…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
-      "signature": null
-    },
-    {
-      "ts": 1777050309,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4UeL…BAGS · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS",
-      "signature": null
-    },
-    {
-      "ts": 1777050260,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 94qu…4KXc · DEVELOPING→STAIRCASE · top +0.02%",
-      "mint": "94quoY9i45X2nkjzkPHpfxmMGRAbqYtwRgBFnWut4KXc",
-      "signature": null
-    },
-    {
-      "ts": 1777050238,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4UeL…BAGS · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS",
-      "signature": null
-    },
-    {
-      "ts": 1777050209,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING TdcY…jFcL · deployer down 100.0% (1833419430 → 0)",
-      "mint": "TdcYqgBAkeLLxsmR2jhvL7w6jBmA2EcGGxBipefjFcL",
-      "signature": null
-    },
-    {
-      "ts": 1777050198,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING Ngso…74mA · mom 67 · top 11.82% · 5936 holders",
-      "mint": "NgsodHAjoLZF5VC25euE1wBiZUgTVMHSErMRRKt74mA",
-      "signature": null
-    },
-    {
-      "ts": 1777050175,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DitH…pump · DEVELOPING→GRINDER · top -0.11%",
-      "mint": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
-      "signature": null
-    },
-    {
-      "ts": 1777050154,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 94qu…4KXc · STAIRCASE→DEVELOPING · top +0.10%",
-      "mint": "94quoY9i45X2nkjzkPHpfxmMGRAbqYtwRgBFnWut4KXc",
-      "signature": null
-    },
-    {
-      "ts": 1777050125,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING TdcY…jFcL · deployer down 100.0% (1833419430 → 0)",
-      "mint": "TdcYqgBAkeLLxsmR2jhvL7w6jBmA2EcGGxBipefjFcL",
       "signature": null
     },
     {
