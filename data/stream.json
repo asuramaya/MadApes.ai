@@ -1,18 +1,82 @@
 {
   "events": [
     {
-      "ts": 1776990782,
+      "ts": 1776991136,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 84RT…pump · DEVELOPING→STAIRCASE · top -0.63%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 12.6% (283035003 → 247430544)",
       "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
       "signature": null
     },
     {
-      "ts": 1776990741,
+      "ts": 1776991114,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.3% (283035003 → 248240973)",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 12.3% (283035003 → 248241331)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991094,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 14.0% (283035003 → 243352816)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991073,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 13.9% (283035003 → 243691069)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991050,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 13.2% (283035003 → 245587868)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991029,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 13.0% (283035003 → 246224038)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991006,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 84RT…pump · DEVELOPING→STAIRCASE · top -0.33%",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776991006,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 84RT…pump · deployer down 12.6% (283035003 → 247354798)",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776990910,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 84RT…pump · DEVELOPING→STAIRCASE · top -0.22%",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776990782,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 84RT…pump · DEVELOPING→STAIRCASE · top -0.63%",
       "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
       "signature": null
     },
@@ -25,34 +89,10 @@
       "signature": null
     },
     {
-      "ts": 1776990719,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 11.7% (283035003 → 249858293)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
       "ts": 1776990687,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 84RT…pump · deployer down 13.1% (283035003 → 245944287)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990665,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.7% (283035003 → 247010750)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990642,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 11.6% (283035003 → 250071808)",
       "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
       "signature": null
     },
@@ -185,38 +225,6 @@
       "signature": null
     },
     {
-      "ts": 1776990240,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.7% (283035003 → 247102940)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990216,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.5% (283035003 → 247679636)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990179,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.2% (283035003 → 248497432)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990135,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.5% (283035003 → 247764910)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
       "ts": 1776990112,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -229,14 +237,6 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 84RT…pump · deployer down 16.0% (283035003 → 237697577)",
-      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
-      "signature": null
-    },
-    {
-      "ts": 1776990064,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 84RT…pump · deployer down 12.7% (283035003 → 247152900)",
       "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
       "signature": null
     },
