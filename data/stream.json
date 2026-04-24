@@ -1,6 +1,70 @@
 {
   "events": [
     {
+      "ts": 1777023198,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · DEVELOPING→STAIRCASE · top -0.05%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023169,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · STAIRCASE→DEVELOPING · top +0.04%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023056,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · DEVELOPING→STAIRCASE · top -0.00%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023030,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH DACY…bonk · vel 1.27x→0.40x · tpm 25.0",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777023030,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · STAIRCASE→DEVELOPING · top +0.11%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777022952,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · DEVELOPING→STAIRCASE · top -0.05%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777022929,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH DACY…bonk · vel 1.33x→0.33x · tpm 22.9",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
+      "ts": 1777022929,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DACY…bonk · STAIRCASE→DEVELOPING · top +0.05%",
+      "mint": "DACYVx34V5aQaehN3MZGYxPfoyQYHZSnFAFw3T2Vbonk",
+      "signature": null
+    },
+    {
       "ts": 1777022888,
       "kind": "alert",
       "tag": "STAIRCASE",
