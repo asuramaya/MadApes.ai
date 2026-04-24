@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "ts": 1777055313,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Gkxh…3NWL · STAIRCASE→DEVELOPING · top +0.01%",
+      "mint": "Gkxhmt9CEz3ubEYh3yYNcs5SppYyVbpLfbSV5RFj3NWL",
+      "signature": null
+    },
+    {
+      "ts": 1777055302,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Goc4…TQgT · STAIRCASE→DEVELOPING · top +0.04%",
+      "mint": "Goc4y6MsH55zZqFxSNszupQn4KA1Dw3yvyz2FiHwTQgT",
+      "signature": null
+    },
+    {
+      "ts": 1777055221,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Gkxh…3NWL · DEVELOPING→STAIRCASE · top +0.02%",
+      "mint": "Gkxhmt9CEz3ubEYh3yYNcs5SppYyVbpLfbSV5RFj3NWL",
+      "signature": null
+    },
+    {
+      "ts": 1777055217,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Do9Z…6hmq · DEVELOPING→STAIRCASE · top -0.03%",
+      "mint": "Do9Zm1feHVUTmR4ErS3GC8jxFmUWWMzapenPHZXj6hmq",
+      "signature": null
+    },
+    {
+      "ts": 1777055206,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE HG5Y…1wwV · STAIRCASE→DEVELOPING · top +0.15%",
+      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
+      "signature": null
+    },
+    {
+      "ts": 1777055203,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · STAIRCASE→DEVELOPING · top +0.10%",
+      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
+      "signature": null
+    },
+    {
       "ts": 1777055126,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -129,27 +177,11 @@
       "signature": null
     },
     {
-      "ts": 1777054569,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Do9Z…6hmq · STAIRCASE→DEVELOPING · top -0.02%",
-      "mint": "Do9Zm1feHVUTmR4ErS3GC8jxFmUWWMzapenPHZXj6hmq",
-      "signature": null
-    },
-    {
       "ts": 1777054490,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE Do9Z…6hmq · DEVELOPING→STAIRCASE · top -0.15%",
       "mint": "Do9Zm1feHVUTmR4ErS3GC8jxFmUWWMzapenPHZXj6hmq",
-      "signature": null
-    },
-    {
-      "ts": 1777054458,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Q8mM…NLKo · STAIRCASE→DEVELOPING · top -0.01%",
-      "mint": "Q8mMu5MHfF9vDsmEhndaiebkeRDNSE44JzSt3vDNLKo",
       "signature": null
     },
     {
@@ -286,38 +318,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING HRiC…v7k8 · deployer down 100.0% (401238510 → 0)",
       "mint": "HRiCfdAwZ7PGujWUr7w4PNssnzamfSqCn2jSWzn1v7k8",
-      "signature": null
-    },
-    {
-      "ts": 1777053500,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Gkxh…3NWL · DEVELOPING→STAIRCASE · top -0.01%",
-      "mint": "Gkxhmt9CEz3ubEYh3yYNcs5SppYyVbpLfbSV5RFj3NWL",
-      "signature": null
-    },
-    {
-      "ts": 1777053476,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Gg3g…MJ3g · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "Gg3gYix6aL2HXj6UyJ5cH8UnLsXxK19BaPJMjUKYMJ3g",
-      "signature": null
-    },
-    {
-      "ts": 1777053396,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE FzA3…ewTL · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "FzA3cr4CHpPyMRwk5H5X8sCx2rFLTArkigVNZDyQewTL",
-      "signature": null
-    },
-    {
-      "ts": 1777053388,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Gg3g…MJ3g · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "Gg3gYix6aL2HXj6UyJ5cH8UnLsXxK19BaPJMjUKYMJ3g",
       "signature": null
     },
     {
