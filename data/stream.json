@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "ts": 1777004503,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ra5…pump · DEVELOPING→GRINDER · top +0.10%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777004484,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ra5…pump · GRINDER→DEVELOPING · top -0.04%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777004416,
+      "kind": "alert",
+      "tag": "GRADUATION",
+      "summary": "GRADUATION 2ra5…pump · pumpswap → meteora · mcap $840k · liq $87k",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777004416,
+      "kind": "alert",
+      "tag": "GRADUATION SCOUT",
+      "summary": "GRADUATION_SCOUT 2ra5…pump · deployer sold 100.0% · 7d tx 100 · last 0m · site https://chloe-sol.lol/2ra5…pump · \"Fee Distribution Portal  $TOKEN  Connect Wallet  Fee Distribution â Final Epoch  Claim Your Revenue Share  50% of all trading fees collected by the $TOKEN protocol are distributed proportionally to holders. This is the first and final dis…\"",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777004392,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ra5…pump · STAIRCASE→GRINDER · top +0.01%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777004375,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ra5…pump · GRINDER→STAIRCASE · top +0.09%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
       "ts": 1777004353,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -110,14 +158,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING 2gAR…pump · mom 82 · top 44.94% · 19 holders",
       "mint": "2gAR3Rqyyv5wgZQ3UAxuxb1stzMySXWx6akuPQuEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777002599,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH DSZe…pump · vel 1.06x→0.34x · tpm 0.7",
-      "mint": "DSZeB6pCzZsM43gTz7jakiYeCafinsNMKcpeB1FApump",
       "signature": null
     },
     {
