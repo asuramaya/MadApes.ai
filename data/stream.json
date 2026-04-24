@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "ts": 1777070531,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 9GnX…pump · mom 66 · top 15.00% · 3773 holders",
+      "mint": "9GnXzTS4ik2CAfrkaoVZbdzZ98xQ2ehbHQVnnJp6pump",
+      "signature": null
+    },
+    {
+      "ts": 1777070416,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AVA9…U7kC · DEVELOPING→STAIRCASE · top +0.04%",
+      "mint": "AVA9U8xJ7426rdf9XRinxTW9VyeVBGChtRDdUGjHU7kC",
+      "signature": null
+    },
+    {
+      "ts": 1777070285,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH AVA9…U7kC · vel 1.21x→0.22x · tpm 6.9",
+      "mint": "AVA9U8xJ7426rdf9XRinxTW9VyeVBGChtRDdUGjHU7kC",
+      "signature": null
+    },
+    {
+      "ts": 1777070285,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AVA9…U7kC · STAIRCASE→DEVELOPING · top -0.03%",
+      "mint": "AVA9U8xJ7426rdf9XRinxTW9VyeVBGChtRDdUGjHU7kC",
+      "signature": null
+    },
+    {
       "ts": 1777070242,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -286,38 +318,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING DXi3…pump · mom 61 · top 21.94% · 30383 holders",
       "mint": "DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump",
-      "signature": null
-    },
-    {
-      "ts": 1777068662,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 9DPT…SDy9 · mom 64 · top 10.00% · 5996 holders",
-      "mint": "9DPToU6fkfE49vM7LqjjtK6BFfKKuAVrQDaKAnwXSDy9",
-      "signature": null
-    },
-    {
-      "ts": 1777068576,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 4Cnk…pump · mom 67 · top 5.98% · 80700 holders",
-      "mint": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
-      "signature": null
-    },
-    {
-      "ts": 1777068576,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 2fUF…pump · mom 70 · top 23.17% · 22348 holders",
-      "mint": "2fUFhZyd47Mapv9wcfXh5gnQwFXtqcYu9xAN4THBpump",
-      "signature": null
-    },
-    {
-      "ts": 1777068541,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · DEVELOPING→STAIRCASE · top +0.02%",
-      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
       "signature": null
     },
     {
