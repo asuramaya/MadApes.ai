@@ -1,6 +1,7 @@
 # MadApes.ai
 
 http://madapesai.com
+
 One ape. One wallet. Every trade on chain, out in the open.
 
 MadApes watches the Solana jungle for bananas worth picking. Distribution,
