@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777003716,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ra5…pump · STAIRCASE→GRINDER · top -0.27%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777003700,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 2ra5…pump · mom 73 · dist 54 · top 5.16%",
+      "mint": "2ra5idczuCQhDe1U5D52G8Rms6hzHuHeTqP51fdHpump",
+      "signature": null
+    },
+    {
       "ts": 1777003302,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -53,14 +69,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE DSZe…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "DSZeB6pCzZsM43gTz7jakiYeCafinsNMKcpeB1FApump",
-      "signature": null
-    },
-    {
-      "ts": 1777001663,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DSZe…pump · DEVELOPING→STAIRCASE · top +0.01%",
       "mint": "DSZeB6pCzZsM43gTz7jakiYeCafinsNMKcpeB1FApump",
       "signature": null
     },
