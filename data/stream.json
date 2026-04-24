@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "ts": 1777047004,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 26Ni…LMu7 · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "26NicmeRCDxqrvRgfjRHJspi79EEWnD5UWvjjJfyLMu7",
+      "signature": null
+    },
+    {
+      "ts": 1777046972,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7E9h…1E8a · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "7E9hJvRe2MbeqvbF92zw7nfNLuSxLhYnLZXNXBCa1E8a",
+      "signature": null
+    },
+    {
+      "ts": 1777046867,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING CSzn…441K · mom 63 · top 37.15% · 1228 holders",
+      "mint": "CSznn6WWGSvPSFmGrGtMJddPT3hk1vzRUcRV8uc441K",
+      "signature": null
+    },
+    {
+      "ts": 1777046866,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 94qu…4KXc · mom 78 · dist 58 · top 5.95%",
+      "mint": "94quoY9i45X2nkjzkPHpfxmMGRAbqYtwRgBFnWut4KXc",
+      "signature": null
+    },
+    {
       "ts": 1777046541,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -190,30 +222,6 @@
       "tag": "STAIRCASE",
       "summary": "STAIRCASE 7E9h…1E8a · mom 74 · dist 59 · top 1.79%",
       "mint": "7E9hJvRe2MbeqvbF92zw7nfNLuSxLhYnLZXNXBCa1E8a",
-      "signature": null
-    },
-    {
-      "ts": 1777045131,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9Qf9…BpHj · SURGE→DEVELOPING · top +0.00%",
-      "mint": "9Qf9ceRER267XRvgFd2zYDaZoW5gGeHG5edYZVhoBpHj",
-      "signature": null
-    },
-    {
-      "ts": 1777045127,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 26Ni…LMu7 · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "26NicmeRCDxqrvRgfjRHJspi79EEWnD5UWvjjJfyLMu7",
-      "signature": null
-    },
-    {
-      "ts": 1777045083,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 9Qf9…BpHj · mom 81 · top 32.75% · 20 holders",
-      "mint": "9Qf9ceRER267XRvgFd2zYDaZoW5gGeHG5edYZVhoBpHj",
       "signature": null
     },
     {
