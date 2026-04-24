@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1776996972,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AVF9…pump · DEVELOPING→STAIRCASE · top -0.01%",
+      "mint": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
+      "signature": null
+    },
+    {
       "ts": 1776996526,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -54,22 +62,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE AVF9…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
-      "signature": null
-    },
-    {
-      "ts": 1776995116,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE AVF9…pump · DEVELOPING→STAIRCASE · top -0.00%",
-      "mint": "AVF9F4C4j8b1Kh4BmNHqybDaHgnZpJ7W7yLvL7hUpump",
-      "signature": null
-    },
-    {
-      "ts": 1776995055,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING zGh4…pump · mom 66 · top 6.73% · 39129 holders",
-      "mint": "zGh48JtNHVBb5evgoZLXwgPD2Qu4MhkWdJLGDAupump",
       "signature": null
     },
     {
