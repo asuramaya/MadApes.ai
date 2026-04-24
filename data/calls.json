@@ -1,6 +1,28 @@
 {
   "active": [
     {
+      "id": 3,
+      "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+      "symbol": "Rudi",
+      "classification": "STAIRCASE",
+      "confidence": 81,
+      "called_at": 1777067069,
+      "expires_at": null,
+      "note": "[auto] STAIRCASE conf=81 mom=80 top=4.5% mcap=1060k liq=94k horizon=SHORT",
+      "source": "auto",
+      "status": "active",
+      "closed_at": null,
+      "entry_mcap_usd": 1060083.0,
+      "entry_price_usd": 0.00106,
+      "entry_liquidity_usd": 93772.17,
+      "entry_top_holder_pct": 4.5085011798964,
+      "entry_pair_dex": "raydium",
+      "current_mcap_usd": 1001600.0,
+      "current_price_usd": 0.001001,
+      "current_liquidity_usd": 91270.37,
+      "pct_from_call": -5.566037735849061
+    },
+    {
       "id": 1,
       "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
       "symbol": "PsyopAnime",
@@ -17,10 +39,10 @@
       "entry_liquidity_usd": 248918.42,
       "entry_top_holder_pct": 5.476964713464018,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 2167153.0,
-      "current_price_usd": 0.002167,
-      "current_liquidity_usd": 243673.64,
-      "pct_from_call": -4.705364995602457
+      "current_mcap_usd": 2211915.0,
+      "current_price_usd": 0.002212,
+      "current_liquidity_usd": 246179.83,
+      "pct_from_call": -2.7264731750219817
     }
   ],
   "history": [
@@ -41,10 +63,10 @@
       "entry_liquidity_usd": 22292.71,
       "entry_top_holder_pct": 14.969489798639051,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 27457.0,
-      "current_price_usd": 0.00002746,
-      "current_liquidity_usd": 13853.13,
-      "pct_from_call": -63.14588645819352
+      "current_mcap_usd": 26864.0,
+      "current_price_usd": 0.00002687,
+      "current_liquidity_usd": 13698.97,
+      "pct_from_call": -63.937726479667155
     }
   ]
 }

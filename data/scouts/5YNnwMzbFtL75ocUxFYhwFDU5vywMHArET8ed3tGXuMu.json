@@ -1,0 +1,204 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "HfqpwxfkahiwqDvaiuZErc8rM5Fzr5BvqKbKJkUugwZB",
+      "initial_balance_ui": 49332333.177825,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 41,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 91270.37,
+    "mcap_usd": 1001600.0,
+    "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+    "name": "AI Coach Rudi",
+    "pair_dex": "raydium",
+    "socials": [],
+    "symbol": "Rudi",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777067069,
+    "classification": "STAIRCASE",
+    "confidence": 81,
+    "entry_liquidity_usd": 93772.17,
+    "entry_mcap_usd": 1060083.0,
+    "entry_pair_dex": "raydium",
+    "entry_price_usd": 0.00106,
+    "entry_top_holder_pct": 4.5085011798964,
+    "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+    "note": "[auto] STAIRCASE conf=81 mom=80 top=4.5% mcap=1060k liq=94k horizon=SHORT",
+    "source": "auto",
+    "symbol": "Rudi"
+  },
+  "call_id": 3,
+  "captured_at": 1777067254,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 90484.65,
+      "current_mcap_usd": 984429.0,
+      "current_pair_dex": "raydium",
+      "first_seen": 1777047904,
+      "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+      "symbol": "Rudi"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777067212,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "fetch pair account failed: No RPC endpoints available",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
+    "pair_dex": "raydium",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "error"
+  },
+  "market": {
+    "liquidity_usd": 91270.37,
+    "mcap_usd": 1001600.0,
+    "name": "AI Coach Rudi",
+    "pair_address": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
+    "pair_dex": "raydium",
+    "symbol": "Rudi"
+  },
+  "sniper_cohort": {
+    "available": false,
+    "mint": "",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 0,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "accumulating",
+      "balance_ui": 45962420.940962,
+      "net_change_24h_ui": 1197812.9351940006,
+      "net_change_7d_ui": 1197812.9351940006,
+      "owner": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
+      "pct_of_supply": 4.5962420940962,
+      "token_account": "HfqpwxfkahiwqDvaiuZErc8rM5Fzr5BvqKbKJkUugwZB",
+      "tx_count_24h": 50,
+      "tx_count_7d": 50
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 27870783.361938,
+      "net_change_24h_ui": -829160.4193690009,
+      "net_change_7d_ui": -829160.4193690009,
+      "owner": "3kpW6ZnTMCs5rUNh3oU1mBLLmutVPDysd6iw4BkNXgTj",
+      "pct_of_supply": 2.7870783361938,
+      "token_account": "DHeJUHPRKbScUj184GMTViTnXQcRDv9pcC6rp2ZvgBqr",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 27849778.071401,
+      "net_change_24h_ui": -1199827.6754669994,
+      "net_change_7d_ui": -1199827.6754669994,
+      "owner": "5MAYUEJRcKAWTh9BQAsRTTn3PfGYqRkgjtZfzjeNzkBJ",
+      "pct_of_supply": 2.7849778071400997,
+      "token_account": "AZsAyU7gpgfUhhtrWdX1rQos2BaAzvvJGmPQn4eqsNN3",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 27735702.20102,
+      "net_change_24h_ui": -947502.1640440002,
+      "net_change_7d_ui": -947502.1640440002,
+      "owner": "AeY17js4NAt1Z2MuN5Jvc5CSewiFg4SPiwafS9ex6BDp",
+      "pct_of_supply": 2.773570220102,
+      "token_account": "DsS1UGmyXF44RVSEwhcgxr2KpBWRpTcCg78GPEzeAoBs",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "idle",
+      "balance_ui": 27382836.472686,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "3gDWhCM4CjQpuCFJyC7Va9i3QS3c4chNKNXociTZS3Ya",
+      "pct_of_supply": 2.7382836472686,
+      "token_account": "99QgXsMXvjih6FL3afLGvtcUEtNec2qBzmviwkzVxgHw",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 27296399.092074,
+      "net_change_24h_ui": -677589.5424990021,
+      "net_change_7d_ui": -677589.5424990021,
+      "owner": "61NnFF75QzMqKYKhznAFJkbZort9rjbkjY1jxj12CpH1",
+      "pct_of_supply": 2.7296399092074,
+      "token_account": "AyWn8HFupiSMzwYPuRLKiJeSFMUgf4SA19y7HiY14dsB",
+      "tx_count_24h": 8,
+      "tx_count_7d": 8
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 27048165.620395,
+      "net_change_24h_ui": -1659348.8293979988,
+      "net_change_7d_ui": -1659348.8293979988,
+      "owner": "2b8YHbbTU5U2BszCAWrCX9TTSsFoay1V3ynzjbdbknLe",
+      "pct_of_supply": 2.7048165620395004,
+      "token_account": "CFBa3jj2cw9cex347tM6cPsBQGHkpVfRccXtnL221VzJ",
+      "tx_count_24h": 9,
+      "tx_count_7d": 9
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 26641917.561357,
+      "net_change_24h_ui": -810249.2477180026,
+      "net_change_7d_ui": -810249.2477180026,
+      "owner": "95KSJH12KWXwKkSctuQvMEkdvDYqWM4zgVi7oCfPdaSb",
+      "pct_of_supply": 2.6641917561357,
+      "token_account": "97DZM7wsL72LVAkZzbGKNXMDdxxBEbMCGCZBSUahw9Vb",
+      "tx_count_24h": 9,
+      "tx_count_7d": 9
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 26309095.266889,
+      "net_change_24h_ui": -4218372.47786,
+      "net_change_7d_ui": -4218372.47786,
+      "owner": "38VNa6hqwChBqGeKM911vVrLs2TQvJRWxrgMxA1ASYUj",
+      "pct_of_supply": 2.6309095266889,
+      "token_account": "DgMiSYqx749zSfyUBNqyXzZhQE73VniJEfDiU9Df8dLj",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 25867722.665434,
+      "net_change_24h_ui": -490818.765124999,
+      "net_change_7d_ui": -490818.765124999,
+      "owner": "EJo6y9DRoSDyMY1aCUnaxb1E2FMXYXeYKwRbCEeQFnin",
+      "pct_of_supply": 2.5867722665434,
+      "token_account": "6NXPYBi6LQ7uUN9jwaXPktHz5MnFmp2q1yiCccinMeMY",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    }
+  ]
+}
