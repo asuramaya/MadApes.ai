@@ -1,19 +1,27 @@
 {
   "events": [
     {
+      "ts": 1777065961,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DRrc…pump · DEVELOPING→GRINDER · top +0.28%",
+      "mint": "DRrcvcWHUNJqRj81LHVKC1wzLiRxyncq7ctiLrfYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777065813,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 83iB…moon · mom 70 · top 6.34% · 34672 holders",
+      "mint": "83iBDw3ZpxqJ3pEzrbttr9fGA57tttehDAxoFyR1moon",
+      "signature": null
+    },
+    {
       "ts": 1777065687,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 8opv…bonk · DEVELOPING→STAIRCASE · top -0.15%",
       "mint": "8opvqaWysX1oYbXuTL8PHaoaTiXD69VFYAX4smPebonk",
-      "signature": null
-    },
-    {
-      "ts": 1777065640,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING orai…Vo5h · mom 68 · top 41.98% · 20 holders",
-      "mint": "oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h",
       "signature": null
     },
     {
@@ -310,14 +318,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · STAIRCASE→DEVELOPING · top +0.03%",
       "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
-      "signature": null
-    },
-    {
-      "ts": 1777064211,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HG5Y…1wwV · deployer down 17.0% (89076257 → 73975464)",
-      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
       "signature": null
     },
     {
