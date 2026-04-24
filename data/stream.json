@@ -1,51 +1,19 @@
 {
   "events": [
     {
+      "ts": 1777014340,
+      "kind": "alert",
+      "tag": "GRINDER",
+      "summary": "GRINDER 5ohB…pump · top 9.20% · dist 54 · tpm 1500.0",
+      "mint": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
+      "signature": null
+    },
+    {
       "ts": 1777014121,
       "kind": "alert",
       "tag": "DEVELOPING",
       "summary": "DEVELOPING EkDG…x4SX · mom 57 · top 2.43% · 12839 holders",
       "mint": "EkDGB5fbPXiRmDDjxKcC7dFjzvFZj2KT9t7oeyyPx4SX",
-      "signature": null
-    },
-    {
-      "ts": 1777012562,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH Ggie…bonk · vel 2.50x→0.06x · tpm 9.8",
-      "mint": "GgieLnjHjwYwSvscVNc2xB2qN1K3YhjYPngzY9c2bonk",
-      "signature": null
-    },
-    {
-      "ts": 1777012562,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Ggie…bonk · STAIRCASE→CRASHING · top -0.13%",
-      "mint": "GgieLnjHjwYwSvscVNc2xB2qN1K3YhjYPngzY9c2bonk",
-      "signature": null
-    },
-    {
-      "ts": 1777012522,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Ggie…bonk · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "GgieLnjHjwYwSvscVNc2xB2qN1K3YhjYPngzY9c2bonk",
-      "signature": null
-    },
-    {
-      "ts": 1777012483,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Ggie…bonk · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "GgieLnjHjwYwSvscVNc2xB2qN1K3YhjYPngzY9c2bonk",
-      "signature": null
-    },
-    {
-      "ts": 1777012441,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Ggie…bonk · DEVELOPING→STAIRCASE · top -0.02%",
-      "mint": "GgieLnjHjwYwSvscVNc2xB2qN1K3YhjYPngzY9c2bonk",
       "signature": null
     },
     {
