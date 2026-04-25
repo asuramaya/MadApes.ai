@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777155343,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top +0.14%",
+      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
+      "signature": null
+    },
+    {
+      "ts": 1777155283,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top +0.05%",
+      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
+      "signature": null
+    },
+    {
+      "ts": 1777155172,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top -0.06%",
+      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
+      "signature": null
+    },
+    {
       "ts": 1777155039,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -273,14 +297,6 @@
       "signature": null
     },
     {
-      "ts": 1777154267,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE 3EUb…pump · mom 78 · dist 51 · top 27.59%",
-      "mint": "3EUbyMnfPq8929mPz5nSX9ajYdALRMLeA5aJLT7Jpump",
-      "signature": null
-    },
-    {
       "ts": 1777154113,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -297,26 +313,10 @@
       "signature": null
     },
     {
-      "ts": 1777153821,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top +0.53%",
-      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
-      "signature": null
-    },
-    {
       "ts": 1777153725,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top -0.03%",
-      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
-      "signature": null
-    },
-    {
-      "ts": 1777153366,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · DEVELOPING→STAIRCASE · top -0.51%",
       "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
       "signature": null
     },
