@@ -1,6 +1,78 @@
 {
   "events": [
     {
+      "ts": 1777083478,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 222c…pump · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
+      "signature": null
+    },
+    {
+      "ts": 1777083475,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4r3K…pump · deployer down 33.2% (203449070 → 135877642)",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083475,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4r3K…pump · DEVELOPING→STAIRCASE · top -0.42%",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083448,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 34EB…pump · mom 72 · dist 61 · top 13.64%",
+      "mint": "34EBTRNxjqZo3CgpQD3aaW3CC69DkP6BQUEx1Dd2pump",
+      "signature": null
+    },
+    {
+      "ts": 1777083398,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4r3K…pump · deployer down 31.2% (203449070 → 140028818)",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083345,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4r3K…pump · deployer down 31.9% (203449070 → 138629214)",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083300,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4r3K…pump · deployer down 32.7% (203449070 → 136963463)",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083240,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4r3K…pump · deployer down 32.7% (203449070 → 136906203)",
+      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777083199,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CCDZ…webL · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "CCDZcVDqNn2uAFyciEX9XWb8qjPcTFM5Din96TT5webL",
+      "signature": null
+    },
+    {
       "ts": 1777083191,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -17,22 +89,6 @@
       "signature": null
     },
     {
-      "ts": 1777083122,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CCDZ…webL · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "CCDZcVDqNn2uAFyciEX9XWb8qjPcTFM5Din96TT5webL",
-      "signature": null
-    },
-    {
-      "ts": 1777083083,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · DEVELOPING→STAIRCASE · top +0.02%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
-      "signature": null
-    },
-    {
       "ts": 1777083080,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -46,14 +102,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 4r3K…pump · deployer down 30.6% (203449070 → 141180142)",
       "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777082982,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · DEVELOPING→STAIRCASE · top +0.36%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
       "signature": null
     },
     {
@@ -129,14 +177,6 @@
       "signature": null
     },
     {
-      "ts": 1777082627,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4r3K…pump · DEVELOPING→STAIRCASE · top +0.18%",
-      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
-      "signature": null
-    },
-    {
       "ts": 1777082556,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -193,27 +233,11 @@
       "signature": null
     },
     {
-      "ts": 1777082337,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GAmb…TUcY · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "GAmbThwyvX8rbAVQ5h749BchLgCKaMfm4N8eat2KTUcY",
-      "signature": null
-    },
-    {
       "ts": 1777082335,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 4r3K…pump · deployer down 29.5% (203449070 → 143340059)",
       "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777082281,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · STAIRCASE→DEVELOPING · top +0.03%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
       "signature": null
     },
     {
@@ -265,14 +289,6 @@
       "signature": null
     },
     {
-      "ts": 1777081982,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE GAmb…TUcY · mom 76 · dist 54 · top 9.68%",
-      "mint": "GAmbThwyvX8rbAVQ5h749BchLgCKaMfm4N8eat2KTUcY",
-      "signature": null
-    },
-    {
       "ts": 1777081935,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -302,22 +318,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 4r3K…pump · deployer down 24.2% (203449070 → 154266097)",
       "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777081763,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4r3K…pump · deployer down 22.9% (203449070 → 156856564)",
-      "mint": "4r3KKtWsYFeH96HJAkktEbQ2YJjQr8SSYV2zaykVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777081443,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XGbM…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "XGbMLzy8r7iJN96huatiyv3VtJ3o1VYjpVzSz7Zpump",
       "signature": null
     },
     {
