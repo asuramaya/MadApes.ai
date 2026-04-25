@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777101419,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · DEVELOPING→STAIRCASE · top -0.02%",
+      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
+      "signature": null
+    },
+    {
       "ts": 1777101339,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -310,14 +318,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top -0.05%",
       "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777099609,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · DEVELOPING→STAIRCASE · top +0.01%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
       "signature": null
     },
     {
