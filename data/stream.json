@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "ts": 1777110069,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 2GYN…VPHw · vel 3.29x→0.17x · tpm 6.9",
+      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
+      "signature": null
+    },
+    {
+      "ts": 1777110069,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · STAIRCASE→DEVELOPING · top -0.02%",
+      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
+      "signature": null
+    },
+    {
+      "ts": 1777109940,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 43VW…H7We · mom 49 · top 10.77% · 20 holders",
+      "mint": "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We",
+      "signature": null
+    },
+    {
+      "ts": 1777109906,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · DEVELOPING→STAIRCASE · top +0.03%",
+      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
+      "signature": null
+    },
+    {
+      "ts": 1777109878,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · STAIRCASE→DEVELOPING · top -0.01%",
+      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
+      "signature": null
+    },
+    {
+      "ts": 1777109823,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
+      "signature": null
+    },
+    {
       "ts": 1777109746,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
@@ -269,30 +317,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · DEVELOPING→STAIRCASE · top -0.06%",
-      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
-      "signature": null
-    },
-    {
-      "ts": 1777108183,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · STAIRCASE→DEVELOPING · top +0.09%",
-      "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
-      "signature": null
-    },
-    {
-      "ts": 1777108133,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING HAVV…pump · mom 66 · top 47.51% · 20 holders",
-      "mint": "HAVVqPQf4MKVjvuFVi8y7g3xkArdWQemaJPBvKmEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777108049,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2GYN…VPHw · DEVELOPING→STAIRCASE · top -0.07%",
       "mint": "2GYNLSs59ew2eua9KqKo5uRqpwshkjeHQLkDWYTkVPHw",
       "signature": null
     },
