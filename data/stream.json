@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "ts": 1777100800,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · STAIRCASE→DEVELOPING · top -0.08%",
+      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
+      "signature": null
+    },
+    {
+      "ts": 1777100799,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top -0.20%",
+      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
+      "signature": null
+    },
+    {
+      "ts": 1777100769,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · DEVELOPING→STAIRCASE · top -0.05%",
+      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
+      "signature": null
+    },
+    {
+      "ts": 1777100767,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · DEVELOPING→STAIRCASE · top +0.02%",
+      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
+      "signature": null
+    },
+    {
+      "ts": 1777100730,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top +0.02%",
+      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
+      "signature": null
+    },
+    {
+      "ts": 1777100696,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · DEVELOPING→STAIRCASE · top -0.15%",
+      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
+      "signature": null
+    },
+    {
       "ts": 1777100684,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -73,22 +121,6 @@
       "signature": null
     },
     {
-      "ts": 1777100405,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH EwaM…ko18 · vel 5.17x→0.21x · tpm 5.8",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777100405,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top -0.02%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
       "ts": 1777100367,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -142,14 +174,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · STAIRCASE→DEVELOPING · top +0.01%",
       "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777100147,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH EwaM…ko18 · vel 5.60x→0.23x · tpm 8.3",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
       "signature": null
     },
     {
@@ -293,30 +317,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top -0.00%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777098994,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · DEVELOPING→STAIRCASE · top -0.02%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777098961,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · STAIRCASE→DEVELOPING · top +0.04%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777098929,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · DEVELOPING→STAIRCASE · top +0.05%",
       "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
       "signature": null
     },
