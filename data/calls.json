@@ -11,7 +11,10 @@
       "note": "[auto] STAIRCASE conf=81 mom=80 top=4.5% mcap=1060k liq=94k horizon=SHORT",
       "source": "auto",
       "status": "active",
+      "outcome_type": "active",
       "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
       "entry_mcap_usd": 1060083.0,
       "entry_price_usd": 0.00106,
       "entry_liquidity_usd": 93772.17,
@@ -33,16 +36,19 @@
       "note": "PsyopAnime $PSYOPANIME — first call. Thesis: one real trader (692PxWKE…) accumulated ~4.77% of supply, +1.19M/24h and +9.09M/7d, absorbing a sell-heavy tape (h24 873b/998s). Bear case survives: 447-account insider network = 30.96% supply. Trigger to monitor publicly: 692PxWKE flow + RugCheck insider network dilution. Exit ladder: 25% at +40%, 25% at +80%, 25% at +150%, 25% runner with 14-day hard close.",
       "source": "mcp",
       "status": "active",
+      "outcome_type": "active",
       "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
       "entry_mcap_usd": 2274601.0,
       "entry_price_usd": 0.002274,
       "entry_liquidity_usd": 248918.42,
       "entry_top_holder_pct": 5.476964713464018,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 2306957.0,
-      "current_price_usd": 0.002307,
-      "current_liquidity_usd": 251341.14,
-      "pct_from_call": 1.451187335092352
+      "current_mcap_usd": 2302861.0,
+      "current_price_usd": 0.002302,
+      "current_liquidity_usd": 251206.44,
+      "pct_from_call": 1.2313104661389573
     }
   ],
   "history": [
@@ -57,16 +63,19 @@
       "note": "",
       "source": "notifier",
       "status": "closed",
+      "outcome_type": "withdrew",
       "closed_at": 1776891329,
+      "exit_price_usd": 0.00005896,
+      "exit_note": "retracted — notifier promoted a raw signal before the deep wallet/holder/market audit thesis existed",
       "entry_mcap_usd": 74502.0,
       "entry_price_usd": 0.00007451,
       "entry_liquidity_usd": 22292.71,
       "entry_top_holder_pct": 14.969489798639051,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 23327.0,
-      "current_price_usd": 0.00002333,
-      "current_liquidity_usd": 12762.76,
-      "pct_from_call": -68.68876660850893
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00005896,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -20.869681921889683
     }
   ]
 }
