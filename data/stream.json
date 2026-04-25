@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777102853,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 22te…pump · mom 66 · top 38.08% · 20 holders",
+      "mint": "22tekTgH5gP8Cvd5LcwKfj1ohmsgPBqFHrFrmCQtpump",
+      "signature": null
+    },
+    {
+      "ts": 1777102818,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING CukC…3yUY · mom 50 · top 10.98% · 20 holders",
+      "mint": "CukC4Y5tWEpS6tLR31HZu7uEzhcAu78w8CMfPqMW3yUY",
+      "signature": null
+    },
+    {
+      "ts": 1777102589,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 7voK…pump · mom 65 · top 25.47% · 20 holders",
+      "mint": "7voKerVHPvbXde3bEpyNcdodVEufq17tW6eZLUUkpump",
+      "signature": null
+    },
+    {
       "ts": 1777102507,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -222,102 +246,6 @@
       "tag": "GRINDER",
       "summary": "GRINDER 45Eg…MCWX · top 16.85% · dist 54 · tpm 900.0",
       "mint": "45EgCwcPXYagBC7KqBin4nCFgEZWN7f3Y6nACwxqMCWX",
-      "signature": null
-    },
-    {
-      "ts": 1777101071,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH BQCs…SYQH · vel 4.33x→0.17x · tpm 5.5",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777101071,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · STAIRCASE→DEVELOPING · top -0.04%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777101053,
-      "kind": "alert",
-      "tag": "ACTIVE TRAP",
-      "summary": "ACTIVE_TRAP DtpN…pump · mom 87 · top 49.99% · 16 holders",
-      "mint": "DtpNZDuKLzK8CM32QCv8X35dVfvejUuaBQNZJowWpump",
-      "signature": null
-    },
-    {
-      "ts": 1777101014,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · DEVELOPING→STAIRCASE · top -0.03%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777101010,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Cxoa…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "CxoaKHTGYAUkHwzK5dazVYuG3vvEXExrGznMwX1ipump",
-      "signature": null
-    },
-    {
-      "ts": 1777100992,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE Cxoa…pump · mom 75 · dist 56 · top 19.73%",
-      "mint": "CxoaKHTGYAUkHwzK5dazVYuG3vvEXExrGznMwX1ipump",
-      "signature": null
-    },
-    {
-      "ts": 1777100974,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · DEVELOPING→STAIRCASE · top -0.02%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777100936,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH EwaM…ko18 · vel 5.58x→0.20x · tpm 5.4",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777100936,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top +0.07%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777100876,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · DEVELOPING→STAIRCASE · top -0.02%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
-      "signature": null
-    },
-    {
-      "ts": 1777100800,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BQCs…SYQH · STAIRCASE→DEVELOPING · top -0.08%",
-      "mint": "BQCsts4gW9SSALCdRqVGzGsjyFGhodkPuf5nGxwjSYQH",
-      "signature": null
-    },
-    {
-      "ts": 1777100799,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EwaM…ko18 · STAIRCASE→DEVELOPING · top -0.20%",
-      "mint": "EwaMnuySRCyJmaL6X433s2vzrctPNstpP5nZzQX8ko18",
       "signature": null
     },
     {
