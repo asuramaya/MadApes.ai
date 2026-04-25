@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777134490,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 5LRH…pump · top 19.66%→26.32% (+6.65%) · GRINDER",
+      "mint": "5LRHKtNGSQenBZHEoacq2UuL3QecAe2rQNPAeK8Gpump",
+      "signature": null
+    },
+    {
+      "ts": 1777134471,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 5LRH…pump · top 17.00%→19.66% (+2.67%) · GRINDER",
+      "mint": "5LRHKtNGSQenBZHEoacq2UuL3QecAe2rQNPAeK8Gpump",
+      "signature": null
+    },
+    {
+      "ts": 1777134434,
+      "kind": "alert",
+      "tag": "GRINDER",
+      "summary": "GRINDER 5LRH…pump · top 21.66% · dist 51 · tpm 1000.0",
+      "mint": "5LRHKtNGSQenBZHEoacq2UuL3QecAe2rQNPAeK8Gpump",
+      "signature": null
+    },
+    {
       "ts": 1777134200,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -102,22 +126,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING 5bEk…pump · mom 82 · top 47.07% · 12 holders",
       "mint": "5bEkcFAMLqgAnNmDk29NaHEsAoVLmGjngo2Frq9fpump",
-      "signature": null
-    },
-    {
-      "ts": 1777132506,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 8cZW…pump · mom 82 · top 48.85% · 10 holders",
-      "mint": "8cZWL4VBX7wtgVz2bLNtvojjqgynNm2Us7X9tPyApump",
-      "signature": null
-    },
-    {
-      "ts": 1777132503,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8cHz…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "8cHzQHUS2s2h8TzCmfqPKYiM4dSt4roa3n7MyRLApump",
       "signature": null
     },
     {
