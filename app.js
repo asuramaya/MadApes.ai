@@ -184,74 +184,99 @@ function copyToClipboard(text, anchorEl) {
 }
 
 // --- render: calls ---
-function renderCalls(calls) {
+function callTerm(c) {
+  const m = (c.note || "").match(/horizon=(SHORT|LONG)/i);
+  return m ? m[1].toLowerCase() : null;
+}
+
+function fmtDate(ts) {
+  if (!ts) return null;
+  return new Date(ts * 1000).toLocaleDateString("en-US", {
+    month: "short", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false,
+  });
+}
+
+function renderCalls(calls, history) {
   const container = document.getElementById("calls-list");
   clear(container);
-  if (!calls || !calls.length) {
+  const active = calls || [];
+  const hist = (history || []).slice(0, 5);
+
+  if (!active.length && !hist.length) {
     container.appendChild(el("div", { class: "empty", text: "no active calls" }));
     return;
   }
-  for (const c of calls) {
-    const sym = c.symbol
-      ? "$" + c.symbol
-      : shortAddr(c.mint || "");
+
+  for (const c of active) {
+    const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
     const pctValue = callPctValue(c);
     const pctCls = pctValue === null ? "" : pnlClass(pctValue);
-    const entryStr = c.entry_mcap_usd
-      ? "entry $" + formatMcap(c.entry_mcap_usd)
-      : "—";
-    const nowStr = c.current_mcap_usd
-      ? "now $" + formatMcap(c.current_mcap_usd)
-      : "—";
-    const age = fmtTimeAgo(c.called_at);
+    const term = callTerm(c);
+    const entryStr = c.entry_mcap_usd ? "mcap $" + formatMcap(c.entry_mcap_usd) : null;
+    const nowStr = c.current_mcap_usd ? "now $" + formatMcap(c.current_mcap_usd) : null;
+    const entryPxStr = c.entry_price_usd ? "$" + c.entry_price_usd.toPrecision(4) : null;
 
-    // Expiration countdown — shows "7d left" / "expires 3h" so the public
-    // sees exactly when an un-confirmed call will auto-close.
     let exp = null;
     if (c.expires_at) {
       const left = c.expires_at - Date.now() / 1000;
       if (left > 0) {
-        exp =
-          left > 86400
-            ? Math.floor(left / 86400) + "d left"
-            : Math.floor(left / 3600) + "h left";
+        exp = left > 86400 ? Math.floor(left / 86400) + "d left" : Math.floor(left / 3600) + "h left";
       } else {
         exp = "expired";
       }
     }
 
+    const metaParts = [
+      term ? term.toUpperCase() : null,
+      entryStr,
+      nowStr,
+      entryPxStr ? "entry " + entryPxStr : null,
+      fmtTimeAgo(c.called_at),
+      exp,
+    ].filter(Boolean).join(" · ");
+
     const symEl = el("div", { class: "sym", text: sym });
-    const detailParts = [entryStr + " · " + nowStr + " · " + age];
-    if (exp) detailParts.push(" · " + exp);
-    detailParts.push(" · ");
     const detail = el("div", { class: "detail" }, [
-      detailParts.join(""),
-      el("a", {
-        href: DEXSCREENER + "/" + c.mint,
-        target: "_blank",
-        rel: "noopener",
-        text: "chart",
-      }),
+      metaParts + " · ",
+      el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
       " · ",
-      el("a", {
-        href: "data/scouts/" + c.mint + ".json",
-        target: "_blank",
-        rel: "noopener",
-        text: "scout",
-      }),
+      el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }),
       " · ",
-      el("a", {
-        href: "data/whales/" + c.mint + ".json",
-        target: "_blank",
-        rel: "noopener",
-        text: "whales",
-      }),
+      el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }),
     ]);
-    const numEl = el("div", {
-      class: "num " + pctCls,
-      text: fmtPct(pctValue),
-    });
+    const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
     container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
+  }
+
+  if (hist.length) {
+    container.appendChild(el("div", { class: "label dim", style: "margin-top:0.75rem", text: "recent" }));
+    for (const c of hist) {
+      const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
+      const pctValue = callPctValue(c);
+      const pctCls = pctValue === null ? "" : pnlClass(pctValue);
+      const term = callTerm(c);
+      const outcome = c.outcome_type || c.status || "closed";
+      const openDate = fmtDate(c.called_at);
+      const closeDate = fmtDate(c.closed_at);
+      const entryPx = c.entry_price_usd ? "$" + c.entry_price_usd.toPrecision(4) : null;
+      const exitPx = c.exit_price_usd ? "$" + c.exit_price_usd.toPrecision(4) : null;
+
+      const metaParts = [
+        term ? term.toUpperCase() : null,
+        openDate ? "in " + openDate : null,
+        closeDate ? "out " + closeDate : null,
+        entryPx && exitPx ? entryPx + " → " + exitPx : entryPx,
+        outcome,
+      ].filter(Boolean).join(" · ");
+
+      const symEl = el("div", { class: "sym dim", text: sym });
+      const detail = el("div", { class: "detail dim" }, [
+        metaParts + " · ",
+        el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
+      ]);
+      const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
+      container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
+    }
   }
 }
 
@@ -923,7 +948,7 @@ async function refreshLiveData() {
   renderTicker(health, pnl, calls && calls.active, posArr);
   renderPnl(pnl);
   renderPositions(posArr);
-  renderCalls(calls && calls.active);
+  renderCalls(calls && calls.active, calls && calls.history);
   renderActivity(activity && activity.activity, posArr);
   renderStream(stream);
   await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
