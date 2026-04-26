@@ -10,7 +10,7 @@
     "verdict": "pool_program_native"
   },
   "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
-  "snapshot_ts": 1777191649,
+  "snapshot_ts": 1777192430,
   "symbol": "MAGA",
   "whales": [
     {
@@ -80,6 +80,17 @@
       "tx_count_7d": 1
     },
     {
+      "action": "idle",
+      "balance_ui": 19700000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "C1qmmu7ATmx6VLkjyAqyAiAnSciv3FHFD4dV6Hx1XDvL",
+      "pct_of_supply": 2.013851158519872,
+      "token_account": "9Tttr811QksFifwnRvTLcxmVUygnx5tEfcsQuvuQM6a5",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
       "action": "distributing",
       "balance_ui": 19589660.83738,
       "net_change_24h_ui": 0.0,
@@ -111,17 +122,6 @@
       "token_account": "6mR6zWSYhUKu9FXrMu46Hypg6zHvBmP6k2ijT9ZF8dtc",
       "tx_count_24h": 0,
       "tx_count_7d": 2
-    },
-    {
-      "action": "distributing",
-      "balance_ui": 16500000.081858,
-      "net_change_24h_ui": -200000.0,
-      "net_change_7d_ui": -955076.6995989997,
-      "owner": "7mDuvVBMHUXgmop2A61JcJ6VcmsWNVhPuVwM87Ki4Bmd",
-      "pct_of_supply": 1.6867281360623205,
-      "token_account": "5rxdrwLGgsjeqsT1tZscP92E3reueeFS6H2mQQ1tBiVQ",
-      "tx_count_24h": 4,
-      "tx_count_7d": 13
     }
   ]
 }
