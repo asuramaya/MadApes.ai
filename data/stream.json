@@ -1,6 +1,110 @@
 {
   "events": [
     {
+      "ts": 1777186443,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Eno6…pump · DEVELOPING→STAIRCASE · top -0.20%",
+      "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+      "signature": null
+    },
+    {
+      "ts": 1777186384,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CJUr…pump · STAIRCASE→GRINDER · top +0.08%",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186356,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$HENRY at $990k mcap — entry frozen",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186355,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CJUr…pump · GRINDER→STAIRCASE · top -0.07%",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186338,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7Kun…pump · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "7KunmzqV5sbK8awVSjNjC3TGS9QPwbgCyrPynZBYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186302,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CJUr…pump · STAIRCASE→GRINDER · top +0.00%",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186302,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CJUr…pump · GRINDER→STAIRCASE · top -0.08%",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186279,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EqWj…pump · DEVELOPING→STAIRCASE · top -0.02%",
+      "mint": "EqWjXdYdFic8D7VX85fTw2Lru2bFUib1bBxnXEQzpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186261,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186250,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$CATCOIN at $815k mcap — entry frozen",
+      "mint": "5gTPspC2ricuGWiYQ4Ghausg8fsq7uCrGgSVACatcoin",
+      "signature": null
+    },
+    {
+      "ts": 1777186249,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$assface at $707k mcap — entry frozen",
+      "mint": "BnXWvsVZYgBxTUDyDqHZjvFbQGvEZeipY4ZdmqCbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186233,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Eno6…pump · DEVELOPING→STAIRCASE · top -0.05%",
+      "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+      "signature": null
+    },
+    {
+      "ts": 1777186206,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
+      "signature": null
+    },
+    {
       "ts": 1777186157,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -49,14 +153,6 @@
       "signature": null
     },
     {
-      "ts": 1777186098,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EqWj…pump · DEVELOPING→STAIRCASE · top -0.06%",
-      "mint": "EqWjXdYdFic8D7VX85fTw2Lru2bFUib1bBxnXEQzpump",
-      "signature": null
-    },
-    {
       "ts": 1777186055,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -89,14 +185,6 @@
       "signature": null
     },
     {
-      "ts": 1777185947,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE ELGb…pump · GRINDER→STAIRCASE · top +0.10%",
-      "mint": "ELGbY45XwYAvFK8qpY8ArFFKcLfX2QNNXbnCVB1Fpump",
-      "signature": null
-    },
-    {
       "ts": 1777185819,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -118,14 +206,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 4df1…pump · DEVELOPING→STAIRCASE · top -0.04%",
       "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
-      "signature": null
-    },
-    {
-      "ts": 1777185764,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2nP9…pump · GRINDER→DEVELOPING · top +0.00%",
-      "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
       "signature": null
     },
     {
@@ -193,22 +273,6 @@
       "signature": null
     },
     {
-      "ts": 1777185469,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.04%",
-      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
-      "signature": null
-    },
-    {
-      "ts": 1777185423,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
-      "signature": null
-    },
-    {
       "ts": 1777185374,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -233,14 +297,6 @@
       "signature": null
     },
     {
-      "ts": 1777185194,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
-      "signature": null
-    },
-    {
       "ts": 1777185192,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -257,27 +313,11 @@
       "signature": null
     },
     {
-      "ts": 1777185147,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 32Cd…pump · STAIRCASE→DEVELOPING · top -0.02%",
-      "mint": "32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump",
-      "signature": null
-    },
-    {
       "ts": 1777185077,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 32Cd…pump · GRINDER→STAIRCASE · top +0.01%",
       "mint": "32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump",
-      "signature": null
-    },
-    {
-      "ts": 1777185056,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.07%",
-      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
       "signature": null
     },
     {
@@ -358,46 +398,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 4fSW…pump · GRINDER→STAIRCASE · top +0.00%",
       "mint": "4fSWEw2wbYEUCcMtitzmeGUfqinoafXxkhqZrA9Gpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184796,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$Iwunka at $118k mcap — entry frozen",
-      "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
-      "signature": null
-    },
-    {
-      "ts": 1777184774,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Eno6…pump · DEVELOPING→STAIRCASE · top -0.05%",
-      "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
-      "signature": null
-    },
-    {
-      "ts": 1777184748,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CGED…pump · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
-      "ts": 1777184748,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$BURNIE at $17222k mcap — entry frozen",
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
-      "ts": 1777184539,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EkDG…x4SX · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "EkDGB5fbPXiRmDDjxKcC7dFjzvFZj2KT9t7oeyyPx4SX",
       "signature": null
     }
   ]

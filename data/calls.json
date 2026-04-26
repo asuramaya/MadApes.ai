@@ -1,6 +1,106 @@
 {
   "active": [
     {
+      "id": 18,
+      "mint": "5gTPspC2ricuGWiYQ4Ghausg8fsq7uCrGgSVACatcoin",
+      "symbol": "CATCOIN",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777186250,
+      "expires_at": 1778395850,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 814545.0,
+      "entry_price_usd": 0.0008145,
+      "entry_liquidity_usd": 81996.98,
+      "entry_top_holder_pct": 5.038954430846812,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 804814.0,
+      "current_price_usd": 0.0008048,
+      "current_liquidity_usd": 81506.73,
+      "pct_from_call": -1.1909146715776475
+    },
+    {
+      "id": 17,
+      "mint": "BnXWvsVZYgBxTUDyDqHZjvFbQGvEZeipY4ZdmqCbpump",
+      "symbol": "assface",
+      "classification": "STAIRCASE",
+      "confidence": 77,
+      "called_at": 1777186249,
+      "expires_at": 1778395849,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 707460.0,
+      "entry_price_usd": 0.0007503,
+      "entry_liquidity_usd": 95893.19,
+      "entry_top_holder_pct": 6.3945404020089125,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 699607.0,
+      "current_price_usd": 0.0007419,
+      "current_liquidity_usd": 95360.69,
+      "pct_from_call": -1.119552179128347
+    },
+    {
+      "id": 16,
+      "mint": "7KunmzqV5sbK8awVSjNjC3TGS9QPwbgCyrPynZBYpump",
+      "symbol": "Kiss",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777186055,
+      "expires_at": 1778395655,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 89744.0,
+      "entry_price_usd": 0.00008974,
+      "entry_liquidity_usd": 23408.23,
+      "entry_top_holder_pct": 12.989367235010501,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 99913.0,
+      "current_price_usd": 0.00009991,
+      "current_liquidity_usd": 24692.38,
+      "pct_from_call": 11.33273902384666
+    },
+    {
+      "id": 15,
+      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
+      "symbol": "SAM",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777186029,
+      "expires_at": 1778395629,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 1068362.0,
+      "entry_price_usd": 0.001068,
+      "entry_liquidity_usd": 112974.02,
+      "entry_top_holder_pct": 5.245865924490866,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 1081074.0,
+      "current_price_usd": 0.001081,
+      "current_liquidity_usd": 113595.35,
+      "pct_from_call": 1.217228464419473
+    },
+    {
       "id": 14,
       "mint": "y8f9WhcWuaYoXfNGkaRCp3DunfygQoWGHjRooVGpump",
       "symbol": "WIZ",
@@ -20,10 +120,10 @@
       "entry_liquidity_usd": 64527.11,
       "entry_top_holder_pct": 7.165918159955012,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 438860.0,
-      "current_price_usd": 0.0004618,
-      "current_liquidity_usd": 63722.98,
-      "pct_from_call": -2.6149304091100722
+      "current_mcap_usd": 435175.0,
+      "current_price_usd": 0.0004579,
+      "current_liquidity_usd": 63427.67,
+      "pct_from_call": -3.4373681990721106
     },
     {
       "id": 13,
@@ -45,10 +145,10 @@
       "entry_liquidity_usd": 74612.88,
       "entry_top_holder_pct": 4.956462700065297,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 797561.0,
-      "current_price_usd": 0.0007975,
-      "current_liquidity_usd": 76939.35,
-      "pct_from_call": 6.0787443469007885
+      "current_mcap_usd": 761123.0,
+      "current_price_usd": 0.0007611,
+      "current_liquidity_usd": 75143.41,
+      "pct_from_call": 1.2370311252992927
     },
     {
       "id": 12,
@@ -70,10 +170,10 @@
       "entry_liquidity_usd": 32674.41,
       "entry_top_holder_pct": 10.946491922896339,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 141074.0,
-      "current_price_usd": 0.000141,
-      "current_liquidity_usd": 31731.64,
-      "pct_from_call": -5.999999999999983
+      "current_mcap_usd": 146021.0,
+      "current_price_usd": 0.000146,
+      "current_liquidity_usd": 32274.02,
+      "pct_from_call": -2.6666666666666616
     },
     {
       "id": 11,
@@ -95,10 +195,10 @@
       "entry_liquidity_usd": 466304.26,
       "entry_top_holder_pct": 2.2617184121552554,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 19670665.0,
-      "current_price_usd": 0.0201,
-      "current_liquidity_usd": 467613.01,
-      "pct_from_call": 0.3996003996004083
+      "current_mcap_usd": 19708029.0,
+      "current_price_usd": 0.02014,
+      "current_liquidity_usd": 467846.03,
+      "pct_from_call": 0.5994005994006013
     },
     {
       "id": 10,
@@ -120,10 +220,10 @@
       "entry_liquidity_usd": 277008.86,
       "entry_top_holder_pct": 3.890505189225244,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 3860143.0,
-      "current_price_usd": 0.003861,
-      "current_liquidity_usd": 288556.15,
-      "pct_from_call": 8.333333333333325
+      "current_mcap_usd": 3755658.0,
+      "current_price_usd": 0.003757,
+      "current_liquidity_usd": 284498.75,
+      "pct_from_call": 5.415263748597088
     },
     {
       "id": 9,
@@ -145,10 +245,10 @@
       "entry_liquidity_usd": 50776.54,
       "entry_top_holder_pct": 9.35489086434079,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 421690.0,
-      "current_price_usd": 0.0004216,
-      "current_liquidity_usd": 54229.89,
-      "pct_from_call": 13.608191862031793
+      "current_mcap_usd": 469515.0,
+      "current_price_usd": 0.0004695,
+      "current_liquidity_usd": 57227.54,
+      "pct_from_call": 26.515763945028283
     },
     {
       "id": 8,
@@ -170,10 +270,10 @@
       "entry_liquidity_usd": 28514.26,
       "entry_top_holder_pct": 12.298089346820964,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 96167.0,
-      "current_price_usd": 0.00009616,
-      "current_liquidity_usd": 25844.3,
-      "pct_from_call": -18.161702127659574
+      "current_mcap_usd": 87788.0,
+      "current_price_usd": 0.00008778,
+      "current_liquidity_usd": 24691.46,
+      "pct_from_call": -25.293617021276592
     },
     {
       "id": 7,
@@ -195,9 +295,9 @@
       "entry_liquidity_usd": 535829.16,
       "entry_top_holder_pct": 3.93114497872959,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 17379473.0,
+      "current_mcap_usd": 17373172.0,
       "current_price_usd": 0.01791,
-      "current_liquidity_usd": 538713.04,
+      "current_liquidity_usd": 538369.07,
       "pct_from_call": 0.901408450704233
     },
     {
@@ -220,10 +320,10 @@
       "entry_liquidity_usd": 40253.93,
       "entry_top_holder_pct": 7.987350565007301,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 1821.0,
-      "current_price_usd": 1.821e-6,
-      "current_liquidity_usd": 3515.62,
-      "pct_from_call": -99.28978159126365
+      "current_mcap_usd": 1812.0,
+      "current_price_usd": 1.811e-6,
+      "current_liquidity_usd": 3504.52,
+      "pct_from_call": -99.29368174726989
     }
   ],
   "history": [
