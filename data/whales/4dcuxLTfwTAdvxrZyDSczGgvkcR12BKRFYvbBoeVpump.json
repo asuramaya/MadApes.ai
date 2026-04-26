@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "3xpggrR1MxntHkS582bv5R1FgEZAqfVdqfZn4X4JQxSC",
     "lp_supply_ui": 0.0,
     "pair_address": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
-  "snapshot_ts": 1777219186,
+  "snapshot_ts": 1777219479,
   "symbol": "TIME MACHINE",
   "whales": [
     {
-      "action": "distributing",
-      "balance_ui": 81790273.891152,
-      "net_change_24h_ui": -469421.0680870116,
-      "net_change_7d_ui": -469421.0680870116,
+      "action": "accumulating",
+      "balance_ui": 92095258.348997,
+      "net_change_24h_ui": 1740804.9707790017,
+      "net_change_7d_ui": 1740804.9707790017,
       "owner": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
-      "pct_of_supply": 8.180260925899365,
+      "pct_of_supply": 9.210914788419673,
       "token_account": "5bAwCY9rXj9a7CB8cCzdpNdLmopVKzhxgSJziPGszP3x",
-      "tx_count_24h": 12,
-      "tx_count_7d": 12
+      "tx_count_24h": 17,
+      "tx_count_7d": 17
     },
     {
       "action": "accumulating",
@@ -113,15 +113,15 @@
       "tx_count_7d": 1
     },
     {
-      "action": "idle",
-      "balance_ui": 12913312.612464,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "CvzEPx5So8Hb7VZ2PV1XtE5PwJ5cEjeXtF2ZpSmxWtw8",
-      "pct_of_supply": 1.291526016018026,
-      "token_account": "BjocmCE2scjSynXHaTErWf9vf56JkjN4eV2kFcvqnGct",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "action": "accumulating",
+      "balance_ui": 12464734.540033,
+      "net_change_24h_ui": 12464734.540033,
+      "net_change_7d_ui": 12464734.540033,
+      "owner": "31HPt5v1zLzBM9CvfnHj467e1q7bvieJk8845kP6M8HF",
+      "pct_of_supply": 1.24666144345276,
+      "token_account": "5pncVQb7PR98JHktmhffLVY5RnqaLGc5NFJWmysT4M8H",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
     }
   ]
 }
