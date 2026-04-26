@@ -10,16 +10,16 @@
     "verdict": "pool_program_native"
   },
   "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-  "snapshot_ts": 1777171087,
+  "snapshot_ts": 1777171382,
   "symbol": "Rudy",
   "whales": [
     {
       "action": "distributing",
-      "balance_ui": 251485780.42428,
-      "net_change_24h_ui": -3559093.664865017,
-      "net_change_7d_ui": -3559093.664865017,
+      "balance_ui": 227620608.59265,
+      "net_change_24h_ui": -28792343.012540996,
+      "net_change_7d_ui": -28792343.012540996,
       "owner": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
-      "pct_of_supply": 25.149678512602435,
+      "pct_of_supply": 22.7630568984463,
       "token_account": "2FR2d5VXSQF7BHYPVgvjgwv9AiGyCX9sEmk1vG2tXG3S",
       "tx_count_24h": 50,
       "tx_count_7d": 50
@@ -81,6 +81,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 21315171.781311,
+      "net_change_24h_ui": 21315171.781311,
+      "net_change_7d_ui": 21315171.781311,
+      "owner": "4f9zZrK6vnn1oHqgx3ffzYPYZ4YDcmv7n2Voi8dBhFnX",
+      "pct_of_supply": 2.1316104506444358,
+      "token_account": "FWXe6cEqDRBJcg2qqT8cqZozwfTKvKrRAAFqvM3hjQDQ",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 19913375.028679,
       "net_change_24h_ui": 19913375.028679,
       "net_change_7d_ui": 19913375.028679,
@@ -111,17 +122,6 @@
       "token_account": "95gUTdT2oEx9jGDfnHrdyfbkkpgie1osnxcwawuEsDuc",
       "tx_count_24h": 2,
       "tx_count_7d": 2
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 15949953.72839,
-      "net_change_24h_ui": 15949953.72839,
-      "net_change_7d_ui": 15949953.72839,
-      "owner": "CcTLq5xPTTEZEPMX2PLqv1qE7Asg4P1msQQMPxcaMzBB",
-      "pct_of_supply": 1.5950651678323078,
-      "token_account": "4zBueNLPXY1zwCpXbpZm1CKwKr5Qg4RwDxosVup6B8gq",
-      "tx_count_24h": 3,
-      "tx_count_7d": 3
     }
   ]
 }
