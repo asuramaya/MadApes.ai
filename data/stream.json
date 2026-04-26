@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777237206,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING D6ws…pump · top 32.51%→34.82% (+2.32%) · DEVELOPING",
+      "mint": "D6wsZeeUXwmwJFAi4PdTfGmGzGMjteHXUeUsF5H8pump",
+      "signature": null
+    },
+    {
+      "ts": 1777237136,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING D6ws…pump · mom 78 · top 30.78% · 20 holders",
+      "mint": "D6wsZeeUXwmwJFAi4PdTfGmGzGMjteHXUeUsF5H8pump",
+      "signature": null
+    },
+    {
+      "ts": 1777237136,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 29Co…1KUQ · mom 79 · top 49.15% · 20 holders",
+      "mint": "29CoGZPrVxHsCTv5eqvPpwotizqFsMcwq85dEYKW1KUQ",
+      "signature": null
+    },
+    {
       "ts": 1777236552,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -238,14 +262,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING J7US…pump · mom 73 · top 33.74% · 20 holders",
       "mint": "J7USwB1NAWrjy6yQJfFpiA122uVF9XdqtzUwdB9opump",
-      "signature": null
-    },
-    {
-      "ts": 1777235321,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 5igD…QaYR · mom 74 · top 43.70% · 20 holders",
-      "mint": "5igDpcrrAfziYCZ1geWX3orJcNWVvSVukxWDutnfQaYR",
       "signature": null
     },
     {
