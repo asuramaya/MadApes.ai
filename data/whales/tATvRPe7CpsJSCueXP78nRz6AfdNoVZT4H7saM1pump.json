@@ -1,16 +1,16 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "FA8UVpoyJanyqtmJ8tzfxTXhhmqn5GBhBKCa8qxk2oV6",
     "lp_supply_ui": 0.0,
     "pair_address": "2BrLra5GQHG7jqP989wTHCxmJTeqoXWwSHSsnec67TNa",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
-  "snapshot_ts": 1777233606,
+  "snapshot_ts": 1777233930,
   "symbol": "mOK",
   "whales": []
 }
