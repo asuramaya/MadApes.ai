@@ -10,19 +10,19 @@
     "verdict": "error"
   },
   "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-  "snapshot_ts": 1777242740,
+  "snapshot_ts": 1777243032,
   "symbol": "PsyopAnime",
   "whales": [
     {
-      "action": "distributing",
-      "balance_ui": 43387027.621238,
-      "net_change_24h_ui": -301582.0810529962,
-      "net_change_7d_ui": -301582.0810529962,
+      "action": "accumulating",
+      "balance_ui": 43617065.219775,
+      "net_change_24h_ui": 2069.8506760001183,
+      "net_change_7d_ui": 2069.8506760001183,
       "owner": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
-      "pct_of_supply": 4.338887173325431,
+      "pct_of_supply": 4.361891910925529,
       "token_account": "8efs78VAXpuvvASfVdaj2zmboGBB4yxAdf88AMxY8zrp",
-      "tx_count_24h": 30,
-      "tx_count_7d": 30
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
     },
     {
       "action": "distributing",
@@ -91,15 +91,15 @@
       "tx_count_7d": 0
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 16417434.725197,
-      "net_change_24h_ui": 128703.65694500133,
-      "net_change_7d_ui": 128703.65694500133,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "7eNRALuXYUJkUWTvRj5tcB7tcT43kmT5SNdkfy9fKTto",
       "pct_of_supply": 1.641813252798077,
       "token_account": "72uy2ZjS8XqjEojPs9cZvmxib5PdTGz9YoU4wmcruCJM",
-      "tx_count_24h": 2,
-      "tx_count_7d": 2
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "idle",
