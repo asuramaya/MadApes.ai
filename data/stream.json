@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777225905,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING kwB7…pump · mom 73 · top 47.62% · 20 holders",
+      "mint": "kwB7SLTu55ZRWthE7KVu8U6oLt2NGQVU8uPFvwSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777225896,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING AAwL…pump · top 0.00%→36.50% (+36.50%) · DEVELOPING",
+      "mint": "AAwLTzrsNXirnrxBLm36NbVdNeZm1ekRviaZ89bnpump",
+      "signature": null
+    },
+    {
+      "ts": 1777225896,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AAwL…pump · SURGE→DEVELOPING · top +36.50%",
+      "mint": "AAwLTzrsNXirnrxBLm36NbVdNeZm1ekRviaZ89bnpump",
+      "signature": null
+    },
+    {
       "ts": 1777225533,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -38,38 +62,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING 5FGg…pump · mom 73 · top 46.84% · 20 holders",
       "mint": "5FGgAzPoPHdNGvQrXVpXotVCe7MbUDGmxLNFUxMjpump",
-      "signature": null
-    },
-    {
-      "ts": 1777224086,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 4v5M…pump · top 32.15%→35.33% (+3.18%) · DEVELOPING",
-      "mint": "4v5Myn67LwMPVn96xMdpJXwLmyc2iMyCyQ3cz9aqpump",
-      "signature": null
-    },
-    {
-      "ts": 1777223910,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BwUg…pump · deployer down 12.5% (229845132 → 201032849)",
-      "mint": "BwUgJBQffm4HM49W7nsMphStJm4DbA5stuo4w7iwpump",
-      "signature": null
-    },
-    {
-      "ts": 1777223890,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BwUg…pump · deployer down 10.5% (229845132 → 205813637)",
-      "mint": "BwUgJBQffm4HM49W7nsMphStJm4DbA5stuo4w7iwpump",
-      "signature": null
-    },
-    {
-      "ts": 1777223834,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BwUg…pump · DEVELOPING→STAIRCASE · top -0.12%",
-      "mint": "BwUgJBQffm4HM49W7nsMphStJm4DbA5stuo4w7iwpump",
       "signature": null
     },
     {
