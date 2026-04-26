@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
-  "snapshot_ts": 1777238322,
+  "snapshot_ts": 1777238587,
   "symbol": "buttplug",
   "whales": [
     {
       "action": "distributing",
-      "balance_ui": 185342054.044427,
-      "net_change_24h_ui": -3458061.83356598,
-      "net_change_7d_ui": -3458061.83356598,
+      "balance_ui": 182421243.433296,
+      "net_change_24h_ui": -7076272.666299999,
+      "net_change_7d_ui": -7076272.666299999,
       "owner": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
-      "pct_of_supply": 18.536012954352046,
+      "pct_of_supply": 18.243903408009395,
       "token_account": "9WEvCHrBCvE9Mjaa6YfHGyap8xqbyStve2FBStHFRKq8",
-      "tx_count_24h": 25,
-      "tx_count_7d": 25
+      "tx_count_24h": 35,
+      "tx_count_7d": 35
     },
     {
       "action": "accumulating",
@@ -70,6 +70,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 18429077.09338,
+      "net_change_24h_ui": 8407727.213176,
+      "net_change_7d_ui": 8407727.213176,
+      "owner": "8QaejTVj8wkXfViWktTrmnUmYcQboSzwqxRb1SWREyxi",
+      "pct_of_supply": 1.8430874390642147,
+      "token_account": "DgcvE8H62MrD4yHGUL6iUEsdjgsvM4X5Nit5MBfKKmGK",
+      "tx_count_24h": 9,
+      "tx_count_7d": 9
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 15436037.286524,
       "net_change_24h_ui": 15436037.286524,
       "net_change_7d_ui": 15436037.286524,
@@ -111,17 +122,6 @@
       "token_account": "FXBtpMsZD1nj3nYXexq8qkFeGAtSJKFoV3KBgR6vD3gr",
       "tx_count_24h": 1,
       "tx_count_7d": 1
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 14554281.045282,
-      "net_change_24h_ui": 6859171.925303001,
-      "net_change_7d_ui": 6859171.925303001,
-      "owner": "7Jt9mTicuUt4trdUVZZp99Pj5WfeyhKyLspywZNB4zEB",
-      "pct_of_supply": 1.4555700452740261,
-      "token_account": "4oRyaaPTiELnE7sXx9nVK8gX9pq3zE85e4qdQM2CLu7A",
-      "tx_count_24h": 2,
-      "tx_count_7d": 2
     }
   ]
 }
