@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-  "snapshot_ts": 1777168368,
+  "snapshot_ts": 1777168688,
   "symbol": "Rudy",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 261417799.092834,
-      "net_change_24h_ui": 1439056.7000719905,
-      "net_change_7d_ui": 1439056.7000719905,
+      "balance_ui": 252548396.564705,
+      "net_change_24h_ui": 10052444.971687019,
+      "net_change_7d_ui": 10052444.971687019,
       "owner": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
-      "pct_of_supply": 26.142923840723487,
+      "pct_of_supply": 25.255944776519616,
       "token_account": "2FR2d5VXSQF7BHYPVgvjgwv9AiGyCX9sEmk1vG2tXG3S",
-      "tx_count_24h": 49,
-      "tx_count_7d": 49
+      "tx_count_24h": 25,
+      "tx_count_7d": 25
     },
     {
       "action": "accumulating",
@@ -70,6 +70,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 19913375.028679,
+      "net_change_24h_ui": 19913375.028679,
+      "net_change_7d_ui": 19913375.028679,
+      "owner": "5XodaZNDeTk34dJvYkURCGaCC1xemTeQK8gA4Fo3mDy4",
+      "pct_of_supply": 1.991424641294788,
+      "token_account": "4PeNidcCDRWZA7bfq9B6oazKB4LKMZqx6253yntRhF2E",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 17321748.49887,
       "net_change_24h_ui": 17321748.49887,
       "net_change_7d_ui": 17321748.49887,
@@ -111,17 +122,6 @@
       "token_account": "4zBueNLPXY1zwCpXbpZm1CKwKr5Qg4RwDxosVup6B8gq",
       "tx_count_24h": 3,
       "tx_count_7d": 3
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 14999074.866623,
-      "net_change_24h_ui": 14999074.866623001,
-      "net_change_7d_ui": 14999074.866623001,
-      "owner": "2xrKTEtSZwYYAPddpQASwEAuogeCkK62WBCVYbds3SwM",
-      "pct_of_supply": 1.4999731207291909,
-      "token_account": "24E6pigNTTAzTxU7E1STfc5A6URaRiaSsDeWpqA1LDJc",
-      "tx_count_24h": 11,
-      "tx_count_7d": 11
     }
   ]
 }
