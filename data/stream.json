@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777241265,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING GKtq…pump · mom 77 · top 38.34% · 20 holders",
+      "mint": "GKtqz8STtZoY6Uwezshu3t9wowHM84wzCCrHdAXHpump",
+      "signature": null
+    },
+    {
       "ts": 1777240312,
       "kind": "alert",
       "tag": "DEVELOPING",
@@ -57,94 +65,6 @@
       "signature": null
     },
     {
-      "ts": 1777239383,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · DEVELOPING→STAIRCASE · top -0.65%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239277,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · GRINDER→DEVELOPING · top -0.10%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239260,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · DEVELOPING→GRINDER · top -1.39%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239207,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 5WSP…586z · mom 75 · top 47.17% · 20 holders",
-      "mint": "5WSPRMo1warzqRJduZ1vpmQRXQC71BUReD7oGLyd586z",
-      "signature": null
-    },
-    {
-      "ts": 1777239205,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · GRINDER→DEVELOPING · top -0.04%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239187,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · STAIRCASE→GRINDER · top +0.28%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239168,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · DEVELOPING→STAIRCASE · top +0.29%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239150,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · GRINDER→DEVELOPING · top +0.73%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239133,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · DEVELOPING→GRINDER · top -0.90%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239115,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE XtZE…pump · STAIRCASE→DEVELOPING · top -3.15%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777239098,
-      "kind": "alert",
-      "tag": "STAIRCASE",
-      "summary": "STAIRCASE XtZE…pump · mom 73 · dist 53 · top 23.55%",
-      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
-      "signature": null
-    },
-    {
       "ts": 1777230274,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -153,35 +73,11 @@
       "signature": null
     },
     {
-      "ts": 1777212467,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$TIME MACHINE at $96k mcap — entry frozen",
-      "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777209217,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$mOK at $100k mcap — entry frozen",
-      "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
-      "signature": null
-    },
-    {
       "ts": 1777207551,
       "kind": "call",
       "tag": "CALL FIRED",
       "summary": "$ROTUS at $2615k mcap — entry frozen",
       "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-      "signature": null
-    },
-    {
-      "ts": 1777207441,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$buttplug at $173k mcap — entry frozen",
-      "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
       "signature": null
     },
     {
