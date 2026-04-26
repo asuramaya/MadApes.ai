@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
-  "snapshot_ts": 1777216488,
+  "snapshot_ts": 1777216782,
   "symbol": "TIME MACHINE",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 97004067.509316,
-      "net_change_24h_ui": 1026220.7031169981,
-      "net_change_7d_ui": 1026220.7031169981,
+      "balance_ui": 103348610.082962,
+      "net_change_24h_ui": 275886.327286005,
+      "net_change_7d_ui": 275886.327286005,
       "owner": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
-      "pct_of_supply": 9.701869428922196,
+      "pct_of_supply": 10.33641935261318,
       "token_account": "5bAwCY9rXj9a7CB8cCzdpNdLmopVKzhxgSJziPGszP3x",
-      "tx_count_24h": 30,
-      "tx_count_7d": 30
+      "tx_count_24h": 40,
+      "tx_count_7d": 40
     },
     {
       "action": "accumulating",
@@ -34,17 +34,6 @@
       "token_account": "7jEtrMwu6cZknbtmxemYrXZ9djFATyn2eEZf6HHr57xL",
       "tx_count_24h": 1,
       "tx_count_7d": 1
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 21443430.954836,
-      "net_change_24h_ui": 21443430.954836,
-      "net_change_7d_ui": 21443430.954836,
-      "owner": "HF2Lw2tYs4B3y1iqz6iw2f4wTjrn14KppvAezcm7TAT3",
-      "pct_of_supply": 2.1446664307344387,
-      "token_account": "2WiCYd2khMh5yYExiKx2HKTu6MgaFopbESqzAXcXkYHR",
-      "tx_count_24h": 6,
-      "tx_count_7d": 6
     },
     {
       "action": "accumulating",
@@ -65,6 +54,17 @@
       "owner": "6g1okqCcRhHhHz3ZS83UrmRxQoD5FQPGzbcuR7oZn7fB",
       "pct_of_supply": 1.6506021319308408,
       "token_account": "3r8WACLvE9EPLCzRL1Z5P2puxVg8aLSRLGH6W4wG1xcL",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 16114738.36256,
+      "net_change_24h_ui": 16114738.36256,
+      "net_change_7d_ui": 16114738.36256,
+      "owner": "HF2Lw2tYs4B3y1iqz6iw2f4wTjrn14KppvAezcm7TAT3",
+      "pct_of_supply": 1.6117168226970051,
+      "token_account": "2WiCYd2khMh5yYExiKx2HKTu6MgaFopbESqzAXcXkYHR",
       "tx_count_24h": 7,
       "tx_count_7d": 7
     },
