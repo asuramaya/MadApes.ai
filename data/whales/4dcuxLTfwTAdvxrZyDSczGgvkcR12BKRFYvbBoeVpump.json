@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
-  "snapshot_ts": 1777235715,
+  "snapshot_ts": 1777236070,
   "symbol": "TIME MACHINE",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 124579070.556485,
-      "net_change_24h_ui": 8251.77642199397,
-      "net_change_7d_ui": 8251.77642199397,
+      "action": "distributing",
+      "balance_ui": 118422603.958957,
+      "net_change_24h_ui": -533870.607317999,
+      "net_change_7d_ui": -533870.607317999,
       "owner": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
-      "pct_of_supply": 12.459803133397337,
+      "pct_of_supply": 11.844062772999035,
       "token_account": "5bAwCY9rXj9a7CB8cCzdpNdLmopVKzhxgSJziPGszP3x",
-      "tx_count_24h": 1,
-      "tx_count_7d": 1
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
     },
     {
       "action": "accumulating",
@@ -80,17 +80,6 @@
       "tx_count_7d": 19
     },
     {
-      "action": "idle",
-      "balance_ui": 15499747.90734,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "JHs62wiUqZp6vrh92vn6FWXoDmwG4nTFjorc2Yvo1is",
-      "pct_of_supply": 1.5502106949431773,
-      "token_account": "9B7F9xKPPL2cqHqbE59uiNsS4Cj7gaLsnxreko89zzaA",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
       "action": "accumulating",
       "balance_ui": 15499103.530462,
       "net_change_24h_ui": 15499103.530462,
@@ -100,6 +89,17 @@
       "token_account": "9LUmxxKWfNV21SQmgKzo1FkHcABnZbqf1P9bVGxZNS3b",
       "tx_count_24h": 3,
       "tx_count_7d": 3
+    },
+    {
+      "action": "idle",
+      "balance_ui": 13566465.79541,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "JHs62wiUqZp6vrh92vn6FWXoDmwG4nTFjorc2Yvo1is",
+      "pct_of_supply": 1.3568530594401524,
+      "token_account": "9B7F9xKPPL2cqHqbE59uiNsS4Cj7gaLsnxreko89zzaA",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
