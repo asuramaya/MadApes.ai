@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777228033,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DVDu…pump · STAIRCASE→DEVELOPING · top -0.89%",
+      "mint": "DVDurMcuZgH7LmutfKWFsotE1irWuYPd4V4x7uJepump",
+      "signature": null
+    },
+    {
+      "ts": 1777227951,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING DVDu…pump · top 30.05%→32.61% (+2.56%) · STAIRCASE",
+      "mint": "DVDurMcuZgH7LmutfKWFsotE1irWuYPd4V4x7uJepump",
+      "signature": null
+    },
+    {
+      "ts": 1777227854,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DVDu…pump · DEVELOPING→STAIRCASE · top +1.36%",
+      "mint": "DVDurMcuZgH7LmutfKWFsotE1irWuYPd4V4x7uJepump",
+      "signature": null
+    },
+    {
       "ts": 1777227826,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -102,14 +126,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING HheV…vxjS · mom 82 · top 37.11% · 20 holders",
       "mint": "HheVTEyxKFJB54jz9wqaMRkeTHR7sGxy16nbiZbfvxjS",
-      "signature": null
-    },
-    {
-      "ts": 1777227183,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING HgzH…pump · mom 82 · top 45.48% · 20 holders",
-      "mint": "HgzHfqHk1nYHqoR2JXCN7PebaxL79Pi3VmNwEdU9pump",
       "signature": null
     },
     {
@@ -281,14 +297,6 @@
       "signature": null
     },
     {
-      "ts": 1777226559,
-      "kind": "alert",
-      "tag": "CRASHING",
-      "summary": "CRASHING vLie…bonk · mom 59 · top 11.02% · tpm 500.0",
-      "mint": "vLieQF5eDqUuuk8RzRaqgAHkXr7bSEBZaWk9Zfibonk",
-      "signature": null
-    },
-    {
       "ts": 1777226554,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -310,14 +318,6 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING CkmT…pump · mom 80 · top 30.27% · 20 holders",
       "mint": "CkmTx8q4mEAgQsUesP8UWAcCuRWtVHACTwGtnvKVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777226310,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING DhKv…pump · mom 76 · top 39.88% · 20 holders",
-      "mint": "DhKve396PYPUZTsLAuy8yKuupWRuh7aLpZ87CRypump",
       "signature": null
     },
     {
