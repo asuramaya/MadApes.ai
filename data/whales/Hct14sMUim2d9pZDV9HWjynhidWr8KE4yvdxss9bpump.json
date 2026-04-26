@@ -10,41 +10,41 @@
     "verdict": "pool_program_native"
   },
   "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
-  "snapshot_ts": 1777172534,
+  "snapshot_ts": 1777172833,
   "symbol": "ALEXCOIN",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 161935342.509335,
-      "net_change_24h_ui": 10599293.211601019,
-      "net_change_7d_ui": 10599293.211601019,
+      "action": "distributing",
+      "balance_ui": 170241307.588799,
+      "net_change_24h_ui": -5180251.050536007,
+      "net_change_7d_ui": -5180251.050536007,
       "owner": "78YzDvEUKg7LybgJqC5cFFi3W7cRt3mvohTBzM2yU1pt",
-      "pct_of_supply": 16.63971340131603,
+      "pct_of_supply": 17.49319526822629,
       "token_account": "3fJhwFHiLaehPNrGhcfETc2JgBAUZf5pdtjZPdLJMc7C",
-      "tx_count_24h": 49,
-      "tx_count_7d": 49
+      "tx_count_24h": 46,
+      "tx_count_7d": 46
     },
     {
       "action": "accumulating",
-      "balance_ui": 64544606.285967,
-      "net_change_24h_ui": 48478501.65633899,
-      "net_change_7d_ui": 48478501.65633899,
-      "owner": "7AMjKr56mSBES1ENU8yaCEXtHApZFVBb69H8tdgBCxfb",
-      "pct_of_supply": 6.632299864604042,
-      "token_account": "9VGppkuzBzqNofSPC3iNLuJv8cT6KVjHEcjE2Sq1AwJu",
-      "tx_count_24h": 27,
-      "tx_count_7d": 27
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 31745084.057111,
-      "net_change_24h_ui": 31745084.057111,
-      "net_change_7d_ui": 31745084.057111,
+      "balance_ui": 41022586.366293,
+      "net_change_24h_ui": 41022586.366293,
+      "net_change_7d_ui": 41022586.366293,
       "owner": "GhBDNXvMZicfoCvxhCpJ2Tozc2PAwfqZsVRyxTKuhG5K",
-      "pct_of_supply": 3.2619753811961285,
+      "pct_of_supply": 4.215287839814833,
       "token_account": "6hVPJBsY85uP2qwqrHmrFsW65eny2BuF6UGz7qLNWHNV",
-      "tx_count_24h": 13,
-      "tx_count_7d": 13
+      "tx_count_24h": 14,
+      "tx_count_7d": 14
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 34641179.307389,
+      "net_change_24h_ui": 34641179.30738899,
+      "net_change_7d_ui": 34641179.30738899,
+      "owner": "7AMjKr56mSBES1ENU8yaCEXtHApZFVBb69H8tdgBCxfb",
+      "pct_of_supply": 3.559564494238333,
+      "token_account": "9VGppkuzBzqNofSPC3iNLuJv8cT6KVjHEcjE2Sq1AwJu",
+      "tx_count_24h": 28,
+      "tx_count_7d": 28
     },
     {
       "action": "accumulating",
