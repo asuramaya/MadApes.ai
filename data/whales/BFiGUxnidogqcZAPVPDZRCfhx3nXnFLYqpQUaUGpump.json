@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "83XGQxFnA7WSkangjUaHLTmYQcYHqUaY3zCWBMNmXiA",
     "lp_supply_ui": 0.0,
     "pair_address": "DeSYSGeEj9ytT55E9AmdFs9p2cm5fryXt61kGCammCrB",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump",
-  "snapshot_ts": 1777192174,
+  "snapshot_ts": 1777192878,
   "symbol": "SPIKE",
   "whales": [
     {
-      "action": "idle",
-      "balance_ui": 14168445.983268,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "action": "accumulating",
+      "balance_ui": 14229039.358912,
+      "net_change_24h_ui": 177501.79644799978,
+      "net_change_7d_ui": 177501.79644799978,
       "owner": "DeSYSGeEj9ytT55E9AmdFs9p2cm5fryXt61kGCammCrB",
-      "pct_of_supply": 1.4168477771254762,
+      "pct_of_supply": 1.4229071282844612,
       "token_account": "2PeWNsGavnKJmq1KkxM87hrF8y92yacpmTBmenXL49zg",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 31,
+      "tx_count_7d": 31
     },
     {
       "action": "idle",
@@ -58,15 +58,15 @@
       "tx_count_7d": 0
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 9889307.9109,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 9889307.9109,
+      "net_change_7d_ui": 0.0,
       "owner": "HKKYEotB7wiudCrvAM9Gn8g2PrMCXNkrUYsUU8Tm6di",
       "pct_of_supply": 0.9889330098314861,
       "token_account": "8nRLPsKD7tcAi279iHHVdjkbZtLtnqdMBSMN4Ezqkk5t",
       "tx_count_24h": 0,
-      "tx_count_7d": 1
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",

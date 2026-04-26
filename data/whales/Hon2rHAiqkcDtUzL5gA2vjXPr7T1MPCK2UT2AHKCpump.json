@@ -10,7 +10,7 @@
     "verdict": "pool_program_native"
   },
   "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
-  "snapshot_ts": 1777192430,
+  "snapshot_ts": 1777193378,
   "symbol": "MAGA",
   "whales": [
     {
@@ -32,6 +32,17 @@
       "owner": "G4DF4Qj9NeU9qyZdPQWTMe278gYeNeVkj2ABb3zwsUg4",
       "pct_of_supply": 2.0445189426597685,
       "token_account": "Ds22a4psVoDxRPuhqnfnHd9UBQv5oZpXRbgmiFtHmwYz",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "CGCsxKaHC8RZnZsyxL9YrDxTfZfYeyeDMCDagMQ9WQwq",
+      "pct_of_supply": 2.0445189426597685,
+      "token_account": "5mXHJ6WvsqrsTyn5huqzVJRVGyp8LJb9XzZh1mPMCABj",
       "tx_count_24h": 1,
       "tx_count_7d": 1
     },
@@ -62,17 +73,6 @@
       "balance_ui": 20000000.0,
       "net_change_24h_ui": 20000000.0,
       "net_change_7d_ui": 20000000.0,
-      "owner": "CGCsxKaHC8RZnZsyxL9YrDxTfZfYeyeDMCDagMQ9WQwq",
-      "pct_of_supply": 2.0445189426597685,
-      "token_account": "5mXHJ6WvsqrsTyn5huqzVJRVGyp8LJb9XzZh1mPMCABj",
-      "tx_count_24h": 1,
-      "tx_count_7d": 1
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 20000000.0,
-      "net_change_24h_ui": 20000000.0,
-      "net_change_7d_ui": 20000000.0,
       "owner": "HGK9o9tcyRFjNZCTCE79uWMZTonjwRfUBrYdx5CwCdBD",
       "pct_of_supply": 2.0445189426597685,
       "token_account": "DFsqv777h2bACSjnwBW6K9DD1pQJydptVSFr1LqJmmPi",
@@ -94,12 +94,12 @@
       "action": "distributing",
       "balance_ui": 19589660.83738,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": -311990.20783400163,
+      "net_change_7d_ui": -600730.7966760024,
       "owner": "FyhFGGTGfZuKCFYHxtZKESX4eDWJRQiYPGjMncCFAFQv",
       "pct_of_supply": 2.0025716331151817,
       "token_account": "2wSZrMX1LCDWLFiGd23gXuXnAxYs3ounijMLAwCZwFxh",
       "tx_count_24h": 0,
-      "tx_count_7d": 12
+      "tx_count_7d": 7
     },
     {
       "action": "accumulating",
