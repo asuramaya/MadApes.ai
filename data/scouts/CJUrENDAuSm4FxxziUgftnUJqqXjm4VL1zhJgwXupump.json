@@ -1,0 +1,209 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "2fhzh231pVwHyLkFD9PUBkH89MBVkZENBiCBjvXoJNVQ",
+      "initial_balance_ui": 47796707.695931,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 2,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 112847.66,
+    "mcap_usd": 882321.0,
+    "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+    "name": "The Man from the Future",
+    "pair_dex": "meteora",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/i/communities/2037244316238647365"
+      ]
+    ],
+    "symbol": "HENRY",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777186356,
+    "classification": "STAIRCASE",
+    "confidence": 77,
+    "entry_liquidity_usd": 110523.73,
+    "entry_mcap_usd": 990257.0,
+    "entry_pair_dex": "meteora",
+    "entry_price_usd": 0.0009902,
+    "entry_top_holder_pct": 4.49902380282853,
+    "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "HENRY"
+  },
+  "call_id": 19,
+  "captured_at": 1777186585,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 112847.66,
+      "current_mcap_usd": 882321.0,
+      "current_pair_dex": "meteora",
+      "first_seen": 1777185525,
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "symbol": "HENRY"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777186561,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "lp-mint offset not known for dex `meteora`",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "9Ybx4ZjZgCqFK43zY1PSzU9ySYF7F1yCZSEv96ky98Lv",
+    "pair_dex": "meteora",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "unknown_layout"
+  },
+  "market": {
+    "liquidity_usd": 112847.66,
+    "mcap_usd": 882321.0,
+    "name": "The Man from the Future",
+    "pair_address": "9Ybx4ZjZgCqFK43zY1PSzU9ySYF7F1yCZSEv96ky98Lv",
+    "pair_dex": "meteora",
+    "symbol": "HENRY"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 15,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 46012698.933726,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 4.6013530714793305,
+      "token_account": "2fhzh231pVwHyLkFD9PUBkH89MBVkZENBiCBjvXoJNVQ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 24573017.963058,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 2.4573462174581815,
+      "token_account": "9qrfsGnAqiPGnNtiJVHk1GmGvmCeqLufGeJPCGvVeoGS",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 14024396.421017,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.4024649942929295,
+      "token_account": "42b813svZQiL6HSx2BtqL9G3GQJCkA8yYyevMPH2wwnR",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 12846925.814789,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.2847158051321816,
+      "token_account": "GjxfJcvgHbuiYFuf16C7VCwSPSVPoauAMJj6ehkC7Ku5",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 11636296.658632,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.163650701037138,
+      "token_account": "GW7Kp6AbNc5TzsWUDPFWT8pKu66Dnfy8hYEFii2FvtJt",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 11610579.918333,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.161078980518555,
+      "token_account": "4kTbqU6vGsLPbodUvGGFWXC1Z7QWw7Z3sgBeW5ZDfw3t",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 11131621.987855,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.1131823216486065,
+      "token_account": "FeDdnjyeo2JfSGLUaAtJvRCZ1W5Uzg4DnbY7U3sStUxa",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 11034811.539816,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.1035011018384586,
+      "token_account": "JAz8kuMzjVkt69ZMB8ByZbyMeEkUsJZ91Jf9ZPA3cKuD",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 10900982.754457,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.090117981377498,
+      "token_account": "2CSwm4AhETo22TNMEWUxvawoGFGzaZZSXzhUTe2VeQny",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 10823819.837071,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.0824015501498974,
+      "token_account": "G26c6YWKs2omrSfnUpz5oCZ482fYtCuCkfCV8s2k2gM5",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}
