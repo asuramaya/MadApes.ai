@@ -10,16 +10,16 @@
     "verdict": "unknown_layout"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777212316,
+  "snapshot_ts": 1777212840,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "idle",
-      "balance_ui": 23620193.16278135,
+      "balance_ui": 23989872.71323063,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "pct_of_supply": 2.4163883707447837,
+      "pct_of_supply": 2.454207255647696,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -36,26 +36,15 @@
       "tx_count_7d": 0
     },
     {
-      "action": "accumulating",
-      "balance_ui": 17151496.74,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 17151496.74,
-      "owner": "C21wGESaFVRCJYFY9aaDy4MKUCfgDKpJdDvfsw8CMcdW",
-      "pct_of_supply": 1.7546290573401402,
-      "token_account": "ABkbBt6BEVjXTNFe7sgzeqA3p5m8CaDNNCw9BYJ36fY2",
-      "tx_count_24h": 0,
-      "tx_count_7d": 1
-    },
-    {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 14400000.0,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 14400000.0,
+      "net_change_7d_ui": 0.0,
       "owner": "8BXrW1gX9PE8DT4hrBhtpQt93tw94bpwD1WrnjKq3exo",
       "pct_of_supply": 1.4731459772121334,
       "token_account": "GqFiU2JqinL1HTNrV6ntCGM7Y9xSpcsfKYgVRYMSUnon",
       "tx_count_24h": 0,
-      "tx_count_7d": 1
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -100,6 +89,17 @@
       "token_account": "6w9x9jnmsxtRbqcSG3LimKGa1ShHEMTQYzjzv7urXqqt",
       "tx_count_24h": 0,
       "tx_count_7d": 11
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 8820000.0,
+      "net_change_24h_ui": 8820000.0,
+      "net_change_7d_ui": 8820000.0,
+      "owner": "HkwMgZmBCyV6Hx8mTQSks5vAbytyLVhTGFaB5TXvWbXa",
+      "pct_of_supply": 0.9023019110424317,
+      "token_account": "TbZzrNksHwyRaR7mnLLJSHMmRPyoX5D8jP1WLGNsJNK",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
     },
     {
       "action": "idle",
