@@ -10,16 +10,16 @@
     "verdict": "unknown_layout"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777213606,
+  "snapshot_ts": 1777213892,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "idle",
-      "balance_ui": 24164256.450679425,
+      "balance_ui": 23743818.110954035,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "pct_of_supply": 2.4720470496167666,
+      "pct_of_supply": 2.429035448602463,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -59,6 +59,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 9860228.853330957,
+      "net_change_24h_ui": 1062228.8533309568,
+      "net_change_7d_ui": 1062228.8533309568,
+      "owner": "H2VZ6Z7jhvvpbXiDsiuPaHFK6iGvd6jpLpJ9zrQtdZtE",
+      "pct_of_supply": 1.0087192086863304,
+      "token_account": "GDtCSCkqiwPDz5TNiDYh3EcwDQSGqkLy7iPcB8FTBkJ4",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 9500000.0,
       "net_change_24h_ui": -100000.0,
       "net_change_7d_ui": 9500000.0,
@@ -92,25 +103,14 @@
     },
     {
       "action": "accumulating",
-      "balance_ui": 8820000.0,
+      "balance_ui": 8555400.0,
       "net_change_24h_ui": 8555400.0,
       "net_change_7d_ui": 8555400.0,
       "owner": "HkwMgZmBCyV6Hx8mTQSks5vAbytyLVhTGFaB5TXvWbXa",
-      "pct_of_supply": 0.9023019194537157,
+      "pct_of_supply": 0.8752328618701044,
       "token_account": "TbZzrNksHwyRaR7mnLLJSHMmRPyoX5D8jP1WLGNsJNK",
       "tx_count_24h": 4,
       "tx_count_7d": 4
-    },
-    {
-      "action": "idle",
-      "balance_ui": 8798000.0,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "H2VZ6Z7jhvvpbXiDsiuPaHFK6iGvd6jpLpJ9zrQtdZtE",
-      "pct_of_supply": 0.9000512797453277,
-      "token_account": "GDtCSCkqiwPDz5TNiDYh3EcwDQSGqkLy7iPcB8FTBkJ4",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
