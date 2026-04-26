@@ -1,0 +1,204 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "J9rcFWAjjMnunbtPTJet5e6Nxw87XbFYimBZwS2TySt2",
+      "initial_balance_ui": 260752137.082147,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 84,
+      "tx_count_24h": 97,
+      "tx_count_7d": 97
+    },
+    "liquidity_usd": 22968.05,
+    "mcap_usd": 85704.0,
+    "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+    "name": "Make America Great Again",
+    "pair_dex": "pumpswap",
+    "socials": [],
+    "symbol": "mOK",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777209217,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 24805.2,
+    "entry_mcap_usd": 100176.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001001,
+    "entry_top_holder_pct": 12.2472384738485,
+    "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "mOK"
+  },
+  "call_id": 29,
+  "captured_at": 1777209287,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 22574.25,
+      "current_mcap_usd": 82682.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777208840,
+      "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+      "symbol": "mOK"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777209261,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "FA8UVpoyJanyqtmJ8tzfxTXhhmqn5GBhBKCa8qxk2oV6",
+    "lp_supply_ui": 0.0,
+    "pair_address": "2BrLra5GQHG7jqP989wTHCxmJTeqoXWwSHSsnec67TNa",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 22968.05,
+    "mcap_usd": 85704.0,
+    "name": "Make America Great Again",
+    "pair_address": "2BrLra5GQHG7jqP989wTHCxmJTeqoXWwSHSsnec67TNa",
+    "pair_dex": "pumpswap",
+    "symbol": "mOK"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "tATvRPe7CpsJSCueXP78nRz6AfdNoVZT4H7saM1pump",
+    "note": "",
+    "retention_pct": 40.0,
+    "sniper_count": 20,
+    "still_in_top_100": 8
+  },
+  "whales": [
+    {
+      "action": "accumulating",
+      "balance_ui": 137168041.061257,
+      "net_change_24h_ui": 4523775.21687001,
+      "net_change_7d_ui": 4523775.21687001,
+      "owner": "2BrLra5GQHG7jqP989wTHCxmJTeqoXWwSHSsnec67TNa",
+      "pct_of_supply": 13.716804106125702,
+      "token_account": "FvruxT5M5CYLe1A8Tk7x3Cqqap6sw5aHTGMu3CDgrydQ",
+      "tx_count_24h": 46,
+      "tx_count_7d": 46
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 90562052.481298,
+      "net_change_24h_ui": 87289489.481298,
+      "net_change_7d_ui": 87289489.481298,
+      "owner": "AJEnePqgNFNdgumMKjz8XxxJVB6YniC7bbcFwspcv7pc",
+      "pct_of_supply": 9.0562052481298,
+      "token_account": "B9kUzbxXBuwPDvuJ3cYsiQpdG5LRuRcmjvbgJX3Kzp7E",
+      "tx_count_24h": 11,
+      "tx_count_7d": 11
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 75759595.116265,
+      "net_change_24h_ui": 75759595.116265,
+      "net_change_7d_ui": 75759595.116265,
+      "owner": "2gSMYTmFLSk8wa2RdeEc31ePMGDdXbJim7FNsHJPpNqf",
+      "pct_of_supply": 7.5759595116264995,
+      "token_account": "7DrWJYuj4HPAof1UadAnsSCjwsaoeatC9pde1fTKmAQk",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 57547481.392853,
+      "net_change_24h_ui": 57547481.392853,
+      "net_change_7d_ui": 57547481.392853,
+      "owner": "5DN1LZCCEDptjrpZbyibkaXAmCgp35qWpmrT6v6KZHSw",
+      "pct_of_supply": 5.7547481392853,
+      "token_account": "2bCYT95MLzTZUeenVszzjPJisGmPERaY2ZkhtWbHDQVN",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 56083408.832137,
+      "net_change_24h_ui": 56083408.832137,
+      "net_change_7d_ui": 56083408.832137,
+      "owner": "8v5pzVcYJj5mT7F5RF6aJ3iKmLeDd8tizHHJMWgyxzEx",
+      "pct_of_supply": 5.6083408832137005,
+      "token_account": "3ruH2UJF1QAuW1v5eKcszRyUrex4t16H3MdpJ3xjatUH",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 43549362.382104,
+      "net_change_24h_ui": 43549362.382104,
+      "net_change_7d_ui": 43549362.382104,
+      "owner": "Hxkn4xjVXiaohNcypMeyNPKgnsqxsZDKda7qg2RFcg8i",
+      "pct_of_supply": 4.3549362382104,
+      "token_account": "2JBi8wKhPvjPchrqsUUtnPNzgSCenEJXLmBN1T97cqAx",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 20921095.046034,
+      "net_change_24h_ui": -110289929.91785301,
+      "net_change_7d_ui": -110289929.91785301,
+      "owner": "81TBZ6TDA1mYY6qz6XnvVHdntHwCBzgiFEnD3aeBbPsC",
+      "pct_of_supply": 2.0921095046034,
+      "token_account": "7JqzCCK7UNaPSuqG2dqPonBoAWj5QUWqjEBo3QAsA28H",
+      "tx_count_24h": 35,
+      "tx_count_7d": 35
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3316766.222365,
+      "net_change_24h_ui": 3316766.222365,
+      "net_change_7d_ui": 3316766.222365,
+      "owner": "AcKvViGZAMECrNnmiGMtKzBDEuuVVpS3TYuvhUGVAR6K",
+      "pct_of_supply": 0.33167662223649996,
+      "token_account": "CAYxCZagC9w3rzSwrRqHA81riRri47CjQPG3nSXXaTe7",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3064784.916865,
+      "net_change_24h_ui": 3064784.916865,
+      "net_change_7d_ui": 3064784.916865,
+      "owner": "Cq5hWhowyBUpv9aHsadvjw9RQgkuVShYZLtNKUMFtVYW",
+      "pct_of_supply": 0.30647849168650004,
+      "token_account": "FGhkCN3x4sYuTXqhnATa9311iBdmk3kx5tSen9qmhaoD",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 2614546.285785,
+      "net_change_24h_ui": 2614546.285785,
+      "net_change_7d_ui": 2614546.285785,
+      "owner": "DbhvKFWCRQrStNXznewv5P3Yzf9Vrz19haygDgLLLnyY",
+      "pct_of_supply": 0.2614546285785,
+      "token_account": "3VpwAyYFXNYhVkbxzHRMHgKcgRvNgRUH7BcLVwvDaXNg",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    }
+  ]
+}
