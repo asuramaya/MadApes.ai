@@ -1,6 +1,31 @@
 {
   "active": [
     {
+      "id": 31,
+      "mint": "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump",
+      "symbol": "DUMBMONEY",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777230274,
+      "expires_at": 1778439874,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 545319.0,
+      "entry_price_usd": 0.0005492,
+      "entry_liquidity_usd": 88727.54,
+      "entry_top_holder_pct": 8.1056033633332,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 566056.0,
+      "current_price_usd": 0.0005701,
+      "current_liquidity_usd": 90384.5,
+      "pct_from_call": 3.8055353241077894
+    },
+    {
       "id": 30,
       "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
       "symbol": "TIME MACHINE",
@@ -20,10 +45,10 @@
       "entry_liquidity_usd": 25071.14,
       "entry_top_holder_pct": 13.193988827335065,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 189058.0,
-      "current_price_usd": 0.000189,
-      "current_liquidity_usd": 38002.33,
-      "pct_from_call": 97.80219780219781
+      "current_mcap_usd": 221432.0,
+      "current_price_usd": 0.0002214,
+      "current_liquidity_usd": 41150.15,
+      "pct_from_call": 131.71114599686024
     },
     {
       "id": 29,
@@ -45,10 +70,10 @@
       "entry_liquidity_usd": 24805.2,
       "entry_top_holder_pct": 12.2472384738485,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 1571.0,
-      "current_price_usd": 1.571e-6,
-      "current_liquidity_usd": 3135.92,
-      "pct_from_call": -98.43056943056942
+      "current_mcap_usd": 1577.0,
+      "current_price_usd": 1.577e-6,
+      "current_liquidity_usd": 3147.41,
+      "pct_from_call": -98.42457542457542
     },
     {
       "id": 28,
@@ -70,10 +95,10 @@
       "entry_liquidity_usd": 114945.47,
       "entry_top_holder_pct": 2.6189076120211303,
       "entry_pair_dex": "meteora",
-      "current_mcap_usd": 3511908.0,
-      "current_price_usd": 0.003592,
-      "current_liquidity_usd": 133907.58,
-      "pct_from_call": 34.33059087509349
+      "current_mcap_usd": 3534736.0,
+      "current_price_usd": 0.003616,
+      "current_liquidity_usd": 134318.91,
+      "pct_from_call": 35.22812266267763
     },
     {
       "id": 27,
@@ -95,10 +120,10 @@
       "entry_liquidity_usd": 39981.53,
       "entry_top_holder_pct": 11.610166093299654,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 103907.0,
-      "current_price_usd": 0.0001039,
-      "current_liquidity_usd": 31360.72,
-      "pct_from_call": -40.046162723600695
+      "current_mcap_usd": 97572.0,
+      "current_price_usd": 0.00009758,
+      "current_liquidity_usd": 30390.8,
+      "pct_from_call": -43.693017888055394
     }
   ],
   "history": []
