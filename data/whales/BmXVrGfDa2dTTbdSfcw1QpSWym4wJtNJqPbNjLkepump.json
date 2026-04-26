@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-  "snapshot_ts": 1777161734,
+  "snapshot_ts": 1777162033,
   "symbol": "Rudy",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 114822407.879326,
-      "net_change_24h_ui": 487456.8300860077,
-      "net_change_7d_ui": 487456.8300860077,
+      "action": "idle",
+      "balance_ui": 124442404.997059,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
-      "pct_of_supply": 11.482255881986287,
+      "pct_of_supply": 12.444256858362515,
       "token_account": "2FR2d5VXSQF7BHYPVgvjgwv9AiGyCX9sEmk1vG2tXG3S",
-      "tx_count_24h": 1,
-      "tx_count_7d": 1
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -92,6 +92,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 12732678.355036,
+      "net_change_24h_ui": 7961206.545516,
+      "net_change_7d_ui": 7961206.545516,
+      "owner": "48XdbcjUyho4BbXcmt5vnyfxhXaCANk6k7KZ5Kpyq9vL",
+      "pct_of_supply": 1.2732695092860458,
+      "token_account": "Fb3AfLsqdZ25bywr3yJHtkLThGuc8yKEKpswkxg627Rh",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 12540994.496192,
       "net_change_24h_ui": 12540994.496192,
       "net_change_7d_ui": 12540994.496192,
@@ -109,17 +120,6 @@
       "owner": "2f3hCSoHsDnvNggDSYwJFNZteXt5yNsWQ6pyRyRxLZ4s",
       "pct_of_supply": 1.174081916321527,
       "token_account": "gn3SJFTRN4CWrG5fpMeKh5cE1MPGVbL6X4JoH8hgCJJ",
-      "tx_count_24h": 5,
-      "tx_count_7d": 5
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 11468644.419861,
-      "net_change_24h_ui": 11468644.419861,
-      "net_change_7d_ui": 11468644.419861,
-      "owner": "355L1qYydbYfbxMy1ft89kHxeVh6vbAUkLiCmZN1hnLC",
-      "pct_of_supply": 1.1468659496041496,
-      "token_account": "8BwjjNHqTdtiiQiV8eSZsxBEgHCYXdErqkPUXUNvD22N",
       "tx_count_24h": 5,
       "tx_count_7d": 5
     }
