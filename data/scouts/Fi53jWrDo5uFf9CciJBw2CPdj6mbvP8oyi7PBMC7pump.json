@@ -1,0 +1,380 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "9WEvCHrBCvE9Mjaa6YfHGyap8xqbyStve2FBStHFRKq8",
+      "initial_balance_ui": 116813510.553464,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 8,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 38401.22,
+    "mcap_usd": 160034.0,
+    "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+    "name": "buttplug coin",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/i/communities/2038215720253726957"
+      ],
+      [
+        "telegram",
+        "https://t.me/Buttplugcointg"
+      ]
+    ],
+    "symbol": "buttplug",
+    "website": {
+      "status": 200,
+      "text": "Buttplug Coin \nButtplug Coin \nThe Plug stays in. \nCA: Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump \nCopy",
+      "truncated": false,
+      "url": "https://buttplugcoin.com/"
+    }
+  },
+  "call": {
+    "called_at": 1777207441,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 39981.53,
+    "entry_mcap_usd": 173347.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001733,
+    "entry_top_holder_pct": 11.610166093299654,
+    "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "buttplug"
+  },
+  "call_id": 27,
+  "captured_at": 1777207785,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 38662.29,
+      "current_mcap_usd": 162370.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777207262,
+      "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+      "symbol": "buttplug"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": true,
+    "curr_snapshot_ts": 1777207718,
+    "distributors": [],
+    "entrants": [
+      [
+        "6gzHSRVD8XtDnoB9HUPfY88xxpzcUJFmSwgS4Mw85Ze5",
+        9485843.00127
+      ],
+      [
+        "7TzcxjwgNvNzrksB4cGdpEPvBnY4HVwsbjrdiDQwv9tb",
+        11913931.483716
+      ],
+      [
+        "9WEvCHrBCvE9Mjaa6YfHGyap8xqbyStve2FBStHFRKq8",
+        119307032.192659
+      ],
+      [
+        "8ehrbU14qvBErTe1H3cbpEswkENnerrjKeqivcGmuN3B",
+        20510184.692022
+      ],
+      [
+        "3Zrfk8tGzGpe5mz2RwQLXtUirm7FeFp1mC77UHrEkJN6",
+        10026142.097872
+      ],
+      [
+        "8znHNLa9mpfa6PW8gpxygjeziSEDKzZKHU7XEVfy3Y8D",
+        10330440.72118
+      ],
+      [
+        "8NYJvAkUGR4SE5JD77JeXVkv7qnwfgAw31WQUvNkK9FV",
+        10001077.673575
+      ],
+      [
+        "GrPSFCyQ75Z3LLsrANcbYncjxVtV7HD1bfGADVaa9jH9",
+        15436037.286524
+      ],
+      [
+        "J4UhSHZbWpcSLaihEysEWC397L3EFXwPYnBXSKjNLJb4",
+        14259935.970575
+      ],
+      [
+        "9FhxgSzWVFXUGdHcFM7AngLNbZikL2LHc3Tw1C9EdCcX",
+        13470594.885177
+      ],
+      [
+        "6KzsUsNTi6EqZB6EY4ABiDoDJZVdEiaUEvnHJrc3deHi",
+        14596452.794566
+      ],
+      [
+        "orVYidGoxCttrDSB42onVu44yNyTDaZoU1vUojLBs8F",
+        22622341.610027
+      ],
+      [
+        "Ea9NjGFFsK3ZRJCepswUugwjwaFeyGsjo4hBUb9LL88p",
+        22683541.051478
+      ],
+      [
+        "8Ek9eWb49EoVFrUmqXNkfNRWHXvMTmBf9ibepigWEsJn",
+        10897999.167646
+      ],
+      [
+        "AtBPf7mLjDMPub7eAXNiEJJ7zaiZsLbn5ZNk15nBtLUU",
+        9653433.773544
+      ],
+      [
+        "CKL229JWQjs4sD49XRuiu8t7JxJsn3D4CPySxKedCk7m",
+        14147899.603397
+      ],
+      [
+        "EzwnE8Gq6SoBe9E4NLLevLHW6xCRAzn5m7cf7VzZbDfx",
+        34235837.495372
+      ],
+      [
+        "HBraXWn9FHXauwv2bkuwFQyPy9bcnS3o7xTdAjyJsXxQ",
+        14174566.109789
+      ],
+      [
+        "4oRyaaPTiELnE7sXx9nVK8gX9pq3zE85e4qdQM2CLu7A",
+        14554281.045282
+      ],
+      [
+        "9gAjRau998DuiGbFgSGv7KbYxRZHevB3eZShmsk27oqj",
+        9958658.719096
+      ]
+    ],
+    "exits": [
+      [
+        "CSz2ukuVRM3WYLh2Q45iXPsfr2P4yfmPBGXPhXcyHand",
+        14510909.342353
+      ],
+      [
+        "9rkh5px17CJdWhYD8cDuHskWBpY3zMwZ6ZihDjgTLRBQ",
+        18255546.108965
+      ],
+      [
+        "7PKf88ek1zVtcLg1emYoXCquATU1YT6Qyoh5xPdnTih5",
+        503272722.069462
+      ],
+      [
+        "2uLQKcFDoZkuAFAWkZG6WsneWtaawPgxyUtbcdE8eDi2",
+        23561975.552572
+      ],
+      [
+        "8TyMu3ubfpMRpWq6UvjYbjZFgpwDJmZ5TLMptEnvgx9b",
+        12297023.746331
+      ],
+      [
+        "9pME9Voqz1W2fdspcJtFNG73CurVQygpYvArybJTMfTL",
+        37590498.243199
+      ],
+      [
+        "C85eZWpPpbjjdrYcUMtqkU24HGLDnwSDcFax66FrWJNA",
+        16559567.237261
+      ],
+      [
+        "GtzY6Ht1QoVdW9M4WtKRwXxH6R6FKGkaSftinEcU9r6S",
+        12423497.626373
+      ],
+      [
+        "2mry3Ai5iHj5zM3tau6N9arejJA6HMTKPxzGuzGvMWvo",
+        21578207.58898
+      ],
+      [
+        "GgmxZPpy174mCe2DiK8xw4T8688BwYELs6rJRE8217TU",
+        24173838.058503
+      ],
+      [
+        "EXmzNBDgYqXtvzX13ArXfbsf61EWyfsmThdEDp868gsB",
+        18788560.475567
+      ],
+      [
+        "B1RaHm8xVycSJXDFahmiN6jhQMgxXEKj2nYror5VqRkh",
+        29760072.040471
+      ],
+      [
+        "FEg8B8itwzB1oWR7g7J1An5HFWWiDhdp8YXvCN1Dbksi",
+        17887368.179652
+      ],
+      [
+        "E9HU4AksPVELyQ4qjbdfxyiYKRzDda1TeGZv5VRrLh3G",
+        28777340.821921
+      ],
+      [
+        "2wfahD6PWKq5Mx9BRLydwjCX7jsJGuduvwAjPsxe2SX7",
+        10928255.543054
+      ],
+      [
+        "GwyF36VGpF6gWi59d8957EXUwH9gZhTCtsmXmqW6B3zb",
+        25189778.919011
+      ],
+      [
+        "8LFqQduKzS4z6AhBE2axbBimvUjdLec5k88wUbt8WN8P",
+        21389566.305643
+      ],
+      [
+        "5ZAaYpBFuungjYa6KK8GCp93zycT9cmGUjv6QCjiRcpc",
+        36936506.259527
+      ],
+      [
+        "GQPADSsfehC5r8eCtqXnyULyhM614CatV2bJkWUmqTDf",
+        10802596.59522
+      ],
+      [
+        "3MTh4Y2B52rpFVUNtqdpxxnSuGbrbvpAU7J8uL5xS9rx",
+        29222252.688276
+      ]
+    ],
+    "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+    "note": "",
+    "prev_snapshot_ts": 1777021567,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "pair account not found",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "error"
+  },
+  "market": {
+    "liquidity_usd": 38401.22,
+    "mcap_usd": 160034.0,
+    "name": "buttplug coin",
+    "pair_address": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+    "pair_dex": "pumpswap",
+    "symbol": "buttplug"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 20,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "distributing",
+      "balance_ui": 119307032.192659,
+      "net_change_24h_ui": -776746.8612059951,
+      "net_change_7d_ui": -776746.8612059951,
+      "owner": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+      "pct_of_supply": 11.931831783820126,
+      "token_account": "9WEvCHrBCvE9Mjaa6YfHGyap8xqbyStve2FBStHFRKq8",
+      "tx_count_24h": 8,
+      "tx_count_7d": 8
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 34235837.495372,
+      "net_change_24h_ui": 34235837.495372,
+      "net_change_7d_ui": 34235837.495372,
+      "owner": "2EtqR5Ph88R6b1rjpmm284e8eYMY82tHgaEkknCkap5y",
+      "pct_of_supply": 3.423907597611965,
+      "token_account": "EzwnE8Gq6SoBe9E4NLLevLHW6xCRAzn5m7cf7VzZbDfx",
+      "tx_count_24h": 21,
+      "tx_count_7d": 21
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 22683541.051478,
+      "net_change_24h_ui": 1398629.5296860002,
+      "net_change_7d_ui": 17020596.422447998,
+      "owner": "2f5TbY7ahY8UeQNsni2iLYNCMdpaQrQfMbyHjeP9qMsN",
+      "pct_of_supply": 2.268568676241595,
+      "token_account": "Ea9NjGFFsK3ZRJCepswUugwjwaFeyGsjo4hBUb9LL88p",
+      "tx_count_24h": 1,
+      "tx_count_7d": 8
+    },
+    {
+      "action": "idle",
+      "balance_ui": 22622341.610027,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "G3FFKj5dDGqujBtp4TjgpNqJBCYkRMAZMudbx5yiBa4R",
+      "pct_of_supply": 2.2624481531908005,
+      "token_account": "orVYidGoxCttrDSB42onVu44yNyTDaZoU1vUojLBs8F",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 20510184.692022,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2543nLME2zEdHvr7BTk4XgGHyJfTtXeRsJCFCetoRxNZ",
+      "pct_of_supply": 2.0512124818016138,
+      "token_account": "8ehrbU14qvBErTe1H3cbpEswkENnerrjKeqivcGmuN3B",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 15436037.286524,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Ay9PFj6jZchjTtG6Y839viQn5SaRKfKSMmrJJSCJsk5C",
+      "pct_of_supply": 1.5437497432185083,
+      "token_account": "GrPSFCyQ75Z3LLsrANcbYncjxVtV7HD1bfGADVaa9jH9",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14596452.794566,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Hn3bTAcaN26nu6SEqBZRLh8CmkMgGhVJ1SQW7M3UPaL5",
+      "pct_of_supply": 1.4597833521161796,
+      "token_account": "6KzsUsNTi6EqZB6EY4ABiDoDJZVdEiaUEvnHJrc3deHi",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14554281.045282,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "7Jt9mTicuUt4trdUVZZp99Pj5WfeyhKyLspywZNB4zEB",
+      "pct_of_supply": 1.4555657782712987,
+      "token_account": "4oRyaaPTiELnE7sXx9nVK8gX9pq3zE85e4qdQM2CLu7A",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14259935.970575,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2EwQUfWB9V99T4QWcD2E3rdmB9aa2cUm1VR6ykc1v3P4",
+      "pct_of_supply": 1.4261284864934884,
+      "token_account": "J4UhSHZbWpcSLaihEysEWC397L3EFXwPYnBXSKjNLJb4",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14174566.109789,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "BtpD6cNmT1mqhfE4hKbBA286aSnmvWQvitBSCZampSrW",
+      "pct_of_supply": 1.417590692873228,
+      "token_account": "HBraXWn9FHXauwv2bkuwFQyPy9bcnS3o7xTdAjyJsXxQ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}

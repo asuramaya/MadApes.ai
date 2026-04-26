@@ -1,0 +1,331 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
+      "initial_balance_ui": 25599818.4813111,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 17,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 114945.47,
+    "mcap_usd": 2614746.0,
+    "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+    "name": "Retard Of The United States",
+    "pair_dex": "meteora",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/ROTUSsol"
+      ]
+    ],
+    "symbol": "ROTUS",
+    "website": {
+      "status": 200,
+      "text": "ROTUS | Retard Of The United States \nROTUS â Retard Of The United States \nThis site requires JavaScript. Enable it to enter the bunker. \nFollow us on X",
+      "truncated": false,
+      "url": "https://rotus.art"
+    }
+  },
+  "call": {
+    "called_at": 1777207551,
+    "classification": "STAIRCASE",
+    "confidence": 76,
+    "entry_liquidity_usd": 114945.47,
+    "entry_mcap_usd": 2614746.0,
+    "entry_pair_dex": "meteora",
+    "entry_price_usd": 0.002674,
+    "entry_top_holder_pct": 2.6189076120211303,
+    "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+    "note": "",
+    "source": "notifier",
+    "symbol": "ROTUS"
+  },
+  "call_id": 28,
+  "captured_at": 1777207712,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 114945.47,
+      "current_mcap_usd": 2614746.0,
+      "current_pair_dex": "meteora",
+      "first_seen": 1777207534,
+      "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+      "symbol": "ROTUS"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": true,
+    "curr_snapshot_ts": 1777207665,
+    "distributors": [
+      [
+        "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
+        26850181.207039032,
+        25599818.4813111
+      ],
+      [
+        "bejLGCA8V6WbbT58teyc8aVUK2PCGJcbqorKguYY9yS",
+        7801497.01,
+        7601497.01
+      ]
+    ],
+    "entrants": [
+      [
+        "FgirVUZEJyHkrUVhmD6Lx6XnYPRRKkiagXV6xJn6rLDG",
+        18545035.082355168
+      ],
+      [
+        "GDtCSCkqiwPDz5TNiDYh3EcwDQSGqkLy7iPcB8FTBkJ4",
+        8798000.0
+      ],
+      [
+        "BousnzK1Xo6sbDDJCKitCR57HvE9UGAU4GDQSZ4seyvb",
+        9280000.0
+      ],
+      [
+        "6eejFQd7JH1xsTgWAfwBwiTFsE99MhBbca3zyrQUXq9x",
+        5834858.89617487
+      ],
+      [
+        "HptLqypwtAJtAgBf3MRHH6zs5SRGdDVh7cPWkLPy88Ky",
+        6073167.37548418
+      ],
+      [
+        "2XBFyJqCPEMrb6cFf8DhvCLGJr84poibwQjaXKHEFaJY",
+        5814169.288988222
+      ],
+      [
+        "DztuPxRfmmARKSMN9nK2a2A3hZHgrp7Zghm8EMTNvWhK",
+        6466378.391938334
+      ],
+      [
+        "BkhvUSVD34GxRTNoKDJXcw2TuMY6cccXG9dDNxLjAoMN",
+        5827224.963753186
+      ],
+      [
+        "BcQqurQfkNn2CXDNQd1CtpwYaVeutHQUNMHWCkqfreoE",
+        6497900.39846767
+      ],
+      [
+        "BaaaJX9FUmPu9m8RDCjGaSaWcJT1z7vMqT62mccZzdCr",
+        9500000.0
+      ],
+      [
+        "6w9x9jnmsxtRbqcSG3LimKGa1ShHEMTQYzjzv7urXqqt",
+        9250876.11583961
+      ],
+      [
+        "EGWTNnAordoi1E4zL5DTyyjVrwo5Pjr2XBDPewDT9i45",
+        5998094.111636417
+      ],
+      [
+        "F3FusanJkMoZXm757AYqtqSUyy4RzNBaHhRumFyQ9RDo",
+        7376817.728
+      ]
+    ],
+    "exits": [
+      [
+        "AxcRc4H8LEjeEzPjuSpSJ8pZVK3cfYwdncfnqBQ5NjQx",
+        9600000.0
+      ],
+      [
+        "6YiRubKkkr94tR8o9AK6ESQeyLaqwCV4SUpcMFDDnDRp",
+        9600000.0
+      ],
+      [
+        "EDXRaQAYrqmhncqHwb6Pshzx46xNe2FaVAbD5NNqMzsX",
+        486000000.0000528
+      ],
+      [
+        "62R3Tzfauus54BE9DUwYjPsHsCankHb6ovEMk56JXmFX",
+        9600000.0
+      ],
+      [
+        "9GkCNVX13pAC171aXSwedUsAXaRsDaKWp7unb8igpiyN",
+        5738618.593999881
+      ],
+      [
+        "2nEfhabJq5833iVvppbfaeP9HsXC1jxEkpARQyAxd2YN",
+        7376817.728
+      ],
+      [
+        "ABtUW9UfD4H7UtiAodxRJE81YVYp6MVmsH1zBDtcqXnr",
+        5444851.999123693
+      ],
+      [
+        "EA6bwfamZuHFy4cDcZ9z4zH1qAbsD8Kfd1qFsqp9LU4o",
+        5525880.435348768
+      ],
+      [
+        "FHxBb7K93zHB1jfb1yDZPdggP3skFhkSdpSpDPW5vkk3",
+        5211928.814227829
+      ],
+      [
+        "D4jyNZLrB7bsbDfhLcPct3jogAaBh77PUm5fvZbxzAvv",
+        5330273.44445347
+      ],
+      [
+        "Bp2mPYFm6YxEDf5jmxazAPGVTe1FUTy7Lhjj6W69yATp",
+        5472152.890432915
+      ],
+      [
+        "8oFacy74S42V8Hf7DxCXwJo8k1ps7GsoNnXDkZWagq14",
+        5608064.656458718
+      ],
+      [
+        "G5FMUZTfqwK8AyN1Eu55QLAB4dcPc1CE1YYgDQsxfCDu",
+        5217077.787403307
+      ]
+    ],
+    "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+    "note": "",
+    "prev_snapshot_ts": 1777052857,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "lp-mint offset not known for dex `meteora`",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+    "pair_dex": "meteora",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "unknown_layout"
+  },
+  "market": {
+    "liquidity_usd": 114945.47,
+    "mcap_usd": 2614746.0,
+    "name": "Retard Of The United States",
+    "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+    "pair_dex": "meteora",
+    "symbol": "ROTUS"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+    "note": "",
+    "retention_pct": 35.0,
+    "sniper_count": 20,
+    "still_in_top_100": 7
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 25667939.98437912,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+      "pct_of_supply": 2.6258765646743454,
+      "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 18545035.082355168,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2TKDWCZMGyamL3Do5P8kaYu9aF3Fpyxvk5wuFMGym3uC",
+      "pct_of_supply": 1.8971905436687082,
+      "token_account": "FgirVUZEJyHkrUVhmD6Lx6XnYPRRKkiagXV6xJn6rLDG",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17151496.74,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 17151496.74,
+      "owner": "C21wGESaFVRCJYFY9aaDy4MKUCfgDKpJdDvfsw8CMcdW",
+      "pct_of_supply": 1.7546290573401402,
+      "token_account": "ABkbBt6BEVjXTNFe7sgzeqA3p5m8CaDNNCw9BYJ36fY2",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 14400000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 14400000.0,
+      "owner": "8BXrW1gX9PE8DT4hrBhtpQt93tw94bpwD1WrnjKq3exo",
+      "pct_of_supply": 1.4731459772121334,
+      "token_account": "GqFiU2JqinL1HTNrV6ntCGM7Y9xSpcsfKYgVRYMSUnon",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 10178266.1073,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 10178266.1073,
+      "owner": "8y7MmtrUrevoJr6odthf99NYeG9UchciTv1MMRaCH6yC",
+      "pct_of_supply": 1.0412549840946943,
+      "token_account": "pkBYXdURDr85jecNoEVCBHDBqSjmMfCuR4ezzifHUjt",
+      "tx_count_24h": 0,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 9500000.0,
+      "net_change_24h_ui": -100000.0,
+      "net_change_7d_ui": 9500000.0,
+      "owner": "47DoyS92gDpoUZ67PRAKmHqsXQAhwFkDQDMkhqzga5fR",
+      "pct_of_supply": 0.9718671377441158,
+      "token_account": "BaaaJX9FUmPu9m8RDCjGaSaWcJT1z7vMqT62mccZzdCr",
+      "tx_count_24h": 1,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 9280000.0,
+      "net_change_24h_ui": -220000.0,
+      "net_change_7d_ui": 9380000.0,
+      "owner": "AdS5dPnyBK9e2cD6eZNDQvbhZQmGib3duqjc91ze2oe2",
+      "pct_of_supply": 0.9493607408700415,
+      "token_account": "BousnzK1Xo6sbDDJCKitCR57HvE9UGAU4GDQSZ4seyvb",
+      "tx_count_24h": 2,
+      "tx_count_7d": 3
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 9250876.11583961,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 9250876.11583961,
+      "owner": "D9y7bS1so1MtyHuVdh84tBasbxA38rEcUvsp7Zw5xfFk",
+      "pct_of_supply": 0.9463813149817311,
+      "token_account": "6w9x9jnmsxtRbqcSG3LimKGa1ShHEMTQYzjzv7urXqqt",
+      "tx_count_24h": 0,
+      "tx_count_7d": 11
+    },
+    {
+      "action": "idle",
+      "balance_ui": 8798000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "H2VZ6Z7jhvvpbXiDsiuPaHFK6iGvd6jpLpJ9zrQtdZtE",
+      "pct_of_supply": 0.9000512713550244,
+      "token_account": "GDtCSCkqiwPDz5TNiDYh3EcwDQSGqkLy7iPcB8FTBkJ4",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 8290898.04,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 8290898.04,
+      "owner": "GF1MKsxXe5jJR74J6V9uKdo2WAYjzWdgyDhhxJpA1fyX",
+      "pct_of_supply": 0.8481738260487472,
+      "token_account": "9p6K36hso5y8bZKcZkHxVgMaMAYrrD4QFrhaoGpEVU8r",
+      "tx_count_24h": 0,
+      "tx_count_7d": 2
+    }
+  ]
+}
