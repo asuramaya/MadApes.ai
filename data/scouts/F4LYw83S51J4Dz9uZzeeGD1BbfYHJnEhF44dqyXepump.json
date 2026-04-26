@@ -1,0 +1,214 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "A6ySNK2KmiURUEGxSx2M28avdpZvLz3a8nbphVpeisJr",
+      "initial_balance_ui": 155554414.710881,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 1,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 21791.58,
+    "mcap_usd": 77240.0,
+    "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+    "name": "Blimp",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/blimp_fun"
+      ]
+    ],
+    "symbol": "BLIMP",
+    "website": {
+      "status": 200,
+      "text": "$BLIMP â Your Token Floats on Passive Fees $BLIMP Â· MAINNET STATUS: AIRBORNE CYCLES: â FLEET: â LATENCY: 42 ms 00:00:00 UTC BUILD 0.3.14 $BLIMP v0.3 COCKPIT vs. CASHBACK FLIGHT PATH CONFIG THE BLIMP FLIGHT LOG FLEET DOCS LAUNCH BOARD [01 / COCKPIT] â â MAINNET Â· ENGINE READY $BLIMP v0.3.14 â AIRBORNE $ blimp --stream --altitude=cruise $BLIMP CA Â· F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump COPY SOLSCAN â Your token, floating on fees. Pump.fun&#x27;s cashback pays traders. $BLIMP pays holders â creator fees flow back to the crew who stays aboard, weighted by balance Ã time held. Pay them in token buybacks or raw SOL â your call. Three signatures, zero code changes. rewards conviction token or SOL payouts any pump.fun token fully configurable no custody FUEL Â· ALL-TIME 0.0000 SOL CYCLES SETTLED 0 TOKEN PAYOUTS 0 tokens SOL PAYOUTS 0.000 SOL TOKENS ABOARD 0 AIRBORNE 0 LAUNCH A TOKEN â BOARD EXISTING SEE THE FLEET waiting for next liftâ¦ [01.5 / THE DIFFERENCE] vs. pump.fun cashback Cashback pays traders. $BLIMP pays believers. Pump.fun cashback refunds fees to whoever moves the most volume â so the biggest wallet flipping all day wins. BLIMP routes creator fees back to whoever has actually held â weighted by balance Ã time held. Two different worlds. MECHANISM A DEFAULT pump.fun cashback rewards proportional to trading volume Reward = your share of fees paid the more you trade, the more you earn back Churners win, holders earn nothing if you buy and hold, you get zero Incentivizes volume, not conviction day-one bag-holder gets outpaced by a flipper who joined an hour ago Zero customization no knobs â every token runs the exact same fee-share formula FORMULA reward_i = fees_paid_i / Î£ fees_paid MECHANISM B $BLIMP $BLIMP holder payouts token buyback OR raw SOL â proportional to balance Ã time held Reward = your share of balance Ã tenure the longer you hold, the bigger your cut of every cycle Diamond hands win, churners get nothing sell between cycles â your allocation forfeits to the rest of the crew Incentivizes conviction, not activity 24h holder earns 100Ã more per token than a 15m fresh buyer Every knob is yours payout mode (token or SOL), interval, min-hold, min-balance â all configurable per token FORMULA weight_i = balance_i Ã clamp(held / 24h, 0.01, 1.0) reward_i = weight_i / Î£ weight Two mechanisms, one chain. Pump.fun&#x27;s cashback pays whoever moves most. BLIMP pays whoever believes most. Pick the one that matches the crew you actually want. READ THE MATH â A universal ANY PUMP.FUN TOKEN Plug in any mint â pre-graduation on the bonding curve, or post-graduation on PumpSwap. Same three signatures, same engine, no code change, no redeploy. B your rules FULLY CUSTOMIZABLE Every parameter is yours: cycle interval, minimum hold time, minimum ticket, per-wallet cap, wallet exclusions, tenure curve. Configure it your way. C production-ready BUILT, TESTED, LIVE Full-stack infrastructure â contracts, cranker, keystore, airdrop engine. End-to-end tested on mainnet. Open-source. Running right now. [02 / FLIGHT PATH] FIVE STAGES Â· AUTOMATED Fuel in. Lift out. No hands on the wheel. CURRENT STAGE 1 / 5 Â· BOARDING engine.pipeline.run() CYCLES # 000000 â FUEL 0.0000 SOL 01 3 SIGNATURES BOARD pump.fun FeeSharingConfig set + shareholder assigned + admin revoked. Fees now flow to BLIMP immutably. onboarding ~2 min EXECUTING 02 STREAMING FUEL UP Creator fees stream into an isolated vault. Balance readable on-chain and on dashboard. platform fuel 0.0000 SOL 03 CONFIGURABLE LIFT OFF On the interval you picked (anywhere from 5m to 4h), the engine reads your config and fires. interval range 5mâ4h 04 OR SKIP CONVERT Token mode: 95% of SOL swapped into the project token (bonding-curve via PumpSdk, graduated via Jupiter). SOL mode: skipped â holders receive raw SOL. Either way, 5% skimmed to $BLIMP treasury. cycles settled 0 total 05 BATCHED Â· RESUMABLE DROP Every qualifying wallet gets its share â SPL transfers in token mode, native SOL in SOL mode. Weighted by balance Ã time held. Paper-hand guard re-verifies balances at send time. Batches reach all holders, however many there are. per-batch size 10â20 wallets/tx 01 3 SIGNATURES BOARD pump.fun FeeSharingConfig set + shareholder assigned + admin revoked. Fees now flow to BLIMP immutably. onboarding ~2 min EXECUTING 02 STREAMING FUEL UP Creator fees stream into an isolated vault. Balance readable on-chain and on dashboard. platform fuel 0.0000 SOL 03 CONFIGURABLE LIFT OFF On the interval you picked (anywhere from 5m to 4h), the engine reads your config and fires. interval range 5mâ4h 04 OR SKIP CONVERT Token mode: 95% of SOL swapped into the project token (bonding-curve via PumpSdk, graduated via Jupiter). SOL mode: skipped â holders receive raw SOL. Either way, 5% skimmed to $BLIMP treasury. cycles settled 0 total 05 BATCHED Â· RESUMABLE DROP Every qualifying wallet gets its share â SPL transfers in token mode, native SOL in SOL mode. Weighted by balance Ã time held. Paper-hand guard re-verifies balances at send time. Batches reach all holders, however many there are. per-batch size 10â20 wallets/tx SOL IN â 5 STAGES â TOKENS TO CREW Â· total latency ~38s 5% CUT â $BLIMP BUYBACK + BURN [03 / CARGO] FLEET BOARDING Â· AWAITING FIRST LIFT The blimp is loaded. Every token runs its own altitude. VIEW ALL â BE NEXT â JUST LAUNCHED awaiting first cycle $ KWIF kitten wif hat H169q1 â¦ 2ygWzK AIRBORNE boarded 28m ago cycle every 5 m Â· waiting for first fees $ NANO Nano 2zppJC â¦ c5XoBq AIRBORNE boarded 1h ago cycle every 15 m Â· waiting for first fees $ BILL Bill EVwCbu â¦ BwVvrL AIRBORNE boarded 1h ago cycle every 15 m Â· waiting for first fees $ CHONKACHU CHONKACHU EdL4xP â¦ PBSJwW AIRBORNE boarded 2h ago cycle ever",
+      "truncated": true,
+      "url": "https://blimptech.fun/"
+    }
+  },
+  "call": {
+    "called_at": 1777187712,
+    "classification": "STAIRCASE",
+    "confidence": 77,
+    "entry_liquidity_usd": 22402.04,
+    "entry_mcap_usd": 81662.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.00008166,
+    "entry_top_holder_pct": 13.424463347019236,
+    "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "BLIMP"
+  },
+  "call_id": 26,
+  "captured_at": 1777187787,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 21791.58,
+      "current_mcap_usd": 77240.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777187537,
+      "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+      "symbol": "BLIMP"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777187774,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "EKSxtwGVcfUcXsXoiwRsFcyWws1dwPcGyvtwKMX6LmSa",
+    "lp_supply_ui": 0.0,
+    "pair_address": "3m794zCca4iEgaNgY7biTGwiYvpTYAHiMaBrNccqC3aS",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 21791.58,
+    "mcap_usd": 77240.0,
+    "name": "Blimp",
+    "pair_address": "3m794zCca4iEgaNgY7biTGwiYvpTYAHiMaBrNccqC3aS",
+    "pair_dex": "pumpswap",
+    "symbol": "BLIMP"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 20,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 138251437.362197,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 13.825148778184063,
+      "token_account": "A6ySNK2KmiURUEGxSx2M28avdpZvLz3a8nbphVpeisJr",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 21079885.417647,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 2.1079893105381253,
+      "token_account": "7HPxZ1WWia6SctVviKZeoWSzCo2RFNCniPeyTc2BGpeg",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 20526554.552241,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 2.052656203817811,
+      "token_account": "2fgXnYAtpLpnb7qBXgoZJhoLrLbytogHiZec691uPuJj",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 19404723.958209,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.940473103501981,
+      "token_account": "5TiUEamBoNUf8uaGcFuTSL1jfZD4aaKcAPy2id6v2Q6z",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 19207081.309999,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.9207088314730476,
+      "token_account": "6iVK7svY9jUDq1LhBXY9TikqgrWYxmpaDZQtWK5X6rre",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 16559924.90599,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.6559930945316086,
+      "token_account": "AJLYur7nJtMKrGeEfNaijhMoFzRjX3EuPo47513CSHVT",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 16316421.765644,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.6316427716165645,
+      "token_account": "2JGTQTzxRiDHzZVPyVP5jy29vs4ojWTLD7B2vu6vnFrv",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 13484638.682823,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.3484643600606785,
+      "token_account": "HhHcsEwtiEqx7NiGpF1rDKACDGo7prEbfTN8tjegj7Gu",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 12942480.053795,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.2942484773856102,
+      "token_account": "7mUhYqUqHbZMWcPJcwDKaGxmgKTd4MxSZwTV8HBuzwGV",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 12894622.953147,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.2894627655754844,
+      "token_account": "Cb2LDed3Wgdh4sHcvfL7SSoPEAXSgAS9ZnNvkHJtWDbJ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}

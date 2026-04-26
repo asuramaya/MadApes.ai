@@ -10,7 +10,7 @@
     "verdict": "pool_program_native"
   },
   "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
-  "snapshot_ts": 1777187729,
+  "snapshot_ts": 1777188659,
   "symbol": "MAGA",
   "whales": [
     {
@@ -47,15 +47,15 @@
       "tx_count_7d": 1
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 20000000.0,
-      "net_change_24h_ui": 20000000.0,
-      "net_change_7d_ui": 20000000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "8nnoPfC63P1wJAnRXMtwHp7Viw2mPX3WJZ495bwSf7z2",
       "pct_of_supply": 2.044518942318093,
       "token_account": "6EZZceEwkyqAS1hpHhBXzKQegANRaerdJHcC8f7g4dZh",
-      "tx_count_24h": 1,
-      "tx_count_7d": 1
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -80,26 +80,15 @@
       "tx_count_7d": 1
     },
     {
-      "action": "idle",
-      "balance_ui": 19700000.0,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "C1qmmu7ATmx6VLkjyAqyAiAnSciv3FHFD4dV6Hx1XDvL",
-      "pct_of_supply": 2.0138511581833214,
-      "token_account": "9Tttr811QksFifwnRvTLcxmVUygnx5tEfcsQuvuQM6a5",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
       "action": "distributing",
       "balance_ui": 19589660.83738,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": -311990.20783400163,
+      "net_change_7d_ui": -93351.2784980014,
       "owner": "FyhFGGTGfZuKCFYHxtZKESX4eDWJRQiYPGjMncCFAFQv",
       "pct_of_supply": 2.002571632780516,
       "token_account": "2wSZrMX1LCDWLFiGd23gXuXnAxYs3ounijMLAwCZwFxh",
       "tx_count_24h": 0,
-      "tx_count_7d": 12
+      "tx_count_7d": 9
     },
     {
       "action": "accumulating",
@@ -122,6 +111,17 @@
       "token_account": "6mR6zWSYhUKu9FXrMu46Hypg6zHvBmP6k2ijT9ZF8dtc",
       "tx_count_24h": 0,
       "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 16500000.081858,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": -755076.6995989997,
+      "owner": "7mDuvVBMHUXgmop2A61JcJ6VcmsWNVhPuVwM87Ki4Bmd",
+      "pct_of_supply": 1.686728135780438,
+      "token_account": "5rxdrwLGgsjeqsT1tZscP92E3reueeFS6H2mQQ1tBiVQ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 9
     }
   ]
 }

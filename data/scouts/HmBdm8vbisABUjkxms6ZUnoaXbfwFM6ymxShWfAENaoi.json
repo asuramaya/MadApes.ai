@@ -1,0 +1,252 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 5000000.0,
+      "deployer_address": "E9mfLpksSqZ1XRnu7ZBmNMortuLT3yCBPtfRxuuuiYcb",
+      "initial_balance_ui": 5000000.0,
+      "pct_sold": 0.0,
+      "seconds_since_last_tx": 2818382,
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    "liquidity_usd": 304100.69,
+    "mcap_usd": 12695914.0,
+    "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+    "name": "Eitherway",
+    "pair_dex": "meteora",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/eitherwayai"
+      ],
+      [
+        "telegram",
+        "http://t.me/eitherway_ai"
+      ]
+    ],
+    "symbol": "EITHER",
+    "website": {
+      "status": 200,
+      "text": "Eitherway - Don&#x27;t just imagine it. Launch it. \nLoading Eitherway...",
+      "truncated": false,
+      "url": "https://eitherway.ai/chat"
+    }
+  },
+  "call": {
+    "called_at": 1777187607,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 304069.05,
+    "entry_mcap_usd": 12700612.0,
+    "entry_pair_dex": "meteora",
+    "entry_price_usd": 0.127,
+    "entry_top_holder_pct": 5.000003334043528,
+    "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+    "note": "",
+    "source": "notifier",
+    "symbol": "EITHER"
+  },
+  "call_id": 25,
+  "captured_at": 1777187811,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 304130.06,
+      "current_mcap_usd": 12698367.0,
+      "current_pair_dex": "meteora",
+      "first_seen": 1777187475,
+      "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+      "symbol": "EITHER"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": true,
+    "curr_snapshot_ts": 1777187804,
+    "distributors": [
+      [
+        "6ozjwsbPAssfCxMytdRaSAykacb89fL8j5Gdhvp5Atay",
+        571076.930480004,
+        539146.783565089
+      ],
+      [
+        "EEnbwGptbti66BM1AAV7EC5NVs5anzSSVp3o9rdLYYLS",
+        1358631.329611963,
+        1307107.265917591
+      ],
+      [
+        "Ae4PAuooY8kxpf8MgGKBkhA4P3DxL2ecfhaQfoPnTcd2",
+        520498.47622519,
+        488027.465951014
+      ]
+    ],
+    "entrants": [
+      [
+        "CBh4CUNcSV5BPr83zFU8ejMWQWaxgwjrx2VsZP2ADwds",
+        494700.200984197
+      ],
+      [
+        "A6cmPzcasW8szN8hYAjHjWRLmJxqQmGGjMrk5TrftKi8",
+        484418.659420629
+      ]
+    ],
+    "exits": [
+      [
+        "CdUCrs6rr9cc9fMESPZUdK8HdMfZvdw3SAGHjWvNjCV4",
+        522664.89916296
+      ],
+      [
+        "F5Tpnf1cTmjXdRBbzJrkEhunEdHVKZZudPudkQFEYNic",
+        528928.927423036
+      ]
+    ],
+    "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+    "note": "",
+    "prev_snapshot_ts": 1777090992,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "lp-mint offset not known for dex `meteora`",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "4C47JJgDHztupNHeU9da7MroH676eXbPoUhEvx3FpfR3",
+    "pair_dex": "meteora",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "unknown_layout"
+  },
+  "market": {
+    "liquidity_usd": 304100.69,
+    "mcap_usd": 12695914.0,
+    "name": "Eitherway",
+    "pair_address": "4C47JJgDHztupNHeU9da7MroH676eXbPoUhEvx3FpfR3",
+    "pair_dex": "meteora",
+    "symbol": "EITHER"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 20,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 5000000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "E9mfLpksSqZ1XRnu7ZBmNMortuLT3yCBPtfRxuuuiYcb",
+      "pct_of_supply": 5.000003334043528,
+      "token_account": "E9mfLpksSqZ1XRnu7ZBmNMortuLT3yCBPtfRxuuuiYcb",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 5000000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "76vDS2VGfaou6CcwbNSLP9U8ADwnkPEArikCGCSFAnz6",
+      "pct_of_supply": 5.000003334043528,
+      "token_account": "76vDS2VGfaou6CcwbNSLP9U8ADwnkPEArikCGCSFAnz6",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 1307935.437410686,
+      "net_change_24h_ui": -679.5816373918205,
+      "net_change_7d_ui": -679.5816373918205,
+      "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+      "pct_of_supply": 1.307936309553422,
+      "token_account": "EEnbwGptbti66BM1AAV7EC5NVs5anzSSVp3o9rdLYYLS",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 764702.957687562,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 70.94462585600559,
+      "owner": "EUTr1zKnB2uZSxjmZ6pY8nb9L7zAJ8n8kdxfb8FnZ1EC",
+      "pct_of_supply": 0.7647034675981513,
+      "token_account": "ECeQLMZKPJvk9dVxjFfNJmqxjHZvFVMLWphFp2GDxPWE",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "idle",
+      "balance_ui": 750000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "AN7SsRjG67s3oHq9EBpEJrj2eZDHfdDZyztR2BL58CWL",
+      "pct_of_supply": 0.7500005001065293,
+      "token_account": "ockVvfLS6DZPHCWTD4K6ytAhG6HPfDjwbDJg42bHKnf",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 654850.459984555,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 636356.103220562,
+      "owner": "7KJgr8NUMQnqc2dSjDQndoRXpc5Qpqz4rD7M9ZbgDV4D",
+      "pct_of_supply": 0.6548508966445427,
+      "token_account": "4ceA1hQMk5qu48hndUsZQ5A76wCTbGLK4qgquLmhUiiZ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 603468.408330656,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 137.85077668202575,
+      "owner": "8e8oLhQFY9Lix8qDMKUQjqz2qwz51P326EGT4t4wZDUG",
+      "pct_of_supply": 0.6034688107286442,
+      "token_account": "8vijd2qZPsQ2zNLC17abgkYNRwKegnyPFusuFZzcAbcf",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "idle",
+      "balance_ui": 596787.602791171,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "F6M6ZhCTYpsBTuWG31ZwCMtSxS4zsCa1HEkswptRmLDD",
+      "pct_of_supply": 0.59678800073434,
+      "token_account": "BirhjqBJa7a97YD1E9C5oK7MjYDWmAjNkpBKpxUNNCc2",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 591303.949158933,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 135.11630771006458,
+      "owner": "EYfVUatD84cm1ZHnavuVttcAvKQXJN6ZxqR8236pjgQV",
+      "pct_of_supply": 0.5913043434455539,
+      "token_account": "5TnsaKw2pbRmc1tWQZ9DoKDvphys8BApBje5y49Q9Pj2",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 570436.714968454,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 155.91063015093096,
+      "owner": "51P6ntvQjmAsiDnrCWiJ8ioqDEna24MxoEiJ1DhEN9eu",
+      "pct_of_supply": 0.5704370953406215,
+      "token_account": "7TCKAcNYxxGXzkSZN1keuHsCXSG2D3sbGfeqV52V5wUG",
+      "tx_count_24h": 0,
+      "tx_count_7d": 1
+    }
+  ]
+}

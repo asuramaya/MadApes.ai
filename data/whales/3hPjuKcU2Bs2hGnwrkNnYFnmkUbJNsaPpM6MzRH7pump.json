@@ -1,127 +1,16 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "BzanACZsFqwGbARSDksFAvU3oCnGadQ9eHPXhpfMrSy8",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "7HU7JmtphKSSG6w5z4bykdEwHqF3Z4vDRchRZJDJnAyx",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "3hPjuKcU2Bs2hGnwrkNnYFnmkUbJNsaPpM6MzRH7pump",
-  "snapshot_ts": 1777187524,
+  "snapshot_ts": 1777188049,
   "symbol": "Dunald",
-  "whales": [
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 75129029.112365,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 7.513118522375945,
-      "token_account": "3gZv3uTtUHpk5GHJ2vvq9htmxiToqXUfPBnhHBpnzhXF",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 17460305.555888,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.7460806645336435,
-      "token_account": "3eZRk3fU7h4dADbeGvNSKL6MrxLhVP2etZbQawCDTGsq",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 16038634.058764,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.6039094347976488,
-      "token_account": "Auag2YMzFCp2eJgjFsd88mvonkzLb3oF5PDmhyL2m76F",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 15318316.395362,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.531875601233714,
-      "token_account": "2FXjHWQA7LjzAug9XxVKVd4tdsDu2KJYPHcB63zmJxWo",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 14811481.158772,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.4811906230194751,
-      "token_account": "Hr3T3MTRTCwoosWq2739G5gZE2xGpeXd8BUckjQnqmE5",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 12249678.220152,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.2250029770958668,
-      "token_account": "BGaBt8gW5TQ4wfBzFvHBpu7itL4Tq52p3ebkCwLbLyuR",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 12136115.237967,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.2136463529654753,
-      "token_account": "Fo8jxmLiZeEhJu5mQJYrjqGCcibYvriHGzuDMDzAiiYi",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 11921315.214309,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.1921657341498368,
-      "token_account": "7h1VQuNcaeguKmYmqYukfMzHatvYSsmKxjkUpfpU2viK",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 11503933.759497,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.1504263908348287,
-      "token_account": "3nf6tBSxfaU2LEUtxSYReKFCiG4eC16i6rk9U2e7BTVm",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
-      "balance_ui": 11417675.550218,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.1418003223564008,
-      "token_account": "4yTWPeqPB2tyckzrteaoG4geQMsfeCtpTfABZdNNncW6",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    }
-  ]
+  "whales": []
 }

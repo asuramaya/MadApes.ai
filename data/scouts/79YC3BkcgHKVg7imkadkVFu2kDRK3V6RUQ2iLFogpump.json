@@ -1,0 +1,214 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "9pzknnbZZqQE3pgVEYJbM3pPmsv7ZRDZv3NCRhGtMGs5",
+      "initial_balance_ui": 99241841.735119,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 26,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 29014.88,
+    "mcap_usd": 114564.0,
+    "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+    "name": "MEOWJESTY",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/me0w_jesty"
+      ]
+    ],
+    "symbol": "MEOWJESTY",
+    "website": {
+      "status": 200,
+      "text": "MEOWJESTY \nMEOWJESTY \nMEOWJESTY \nTWITTER \nTELEGRAM \nCHART \nSWAP \nBOW BEFORE HIS MEOWJESTY \n79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump \nCOPY CA \nTHE DECREE \nNo Gods. No Kings. Only $MEOWJESTY. Summoned from the depths of the Solana blockchain, His Meowjesty is tired of peasant tokens clogging up the network. Armed with high-tech feline cybernetics and an army of loyal degenerates, the ultimate ruler has arrived to sweep the floor. Stand with the King, and you shall be rewarded.\nTHE VAULT \nOnly the finest digital gold for the Kingdom. We keep the treasury transparent and the mechanics ruthless.\nTAXES: 0/0 (The King demands no peasant taxes) \nLIQUIDITY: BURNED TO ASHES (The vault is sealed) \nCONTRACT: RENOUNCED \nGEAR UP \nDownload Phantom or Solflare wallet. Keep your keys guarded in the terminal. \nFund your wallet with $SOL. You need fuel to enter orbit. \nConnect to Raydium or Jupiter via your interface. \nSwap your $SOL for $MEOWJESTY. Welcome to the Vanguard. \nCAMPAIGN LOG \nPHASE 1: THE AWAKENING. Assemble the Army. Launch on Solana. Trend on DexScreener. \nPHASE 2: BATTLE FOR THE THRONE. Forge Alliances. Secure CEX Listings. Unleash marketing artillery. \nPHASE 3: GLOBAL CONQUEST. Flipping canine tokens and solidifying dominance as the one true ruler. \nSYS_ID: 2026 // THE $MEOWJESTY SYNDICATE // SECURITY_LEVEL: OMEGA\nSYSTEM STATUS \nDISCLAIMER",
+      "truncated": false,
+      "url": "https://meowjesty.fun/"
+    }
+  },
+  "call": {
+    "called_at": 1777187490,
+    "classification": "STAIRCASE",
+    "confidence": 77,
+    "entry_liquidity_usd": 35216.88,
+    "entry_mcap_usd": 169125.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001691,
+    "entry_top_holder_pct": 10.843329727832629,
+    "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "MEOWJESTY"
+  },
+  "call_id": 23,
+  "captured_at": 1777187850,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 29013.85,
+      "current_mcap_usd": 114556.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777187354,
+      "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+      "symbol": "MEOWJESTY"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777187832,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "3N4CtFWmwCxeri3XeX2hN2ZjZgMGqU6Crm2T7BZN5CLK",
+    "lp_supply_ui": 0.0,
+    "pair_address": "6i8SqQr39qFhck1Gx231YUNkyv1ntRmnTkEQNZzpSRqr",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 29014.88,
+    "mcap_usd": 114564.0,
+    "name": "MEOWJESTY",
+    "pair_address": "6i8SqQr39qFhck1Gx231YUNkyv1ntRmnTkEQNZzpSRqr",
+    "pair_dex": "pumpswap",
+    "symbol": "MEOWJESTY"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "79YC3BkcgHKVg7imkadkVFu2kDRK3V6RUQ2iLFogpump",
+    "note": "",
+    "retention_pct": 5.263157894736842,
+    "sniper_count": 19,
+    "still_in_top_100": 1
+  },
+  "whales": [
+    {
+      "action": "distributing",
+      "balance_ui": 125870874.447517,
+      "net_change_24h_ui": -2211424.464508012,
+      "net_change_7d_ui": -2211424.464508012,
+      "owner": "6i8SqQr39qFhck1Gx231YUNkyv1ntRmnTkEQNZzpSRqr",
+      "pct_of_supply": 12.587275741976944,
+      "token_account": "9pzknnbZZqQE3pgVEYJbM3pPmsv7ZRDZv3NCRhGtMGs5",
+      "tx_count_24h": 50,
+      "tx_count_7d": 50
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 28339074.849182,
+      "net_change_24h_ui": 28339074.84918201,
+      "net_change_7d_ui": 28339074.84918201,
+      "owner": "8XvoRnMWHoxohNhRvHpEr2s4ccNNv7LLMiQRQ8LTTkec",
+      "pct_of_supply": 2.8339498789127084,
+      "token_account": "665i3AUnbG1XPRN9YwZMwnkDjxmMFLdekvz9biS1yN3G",
+      "tx_count_24h": 18,
+      "tx_count_7d": 18
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 13116610.814226,
+      "net_change_24h_ui": 13116610.814226,
+      "net_change_7d_ui": 13116610.814226,
+      "owner": "42YjYWsu8Cnkfdir5BjL8VsjseW8jAJZdHJoiwuGohH5",
+      "pct_of_supply": 1.3116807032885143,
+      "token_account": "EMUrmZhVjEeQy66Jc25G6MBXWbu2z2pJhqkBvc2Lxf8J",
+      "tx_count_24h": 9,
+      "tx_count_7d": 9
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 6282965.969674,
+      "net_change_24h_ui": 6282965.9696740005,
+      "net_change_7d_ui": 6282965.9696740005,
+      "owner": "4ekGEsPsH54nEZPT3CVYuPtF35CjqoXcxxi3ZAmdAb41",
+      "pct_of_supply": 0.628305996004815,
+      "token_account": "3cUXvpjXt5gTaDfH1Bazi8tPw6HYWYK8GbVKH2WqPNDd",
+      "tx_count_24h": 12,
+      "tx_count_7d": 12
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3451045.904947,
+      "net_change_24h_ui": 3451045.904947,
+      "net_change_7d_ui": 3451045.904947,
+      "owner": "5w8wGvPF6MgfgYW7pG38eZJhKGbKWLseAxqt5MBXrTBs",
+      "pct_of_supply": 0.34510975310575637,
+      "token_account": "FJr9R79HvJFVBCPZBccXCytPPpeTVAdFrMjTZPqS4FxV",
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3447950.518994,
+      "net_change_24h_ui": 3447950.518994,
+      "net_change_7d_ui": 3447950.518994,
+      "owner": "J4Lb5L6yFQjnHjzvBncFqYxZeGZDZ4mjqEpj4JyxzxKJ",
+      "pct_of_supply": 0.34480020987989674,
+      "token_account": "Bp4goBWPxXVfVKu6PWcR1KDsMMGESCVAeEw2wNdw3QBS",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3437627.215462,
+      "net_change_24h_ui": 3437627.2154620006,
+      "net_change_7d_ui": 3437627.2154620006,
+      "owner": "YEQcCQnUgGCWRkLWak7H828DNY72REDK733gZQcgcku",
+      "pct_of_supply": 0.3437678640834942,
+      "token_account": "5xS5vRyAS4mL32KieAKcTMWUs4iNUShBSGcqsdch5seG",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3419936.388051,
+      "net_change_24h_ui": 3419936.388051,
+      "net_change_7d_ui": 3419936.388051,
+      "owner": "FttU4DvobpiydawSjnh5EmQM6eq1bh43zG4AFtmWap72",
+      "pct_of_supply": 0.3419987548777038,
+      "token_account": "9RVmkg2LUjtuZqo3GhJk9Mqsp8xr95oJH62W51JgBimH",
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3418000.55635,
+      "net_change_24h_ui": 3418000.55635,
+      "net_change_7d_ui": 3418000.55635,
+      "owner": "A9GoRhCoRXxny6ZKbtW2Tq6zVDyGYuiabrvQgGRfrbU3",
+      "pct_of_supply": 0.3418051688116858,
+      "token_account": "8Fd4FP1ZuHDNzjyZ9KRuQFWcdSE3j8umRRYngMpFp41A",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 3412102.332985,
+      "net_change_24h_ui": 3412102.332985,
+      "net_change_7d_ui": 3412102.332985,
+      "owner": "BuXRPZVM27mq9A52UitHNjqHQ9i52CzAAqbHpwA5ugK9",
+      "pct_of_supply": 0.3412153376517062,
+      "token_account": "7LVPNNcmdX6shfCwNn6ZQ8dYFNfiwfdhK9bfzsw8p7hb",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    }
+  ]
+}
