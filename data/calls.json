@@ -1,6 +1,31 @@
 {
   "active": [
     {
+      "id": 7,
+      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
+      "symbol": "BURNIE",
+      "classification": "STAIRCASE",
+      "confidence": 77,
+      "called_at": 1777184748,
+      "expires_at": 1778394348,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 17222271.0,
+      "entry_price_usd": 0.01775,
+      "entry_liquidity_usd": 535829.16,
+      "entry_top_holder_pct": 3.93114497872959,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 17221734.0,
+      "current_price_usd": 0.01775,
+      "current_liquidity_usd": 535820.81,
+      "pct_from_call": 0.0
+    },
+    {
       "id": 6,
       "mint": "Uzb8hB1YWAUzpd6w5aASEfBgS6yEq7Kyaam7VJgpump",
       "symbol": "Shooter",
@@ -20,10 +45,10 @@
       "entry_liquidity_usd": 40253.93,
       "entry_top_holder_pct": 7.987350565007301,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 129446.0,
-      "current_price_usd": 0.0001294,
-      "current_liquidity_usd": 29383.32,
-      "pct_from_call": -49.53198127925117
+      "current_mcap_usd": 125117.0,
+      "current_price_usd": 0.0001251,
+      "current_liquidity_usd": 28914.56,
+      "pct_from_call": -51.20904836193447
     }
   ],
   "history": [
