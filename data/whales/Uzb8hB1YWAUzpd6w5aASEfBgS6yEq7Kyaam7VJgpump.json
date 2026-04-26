@@ -10,19 +10,19 @@
     "verdict": "pool_program_native"
   },
   "mint": "Uzb8hB1YWAUzpd6w5aASEfBgS6yEq7Kyaam7VJgpump",
-  "snapshot_ts": 1777176441,
+  "snapshot_ts": 1777176735,
   "symbol": "Shooter",
   "whales": [
     {
-      "action": "distributing",
-      "balance_ui": 72571702.950378,
-      "net_change_24h_ui": -3464917.813372001,
-      "net_change_7d_ui": -3464917.813372001,
+      "action": "accumulating",
+      "balance_ui": 74602056.410313,
+      "net_change_24h_ui": 2463600.7843059897,
+      "net_change_7d_ui": 2463600.7843059897,
       "owner": "9P8MFKBFUwmApwaoZFKmuVc98VXg2voys8GrwuaAApq9",
-      "pct_of_supply": 7.2571702950378,
+      "pct_of_supply": 7.460205641031299,
       "token_account": "3B3JSMhr5bheUKUEKxXP123RbTYySkxnLQ7Rfev7UBWo",
-      "tx_count_24h": 48,
-      "tx_count_7d": 48
+      "tx_count_24h": 49,
+      "tx_count_7d": 49
     },
     {
       "action": "accumulating",
@@ -92,6 +92,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 5337154.488984,
+      "net_change_24h_ui": 5337154.488984,
+      "net_change_7d_ui": 5337154.488984,
+      "owner": "gCRrQq5qg7aGcGKUsG6NgZN5jCwwHzYcYHCuam3DsDj",
+      "pct_of_supply": 0.5337154488984001,
+      "token_account": "3YUtz9DTisVud3gyVV164yyDcT94kzr1hgBfh8mtEX5s",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 5282064.203939,
       "net_change_24h_ui": 5282064.203939,
       "net_change_7d_ui": 5282064.203939,
@@ -100,17 +111,6 @@
       "token_account": "4zSemVhCvdDP4dMz9ZGgt7qBhqXbHhFpwfTP5mGpUfU1",
       "tx_count_24h": 2,
       "tx_count_7d": 2
-    },
-    {
-      "action": "distributing",
-      "balance_ui": 5109148.205753,
-      "net_change_24h_ui": -1323445.4310379997,
-      "net_change_7d_ui": -1323445.4310379997,
-      "owner": "9s2eb8UjhrrBauioVTVSTRjBrAifBMdZV8HN1sWmEq7Y",
-      "pct_of_supply": 0.5109148205753,
-      "token_account": "H1WbuzVDUz7oBKVtxfhvRgfUrev9P8XzeTcEoZmoj95H",
-      "tx_count_24h": 15,
-      "tx_count_7d": 15
     },
     {
       "action": "accumulating",
