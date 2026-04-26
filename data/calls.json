@@ -1,6 +1,31 @@
 {
   "active": [
     {
+      "id": 5,
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "symbol": "ALEXCOIN",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777162239,
+      "expires_at": 1778371839,
+      "note": "",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 114949.0,
+      "entry_price_usd": 0.0001181,
+      "entry_liquidity_usd": 27209.27,
+      "entry_top_holder_pct": 11.682623647150828,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 121649.0,
+      "current_price_usd": 0.000125,
+      "current_liquidity_usd": 27996.26,
+      "pct_from_call": 5.842506350550392
+    },
+    {
       "id": 4,
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "symbol": "Rudy",
@@ -20,10 +45,10 @@
       "entry_liquidity_usd": 38306.23,
       "entry_top_holder_pct": 9.47267576058295,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 110199.0,
-      "current_price_usd": 0.0001101,
-      "current_liquidity_usd": 28399.38,
-      "pct_from_call": -46.18768328445748
+      "current_mcap_usd": 111919.0,
+      "current_price_usd": 0.0001119,
+      "current_liquidity_usd": 28634.95,
+      "pct_from_call": -45.307917888563054
     }
   ],
   "history": [

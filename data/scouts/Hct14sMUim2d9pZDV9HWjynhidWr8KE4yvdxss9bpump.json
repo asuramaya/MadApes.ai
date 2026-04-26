@@ -1,0 +1,222 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "3fJhwFHiLaehPNrGhcfETc2JgBAUZf5pdtjZPdLJMc7C",
+      "initial_balance_ui": 108416047.230342,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 6,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 27996.26,
+    "mcap_usd": 121649.0,
+    "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+    "name": "Youngest Memecoin Trencher Coin",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/AlexRBLXReal/status/2048102390306640048?s=20"
+      ],
+      [
+        "telegram",
+        "https://t.me/AlexRBLXChannel"
+      ],
+      [
+        "instagram",
+        "https://www.instagram.com/alexrblxcrypto"
+      ]
+    ],
+    "symbol": "ALEXCOIN",
+    "website": {
+      "status": 200,
+      "text": "AlexRBLXCrypto | Instagram, X | Linktree AlexRBLXCrypto 12 year old trying to retire his parents with memecoins Instagram Instagram X X YouTube YouTube BUY MY MEMECOIN HERE BUY MY MEMECOIN HERE da best memecoin trading platform 35% cashback da best memecoin trading platform 35% cashback The fastest and most reliable memecoin trading terminal. Available on Solana, Ethereum, BNB & Base.z Instagram - AlexRBLXCrypto Instagram - AlexRBLXCrypto Telegram - AlexRBLXChannel Telegram - AlexRBLXChannel My channel X - AlexRBLXReal X - AlexRBLXReal YouTube - AlexRBLXCrypto YouTube - AlexRBLXCrypto Just a 12 year old boy trying to learn how to be good at memecoins and crypto! Cookie Preferences â¢ Report â¢ Privacy â¢ More from Linktree View on mobile More from Linktree Products Link in bio + tools Manage your social media Grow and engage your audience Monetize your following Measure your success Templates Marketplace Learn Resources How to use Linktree Pricing Link in bio + tools Link in bio Customize your Linktree Link shortener Create trackable, shareable short links QR code generator Turn links into scannable QR codes Canva Background Editor Import your custom designs from Canva into your profile Linktree for every social platform Grow and engage your audience everywhere Instagram TikTok LinkedIn X Manage your social media Schedule and auto-post Hands-free, hassle-free social media planning Instagram auto reply Automated replies and DMs triggered by comments AI content & caption generator Instant AI-powered post ideas and captions Hashtag generator Trending hashtag suggestions for better reach Social integration for every social platform Plan, auto post, and share across all platforms Instagram TikTok Facebook Pinterest LinkedIn Threads Youtube Grow and engage your audience Collect leads with contact forms Turn visitors into subscribers Manage and activate your audience Organize, tag, and track contacts Send contacts to email tools Sync with Mailchimp, Klaviyo, Kit & more Monetize your following Earn with a Linktree Shop Sell products and earn commission Sell an online course Create and sell your expertise easily Host digital products Sell digital products and build your email list Earn by hosting sponsored links Share brand offers and earn for every sign-up or sale Get rewarded for growing your Linktree Earn points, level up and unlock cash bonuses Booked and paid, easily Offer sessions and earn from your expertise Measure your success Social + link analytics Track clicks, engagement and audience insights Resources Read our blog All the latest tips, tricks and growth strategies Success Stories Real people, real results on Linktree How to use Linktree Linktree Help Centre Get answers, guides and support",
+      "truncated": false,
+      "url": "https://linktr.ee/alexrblxcrypto"
+    }
+  },
+  "call": {
+    "called_at": 1777162239,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 27209.27,
+    "entry_mcap_usd": 114949.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001181,
+    "entry_top_holder_pct": 11.682623647150828,
+    "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "ALEXCOIN"
+  },
+  "call_id": 5,
+  "captured_at": 1777162345,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 28760.67,
+      "current_mcap_usd": 128372.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777162109,
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "symbol": "ALEXCOIN"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777162345,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "29pposbejKHKoK3aazGcCHaC4sa2susd6Rk1fhUSYgem",
+    "lp_supply_ui": 0.0,
+    "pair_address": "78YzDvEUKg7LybgJqC5cFFi3W7cRt3mvohTBzM2yU1pt",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 27996.26,
+    "mcap_usd": 121649.0,
+    "name": "Youngest Memecoin Trencher Coin",
+    "pair_address": "78YzDvEUKg7LybgJqC5cFFi3W7cRt3mvohTBzM2yU1pt",
+    "pair_dex": "pumpswap",
+    "symbol": "ALEXCOIN"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 5,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "distributing",
+      "balance_ui": 109419888.10248,
+      "net_change_24h_ui": -187637.5849290043,
+      "net_change_7d_ui": -187637.5849290043,
+      "owner": "78YzDvEUKg7LybgJqC5cFFi3W7cRt3mvohTBzM2yU1pt",
+      "pct_of_supply": 11.243472550313586,
+      "token_account": "3fJhwFHiLaehPNrGhcfETc2JgBAUZf5pdtjZPdLJMc7C",
+      "tx_count_24h": 36,
+      "tx_count_7d": 36
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 36848652.69374,
+      "net_change_24h_ui": 36848652.69374001,
+      "net_change_7d_ui": 36848652.69374001,
+      "owner": "7AMjKr56mSBES1ENU8yaCEXtHApZFVBb69H8tdgBCxfb",
+      "pct_of_supply": 3.7863940665893825,
+      "token_account": "9VGppkuzBzqNofSPC3iNLuJv8cT6KVjHEcjE2Sq1AwJu",
+      "tx_count_24h": 13,
+      "tx_count_7d": 13
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 30117318.178141,
+      "net_change_24h_ui": 30117318.178141,
+      "net_change_7d_ui": 30117318.178141,
+      "owner": "GhBDNXvMZicfoCvxhCpJ2Tozc2PAwfqZsVRyxTKuhG5K",
+      "pct_of_supply": 3.094713823028611,
+      "token_account": "6hVPJBsY85uP2qwqrHmrFsW65eny2BuF6UGz7qLNWHNV",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 27968983.972529,
+      "net_change_24h_ui": 27968983.972529,
+      "net_change_7d_ui": 27968983.972529,
+      "owner": "AHwcS71JzzendmRxQBRxeg2DmdMGPNwAvRHQ85kxSjAK",
+      "pct_of_supply": 2.8739611144618142,
+      "token_account": "DgWYpnJ7aeDSZ71QMvPp6faLoM4xnnfwA9W7AH6wG5cM",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 27739399.904635,
+      "net_change_24h_ui": 27739399.904634997,
+      "net_change_7d_ui": 27739399.904634997,
+      "owner": "D1kYdSmgg3vp4yaC6QhQx2LdcjENkL7V4vkcz1gfEor7",
+      "pct_of_supply": 2.850370136531569,
+      "token_account": "3da4AmVuPzTo71PvTjejRcVEjefP8y4ZtrUF8Zb383fY",
+      "tx_count_24h": 11,
+      "tx_count_7d": 11
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 27059045.513586,
+      "net_change_24h_ui": 27059045.513586003,
+      "net_change_7d_ui": 27059045.513586003,
+      "owner": "ETHEnrwBT9Gj2PyEXkPQr85XdNDxyZrF9pABU8umGmQM",
+      "pct_of_supply": 2.7804601224299246,
+      "token_account": "9ZDMnePV6b2YXQR8rrDTyr1qCHcRzD5ziWE19gJHz6we",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 24853334.841225,
+      "net_change_24h_ui": 24853334.841225,
+      "net_change_7d_ui": 24853334.841225,
+      "owner": "4sunLKtRGCSX79kefAQsG9jjMNBXPCKiA6W3bFp6ysQY",
+      "pct_of_supply": 2.553811678269593,
+      "token_account": "EdArJ6kub9dfBdBnBzzaWhx95JsTjvTd94s3V2U6tQWM",
+      "tx_count_24h": 24,
+      "tx_count_7d": 24
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 23051027.036585,
+      "net_change_24h_ui": 23051027.036585,
+      "net_change_7d_ui": 23051027.036585,
+      "owner": "2fBqD65rynFfnmFahMRE52CkHs6Yo2QAyaH3oXyTX74e",
+      "pct_of_supply": 2.3686150135672235,
+      "token_account": "BByuZiWogXdsnMCgrNCDZ1JLBQJBi9qYyaARweAg3HB",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 21122501.659928,
+      "net_change_24h_ui": 21122501.659928,
+      "net_change_7d_ui": 21122501.659928,
+      "owner": "CdTC8PnacGLSSEBgoaknXpgB4fLvgsBL62e6CRTAEWMt",
+      "pct_of_supply": 2.170448825399328,
+      "token_account": "63LrPr33CtnrLAdEMNPcag8pTMMcB7Cyhd3aQbTnPfq4",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17582730.456963,
+      "net_change_24h_ui": 17582730.456963,
+      "net_change_7d_ui": 17582730.456963,
+      "owner": "2wwqTNgooXqJJNWRLkFKFvPhfNxnwRBBCKpZKMtgxegw",
+      "pct_of_supply": 1.8067186018987114,
+      "token_account": "6Mr8Phk3RiUiRCXsj4v819unUTK5zpgXavgAK6EXaMHM",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    }
+  ]
+}

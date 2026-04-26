@@ -1,6 +1,150 @@
 {
   "events": [
     {
+      "ts": 1777162366,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · STAIRCASE→GRINDER · top -0.48%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162296,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Hct1…pump · DEVELOPING→GRINDER · top +0.08%",
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "signature": null
+    },
+    {
+      "ts": 1777162276,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH Hct1…pump · vel 1.67x→0.40x · tpm 25.4",
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "signature": null
+    },
+    {
+      "ts": 1777162276,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Hct1…pump · STAIRCASE→DEVELOPING · top -0.13%",
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "signature": null
+    },
+    {
+      "ts": 1777162239,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Hct1…pump · DEVELOPING→STAIRCASE · top +0.36%",
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "signature": null
+    },
+    {
+      "ts": 1777162239,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$ALEXCOIN at $115k mcap — entry frozen",
+      "mint": "Hct14sMUim2d9pZDV9HWjynhidWr8KE4yvdxss9bpump",
+      "signature": null
+    },
+    {
+      "ts": 1777162200,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · GRINDER→STAIRCASE · top +0.19%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162144,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · STAIRCASE→GRINDER · top -0.03%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162126,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · DEVELOPING→STAIRCASE · top +0.20%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162071,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · STAIRCASE→DEVELOPING · top -0.55%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162053,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · DEVELOPING→STAIRCASE · top -0.23%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777162016,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · STAIRCASE→DEVELOPING · top -0.44%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161998,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · DEVELOPING→STAIRCASE · top +0.09%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161943,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · DEVELOPING→STAIRCASE · top +0.15%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161925,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · GRINDER→DEVELOPING · top +0.17%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161907,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · DEVELOPING→GRINDER · top +0.29%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161872,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE AoYb…pump · STAIRCASE→GRINDER · top -0.15%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
+      "ts": 1777161819,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE AoYb…pump · mom 72 · dist 54 · top 8.97%",
+      "mint": "AoYbxbyGUVVRbax8hywXAdekb1qWSNtYrhLY6rs4pump",
+      "signature": null
+    },
+    {
       "ts": 1777160909,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -13,6 +157,14 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING BmXV…pump · deployer down 45.2% (206534916 → 113144272)",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
+      "ts": 1777160845,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→DEVELOPING · top +0.05%",
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "signature": null
     },
@@ -33,10 +185,26 @@
       "signature": null
     },
     {
+      "ts": 1777160798,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · STAIRCASE→GRINDER · top +0.94%",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
       "ts": 1777160779,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING BmXV…pump · deployer down 46.5% (206534916 → 110559358)",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
+      "ts": 1777160779,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top -0.02%",
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "signature": null
     },
@@ -49,10 +217,26 @@
       "signature": null
     },
     {
+      "ts": 1777160759,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · STAIRCASE→GRINDER · top -0.47%",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
       "ts": 1777160740,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING BmXV…pump · deployer down 44.1% (206534916 → 115495190)",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
+      "ts": 1777160740,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top -0.65%",
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "signature": null
     },
@@ -113,10 +297,26 @@
       "signature": null
     },
     {
+      "ts": 1777160602,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · DEVELOPING→GRINDER · top +1.75%",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
       "ts": 1777160582,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING BmXV…pump · deployer down 52.0% (206534916 → 99230384)",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "signature": null
+    },
+    {
+      "ts": 1777160582,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BmXV…pump · STAIRCASE→DEVELOPING · top +0.34%",
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "signature": null
     },
@@ -129,202 +329,10 @@
       "signature": null
     },
     {
-      "ts": 1777160544,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.3% (206534916 → 96461887)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160525,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 54.1% (206534916 → 94726633)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160525,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BmXV…pump · DEVELOPING→STAIRCASE · top -0.13%",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
       "ts": 1777160525,
       "kind": "call",
       "tag": "CALL FIRED",
       "summary": "$Rudy at $205k mcap — entry frozen",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160505,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.5% (206534916 → 96070812)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160486,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 54.5% (206534916 → 94022495)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160468,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.2% (206534916 → 96640085)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160450,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.8% (206534916 → 95479280)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160450,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top +0.17%",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160431,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 54.6% (206534916 → 93803912)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160412,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 52.6% (206534916 → 97911133)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160412,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top -0.24%",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160393,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 51.4% (206534916 → 100330395)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160373,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.2% (206534916 → 96680195)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160373,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top -0.41%",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160354,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 51.2% (206534916 → 100819111)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160335,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 52.4% (206534916 → 98364432)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160316,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 53.2% (206534916 → 96699826)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160297,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 51.6% (206534916 → 100021068)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160278,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 52.2% (206534916 → 98647017)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160259,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 49.7% (206534916 → 103913922)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160259,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BmXV…pump · GRINDER→STAIRCASE · top +0.05%",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160239,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 49.9% (206534916 → 103448634)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160221,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 50.0% (206534916 → 103262856)",
-      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
-      "signature": null
-    },
-    {
-      "ts": 1777160201,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BmXV…pump · deployer down 50.7% (206534916 → 101810015)",
       "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
       "signature": null
     },
