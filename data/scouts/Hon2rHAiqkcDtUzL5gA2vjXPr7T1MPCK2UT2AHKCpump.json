@@ -1,0 +1,218 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 22124700.0,
+      "deployer_address": "7krzWQqfJ4b8tbKJMmBFyUkM7oW5C5Hy5eM2fqCUsJqk",
+      "initial_balance_ui": 22124700.0,
+      "pct_sold": 0.0,
+      "seconds_since_last_tx": 204665,
+      "tx_count_24h": 0,
+      "tx_count_7d": 2
+    },
+    "liquidity_usd": 465009.9,
+    "mcap_usd": 19482148.0,
+    "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+    "name": "Make Aliens Great Again ",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/MAGA_Aliens"
+      ],
+      [
+        "telegram",
+        "https://t.me/MakeAliensGreatAgain"
+      ]
+    ],
+    "symbol": "MAGA",
+    "website": {
+      "status": 200,
+      "text": "",
+      "truncated": false,
+      "url": "https://www.makealiensgreatagain.com/"
+    }
+  },
+  "call": {
+    "called_at": 1777184947,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 466304.26,
+    "entry_mcap_usd": 19593124.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.02002,
+    "entry_top_holder_pct": 2.2617184121552554,
+    "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "MAGA"
+  },
+  "call_id": 11,
+  "captured_at": 1777185108,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 465009.9,
+      "current_mcap_usd": 19482148.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777184892,
+      "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+      "symbol": "MAGA"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777185035,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "7Mt4MQE3K2Gpc4nSoRSZpGuDYARX23TFMZfMzLQYMQxV",
+    "lp_supply_ui": 0.0,
+    "pair_address": "HVimk99ygSSDnWz9eSqumdThrFz4DADE7j6phmFms6at",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 465009.9,
+    "mcap_usd": 19482148.0,
+    "name": "Make Aliens Great Again ",
+    "pair_address": "HVimk99ygSSDnWz9eSqumdThrFz4DADE7j6phmFms6at",
+    "pair_dex": "pumpswap",
+    "symbol": "MAGA"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+    "note": "",
+    "retention_pct": 95.0,
+    "sniper_count": 20,
+    "still_in_top_100": 19
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 22124700.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "7krzWQqfJ4b8tbKJMmBFyUkM7oW5C5Hy5eM2fqCUsJqk",
+      "pct_of_supply": 2.2617184121552554,
+      "token_account": "7krzWQqfJ4b8tbKJMmBFyUkM7oW5C5Hy5eM2fqCUsJqk",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "G4DF4Qj9NeU9qyZdPQWTMe278gYeNeVkj2ABb3zwsUg4",
+      "pct_of_supply": 2.044518942318093,
+      "token_account": "Ds22a4psVoDxRPuhqnfnHd9UBQv5oZpXRbgmiFtHmwYz",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "HGK9o9tcyRFjNZCTCE79uWMZTonjwRfUBrYdx5CwCdBD",
+      "pct_of_supply": 2.044518942318093,
+      "token_account": "DFsqv777h2bACSjnwBW6K9DD1pQJydptVSFr1LqJmmPi",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "9dDo4dqAxkBDZXhLNJrD9E2RwcF8vGohgT1jtSoBaQ7n",
+      "pct_of_supply": 2.044518942318093,
+      "token_account": "DFaNC64HfomiDWb9huy1NvBzfH8dUp3EzaVVfCtb3dYr",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "8nnoPfC63P1wJAnRXMtwHp7Viw2mPX3WJZ495bwSf7z2",
+      "pct_of_supply": 2.044518942318093,
+      "token_account": "6EZZceEwkyqAS1hpHhBXzKQegANRaerdJHcC8f7g4dZh",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 20000000.0,
+      "net_change_24h_ui": 20000000.0,
+      "net_change_7d_ui": 20000000.0,
+      "owner": "CGCsxKaHC8RZnZsyxL9YrDxTfZfYeyeDMCDagMQ9WQwq",
+      "pct_of_supply": 2.044518942318093,
+      "token_account": "5mXHJ6WvsqrsTyn5huqzVJRVGyp8LJb9XzZh1mPMCABj",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 19589660.83738,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": -311990.20783400163,
+      "owner": "FyhFGGTGfZuKCFYHxtZKESX4eDWJRQiYPGjMncCFAFQv",
+      "pct_of_supply": 2.002571632780516,
+      "token_account": "2wSZrMX1LCDWLFiGd23gXuXnAxYs3ounijMLAwCZwFxh",
+      "tx_count_24h": 0,
+      "tx_count_7d": 12
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17332224.551704,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 332224.5517040007,
+      "owner": "AdYpfVeRTKQbXw3pb93fEhAxNHd1XzdHSAoiHMpqE18m",
+      "pct_of_supply": 1.7718030704234773,
+      "token_account": "ABv8grX7PcRPzwYBLhK1AtCR9AEjn8CmcDRPn71Hs1xc",
+      "tx_count_24h": 0,
+      "tx_count_7d": 36
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 17183302.611271,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": -531995.3076069988,
+      "owner": "A1neZru86fY8uGnAeEHUd6zGnpv8TjTyKo79YYfHqWYX",
+      "pct_of_supply": 1.7565793840163757,
+      "token_account": "6mR6zWSYhUKu9FXrMu46Hypg6zHvBmP6k2ijT9ZF8dtc",
+      "tx_count_24h": 0,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 16500000.081858,
+      "net_change_24h_ui": -200000.0,
+      "net_change_7d_ui": -955076.6995989997,
+      "owner": "7mDuvVBMHUXgmop2A61JcJ6VcmsWNVhPuVwM87Ki4Bmd",
+      "pct_of_supply": 1.686728135780438,
+      "token_account": "5rxdrwLGgsjeqsT1tZscP92E3reueeFS6H2mQQ1tBiVQ",
+      "tx_count_24h": 4,
+      "tx_count_7d": 13
+    }
+  ]
+}

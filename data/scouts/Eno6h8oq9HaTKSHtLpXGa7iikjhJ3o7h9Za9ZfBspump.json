@@ -1,0 +1,214 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "BpRcVFh1QvVjLpSAZS3XQw5vbLQ4SzHBKrT2iUTd8cN5",
+      "initial_balance_ui": 125459342.824577,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 4,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 26483.47,
+    "mcap_usd": 101272.0,
+    "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+    "name": "Iwunka Twump",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/iwunkaTwump"
+      ]
+    ],
+    "symbol": "Iwunka",
+    "website": {
+      "status": 200,
+      "text": "Iwunka | Iwunka Twump",
+      "truncated": false,
+      "url": "https://iwunkatwump.lol/"
+    }
+  },
+  "call": {
+    "called_at": 1777184796,
+    "classification": "STAIRCASE",
+    "confidence": 77,
+    "entry_liquidity_usd": 28514.26,
+    "entry_mcap_usd": 117512.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001175,
+    "entry_top_holder_pct": 12.298089346820964,
+    "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "Iwunka"
+  },
+  "call_id": 8,
+  "captured_at": 1777185170,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 26483.47,
+      "current_mcap_usd": 101272.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777184571,
+      "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+      "symbol": "Iwunka"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777185151,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "8WefqtFtnva3JLPke8REKXD9382pcWzMd9B51osi5SH5",
+    "lp_supply_ui": 0.0,
+    "pair_address": "9RsMYhhRzSxhtMkUvXX9DTCYoZLJNWx9mPXNqd8FCMQ5",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 26483.47,
+    "mcap_usd": 101272.0,
+    "name": "Iwunka Twump",
+    "pair_address": "9RsMYhhRzSxhtMkUvXX9DTCYoZLJNWx9mPXNqd8FCMQ5",
+    "pair_dex": "pumpswap",
+    "symbol": "Iwunka"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "Eno6h8oq9HaTKSHtLpXGa7iikjhJ3o7h9Za9ZfBspump",
+    "note": "",
+    "retention_pct": 5.0,
+    "sniper_count": 20,
+    "still_in_top_100": 1
+  },
+  "whales": [
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 129556413.306316,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 12.955648587921583,
+      "token_account": "BpRcVFh1QvVjLpSAZS3XQw5vbLQ4SzHBKrT2iUTd8cN5",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1710790.458736,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.17107914170600336,
+      "token_account": "YEQQkChA9YRFppgzoNvuaUT9k3touMsRe2DUCqjf29x",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1607688.264505,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.16076891650748476,
+      "token_account": "BeGtbmHkuHgTRHYP7B92Rgq7M6L3h5yhQZLV5Q9nqBRn",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1599481.557805,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.15994824537777422,
+      "token_account": "AysXiGT7ACvi9psQAzn5rY3mqewf9xN9S7Z5uTa9U2p9",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1542179.73233,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.1542180596204295,
+      "token_account": "ARNzgFEpaCuy2mg8nCmB16tGfAxuiaqxPAAY1gKem9Z9",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1527160.178433,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.1527161033893875,
+      "token_account": "AvZdKCQ1AcHyzCcHHaGxRpoY8gMmLeUgwu5cZq5zRMqD",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1517808.492636,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.15178093428583928,
+      "token_account": "xiPkKZC55kJ8GtG4c6R8inu3r429G9iqFq2GG9MsLyV",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1504703.894664,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.15047047375456624,
+      "token_account": "JC3pQcnetb81zXvdMaaUWQCaKHMNnHC61TmNUxcL9yKw",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1477421.387412,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.1477422215010971,
+      "token_account": "8meFQbeniUqtiptVwXdNvxK9BXQxVtGhEEy7vLKEray4",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 1473299.644704,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 0.14733004699941174,
+      "token_account": "2nso6Uz3Zpq2mJQuZKb3GHqNopZnHf6YqQ7rRkwT9L6L",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}
