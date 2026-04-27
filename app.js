@@ -286,6 +286,158 @@ function formatMcap(n) {
   return n.toFixed(0);
 }
 
+// --- render: history ---
+// Closed-call archive. Showed only ~5 rows on the front page before; this
+// expands to full history with filter pills, paginated 20 at a time, plus
+// a stats banner so the page can answer "what's the track record?" at a
+// glance. Per-call extras pulled from the new server schema: peak_pct,
+// trough_pct (the journey, not just entry+exit), horizon, and verdict
+// note.
+const HISTORY_PAGE_SIZE = 20;
+let HISTORY_STATE = {
+  filter: "all",
+  page: 1,
+  data: [],   // full ordered history
+  stats: null,
+};
+
+function renderHistoryStats(stats) {
+  const banner = document.getElementById("history-stats");
+  if (!banner) return;
+  clear(banner);
+  if (!stats || !stats.overall || stats.overall.count === 0) {
+    banner.appendChild(el("div", { class: "empty", text: "no history yet" }));
+    return;
+  }
+  // Three sub-banners: overall, short, long. Skip the empty horizons so
+  // we don't render "0 calls · 0% win rate" rows that confuse the eye.
+  const buckets = [
+    ["overall", stats.overall],
+    ["short", stats.short],
+    ["long", stats.long],
+  ].filter(([, b]) => b && b.count > 0);
+  for (const [label, b] of buckets) {
+    const row = el("div", { class: "history-stat-row" });
+    row.appendChild(el("span", { class: "history-stat-label", text: label }));
+    row.appendChild(el("span", { class: "history-stat-cell", text: b.count + " calls" }));
+    if (b.wins + b.losses > 0) {
+      const wrCls = b.win_rate >= 50 ? "pos" : "neg";
+      row.appendChild(el("span", { class: "history-stat-cell " + wrCls, text: b.win_rate.toFixed(0) + "% win rate" }));
+    }
+    if (b.avg_winner_pct > 0) {
+      row.appendChild(el("span", { class: "history-stat-cell pos", text: "avg winner +" + b.avg_winner_pct.toFixed(0) + "%" }));
+    }
+    if (b.avg_loser_pct < 0) {
+      row.appendChild(el("span", { class: "history-stat-cell neg", text: "avg loser " + b.avg_loser_pct.toFixed(0) + "%" }));
+    }
+    if (b.best_pct > 0) {
+      row.appendChild(el("span", { class: "history-stat-cell faint", text: "best " + fmtPct(b.best_pct) }));
+    }
+    if (b.worst_pct < 0) {
+      row.appendChild(el("span", { class: "history-stat-cell faint", text: "worst " + fmtPct(b.worst_pct) }));
+    }
+    banner.appendChild(row);
+  }
+}
+
+function filterHistory(rows, filter) {
+  if (!Array.isArray(rows)) return [];
+  if (filter === "all") return rows;
+  return rows.filter((c) => {
+    switch (filter) {
+      case "won": return c.outcome_type === "withdrew";
+      case "failed": return c.outcome_type === "failed";
+      case "expired": return c.outcome_type === "expired";
+      case "short": return !((c.note || "").includes("horizon=LONG"));
+      case "long": return (c.note || "").includes("horizon=LONG");
+      default: return true;
+    }
+  });
+}
+
+function renderHistoryRow(c) {
+  const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
+  const term = callTerm(c);
+  const pct = callPctValue(c);
+  const pctCls = pct == null ? "" : pnlClass(pct);
+
+  // Outcome verdict (already in exit_note from the settling phase:
+  // "+52% · took the win" / "-64% · thesis broke" etc.)
+  const verdict = c.exit_note || c.outcome_type || "—";
+
+  // Header: outcome icon + symbol + horizon badge + final pct.
+  const icon = c.outcome_type === "withdrew" ? "🟢"
+             : c.outcome_type === "failed" ? "🔴"
+             : c.outcome_type === "expired" ? "⏰"
+             : "·";
+  const head = el("div", { class: "history-head" }, [
+    el("span", { class: "history-icon", text: icon }),
+    el("span", { class: "history-sym", text: sym }),
+    term ? el("span", { class: "history-term history-term-" + term, text: term.toUpperCase() }) : null,
+    el("span", { class: "history-pct " + pctCls, text: pct == null ? "—" : fmtPct(pct) }),
+  ]);
+
+  // Detail line: verdict + when + journey (peak/trough).
+  const meta = [];
+  if (verdict) meta.push(verdict);
+  if (c.peak_pct != null && c.peak_pct > 0.5) {
+    meta.push("peak " + fmtPct(c.peak_pct));
+  }
+  if (c.trough_pct != null && c.trough_pct < -0.5) {
+    meta.push("trough " + fmtPct(c.trough_pct));
+  }
+  if (c.entry_mcap_usd) meta.push("entry $" + formatMcap(c.entry_mcap_usd));
+  meta.push(fmtTimeAgo(c.closed_at || c.called_at));
+
+  const detail = el("div", { class: "history-detail" });
+  detail.appendChild(document.createTextNode(meta.join(" · ") + " · "));
+  detail.appendChild(el("a", {
+    href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart",
+  }));
+  detail.appendChild(document.createTextNode(" · "));
+  detail.appendChild(el("a", {
+    href: SOLSCAN + "/token/" + c.mint, target: "_blank", rel: "noopener", text: "solscan",
+  }));
+
+  return el("div", { class: "history-row", title: c.mint }, [head, detail]);
+}
+
+function renderHistory() {
+  const list = document.getElementById("history-list");
+  const more = document.getElementById("history-more");
+  if (!list) return;
+  clear(list);
+  const filtered = filterHistory(HISTORY_STATE.data, HISTORY_STATE.filter);
+  if (!filtered.length) {
+    list.appendChild(el("div", { class: "empty", text: "no calls match this filter" }));
+    if (more) more.hidden = true;
+    return;
+  }
+  const visible = filtered.slice(0, HISTORY_STATE.page * HISTORY_PAGE_SIZE);
+  for (const c of visible) list.appendChild(renderHistoryRow(c));
+  if (more) more.hidden = visible.length >= filtered.length;
+}
+
+function bindHistoryControls() {
+  const filters = document.querySelectorAll(".history-filter");
+  for (const btn of filters) {
+    btn.addEventListener("click", () => {
+      for (const b of filters) b.classList.remove("active");
+      btn.classList.add("active");
+      HISTORY_STATE.filter = btn.getAttribute("data-filter");
+      HISTORY_STATE.page = 1;
+      renderHistory();
+    });
+  }
+  const more = document.getElementById("history-more");
+  if (more) {
+    more.addEventListener("click", () => {
+      HISTORY_STATE.page += 1;
+      renderHistory();
+    });
+  }
+}
+
 // --- render: ticker strip (arena-inspired) ---
 function renderTicker(health, pnl, calls, positions) {
   const ticker = document.getElementById("ticker");
@@ -1064,6 +1216,13 @@ async function refreshLiveData() {
   renderPnl(pnl);
   renderPositions(posArr);
   renderCalls(calls && calls.active, calls && calls.history);
+  // History fed by the same calls.json. Server now ships up to 200 closed
+  // rows; client paginates 20 at a time. Stats banner pulled from the new
+  // top-level stats block in the JSON.
+  HISTORY_STATE.data = (calls && calls.history) || [];
+  HISTORY_STATE.stats = (calls && calls.stats) || null;
+  renderHistoryStats(HISTORY_STATE.stats);
+  renderHistory();
   renderActivity(activity && activity.activity, posArr);
   renderStream(stream);
   await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
@@ -1071,6 +1230,7 @@ async function refreshLiveData() {
 
 async function main() {
   wireChartTabs();
+  bindHistoryControls();
   await refreshLiveData();
 
   // Poll every 30s for fresh JSONs. The publisher ticks every 5 min, so
