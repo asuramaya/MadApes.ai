@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "lp-mint offset not known for dex `meteora`",
+    "detail": "pair account not found",
     "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
     "pair_dex": "meteora",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "unknown_layout"
+    "verdict": "error"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777254941,
+  "snapshot_ts": 1777255162,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "owner_unresolved",
-      "balance_ui": 25715423.63769188,
+      "balance_ui": 25689971.086164583,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 2.630734287808964,
+      "pct_of_supply": 2.628130445988556,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -30,7 +30,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 1.8971905867521153,
+      "pct_of_supply": 1.8971905868789367,
       "token_account": "FgirVUZEJyHkrUVhmD6Lx6XnYPRRKkiagXV6xJn6rLDG",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -41,7 +41,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 1.4731460106658882,
+      "pct_of_supply": 1.473146010764364,
       "token_account": "GqFiU2JqinL1HTNrV6ntCGM7Y9xSpcsfKYgVRYMSUnon",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -52,7 +52,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 1.344681478964109,
+      "pct_of_supply": 1.344681479053997,
       "token_account": "GDtCSCkqiwPDz5TNiDYh3EcwDQSGqkLy7iPcB8FTBkJ4",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -63,7 +63,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 1.0412550077406122,
+      "pct_of_supply": 1.041255007810217,
       "token_account": "pkBYXdURDr85jecNoEVCBHDBqSjmMfCuR4ezzifHUjt",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -74,7 +74,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 0.9613687438485683,
+      "pct_of_supply": 0.961368743912833,
       "token_account": "BaaaJX9FUmPu9m8RDCjGaSaWcJT1z7vMqT62mccZzdCr",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -85,7 +85,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 0.9463813364731576,
+      "pct_of_supply": 0.9463813365364204,
       "token_account": "6w9x9jnmsxtRbqcSG3LimKGa1ShHEMTQYzjzv7urXqqt",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -96,7 +96,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 0.9309464372958045,
+      "pct_of_supply": 0.9309464373580354,
       "token_account": "BousnzK1Xo6sbDDJCKitCR57HvE9UGAU4GDQSZ4seyvb",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -107,7 +107,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 0.8481738453099744,
+      "pct_of_supply": 0.8481738453666725,
       "token_account": "9p6K36hso5y8bZKcZkHxVgMaMAYrrD4QFrhaoGpEVU8r",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -118,7 +118,7 @@
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 0.7546617782925419,
+      "pct_of_supply": 0.7546617783429888,
       "token_account": "F3FusanJkMoZXm757AYqtqSUyy4RzNBaHhRumFyQ9RDo",
       "tx_count_24h": 0,
       "tx_count_7d": 0
