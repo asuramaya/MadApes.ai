@@ -1,38 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777270169,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ipc…pump · STAIRCASE→GRINDER · top -0.86%",
-      "mint": "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump",
-      "signature": null
-    },
-    {
-      "ts": 1777270142,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ipc…pump · DEVELOPING→STAIRCASE · top +1.08%",
-      "mint": "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump",
-      "signature": null
-    },
-    {
-      "ts": 1777270141,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HxFS…pump · STAIRCASE→DEVELOPING · top -0.53%",
-      "mint": "HxFSWTJE3SeUCgsKJUcuGQYAiH4S4BFEnSoktfKLpump",
-      "signature": null
-    },
-    {
-      "ts": 1777270118,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 2uao…pump · deployer down 23.5% (109022042 → 83454726)",
-      "mint": "2uaoVwaQVSgqTKio5ExeXeD9oofdnYbhcFv5MChopump",
-      "signature": null
-    },
-    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -69,47 +37,20 @@
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 498785.0,
-      "price_usd": 0.0005024,
-      "price_change_1h": -1.6,
+      "mcap_usd": 506821.0,
+      "price_usd": 0.0005104,
+      "price_change_1h": 0.67,
       "price_change_24h": null,
-      "liquidity_usd": 84417.62
-    },
-    "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump": {
-      "symbol": "Jewcoin",
-      "name": "Jewcoin 2014",
-      "mcap_usd": 48584.0,
-      "price_usd": 0.00004858,
-      "price_change_1h": -19.2,
-      "price_change_24h": null,
-      "liquidity_usd": 17574.18
-    },
-    "HxFSWTJE3SeUCgsKJUcuGQYAiH4S4BFEnSoktfKLpump": {
-      "symbol": "ODAI",
-      "name": "OPENDOJO",
-      "mcap_usd": 110428.0,
-      "price_usd": 0.0001104,
-      "price_change_1h": 213.0,
-      "price_change_24h": null,
-      "liquidity_usd": 26324.43
+      "liquidity_usd": 85137.76
     },
     "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr": {
       "symbol": "ROTUS",
       "name": "Retard Of The United States",
-      "mcap_usd": 3360836.0,
-      "price_usd": 0.003438,
-      "price_change_1h": 0.54,
+      "mcap_usd": 3397229.0,
+      "price_usd": 0.003475,
+      "price_change_1h": -0.05,
       "price_change_24h": null,
-      "liquidity_usd": 125589.78
-    },
-    "2uaoVwaQVSgqTKio5ExeXeD9oofdnYbhcFv5MChopump": {
-      "symbol": "STFU",
-      "name": "Super Testicle Farting Unicorn",
-      "mcap_usd": 159368.0,
-      "price_usd": 0.0001593,
-      "price_change_1h": 0.46,
-      "price_change_24h": null,
-      "liquidity_usd": 32401.83
+      "liquidity_usd": 126326.94
     }
   }
 }
