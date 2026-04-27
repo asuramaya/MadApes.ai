@@ -280,12 +280,21 @@ function renderHistoryStats(stats) {
     banner.appendChild(el("div", { class: "empty", text: "no history yet" }));
     return;
   }
-  // Three sub-banners: overall, short, long. Skip the empty horizons so
-  // we don't render "0 calls · 0% win rate" rows that confuse the eye.
+  // Sub-banners: overall, short, long, plus per-source rows (auto vs
+  // manual). Skip empties so we don't render "0 calls · 0% win rate"
+  // rows that confuse the eye.
+  const sourceLabels = { notifier: "auto", dm: "manual", mcp: "claw", legacy: "legacy" };
+  const sourceBuckets = stats.by_source
+    ? Object.entries(stats.by_source)
+        .filter(([, b]) => b && b.count > 0)
+        .sort((a, b) => b[1].count - a[1].count) // most calls first
+        .map(([k, b]) => [sourceLabels[k] || k, b])
+    : [];
   const buckets = [
     ["overall", stats.overall],
     ["short", stats.short],
     ["long", stats.long],
+    ...sourceBuckets,
   ].filter(([, b]) => b && b.count > 0);
   for (const [label, b] of buckets) {
     const row = el("div", { class: "history-stat-row" });
