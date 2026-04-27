@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "lp-mint offset not known for dex `meteora`",
+    "detail": "pair account not found",
     "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
     "pair_dex": "meteora",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "unknown_layout"
+    "verdict": "error"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777269503,
+  "snapshot_ts": 1777269806,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "owner_unresolved",
-      "balance_ui": 25091086.4751435,
+      "balance_ui": 24967651.040186364,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 2.566863468513981,
+      "pct_of_supply": 2.55423580055606,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
