@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777390310,
+      "ts": 1777390678,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
@@ -9,7 +9,7 @@
       "signature": null
     },
     {
-      "ts": 1777390282,
+      "ts": 1777390652,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
@@ -17,59 +17,11 @@
       "signature": null
     },
     {
-      "ts": 1777390264,
+      "ts": 1777390582,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
       "mint": "GYFAeRZQKUMxAQucC5dEJ1T2W2r1zXNNxQxez9jWpump",
-      "signature": null
-    },
-    {
-      "ts": 1777390225,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Bg4A…pump · deployer down 31.4% (206994499 → 142067407)",
-      "mint": "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump",
-      "signature": null
-    },
-    {
-      "ts": 1777390154,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Bg4A…pump · deployer down 34.3% (206994499 → 135926851)",
-      "mint": "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump",
-      "signature": null
-    },
-    {
-      "ts": 1777390128,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Bg4A…pump · deployer down 32.3% (206994499 → 140075876)",
-      "mint": "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump",
-      "signature": null
-    },
-    {
-      "ts": 1777389453,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BW61…pump · deployer down 32.2% (160126348 → 108570940)",
-      "mint": "BW61rWkXGZLxWEywYiUss5rmJgxWaKdzWzmVarSKpump",
-      "signature": null
-    },
-    {
-      "ts": 1777389434,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BW61…pump · deployer down 32.2% (160126348 → 108570940)",
-      "mint": "BW61rWkXGZLxWEywYiUss5rmJgxWaKdzWzmVarSKpump",
-      "signature": null
-    },
-    {
-      "ts": 1777389415,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING BW61…pump · deployer down 32.2% (160126348 → 108570940)",
-      "mint": "BW61rWkXGZLxWEywYiUss5rmJgxWaKdzWzmVarSKpump",
       "signature": null
     },
     {
@@ -98,41 +50,23 @@
     }
   ],
   "tokens": {
-    "GYFAeRZQKUMxAQucC5dEJ1T2W2r1zXNNxQxez9jWpump": {
-      "symbol": "SCAMNALD",
-      "name": "SCAMNALD TRUMP",
-      "mcap_usd": 211258.0,
-      "price_usd": 0.0002112,
-      "price_change_1h": 410.0,
-      "price_change_24h": null,
-      "liquidity_usd": 36249.61
-    },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 302694.0,
-      "price_usd": 0.0003048,
-      "price_change_1h": 1.05,
+      "mcap_usd": 306289.0,
+      "price_usd": 0.0003085,
+      "price_change_1h": 3.3,
       "price_change_24h": null,
-      "liquidity_usd": 65618.16
+      "liquidity_usd": 65942.54
     },
-    "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump": {
-      "symbol": "USA",
-      "name": "Uncle Scam Altman",
-      "mcap_usd": 70949.0,
-      "price_usd": 0.00007094,
-      "price_change_1h": 102.0,
-      "price_change_24h": null,
-      "liquidity_usd": 20747.32
-    },
-    "BW61rWkXGZLxWEywYiUss5rmJgxWaKdzWzmVarSKpump": {
+    "GYFAeRZQKUMxAQucC5dEJ1T2W2r1zXNNxQxez9jWpump": {
       "symbol": "SCAMNALD",
       "name": "SCAMNALD TRUMP",
-      "mcap_usd": 78459.0,
-      "price_usd": 0.00007845,
-      "price_change_1h": 142.0,
+      "mcap_usd": 194452.0,
+      "price_usd": 0.0001944,
+      "price_change_1h": 370.0,
       "price_change_24h": null,
-      "liquidity_usd": 22739.14
+      "liquidity_usd": 34921.95
     }
   }
 }
