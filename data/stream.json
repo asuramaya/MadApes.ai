@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777382182,
+      "ts": 1777382552,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 67qK…pump · deployer down 100.0% (198681009 → 0)",
@@ -9,7 +9,7 @@
       "signature": null
     },
     {
-      "ts": 1777382165,
+      "ts": 1777382535,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 67qK…pump · deployer down 100.0% (198681009 → 0)",
@@ -17,7 +17,7 @@
       "signature": null
     },
     {
-      "ts": 1777382133,
+      "ts": 1777382465,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 67qK…pump · deployer down 100.0% (198681009 → 0)",
@@ -37,14 +37,6 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING A9AV…pump · deployer down 53.2% (172644465 → 80712893)",
-      "mint": "A9AV4GiGLfnrt2mv8zbgHww6dgLGrBvvns8dWPVZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777381119,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING A9AV…pump · deployer down 45.7% (172644465 → 93778879)",
       "mint": "A9AV4GiGLfnrt2mv8zbgHww6dgLGrBvvns8dWPVZpump",
       "signature": null
     },
@@ -77,29 +69,29 @@
     "A9AV4GiGLfnrt2mv8zbgHww6dgLGrBvvns8dWPVZpump": {
       "symbol": "yourself",
       "name": "bet on yourself",
-      "mcap_usd": 1615.0,
-      "price_usd": 1.615e-6,
-      "price_change_1h": -95.3,
+      "mcap_usd": 1614.0,
+      "price_usd": 1.614e-6,
+      "price_change_1h": -95.31,
       "price_change_24h": null,
-      "liquidity_usd": 3154.55
+      "liquidity_usd": 3156.14
     },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 262234.0,
-      "price_usd": 0.0002641,
-      "price_change_1h": 1.51,
+      "mcap_usd": 274812.0,
+      "price_usd": 0.0002768,
+      "price_change_1h": 5.79,
       "price_change_24h": null,
-      "liquidity_usd": 60965.26
+      "liquidity_usd": 62455.94
     },
     "67qKEdUtrCgCoW1hA2fxg3EJpEUjAXGYNnHbYXapump": {
       "symbol": "SVF",
       "name": "Scam vs Felon",
-      "mcap_usd": 213258.0,
-      "price_usd": 0.0002132,
-      "price_change_1h": 354.0,
+      "mcap_usd": 295497.0,
+      "price_usd": 0.0002954,
+      "price_change_1h": 530.0,
       "price_change_24h": null,
-      "liquidity_usd": 36144.59
+      "liquidity_usd": 42647.11
     }
   }
 }
