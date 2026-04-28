@@ -19,32 +19,16 @@
     {
       "ts": 1777416801,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9UFY…pump · STAIRCASE→GRINDER · top -1.06%",
-      "mint": "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump",
-      "signature": null
-    },
-    {
-      "ts": 1777416801,
-      "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 9UFY…pump · deployer down 27.6% (190646305 → 137981041)",
       "mint": "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump",
       "signature": null
     },
     {
-      "ts": 1777416483,
+      "ts": 1777416801,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9UFY…pump · GRINDER→STAIRCASE · top +0.98%",
-      "mint": "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump",
-      "signature": null
-    },
-    {
-      "ts": 1777416483,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 9UFY…pump · deployer down 22.1% (190646305 → 148585391)",
+      "summary": "CLASSIFICATION_CHANGE 9UFY…pump · STAIRCASE→GRINDER · top -1.06%",
       "mint": "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump",
       "signature": null
     },
@@ -74,41 +58,41 @@
     }
   ],
   "tokens": {
-    "agqh6qWaryiVCS7bQrU7RC36FvjAhPbyJthVGYTpump": {
-      "symbol": "MDGA",
-      "name": "Make Dogs Great Again",
-      "mcap_usd": 95925.0,
-      "price_usd": 0.00009891,
-      "price_change_1h": 18.08,
+    "o7ykXMMej3onuMdnHXUWWCvF1nt2iQiCTmTiDmppump": {
+      "symbol": "PEMP",
+      "name": "pemp",
+      "mcap_usd": 43019.0,
+      "price_usd": 0.00004301,
+      "price_change_1h": 23.69,
       "price_change_24h": null,
-      "liquidity_usd": 24350.26
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 288378.0,
-      "price_usd": 0.0002904,
-      "price_change_1h": -12.79,
-      "price_change_24h": null,
-      "liquidity_usd": 64263.59
+      "liquidity_usd": 16624.48
     },
     "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump": {
       "symbol": "Kylo",
       "name": "Kylo The Doge",
-      "mcap_usd": 96170.0,
-      "price_usd": 0.00009617,
-      "price_change_1h": 76.91,
+      "mcap_usd": 100929.0,
+      "price_usd": 0.0001009,
+      "price_change_1h": 36.84,
       "price_change_24h": null,
-      "liquidity_usd": 25785.47
+      "liquidity_usd": 26564.32
     },
-    "o7ykXMMej3onuMdnHXUWWCvF1nt2iQiCTmTiDmppump": {
-      "symbol": "PEMP",
-      "name": "pemp",
-      "mcap_usd": 41104.0,
-      "price_usd": 0.0000411,
-      "price_change_1h": 18.18,
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 296441.0,
+      "price_usd": 0.0002985,
+      "price_change_1h": -6.01,
       "price_change_24h": null,
-      "liquidity_usd": 16229.92
+      "liquidity_usd": 65157.53
+    },
+    "agqh6qWaryiVCS7bQrU7RC36FvjAhPbyJthVGYTpump": {
+      "symbol": "MDGA",
+      "name": "Make Dogs Great Again",
+      "mcap_usd": 85515.0,
+      "price_usd": 0.00008817,
+      "price_change_1h": 22.17,
+      "price_change_24h": null,
+      "liquidity_usd": 23005.96
     }
   }
 }
