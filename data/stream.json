@@ -33,6 +33,14 @@
       "signature": null
     },
     {
+      "ts": 1777373416,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 94Kk…pump · DEVELOPING→STAIRCASE · top +0.80%",
+      "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
+      "signature": null
+    },
+    {
       "ts": 1777373309,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -49,10 +57,10 @@
       "signature": null
     },
     {
-      "ts": 1777373145,
+      "ts": 1777373248,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 94Kk…pump · DEVELOPING→STAIRCASE · top -0.32%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 94Kk…pump · deployer down 22.2% (162576572 → 126526680)",
       "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
       "signature": null
     },
@@ -65,43 +73,27 @@
       "signature": null
     },
     {
-      "ts": 1777373055,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 94Kk…pump · deployer down 26.5% (162576572 → 119418408)",
-      "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
-      "signature": null
-    },
-    {
-      "ts": 1777372903,
+      "ts": 1777373145,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 94Kk…pump · DEVELOPING→STAIRCASE · top -0.04%",
+      "summary": "CLASSIFICATION_CHANGE 94Kk…pump · DEVELOPING→STAIRCASE · top -0.32%",
       "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
       "signature": null
     },
     {
-      "ts": 1777372903,
+      "ts": 1777373056,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 24.9% (242508015 → 182095647)",
-      "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6qbh…pump · STAIRCASE→GRINDER · top -0.24%",
+      "mint": "6qbh9jzbzHwKGH5gSXkWj5R7CjnbiVLRFs55cJx2pump",
       "signature": null
     },
     {
-      "ts": 1777372883,
+      "ts": 1777372974,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 25.5% (242508015 → 180714537)",
-      "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
-      "signature": null
-    },
-    {
-      "ts": 1777372863,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 26.5% (242508015 → 178298037)",
-      "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6qbh…pump · GRINDER→STAIRCASE · top -0.71%",
+      "mint": "6qbh9jzbzHwKGH5gSXkWj5R7CjnbiVLRFs55cJx2pump",
       "signature": null
     },
     {
@@ -133,38 +125,29 @@
     "6qbh9jzbzHwKGH5gSXkWj5R7CjnbiVLRFs55cJx2pump": {
       "symbol": "SuicideGPT",
       "name": "SuicideGPT",
-      "mcap_usd": 87900.0,
-      "price_usd": 0.0000879,
-      "price_change_1h": 91.37,
+      "mcap_usd": 95529.0,
+      "price_usd": 0.00009552,
+      "price_change_1h": 62.49,
       "price_change_24h": null,
-      "liquidity_usd": 24138.63
+      "liquidity_usd": 25235.58
     },
     "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump": {
       "symbol": "MSGA",
       "name": "Make Scammers Great Again",
-      "mcap_usd": 2866.0,
-      "price_usd": 2.866e-6,
-      "price_change_1h": -91.86,
+      "mcap_usd": 2713.0,
+      "price_usd": 2.713e-6,
+      "price_change_1h": -92.3,
       "price_change_24h": null,
-      "liquidity_usd": 4285.22
-    },
-    "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT": {
-      "symbol": "Rudy",
-      "name": "Rudy",
-      "mcap_usd": 1661.0,
-      "price_usd": 1.661e-6,
-      "price_change_1h": -95.24,
-      "price_change_24h": null,
-      "liquidity_usd": 3141.01
+      "liquidity_usd": 4168.21
     },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 285833.0,
-      "price_usd": 0.0002879,
-      "price_change_1h": -0.91,
+      "mcap_usd": 273514.0,
+      "price_usd": 0.0002754,
+      "price_change_1h": -3.93,
       "price_change_24h": null,
-      "liquidity_usd": 63837.52
+      "liquidity_usd": 62419.55
     }
   }
 }
