@@ -278,17 +278,6 @@
       "worst_pct": -98.99702969873904
     },
     "by_source": {
-      "notifier": {
-        "count": 6,
-        "wins": 1,
-        "losses": 4,
-        "expired": 1,
-        "win_rate": 20.0,
-        "avg_winner_pct": 64.26050755334907,
-        "avg_loser_pct": -89.36067097807937,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -98.43656343656345
-      },
       "curve": {
         "count": 1,
         "wins": 0,
@@ -299,6 +288,17 @@
         "avg_loser_pct": -98.99702969873904,
         "best_pct": -98.99702969873904,
         "worst_pct": -98.99702969873904
+      },
+      "notifier": {
+        "count": 6,
+        "wins": 1,
+        "losses": 4,
+        "expired": 1,
+        "win_rate": 20.0,
+        "avg_winner_pct": 64.26050755334907,
+        "avg_loser_pct": -89.36067097807937,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -98.43656343656345
       }
     }
   }
