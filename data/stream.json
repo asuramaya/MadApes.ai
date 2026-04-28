@@ -1,26 +1,26 @@
 {
   "events": [
     {
-      "ts": 1777407779,
+      "ts": 1777408042,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HGkp…pump · DEVELOPING→GRINDER · top +0.80%",
+      "summary": "CLASSIFICATION_CHANGE HGkp…pump · STAIRCASE→DEVELOPING · top -0.16%",
       "mint": "HGkp7RrYtK8YuANBw4c3rvEHQhsGR98f5Uc5vEaopump",
       "signature": null
     },
     {
-      "ts": 1777407533,
+      "ts": 1777408025,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HGkp…pump · STAIRCASE→DEVELOPING · top +0.42%",
+      "summary": "CLASSIFICATION_CHANGE HGkp…pump · GRINDER→STAIRCASE · top +0.13%",
       "mint": "HGkp7RrYtK8YuANBw4c3rvEHQhsGR98f5Uc5vEaopump",
       "signature": null
     },
     {
-      "ts": 1777407516,
+      "ts": 1777407993,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HGkp…pump · GRINDER→STAIRCASE · top +0.35%",
+      "summary": "CLASSIFICATION_CHANGE HGkp…pump · STAIRCASE→GRINDER · top -0.30%",
       "mint": "HGkp7RrYtK8YuANBw4c3rvEHQhsGR98f5Uc5vEaopump",
       "signature": null
     },
@@ -98,50 +98,50 @@
     }
   ],
   "tokens": {
-    "9iqok6rWEdP57t7ooMMc1S8LzjmPyDWg7tF3n5brpump": {
-      "symbol": "glarp",
-      "name": "glarp",
-      "mcap_usd": 1586.0,
-      "price_usd": 1.585e-6,
-      "price_change_1h": -95.46,
-      "price_change_24h": null,
-      "liquidity_usd": 3060.11
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 307697.0,
-      "price_usd": 0.0003099,
-      "price_change_1h": 3.39,
-      "price_change_24h": null,
-      "liquidity_usd": 66390.12
-    },
     "9SBDXfEmy6rTeY6UUaXx5pRK1mcz9su2Gpp1T8oyrj9u": {
       "symbol": "Reality",
       "name": "Make Ur Dream A Reality",
-      "mcap_usd": 1803.0,
-      "price_usd": 1.803e-6,
-      "price_change_1h": -94.77,
+      "mcap_usd": 1624.0,
+      "price_usd": 1.623e-6,
+      "price_change_1h": -95.29,
       "price_change_24h": null,
-      "liquidity_usd": 3266.34
-    },
-    "HGkp7RrYtK8YuANBw4c3rvEHQhsGR98f5Uc5vEaopump": {
-      "symbol": "speciesist",
-      "name": "the speciesist",
-      "mcap_usd": 117644.0,
-      "price_usd": 0.0001176,
-      "price_change_1h": 237.0,
-      "price_change_24h": null,
-      "liquidity_usd": 27513.2
+      "liquidity_usd": 3099.28
     },
     "81hDQMkUzvBZMSHBXheSoWWP3Bke2LDNZdV6dEHgpump": {
       "symbol": "Dream ",
       "name": "Make Ur Dream A Reality",
-      "mcap_usd": 2738.0,
-      "price_usd": 2.738e-6,
-      "price_change_1h": -92.16,
+      "mcap_usd": 2028.0,
+      "price_usd": 2.028e-6,
+      "price_change_1h": -94.19,
       "price_change_24h": null,
-      "liquidity_usd": 4041.02
+      "liquidity_usd": 3477.41
+    },
+    "9iqok6rWEdP57t7ooMMc1S8LzjmPyDWg7tF3n5brpump": {
+      "symbol": "glarp",
+      "name": "glarp",
+      "mcap_usd": 1485.0,
+      "price_usd": 1.484e-6,
+      "price_change_1h": -95.75,
+      "price_change_24h": null,
+      "liquidity_usd": 2960.86
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 306775.0,
+      "price_usd": 0.000309,
+      "price_change_1h": -0.89,
+      "price_change_24h": null,
+      "liquidity_usd": 66282.42
+    },
+    "HGkp7RrYtK8YuANBw4c3rvEHQhsGR98f5Uc5vEaopump": {
+      "symbol": "speciesist",
+      "name": "the speciesist",
+      "mcap_usd": 98205.0,
+      "price_usd": 0.0000982,
+      "price_change_1h": 181.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25224.37
     }
   }
 }
