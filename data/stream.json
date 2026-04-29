@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777449051,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING FeMb…pump · top 25.43%→28.11% (+2.67%) · DEVELOPING",
-      "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-      "signature": null
-    },
-    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -37,20 +29,11 @@
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 398024.0,
-      "price_usd": 0.0004009,
-      "price_change_1h": 0.77,
+      "mcap_usd": 394948.0,
+      "price_usd": 0.0003978,
+      "price_change_1h": -0.52,
       "price_change_24h": null,
-      "liquidity_usd": 76002.27
-    },
-    "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": {
-      "symbol": "three",
-      "name": "three.ws",
-      "mcap_usd": 26257.0,
-      "price_usd": 0.00002625,
-      "price_change_1h": -45.1,
-      "price_change_24h": null,
-      "liquidity_usd": 12618.47
+      "liquidity_usd": 75712.44
     }
   }
 }
