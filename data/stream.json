@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777506901,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3CCJ…pump · STAIRCASE→DEVELOPING · top +0.35%",
+      "mint": "3CCJDEZWH5fd6nBHLNMkP5wtDvDP8EVwiEPJAaxEpump",
+      "signature": null
+    },
+    {
+      "ts": 1777506821,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3CCJ…pump · GRINDER→STAIRCASE · top +0.97%",
+      "mint": "3CCJDEZWH5fd6nBHLNMkP5wtDvDP8EVwiEPJAaxEpump",
+      "signature": null
+    },
+    {
       "ts": 1777506573,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -34,23 +50,32 @@
     }
   ],
   "tokens": {
-    "HrMp2mmpyDZJ65Mspzib7NJPXeZe2cvY5stfHG9nhWTH": {
-      "symbol": "PUP",
+    "3CCJDEZWH5fd6nBHLNMkP5wtDvDP8EVwiEPJAaxEpump": {
+      "symbol": "GORDON",
       "name": "Wheelchair Pup",
-      "mcap_usd": 648166.0,
-      "price_usd": 0.0006481,
-      "price_change_1h": 60.93,
+      "mcap_usd": 76482.0,
+      "price_usd": 0.00007649,
+      "price_change_1h": 444.0,
       "price_change_24h": null,
-      "liquidity_usd": 72606.68
+      "liquidity_usd": 21930.32
     },
     "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump": {
       "symbol": "STJUDE",
       "name": "St. Jude",
-      "mcap_usd": 1013587.0,
-      "price_usd": 0.001013,
-      "price_change_1h": -6.0,
+      "mcap_usd": 1191474.0,
+      "price_usd": 0.001191,
+      "price_change_1h": 5.8,
       "price_change_24h": null,
-      "liquidity_usd": 104000.18
+      "liquidity_usd": 112834.94
+    },
+    "HrMp2mmpyDZJ65Mspzib7NJPXeZe2cvY5stfHG9nhWTH": {
+      "symbol": "PUP",
+      "name": "Wheelchair Pup",
+      "mcap_usd": 553324.0,
+      "price_usd": 0.0005533,
+      "price_change_1h": 42.76,
+      "price_change_24h": null,
+      "liquidity_usd": 67214.12
     }
   }
 }
