@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777445748,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Feq9…pump · STAIRCASE→DEVELOPING · top -0.32%",
+      "mint": "Feq9uoSR4pDAiKopT3mX3je38f2pzFcP5xiXVfywpump",
+      "signature": null
+    },
+    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -29,11 +37,20 @@
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 445912.0,
-      "price_usd": 0.0004491,
-      "price_change_1h": 5.23,
+      "mcap_usd": 448560.0,
+      "price_usd": 0.0004518,
+      "price_change_1h": 11.85,
       "price_change_24h": null,
-      "liquidity_usd": 80503.91
+      "liquidity_usd": 80691.19
+    },
+    "Feq9uoSR4pDAiKopT3mX3je38f2pzFcP5xiXVfywpump": {
+      "symbol": "TRUMP28",
+      "name": "The BEEKEEPER",
+      "mcap_usd": 795167.0,
+      "price_usd": 0.0007951,
+      "price_change_1h": 22.65,
+      "price_change_24h": null,
+      "liquidity_usd": 69073.68
     }
   }
 }
