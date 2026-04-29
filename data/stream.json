@@ -19,16 +19,16 @@
     {
       "ts": 1777421501,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 74ig…pump · STAIRCASE→DEVELOPING · top +6.39%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 74ig…pump · top 17.67%→24.06% (+6.39%) · DEVELOPING",
       "mint": "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump",
       "signature": null
     },
     {
       "ts": 1777421501,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 74ig…pump · top 17.67%→24.06% (+6.39%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 74ig…pump · STAIRCASE→DEVELOPING · top +6.39%",
       "mint": "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump",
       "signature": null
     },
@@ -58,32 +58,32 @@
     }
   ],
   "tokens": {
-    "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump": {
-      "symbol": "ELONHOUSE",
-      "name": "18 Egido St., Starbase, TX 78521",
-      "mcap_usd": 70576.0,
-      "price_usd": 0.00007057,
-      "price_change_1h": -9.65,
-      "price_change_24h": null,
-      "liquidity_usd": 21045.91
-    },
     "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump": {
       "symbol": "Kylo",
       "name": "Kylo The Doge",
-      "mcap_usd": 117349.0,
-      "price_usd": 0.0001173,
-      "price_change_1h": -0.54,
+      "mcap_usd": 2633.0,
+      "price_usd": 2.633e-6,
+      "price_change_1h": -97.6,
       "price_change_24h": null,
-      "liquidity_usd": 30480.54
+      "liquidity_usd": 4573.32
+    },
+    "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump": {
+      "symbol": "ELONHOUSE",
+      "name": "18 Egido St., Starbase, TX 78521",
+      "mcap_usd": 45447.0,
+      "price_usd": 0.00004544,
+      "price_change_1h": -38.06,
+      "price_change_24h": null,
+      "liquidity_usd": 16914.26
     },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 312515.0,
-      "price_usd": 0.0003147,
-      "price_change_1h": 4.38,
+      "mcap_usd": 309200.0,
+      "price_usd": 0.0003114,
+      "price_change_1h": 2.02,
       "price_change_24h": null,
-      "liquidity_usd": 66941.32
+      "liquidity_usd": 66605.87
     }
   }
 }
