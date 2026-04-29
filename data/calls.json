@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 54,
+      "mint": "D6K3eYeogs6h7sW9puJkgjpv1oWKQ17bskmZB12Bpump",
+      "symbol": "BARNEY",
+      "classification": "STAIRCASE",
+      "confidence": 74,
+      "called_at": 1777440090,
+      "expires_at": 1777454490,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 121191.0,
+      "entry_price_usd": 0.0001211,
+      "entry_liquidity_usd": 26989.52,
+      "entry_top_holder_pct": 10.990009501140701,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 131163.0,
+      "current_price_usd": 0.0001311,
+      "current_liquidity_usd": 28079.24,
+      "pct_from_call": 8.257638315441774,
+      "peak_pct": 0.6606110652353392,
+      "peak_at": 1777440090,
+      "trough_pct": 0.6606110652353392,
+      "trough_at": 1777440090,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 53,
