@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777458168,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3EU4…pump · STAIRCASE→DEVELOPING · top -0.86%",
+      "mint": "3EU43CFCiEeeQHfw4H9SvwQYLw7FMXVGhB3pxs6Ypump",
+      "signature": null
+    },
+    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -29,11 +37,20 @@
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 429887.0,
-      "price_usd": 0.000433,
-      "price_change_1h": 11.71,
+      "mcap_usd": 481973.0,
+      "price_usd": 0.0004854,
+      "price_change_1h": 22.24,
       "price_change_24h": null,
-      "liquidity_usd": 79402.41
+      "liquidity_usd": 84138.77
+    },
+    "3EU43CFCiEeeQHfw4H9SvwQYLw7FMXVGhB3pxs6Ypump": {
+      "symbol": "VETAL",
+      "name": "Vetalek Boterin",
+      "mcap_usd": 1706.0,
+      "price_usd": 1.705e-6,
+      "price_change_1h": -95.19,
+      "price_change_24h": null,
+      "liquidity_usd": 3226.25
     }
   }
 }
