@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777504124,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Ez7k…pump · deployer down 31.1% (204263999 → 140666500)",
-      "mint": "Ez7kt6vmS8Sym6sHmts6mQncxvxNe4kbba9ejHEnpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -25,15 +17,5 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {
-    "Ez7kt6vmS8Sym6sHmts6mQncxvxNe4kbba9ejHEnpump": {
-      "symbol": "Amureca",
-      "name": "Team Amureca",
-      "mcap_usd": 84056.0,
-      "price_usd": 0.00008405,
-      "price_change_1h": 72.1,
-      "price_change_24h": null,
-      "liquidity_usd": 24160.05
-    }
-  }
+  "tokens": {}
 }
