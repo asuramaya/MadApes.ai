@@ -1,11 +1,19 @@
 {
   "events": [
     {
-      "ts": 1777476480,
+      "ts": 1777478739,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5C71…pump · GRINDER→STAIRCASE · top -1.50%",
-      "mint": "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump",
+      "summary": "CLASSIFICATION_CHANGE 8N6r…pump · DEVELOPING→STAIRCASE · top +2.54%",
+      "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+      "signature": null
+    },
+    {
+      "ts": 1777478739,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 8N6r…pump · top 7.25%→9.78% (+2.54%) · STAIRCASE",
+      "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
       "signature": null
     },
     {
@@ -26,14 +34,14 @@
     }
   ],
   "tokens": {
-    "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump": {
-      "symbol": "MUSK",
-      "name": "The Based Musk",
-      "mcap_usd": 227673.0,
-      "price_usd": 0.0002276,
-      "price_change_1h": 90.46,
+    "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump": {
+      "symbol": "SIR",
+      "name": "Special Israel Rat",
+      "mcap_usd": 2016.0,
+      "price_usd": 2.016e-6,
+      "price_change_1h": -98.12,
       "price_change_24h": null,
-      "liquidity_usd": 40048.71
+      "liquidity_usd": 3606.37
     }
   }
 }

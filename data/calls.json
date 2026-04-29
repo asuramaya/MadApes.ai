@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 61,
+      "mint": "CRCkP2PpLmzEPzPneCjdkkdJUUu1fNr6YdXQegN6pump",
+      "symbol": "wiffy",
+      "classification": "STAIRCASE",
+      "confidence": 70,
+      "called_at": 1777477236,
+      "expires_at": 1777491636,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 229511.0,
+      "entry_price_usd": 0.0002295,
+      "entry_liquidity_usd": 38124.52,
+      "entry_top_holder_pct": 8.3097916201363,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 225440.0,
+      "current_price_usd": 0.0002254,
+      "current_liquidity_usd": 37785.57,
+      "pct_from_call": -1.7864923747276662,
+      "peak_pct": 0.0,
+      "peak_at": 1777477259,
+      "trough_pct": -10.71895424836602,
+      "trough_at": 1777477236,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 60,
