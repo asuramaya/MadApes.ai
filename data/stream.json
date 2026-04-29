@@ -3,16 +3,16 @@
     {
       "ts": 1777442536,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE D6K3…pump · STAIRCASE→DEVELOPING · top -1.62%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING D6K3…pump · deployer down 11.5% (105922109 → 93735225)",
       "mint": "D6K3eYeogs6h7sW9puJkgjpv1oWKQ17bskmZB12Bpump",
       "signature": null
     },
     {
       "ts": 1777442536,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING D6K3…pump · deployer down 11.5% (105922109 → 93735225)",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE D6K3…pump · STAIRCASE→DEVELOPING · top -1.62%",
       "mint": "D6K3eYeogs6h7sW9puJkgjpv1oWKQ17bskmZB12Bpump",
       "signature": null
     },
@@ -42,23 +42,23 @@
     }
   ],
   "tokens": {
-    "D6K3eYeogs6h7sW9puJkgjpv1oWKQ17bskmZB12Bpump": {
-      "symbol": "BARNEY",
-      "name": "BARNEY",
-      "mcap_usd": 168034.0,
-      "price_usd": 0.000168,
-      "price_change_1h": 36.34,
-      "price_change_24h": null,
-      "liquidity_usd": 31934.8
-    },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 466673.0,
-      "price_usd": 0.00047,
-      "price_change_1h": 23.31,
+      "mcap_usd": 437601.0,
+      "price_usd": 0.0004407,
+      "price_change_1h": 12.79,
       "price_change_24h": null,
-      "liquidity_usd": 82376.44
+      "liquidity_usd": 79771.89
+    },
+    "D6K3eYeogs6h7sW9puJkgjpv1oWKQ17bskmZB12Bpump": {
+      "symbol": "BARNEY",
+      "name": "BARNEY",
+      "mcap_usd": 147356.0,
+      "price_usd": 0.0001473,
+      "price_change_1h": 12.35,
+      "price_change_24h": null,
+      "liquidity_usd": 29915.21
     }
   }
 }
