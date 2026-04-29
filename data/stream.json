@@ -9,22 +9,6 @@
       "signature": null
     },
     {
-      "ts": 1777448320,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE H7vt…pump · STAIRCASE→DEVELOPING · top -2.68%",
-      "mint": "H7vtw9tdqVKSVdjg7TnZMk4NtcewhN5Y47AhA8vHpump",
-      "signature": null
-    },
-    {
-      "ts": 1777448320,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING H7vt…pump · deployer down 13.4% (200440673 → 173657365)",
-      "mint": "H7vtw9tdqVKSVdjg7TnZMk4NtcewhN5Y47AhA8vHpump",
-      "signature": null
-    },
-    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -50,32 +34,23 @@
     }
   ],
   "tokens": {
-    "H7vtw9tdqVKSVdjg7TnZMk4NtcewhN5Y47AhA8vHpump": {
-      "symbol": "Puso",
-      "name": "Puso",
-      "mcap_usd": 41651.0,
-      "price_usd": 0.00004165,
-      "price_change_1h": -4.09,
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 411675.0,
+      "price_usd": 0.0004146,
+      "price_change_1h": 4.52,
       "price_change_24h": null,
-      "liquidity_usd": 15945.33
+      "liquidity_usd": 77290.72
     },
     "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": {
       "symbol": "three",
       "name": "three.ws",
-      "mcap_usd": 28422.0,
-      "price_usd": 0.00002842,
-      "price_change_1h": -18.41,
+      "mcap_usd": 30981.0,
+      "price_usd": 0.00003098,
+      "price_change_1h": -35.45,
       "price_change_24h": null,
-      "liquidity_usd": 13140.98
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 410751.0,
-      "price_usd": 0.0004137,
-      "price_change_1h": -0.67,
-      "price_change_24h": null,
-      "liquidity_usd": 77281.37
+      "liquidity_usd": 13706.26
     }
   }
 }
