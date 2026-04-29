@@ -19,24 +19,16 @@
     {
       "ts": 1777437980,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2yec…pump · STAIRCASE→GRINDER · top -0.10%",
-      "mint": "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump",
-      "signature": null
-    },
-    {
-      "ts": 1777437980,
-      "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 2yec…pump · deployer down 21.0% (194153287 → 153318667)",
       "mint": "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump",
       "signature": null
     },
     {
-      "ts": 1777437381,
+      "ts": 1777437980,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2yec…pump · GRINDER→STAIRCASE · top -0.11%",
+      "summary": "CLASSIFICATION_CHANGE 2yec…pump · STAIRCASE→GRINDER · top -0.10%",
       "mint": "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump",
       "signature": null
     },
@@ -45,6 +37,14 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 2yec…pump · deployer down 20.5% (194153287 → 154321016)",
+      "mint": "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump",
+      "signature": null
+    },
+    {
+      "ts": 1777437381,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2yec…pump · GRINDER→STAIRCASE · top -0.11%",
       "mint": "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump",
       "signature": null
     },
@@ -90,41 +90,41 @@
     }
   ],
   "tokens": {
-    "DauQPNZyWTDi7Bh3u9vc66Dn7ygbDDBky1Kq2HFCpump": {
-      "symbol": "TSUGAI",
-      "name": "TSUGAI INU",
-      "mcap_usd": 153015.0,
-      "price_usd": 0.000153,
-      "price_change_1h": 312.0,
-      "price_change_24h": null,
-      "liquidity_usd": 31189.42
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 351607.0,
-      "price_usd": 0.0003541,
-      "price_change_1h": 9.49,
-      "price_change_24h": null,
-      "liquidity_usd": 71455.12
-    },
     "2yecPk13u257rkFiPrXWnit74f7cGbv1yi4eXF23pump": {
       "symbol": "twomp",
       "name": "duneld twomp",
-      "mcap_usd": 75710.0,
-      "price_usd": 0.00007571,
-      "price_change_1h": 115.0,
+      "mcap_usd": 76129.0,
+      "price_usd": 0.00007612,
+      "price_change_1h": 116.0,
       "price_change_24h": null,
-      "liquidity_usd": 22548.08
+      "liquidity_usd": 22677.84
     },
     "524zXrkbMkoDF8tZSy45PwTNb9pNgvwx5VSdk2R4pump": {
       "symbol": "GREMLIN",
       "name": "GremlinCoin",
-      "mcap_usd": 17127.0,
-      "price_usd": 0.00001746,
-      "price_change_1h": -49.08,
+      "mcap_usd": 16088.0,
+      "price_usd": 0.0000164,
+      "price_change_1h": -52.17,
       "price_change_24h": null,
-      "liquidity_usd": 10310.3
+      "liquidity_usd": 9995.11
+    },
+    "DauQPNZyWTDi7Bh3u9vc66Dn7ygbDDBky1Kq2HFCpump": {
+      "symbol": "TSUGAI",
+      "name": "TSUGAI INU",
+      "mcap_usd": 162967.0,
+      "price_usd": 0.0001629,
+      "price_change_1h": 339.0,
+      "price_change_24h": null,
+      "liquidity_usd": 32226.06
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 331530.0,
+      "price_usd": 0.0003339,
+      "price_change_1h": 2.9,
+      "price_change_24h": null,
+      "liquidity_usd": 69405.81
     }
   }
 }
