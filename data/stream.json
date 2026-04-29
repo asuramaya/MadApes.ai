@@ -9,14 +9,6 @@
       "signature": null
     },
     {
-      "ts": 1777500443,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 3t4G…pump · top 18.55%→25.23% (+6.69%) · DEVELOPING",
-      "mint": "3t4GiENDepWKkGicwDoMz2V2fWDZXHLAoJ3ZrpZQpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -34,23 +26,14 @@
     }
   ],
   "tokens": {
-    "3t4GiENDepWKkGicwDoMz2V2fWDZXHLAoJ3ZrpZQpump": {
-      "symbol": "UNICEF",
-      "name": "UNICEF",
-      "mcap_usd": 41459.0,
-      "price_usd": 0.00004145,
-      "price_change_1h": 0.18,
-      "price_change_24h": null,
-      "liquidity_usd": 15736.45
-    },
     "Ez7kt6vmS8Sym6sHmts6mQncxvxNe4kbba9ejHEnpump": {
       "symbol": "Amureca",
       "name": "Team Amureca",
-      "mcap_usd": 54441.0,
-      "price_usd": 0.00005444,
-      "price_change_1h": 58.15,
+      "mcap_usd": 54829.0,
+      "price_usd": 0.00005482,
+      "price_change_1h": 59.28,
       "price_change_24h": null,
-      "liquidity_usd": 18215.63
+      "liquidity_usd": 18441.3
     }
   }
 }
