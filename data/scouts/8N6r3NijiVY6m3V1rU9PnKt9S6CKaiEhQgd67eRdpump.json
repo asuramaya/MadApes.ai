@@ -1,0 +1,315 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 0.0,
+      "deployer_address": "5CXaxWpiE4i6bvC86fmSWbFrso3sWTZJ8p1YsbaH3Hkr",
+      "initial_balance_ui": 72474786.460178,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": null,
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    "liquidity_usd": 3730.71,
+    "mcap_usd": 2162.0,
+    "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+    "name": "Special Israel Rat",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/StandWithUs/status/2049504370660716851"
+      ]
+    ],
+    "symbol": "SIR",
+    "website": {
+      "status": 403,
+      "text": "Just a moment... Enable JavaScript and cookies to continue",
+      "truncated": false,
+      "url": "https://solscan.io/token/8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump#metadata"
+    }
+  },
+  "call": {
+    "called_at": 1777478739,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 32257.21,
+    "entry_mcap_usd": 163120.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0001631,
+    "entry_top_holder_pct": 9.782919383826885,
+    "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+    "note": "horizon=SCALP",
+    "source": "notifier",
+    "symbol": "SIR"
+  },
+  "call_id": 62,
+  "captured_at": 1777487360,
+  "cohort_overlap": {
+    "holder_overlaps": [
+      {
+        "mint_balance_ui": 862499933.444668,
+        "overlapping_refs": [],
+        "owner": "8292zqS1dN1LWQdKQphZMA2wBphANdjkatRgRzr3Bqiq"
+      },
+      {
+        "mint_balance_ui": 36042946.453396,
+        "overlapping_refs": [],
+        "owner": "8Kh7LRwgKAC4WFhPq3uxAoQb1E56n4SVcWhWe4LRvFt5"
+      },
+      {
+        "mint_balance_ui": 32683342.119505,
+        "overlapping_refs": [],
+        "owner": "91Ng9ztCmacjfAscoCrHUZHh6kBv8f3YDadJpC4FsM7c"
+      },
+      {
+        "mint_balance_ui": 14034474.012832,
+        "overlapping_refs": [],
+        "owner": "9DXhSifXXBTwPJmQS5o9YmE5vtyva9uGRPTpiXWw2K5L"
+      },
+      {
+        "mint_balance_ui": 11175059.333811,
+        "overlapping_refs": [],
+        "owner": "3gJU1uPfrkGgAU3eXGhvfjhYHjmykRAjw493L9aDqmzc"
+      },
+      {
+        "mint_balance_ui": 11008669.100574,
+        "overlapping_refs": [],
+        "owner": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN"
+      },
+      {
+        "mint_balance_ui": 5077946.848366,
+        "overlapping_refs": [],
+        "owner": "GRGAMFkmNBXFivqKwfxDs453exJgb6pcCbJU1V1hfA3t"
+      },
+      {
+        "mint_balance_ui": 4004879.476161,
+        "overlapping_refs": [],
+        "owner": "4kUXu7GSA1S7Zfy45P1SLoF5hptLxfBuCcNLdv16iDFR"
+      },
+      {
+        "mint_balance_ui": 2629849.207677,
+        "overlapping_refs": [],
+        "owner": "6KS6Mv6RwQ11GgrPvTyxXjHv8LEqkqk1obQuH2dKbLue"
+      },
+      {
+        "mint_balance_ui": 2433866.21525,
+        "overlapping_refs": [],
+        "owner": "EwPMSpQErmxtGGemD9kzRLkLx1bNr8tFuFCoRqSHDX2E"
+      },
+      {
+        "mint_balance_ui": 2369033.491209,
+        "overlapping_refs": [],
+        "owner": "2FvhTuv9cMU3yzS3rMw1bZ6ykkyvosn23tTPrny5YrzV"
+      },
+      {
+        "mint_balance_ui": 1246626.264412,
+        "overlapping_refs": [],
+        "owner": "Dx3haFoP6LVW5ztQHpEcmXAcEayuAYRd6EFtkCrWUdHv"
+      },
+      {
+        "mint_balance_ui": 1222779.219847,
+        "overlapping_refs": [],
+        "owner": "8UR2CY17eeTWtMSyFsqPsh1ho2xQwUDcXYAkkupaKEWb"
+      },
+      {
+        "mint_balance_ui": 1166626.33751,
+        "overlapping_refs": [],
+        "owner": "GUe2EHL6KW5m16E2zZxV6B3CbJYxBH4ZYUtDBJ83gBK5"
+      },
+      {
+        "mint_balance_ui": 879674.443515,
+        "overlapping_refs": [],
+        "owner": "D6vGg9yzG3YsuvXqcV7feq9d9PMXCqCni6ywqeQ7TZjr"
+      },
+      {
+        "mint_balance_ui": 836737.388237,
+        "overlapping_refs": [],
+        "owner": "9m7HBjWhbH6u2qwYDXpGXL5UKBsgSaRrGBtUfe2u7Lkg"
+      },
+      {
+        "mint_balance_ui": 658607.187995,
+        "overlapping_refs": [],
+        "owner": "DFhrzQwM5Q9iBTZkcJc6F1QTyLiFD786oegNxpmdCrtG"
+      },
+      {
+        "mint_balance_ui": 550865.379142,
+        "overlapping_refs": [],
+        "owner": "5LHyXWmW7pqyp1dbh2GhCqk5QAruWqLA3Tr8S7ZoUBMb"
+      },
+      {
+        "mint_balance_ui": 519617.747606,
+        "overlapping_refs": [],
+        "owner": "4SsLzLp5bYtDa6wpxyBLRKqtKFMyPefEVewRbNKnAARF"
+      },
+      {
+        "mint_balance_ui": 512565.630719,
+        "overlapping_refs": [],
+        "owner": "6q3hCUmUANq1BuBc7GEDjxRkUFG1XUngSsaTm5D4FtKa"
+      }
+    ],
+    "holders_with_any_overlap": 0,
+    "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+    "reference_count": 5
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 3709.99,
+      "current_mcap_usd": 2137.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777475578,
+      "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+      "symbol": "SIR"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777479502,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "pair account not found",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "8292zqS1dN1LWQdKQphZMA2wBphANdjkatRgRzr3Bqiq",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "error"
+  },
+  "market": {
+    "liquidity_usd": 3730.71,
+    "mcap_usd": 2162.0,
+    "name": "Special Israel Rat",
+    "pair_address": "8292zqS1dN1LWQdKQphZMA2wBphANdjkatRgRzr3Bqiq",
+    "pair_dex": "pumpswap",
+    "symbol": "SIR"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
+    "note": "",
+    "retention_pct": 5.0,
+    "sniper_count": 20,
+    "still_in_top_100": 1
+  },
+  "whales": [
+    {
+      "action": "accumulating",
+      "balance_ui": 862091571.046058,
+      "net_change_24h_ui": 60954904.70789802,
+      "net_change_7d_ui": 60954904.70789802,
+      "owner": "8292zqS1dN1LWQdKQphZMA2wBphANdjkatRgRzr3Bqiq",
+      "pct_of_supply": 86.21017492465303,
+      "token_account": "5CXaxWpiE4i6bvC86fmSWbFrso3sWTZJ8p1YsbaH3Hkr",
+      "tx_count_24h": 50,
+      "tx_count_7d": 50
+    },
+    {
+      "action": "idle",
+      "balance_ui": 36042946.453396,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "8Kh7LRwgKAC4WFhPq3uxAoQb1E56n4SVcWhWe4LRvFt5",
+      "pct_of_supply": 3.604337199094553,
+      "token_account": "J8Mgsh1dYvWZvzr1VixaFYMqhswKAf6GqiDuSYAYhnJ",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 32683342.119505,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "91Ng9ztCmacjfAscoCrHUZHh6kBv8f3YDadJpC4FsM7c",
+      "pct_of_supply": 3.2683727992211997,
+      "token_account": "HXkVWXqALhCqwH9hVvxbAWT2U8g7ZfHstpMvpnYvEAAU",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14034474.012832,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "9DXhSifXXBTwPJmQS5o9YmE5vtyva9uGRPTpiXWw2K5L",
+      "pct_of_supply": 1.4034639709487464,
+      "token_account": "CH8KRf8QrJxt9QQDYL1FiphaT3bKCZd7vTsnbbYNbPxc",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 11175059.333811,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "3gJU1uPfrkGgAU3eXGhvfjhYHjmykRAjw493L9aDqmzc",
+      "pct_of_supply": 1.1175191271064546,
+      "token_account": "AZPsp99MLG8MWfqw4AxHJKyvQy1gLRoQKpxk8VQFCZrq",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 11008669.100574,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+      "pct_of_supply": 1.1008799073357405,
+      "token_account": "7N7UW226agCn4uTMNHidTUtKxbkDCF2c6LEdEG1xn5Km",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 5077946.848366,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "GRGAMFkmNBXFivqKwfxDs453exJgb6pcCbJU1V1hfA3t",
+      "pct_of_supply": 0.5078006800652678,
+      "token_account": "hBj38MuDGq499kJexRfrk1nXhDHBmY4T9GCXg9gZKQv",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 4004879.476161,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "4kUXu7GSA1S7Zfy45P1SLoF5hptLxfBuCcNLdv16iDFR",
+      "pct_of_supply": 0.4004926759381884,
+      "token_account": "8Drfx6kmeUbs1xDy5x32uK9ujmnyicJ9VaGsco3f2CS9",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 2629849.207677,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "6KS6Mv6RwQ11GgrPvTyxXjHv8LEqkqk1obQuH2dKbLue",
+      "pct_of_supply": 0.2629880256736458,
+      "token_account": "Gq8ghzggtyuHSyUfEdErWevjyyXXLpX9uAcMTy5vmVr5",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 2433866.21525,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "EwPMSpQErmxtGGemD9kzRLkLx1bNr8tFuFCoRqSHDX2E",
+      "pct_of_supply": 0.24338949504552768,
+      "token_account": "BXMXtroWGk4fU7rR1ntPhcrjTPnjowwWqfCqKCca1d4o",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}

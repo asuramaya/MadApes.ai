@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777478739,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8N6r…pump · DEVELOPING→STAIRCASE · top +2.54%",
-      "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
-      "signature": null
-    },
-    {
-      "ts": 1777478739,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 8N6r…pump · top 7.25%→9.78% (+2.54%) · STAIRCASE",
-      "mint": "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -33,15 +17,5 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {
-    "8N6r3NijiVY6m3V1rU9PnKt9S6CKaiEhQgd67eRdpump": {
-      "symbol": "SIR",
-      "name": "Special Israel Rat",
-      "mcap_usd": 2016.0,
-      "price_usd": 2.016e-6,
-      "price_change_1h": -98.12,
-      "price_change_24h": null,
-      "liquidity_usd": 3606.37
-    }
-  }
+  "tokens": {}
 }
