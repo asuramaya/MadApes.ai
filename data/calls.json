@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 64,
+      "mint": "4QVHxosURyMsrNGDWBZX6V3nKrRhp5a5uW9vMirjpump",
+      "symbol": "NOHOUSE",
+      "classification": "GRINDER",
+      "confidence": 66,
+      "called_at": 1777497189,
+      "expires_at": 1777511589,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 145184.0,
+      "entry_price_usd": 0.0001451,
+      "entry_liquidity_usd": 30849.7,
+      "entry_top_holder_pct": 10.58437024221346,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 139494.0,
+      "current_price_usd": 0.0001394,
+      "current_liquidity_usd": 30378.97,
+      "pct_from_call": -3.9283252929014467,
+      "peak_pct": 14.679531357684361,
+      "peak_at": 1777497845,
+      "trough_pct": 3.37698139214333,
+      "trough_at": 1777497189,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 63,
