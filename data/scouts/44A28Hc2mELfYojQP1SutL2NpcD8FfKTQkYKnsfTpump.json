@@ -1,0 +1,310 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 0.0,
+      "deployer_address": "7YhYX2wwyjcjXSVdWVGvxVvBKQvEbjL1eeMZrgmHTFbj",
+      "initial_balance_ui": 136695135.452288,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": null,
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    "liquidity_usd": 22260.26,
+    "mcap_usd": 79730.0,
+    "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+    "name": "minibelka",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "telegram",
+        "https://t.me/minibelkasol"
+      ]
+    ],
+    "symbol": "MINIBELKA",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777460877,
+    "classification": "STAIRCASE",
+    "confidence": 72,
+    "entry_liquidity_usd": 23237.58,
+    "entry_mcap_usd": 87423.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.00008742,
+    "entry_top_holder_pct": 13.669513545228801,
+    "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+    "note": "horizon=SCALP",
+    "source": "notifier",
+    "symbol": "MINIBELKA"
+  },
+  "call_id": 56,
+  "captured_at": 1777463386,
+  "cohort_overlap": {
+    "holder_overlaps": [
+      {
+        "mint_balance_ui": 96097954.11575,
+        "overlapping_refs": [],
+        "owner": "2Z32HVEuJnW4NM33qXWsBKbWNrV9EKbGGugm9Zwe7M3Q"
+      },
+      {
+        "mint_balance_ui": 20628105.868126,
+        "overlapping_refs": [],
+        "owner": "GKqtLVnFAUoak92oMwvCJo3FRJKAfcL7SgaMPfN8Cx16"
+      },
+      {
+        "mint_balance_ui": 19759366.498007,
+        "overlapping_refs": [],
+        "owner": "B5BTGQxu498PjvSHKhMnzvDTAVA3tm98TFrcwJN7W7KS"
+      },
+      {
+        "mint_balance_ui": 18719143.126556,
+        "overlapping_refs": [],
+        "owner": "5WqM15TkwTkJPXFfWtbmrRoazrMkYPE7MjQfAE1N4sHD"
+      },
+      {
+        "mint_balance_ui": 16915956.694739,
+        "overlapping_refs": [],
+        "owner": "5Drm8y3B3vHgNLSKF8YD4bkY3i8tbofXAnDonfA7ixsQ"
+      },
+      {
+        "mint_balance_ui": 15670816.474232,
+        "overlapping_refs": [],
+        "owner": "Cve8PA7rGrP2sajw1QS5M9yCCCwJi296WwW6LCYF6i5p"
+      },
+      {
+        "mint_balance_ui": 14142045.595009,
+        "overlapping_refs": [],
+        "owner": "CPtjQ1HvPqvYCjMvUTgTo5NSSzXMQtja9Y9ErqjTvMHp"
+      },
+      {
+        "mint_balance_ui": 12273852.128597,
+        "overlapping_refs": [],
+        "owner": "7ovnbQDdNHcfQvgCEde5Rb7i3W74xBDHfbmGKURMnwN4"
+      },
+      {
+        "mint_balance_ui": 11417417.80038,
+        "overlapping_refs": [],
+        "owner": "DHkqp6BtSdSe9joHtoCbv9CH6YijD5qwWXY8FAFBPd8X"
+      },
+      {
+        "mint_balance_ui": 10070459.186884,
+        "overlapping_refs": [],
+        "owner": "7NUAcB78Fe2HpFASFiYWftVShjsrQUv7A5EaoHx386XR"
+      },
+      {
+        "mint_balance_ui": 9310912.236706,
+        "overlapping_refs": [],
+        "owner": "CsDWqfzgSpudjTTYnJJaQ7eNartx8w1EdSyUZbi5ip8C"
+      },
+      {
+        "mint_balance_ui": 8652565.237874,
+        "overlapping_refs": [],
+        "owner": "Di9bMjGR2ARbHZsrqCjqg7UoTd5g5EPcsHCjSe5Lgnss"
+      },
+      {
+        "mint_balance_ui": 8129139.203766,
+        "overlapping_refs": [],
+        "owner": "HDVuNcffSCo1sZXkwbEYsBYSkKCWigAm9W5cEMhvJaYu"
+      },
+      {
+        "mint_balance_ui": 7191398.072117,
+        "overlapping_refs": [],
+        "owner": "8bZQhYdApkQb8TN5Wyovc9LuJ8w9dP9x4itbKJ22A7Gw"
+      },
+      {
+        "mint_balance_ui": 7053004.581394,
+        "overlapping_refs": [],
+        "owner": "AdsdHJbNe3jcfN94atQikWXBGPVCszMgFUbgKHvFevQ9"
+      },
+      {
+        "mint_balance_ui": 6577735.936772,
+        "overlapping_refs": [],
+        "owner": "H3vXNQ9EH9JE9ohGhHcfREAzTPHaTMLymZkti64oHAKT"
+      },
+      {
+        "mint_balance_ui": 6305051.116136,
+        "overlapping_refs": [],
+        "owner": "EG8xk1FBaxzUEWzj4eZQzBJpHyQgR7xoB9us2YoM6B8L"
+      },
+      {
+        "mint_balance_ui": 6240286.964544,
+        "overlapping_refs": [],
+        "owner": "8enT274qRWXLFnReNd7mzv7DaDoUc4hxaVxxxFK8q6je"
+      },
+      {
+        "mint_balance_ui": 5481455.993395,
+        "overlapping_refs": [],
+        "owner": "FC53C2ppDJrCJzFqdvnU7tyCWrxJFxTDAQpSvP3HURDL"
+      },
+      {
+        "mint_balance_ui": 5201211.659118,
+        "overlapping_refs": [],
+        "owner": "CidArvwmF59W9RoZV3oFrcXCz3U4Q4T73rVaLcEuFSKP"
+      }
+    ],
+    "holders_with_any_overlap": 0,
+    "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+    "reference_count": 5
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 34371.07,
+      "current_mcap_usd": 181522.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777460253,
+      "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+      "symbol": "MINIBELKA"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777461250,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "AzwxE29x4yfFNVyBESTYK5tZKWKcMphWTajGbW2WSy7V",
+    "lp_supply_ui": 0.0,
+    "pair_address": "2Z32HVEuJnW4NM33qXWsBKbWNrV9EKbGGugm9Zwe7M3Q",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 22260.26,
+    "mcap_usd": 79730.0,
+    "name": "minibelka",
+    "pair_address": "2Z32HVEuJnW4NM33qXWsBKbWNrV9EKbGGugm9Zwe7M3Q",
+    "pair_dex": "pumpswap",
+    "symbol": "MINIBELKA"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+    "note": "",
+    "retention_pct": 55.00000000000001,
+    "sniper_count": 20,
+    "still_in_top_100": 11
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 127397920.545014,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2Z32HVEuJnW4NM33qXWsBKbWNrV9EKbGGugm9Zwe7M3Q",
+      "pct_of_supply": 12.7397920545014,
+      "token_account": "7YhYX2wwyjcjXSVdWVGvxVvBKQvEbjL1eeMZrgmHTFbj",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 20628105.868126,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "GKqtLVnFAUoak92oMwvCJo3FRJKAfcL7SgaMPfN8Cx16",
+      "pct_of_supply": 2.0628105868126,
+      "token_account": "DFKLhzHV3CAmeYsAwobwyry63wk9RAHyihfHzk2udsnH",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 19759366.498007,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "B5BTGQxu498PjvSHKhMnzvDTAVA3tm98TFrcwJN7W7KS",
+      "pct_of_supply": 1.9759366498007,
+      "token_account": "D6UGfkiH3Sj4PYJkERoGZaJ9ysiy6bF2mzFC7XNYqNEP",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 18719143.126556,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "5WqM15TkwTkJPXFfWtbmrRoazrMkYPE7MjQfAE1N4sHD",
+      "pct_of_supply": 1.8719143126556002,
+      "token_account": "8WgyBoxvhdEzaKRrDLf6Ta6RN49eikAQVsXkp1cqeEoC",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 16915956.694739,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "5Drm8y3B3vHgNLSKF8YD4bkY3i8tbofXAnDonfA7ixsQ",
+      "pct_of_supply": 1.6915956694738998,
+      "token_account": "3Hqi1ZQvzbZuB2zmkbLpbTPz4eCWVgvvdVbEfmJieWj4",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 15670816.474232,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Cve8PA7rGrP2sajw1QS5M9yCCCwJi296WwW6LCYF6i5p",
+      "pct_of_supply": 1.5670816474231999,
+      "token_account": "7oRsHsAbE8CmRZ17nRqXu4KNnCeXoix9WUQw6VdDbDgu",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 14142045.595009,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "CPtjQ1HvPqvYCjMvUTgTo5NSSzXMQtja9Y9ErqjTvMHp",
+      "pct_of_supply": 1.4142045595008998,
+      "token_account": "4Zf4YRpg4EJ4xGTAZLPXxa6cL9yCtkJbRQVpavUNzeKB",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 12273852.128597,
+      "net_change_24h_ui": 12273852.128597,
+      "net_change_7d_ui": 12273852.128597,
+      "owner": "7ovnbQDdNHcfQvgCEde5Rb7i3W74xBDHfbmGKURMnwN4",
+      "pct_of_supply": 1.2273852128597,
+      "token_account": "B6ZfrADfjcTv1B8B1ozkodoXhSvjmAGNn7shZtxgREER",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 11417417.80038,
+      "net_change_24h_ui": 11417417.80038,
+      "net_change_7d_ui": 11417417.80038,
+      "owner": "DHkqp6BtSdSe9joHtoCbv9CH6YijD5qwWXY8FAFBPd8X",
+      "pct_of_supply": 1.141741780038,
+      "token_account": "GE9eCVggQX8fXjxApg6tNB9h1zgE6QvfEyNgP6QHk1Jv",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 10070459.186884,
+      "net_change_24h_ui": 10070459.186884,
+      "net_change_7d_ui": 10070459.186884,
+      "owner": "7NUAcB78Fe2HpFASFiYWftVShjsrQUv7A5EaoHx386XR",
+      "pct_of_supply": 1.0070459186884002,
+      "token_account": "6DwtyriC3WRziMTQVndKk48wVHzB8RHs8m55LqbADGQx",
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
+    }
+  ]
+}

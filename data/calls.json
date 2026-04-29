@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 56,
+      "mint": "44A28Hc2mELfYojQP1SutL2NpcD8FfKTQkYKnsfTpump",
+      "symbol": "MINIBELKA",
+      "classification": "STAIRCASE",
+      "confidence": 72,
+      "called_at": 1777460877,
+      "expires_at": 1777475277,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 87423.0,
+      "entry_price_usd": 0.00008742,
+      "entry_liquidity_usd": 23237.58,
+      "entry_top_holder_pct": 13.669513545228801,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 79730.0,
+      "current_price_usd": 0.00007972,
+      "current_liquidity_usd": 22260.26,
+      "pct_from_call": -8.808053077099053,
+      "peak_pct": 0.0,
+      "peak_at": 1777460877,
+      "trough_pct": 0.0,
+      "trough_at": 1777460877,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 55,
