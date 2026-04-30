@@ -89,14 +89,6 @@
       "signature": null
     },
     {
-      "ts": 1777552452,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9qbi…xiTv · DEVELOPING→GRINDER · top +1.54%",
-      "mint": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -114,50 +106,41 @@
     }
   ],
   "tokens": {
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 22809.0,
-      "price_usd": 0.00002281,
-      "price_change_1h": -16.79,
-      "price_change_24h": null,
-      "liquidity_usd": 12354.38
-    },
-    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
-      "symbol": "ETH",
-      "name": "The Ethereum Foundation. ",
-      "mcap_usd": 24319.0,
-      "price_usd": 0.00002431,
-      "price_change_1h": -27.54,
-      "price_change_24h": null,
-      "liquidity_usd": 11929.62
-    },
-    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
-      "symbol": "SISYPHUS",
-      "name": "Sisyphus",
-      "mcap_usd": 5919.0,
-      "price_usd": 5.918e-6,
-      "price_change_1h": -82.42,
-      "price_change_24h": null,
-      "liquidity_usd": 5954.49
-    },
     "3jHQ99DkDxvnPaBHxvoYFmYeW8tpidCB9HZqDLL5pump": {
       "symbol": "PEPELKA",
       "name": "Pepelka",
-      "mcap_usd": 130315.0,
-      "price_usd": 0.0001303,
-      "price_change_1h": 276.0,
+      "mcap_usd": 144353.0,
+      "price_usd": 0.0001443,
+      "price_change_1h": 316.0,
       "price_change_24h": null,
-      "liquidity_usd": 28299.79
+      "liquidity_usd": 29894.91
     },
     "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
       "symbol": "TTC",
       "name": "Tittiecoin",
-      "mcap_usd": 6241.0,
-      "price_usd": 6.24e-6,
-      "price_change_1h": -81.76,
+      "mcap_usd": 5912.0,
+      "price_usd": 5.911e-6,
+      "price_change_1h": -82.72,
       "price_change_24h": null,
-      "liquidity_usd": 6068.89
+      "liquidity_usd": 5911.64
+    },
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 23297.0,
+      "price_usd": 0.00002329,
+      "price_change_1h": -19.6,
+      "price_change_24h": null,
+      "liquidity_usd": 12490.11
+    },
+    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
+      "symbol": "ETH",
+      "name": "The Ethereum Foundation. ",
+      "mcap_usd": 25035.0,
+      "price_usd": 0.00002503,
+      "price_change_1h": -25.41,
+      "price_change_24h": null,
+      "liquidity_usd": 12109.09
     }
   }
 }
