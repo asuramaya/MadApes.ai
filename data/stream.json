@@ -33,22 +33,6 @@
       "signature": null
     },
     {
-      "ts": 1777506573,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING E8sy…pump · deployer down 42.7% (86229780 → 49443622)",
-      "mint": "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump",
-      "signature": null
-    },
-    {
-      "ts": 1777506522,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HrMp…hWTH · deployer down 55.6% (114227763 → 50724277)",
-      "mint": "HrMp2mmpyDZJ65Mspzib7NJPXeZe2cvY5stfHG9nhWTH",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -69,38 +53,20 @@
     "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
       "symbol": "Wish",
       "name": "Make A Wish",
-      "mcap_usd": 288100.0,
-      "price_usd": 0.0002881,
-      "price_change_1h": 1.89,
+      "mcap_usd": 344745.0,
+      "price_usd": 0.0003447,
+      "price_change_1h": 28.79,
       "price_change_24h": null,
-      "liquidity_usd": 47241.74
-    },
-    "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump": {
-      "symbol": "STJUDE",
-      "name": "St. Jude",
-      "mcap_usd": 1430740.0,
-      "price_usd": 0.00143,
-      "price_change_1h": 13.64,
-      "price_change_24h": null,
-      "liquidity_usd": 124064.7
-    },
-    "HrMp2mmpyDZJ65Mspzib7NJPXeZe2cvY5stfHG9nhWTH": {
-      "symbol": "PUP",
-      "name": "Wheelchair Pup",
-      "mcap_usd": 474666.0,
-      "price_usd": 0.0004746,
-      "price_change_1h": 13.66,
-      "price_change_24h": null,
-      "liquidity_usd": 62543.35
+      "liquidity_usd": 51665.5
     },
     "3CCJDEZWH5fd6nBHLNMkP5wtDvDP8EVwiEPJAaxEpump": {
       "symbol": "GORDON",
       "name": "Wheelchair Pup",
-      "mcap_usd": 31000.0,
-      "price_usd": 0.000031,
-      "price_change_1h": 297.0,
+      "mcap_usd": 37955.0,
+      "price_usd": 0.00003796,
+      "price_change_1h": 724.0,
       "price_change_24h": null,
-      "liquidity_usd": 14063.66
+      "liquidity_usd": 15570.37
     }
   }
 }
