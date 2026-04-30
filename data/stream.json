@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777559842,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DQa4…pump · DEVELOPING→STAIRCASE · top +2.01%",
+      "mint": "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump",
+      "signature": null
+    },
+    {
+      "ts": 1777559842,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING DQa4…pump · top 16.71%→18.73% (+2.01%) · STAIRCASE",
+      "mint": "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump",
+      "signature": null
+    },
+    {
+      "ts": 1777559755,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING KR4f…5dog · top 25.75%→29.10% (+3.36%) · DEVELOPING",
+      "mint": "KR4fM4dJJ1UkLXxCRrZYBHvFfbTBpotLiFv1UHd5dog",
+      "signature": null
+    },
+    {
       "ts": 1777559423,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -43,32 +67,16 @@
     {
       "ts": 1777558253,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING B4cu…pump · top 19.08%→41.53% (+22.45%) · DEVELOPING",
-      "mint": "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump",
-      "signature": null
-    },
-    {
-      "ts": 1777558253,
-      "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE B4cu…pump · STAIRCASE→DEVELOPING · top +22.45%",
       "mint": "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump",
       "signature": null
     },
     {
-      "ts": 1777557729,
+      "ts": 1777558253,
       "kind": "alert",
       "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING B4cu…pump · top 19.08%→26.55% (+7.46%) · STAIRCASE",
-      "mint": "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump",
-      "signature": null
-    },
-    {
-      "ts": 1777557729,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE B4cu…pump · GRINDER→STAIRCASE · top +7.46%",
+      "summary": "CONCENTRATING B4cu…pump · top 19.08%→41.53% (+22.45%) · DEVELOPING",
       "mint": "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump",
       "signature": null
     },
@@ -90,41 +98,50 @@
     }
   ],
   "tokens": {
-    "KR4fM4dJJ1UkLXxCRrZYBHvFfbTBpotLiFv1UHd5dog": {
-      "symbol": "DOG",
-      "name": "Dogcoin",
-      "mcap_usd": 29737.0,
-      "price_usd": 0.00002973,
-      "price_change_1h": -13.78,
+    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
+      "symbol": "ELUENT",
+      "name": "Eluent Peptides",
+      "mcap_usd": 44229.0,
+      "price_usd": 0.00004422,
+      "price_change_1h": 29.44,
       "price_change_24h": null,
-      "liquidity_usd": 13207.2
-    },
-    "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump": {
-      "symbol": "Alveus",
-      "name": "Alveus Sanctuary",
-      "mcap_usd": 8527.0,
-      "price_usd": 8.526e-6,
-      "price_change_1h": -75.09,
-      "price_change_24h": null,
-      "liquidity_usd": 7086.16
+      "liquidity_usd": 16141.56
     },
     "7EvA5CcXFQf1o2RqvhKXkFNshURNeLZ6ZtAvr1qKmoon": {
       "symbol": "PXC",
       "name": "PROJECT X",
-      "mcap_usd": 427083.52,
-      "price_usd": 0.000427,
-      "price_change_1h": 14.88,
+      "mcap_usd": 407752.38,
+      "price_usd": 0.0004077,
+      "price_change_1h": 16.76,
       "price_change_24h": null,
       "liquidity_usd": null
     },
     "69rg9RiK5wEU86yLBaQJHQMd3Yh5UCHFofMyDg8kpump": {
       "symbol": "SM",
       "name": "Salon Muskman",
-      "mcap_usd": 3056.0,
-      "price_usd": 3.055e-6,
-      "price_change_1h": -98.71,
+      "mcap_usd": 3031.0,
+      "price_usd": 3.031e-6,
+      "price_change_1h": 37.83,
       "price_change_24h": null,
-      "liquidity_usd": 4503.03
+      "liquidity_usd": 4490.58
+    },
+    "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump": {
+      "symbol": "Alveus",
+      "name": "Alveus Sanctuary",
+      "mcap_usd": 8489.0,
+      "price_usd": 8.488e-6,
+      "price_change_1h": -75.2,
+      "price_change_24h": null,
+      "liquidity_usd": 7080.21
+    },
+    "KR4fM4dJJ1UkLXxCRrZYBHvFfbTBpotLiFv1UHd5dog": {
+      "symbol": "DOG",
+      "name": "Dogcoin",
+      "mcap_usd": 14416.0,
+      "price_usd": 0.00001441,
+      "price_change_1h": -58.2,
+      "price_change_24h": null,
+      "liquidity_usd": 9211.6
     }
   }
 }
