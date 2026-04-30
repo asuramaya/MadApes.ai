@@ -67,16 +67,16 @@
     {
       "ts": 1777559842,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING DQa4…pump · top 16.71%→18.73% (+2.01%) · STAIRCASE",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DQa4…pump · DEVELOPING→STAIRCASE · top +2.01%",
       "mint": "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump",
       "signature": null
     },
     {
       "ts": 1777559842,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DQa4…pump · DEVELOPING→STAIRCASE · top +2.01%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING DQa4…pump · top 16.71%→18.73% (+2.01%) · STAIRCASE",
       "mint": "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump",
       "signature": null
     },
@@ -106,32 +106,41 @@
     }
   ],
   "tokens": {
-    "FpKnn39s79m2n3gvjbuyVYHxQVnGZuKkMM7NNKPUpump": {
-      "symbol": "BlueBuck",
-      "name": "Blue Buck",
-      "mcap_usd": 33192.0,
-      "price_usd": 0.00003319,
-      "price_change_1h": -2.82,
+    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
+      "symbol": "ELUENT",
+      "name": "Eluent Peptides",
+      "mcap_usd": 39145.0,
+      "price_usd": 0.00003914,
+      "price_change_1h": 14.56,
       "price_change_24h": null,
-      "liquidity_usd": 14084.13
+      "liquidity_usd": 15210.42
+    },
+    "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump": {
+      "symbol": "Alveus",
+      "name": "Alveus Sanctuary",
+      "mcap_usd": 2760.0,
+      "price_usd": 2.759e-6,
+      "price_change_1h": -56.72,
+      "price_change_24h": null,
+      "liquidity_usd": 4037.3
     },
     "KR4fM4dJJ1UkLXxCRrZYBHvFfbTBpotLiFv1UHd5dog": {
       "symbol": "DOG",
       "name": "Dogcoin",
-      "mcap_usd": 30405.0,
-      "price_usd": 0.0000304,
-      "price_change_1h": -11.84,
+      "mcap_usd": 31260.0,
+      "price_usd": 0.00003126,
+      "price_change_1h": -9.36,
       "price_change_24h": null,
-      "liquidity_usd": 13447.74
+      "liquidity_usd": 13627.09
     },
-    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
-      "symbol": "ELUENT",
-      "name": "Eluent Peptides",
-      "mcap_usd": 36799.0,
-      "price_usd": 0.00003679,
-      "price_change_1h": 7.69,
+    "FUD97cJ3VXAv1HqY4w8r8KSvdNQkH5X5Qk2TAGiUpump": {
+      "symbol": "BlueBuck",
+      "name": "Blue Buck",
+      "mcap_usd": 114852.0,
+      "price_usd": 0.0001148,
+      "price_change_1h": 178.0,
       "price_change_24h": null,
-      "liquidity_usd": 14757.27
+      "liquidity_usd": 26596.47
     },
     "7mTSsMbD6Z2ZeZsE4ZYoqe5HePkQsx6baDNKrACppump": {
       "symbol": "ASCIIBELKA",
@@ -140,34 +149,25 @@
       "price_usd": 1.666e-6,
       "price_change_1h": -95.49,
       "price_change_24h": null,
-      "liquidity_usd": 3177.43
-    },
-    "FUD97cJ3VXAv1HqY4w8r8KSvdNQkH5X5Qk2TAGiUpump": {
-      "symbol": "BlueBuck",
-      "name": "Blue Buck",
-      "mcap_usd": 116195.0,
-      "price_usd": 0.0001161,
-      "price_change_1h": 182.0,
-      "price_change_24h": null,
-      "liquidity_usd": 26689.76
+      "liquidity_usd": 3177.38
     },
     "7EvA5CcXFQf1o2RqvhKXkFNshURNeLZ6ZtAvr1qKmoon": {
       "symbol": "PXC",
       "name": "PROJECT X",
-      "mcap_usd": 404366.65,
-      "price_usd": 0.0004043,
-      "price_change_1h": 11.49,
+      "mcap_usd": 400546.58,
+      "price_usd": 0.0004005,
+      "price_change_1h": 18.96,
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump": {
-      "symbol": "Alveus",
-      "name": "Alveus Sanctuary",
-      "mcap_usd": 6384.0,
-      "price_usd": 6.383e-6,
-      "price_change_1h": -70.31,
+    "FpKnn39s79m2n3gvjbuyVYHxQVnGZuKkMM7NNKPUpump": {
+      "symbol": "BlueBuck",
+      "name": "Blue Buck",
+      "mcap_usd": 17210.0,
+      "price_usd": 0.0000172,
+      "price_change_1h": -49.61,
       "price_change_24h": null,
-      "liquidity_usd": 6144.69
+      "liquidity_usd": 10135.97
     }
   }
 }
