@@ -33,14 +33,6 @@
       "signature": null
     },
     {
-      "ts": 1777535373,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING GADq…pump · top 19.61%→23.55% (+3.94%) · DEVELOPING",
-      "mint": "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -58,41 +50,32 @@
     }
   ],
   "tokens": {
-    "12ZA2HXhpZ7bEz7HBPc8M7to4dQRRioxayTkqoTKpump": {
-      "symbol": "CREATURE",
-      "name": "Codex banned us. We're here.",
-      "mcap_usd": 125460.0,
-      "price_usd": 0.0001254,
-      "price_change_1h": 141.0,
-      "price_change_24h": null,
-      "liquidity_usd": 27529.89
-    },
-    "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump": {
-      "symbol": "STARE",
-      "name": "The Stare",
-      "mcap_usd": 15278.0,
-      "price_usd": 0.00001527,
-      "price_change_1h": -54.67,
-      "price_change_24h": null,
-      "liquidity_usd": 9510.17
-    },
-    "ByqipPbSHxzLi6ga5LNrnE229vsLuSrCfHMaDbe1TRND": {
-      "symbol": "SIGHT ",
-      "name": "Clawglasses",
-      "mcap_usd": 647625.0,
-      "price_usd": 0.0006476,
-      "price_change_1h": 9.31,
-      "price_change_24h": null,
-      "liquidity_usd": 57889.24
-    },
     "MCuf6YAxJXnv9pDmcLCaigEsFoXoNc25N9kbUK3pump": {
       "symbol": "DanceMichi",
       "name": "The Dancing michi",
       "mcap_usd": 1487.0,
-      "price_usd": 1.487e-6,
+      "price_usd": 1.486e-6,
       "price_change_1h": -96.26,
       "price_change_24h": null,
-      "liquidity_usd": 2972.04
+      "liquidity_usd": 2971.74
+    },
+    "ByqipPbSHxzLi6ga5LNrnE229vsLuSrCfHMaDbe1TRND": {
+      "symbol": "SIGHT ",
+      "name": "Clawglasses",
+      "mcap_usd": 644098.0,
+      "price_usd": 0.000644,
+      "price_change_1h": 10.77,
+      "price_change_24h": null,
+      "liquidity_usd": 57715.13
+    },
+    "12ZA2HXhpZ7bEz7HBPc8M7to4dQRRioxayTkqoTKpump": {
+      "symbol": "CREATURE",
+      "name": "Codex banned us. We're here.",
+      "mcap_usd": 150864.0,
+      "price_usd": 0.0001508,
+      "price_change_1h": 190.0,
+      "price_change_24h": null,
+      "liquidity_usd": 30337.55
     }
   }
 }
