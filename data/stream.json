@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777582370,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4D7U…pump · DEVELOPING→STAIRCASE · top -0.19%",
+      "mint": "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump",
+      "signature": null
+    },
+    {
       "ts": 1777582319,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -27,16 +35,16 @@
     {
       "ts": 1777580638,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
       "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
     {
       "ts": 1777580638,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
       "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
@@ -61,20 +69,29 @@
     "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
       "symbol": "CORE",
       "name": "Create Own Run Everything",
-      "mcap_usd": 35463.0,
-      "price_usd": 0.00003546,
-      "price_change_1h": 3.77,
+      "mcap_usd": 30586.0,
+      "price_usd": 0.00003058,
+      "price_change_1h": -10.5,
       "price_change_24h": null,
-      "liquidity_usd": 14494.5
+      "liquidity_usd": 13462.15
     },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 26625.0,
-      "price_usd": 0.00002662,
-      "price_change_1h": -34.15,
+      "mcap_usd": 25299.0,
+      "price_usd": 0.00002529,
+      "price_change_1h": -45.8,
       "price_change_24h": null,
-      "liquidity_usd": 12768.08
+      "liquidity_usd": 12446.23
+    },
+    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
+      "symbol": "CLAUDE",
+      "name": "Claude's Body",
+      "mcap_usd": 32867.0,
+      "price_usd": 0.00003286,
+      "price_change_1h": -4.09,
+      "price_change_24h": null,
+      "liquidity_usd": 13897.65
     }
   }
 }
