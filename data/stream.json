@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777582544,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4D7U…pump · STAIRCASE→DEVELOPING · top -4.17%",
+      "mint": "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump",
+      "signature": null
+    },
+    {
       "ts": 1777582370,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -50,32 +58,32 @@
     }
   ],
   "tokens": {
-    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
-      "symbol": "CLAUDE",
-      "name": "Claude's Body",
-      "mcap_usd": 33116.0,
-      "price_usd": 0.00003311,
-      "price_change_1h": -3.36,
-      "price_change_24h": null,
-      "liquidity_usd": 13949.0
-    },
     "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
       "symbol": "CORE",
       "name": "Create Own Run Everything",
-      "mcap_usd": 30702.0,
-      "price_usd": 0.0000307,
-      "price_change_1h": -10.16,
+      "mcap_usd": 29550.0,
+      "price_usd": 0.00002954,
+      "price_change_1h": -13.53,
       "price_change_24h": null,
-      "liquidity_usd": 13487.54
+      "liquidity_usd": 13231.61
+    },
+    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
+      "symbol": "CLAUDE",
+      "name": "Claude's Body",
+      "mcap_usd": 47213.0,
+      "price_usd": 0.00004721,
+      "price_change_1h": 37.77,
+      "price_change_24h": null,
+      "liquidity_usd": 16680.46
     },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 24064.0,
-      "price_usd": 0.00002406,
-      "price_change_1h": -48.45,
+      "mcap_usd": 20570.0,
+      "price_usd": 0.00002057,
+      "price_change_1h": -56.29,
       "price_change_24h": null,
-      "liquidity_usd": 12138.77
+      "liquidity_usd": 11221.96
     }
   }
 }
