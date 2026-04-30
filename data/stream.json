@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777582319,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Fdsc…pump · DEVELOPING→STAIRCASE · top -2.55%",
+      "mint": "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump",
+      "signature": null
+    },
+    {
       "ts": 1777581233,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -19,16 +27,16 @@
     {
       "ts": 1777580638,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
       "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
     {
       "ts": 1777580638,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
       "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
@@ -50,14 +58,23 @@
     }
   ],
   "tokens": {
+    "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
+      "symbol": "CORE",
+      "name": "Create Own Run Everything",
+      "mcap_usd": 35463.0,
+      "price_usd": 0.00003546,
+      "price_change_1h": 3.77,
+      "price_change_24h": null,
+      "liquidity_usd": 14494.5
+    },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 24941.0,
-      "price_usd": 0.00002494,
-      "price_change_1h": -14.98,
+      "mcap_usd": 26625.0,
+      "price_usd": 0.00002662,
+      "price_change_1h": -34.15,
       "price_change_24h": null,
-      "liquidity_usd": 12357.66
+      "liquidity_usd": 12768.08
     }
   }
 }
