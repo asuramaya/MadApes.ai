@@ -33,14 +33,6 @@
       "signature": null
     },
     {
-      "ts": 1777560507,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7EvA…moon · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "7EvA5CcXFQf1o2RqvhKXkFNshURNeLZ6ZtAvr1qKmoon",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -58,41 +50,32 @@
     }
   ],
   "tokens": {
-    "7EvA5CcXFQf1o2RqvhKXkFNshURNeLZ6ZtAvr1qKmoon": {
-      "symbol": "PXC",
-      "name": "PROJECT X",
-      "mcap_usd": 410930.01,
-      "price_usd": 0.0004109,
-      "price_change_1h": 15.1,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
     "B4cuALoHSunH6oLQPQA5Z2UvAhfZ4LCt19fCD6YWpump": {
       "symbol": "Alveus",
       "name": "Alveus Sanctuary",
-      "mcap_usd": 2879.0,
-      "price_usd": 2.878e-6,
-      "price_change_1h": -69.97,
+      "mcap_usd": 2457.0,
+      "price_usd": 2.456e-6,
+      "price_change_1h": -79.34,
       "price_change_24h": null,
-      "liquidity_usd": 4125.66
+      "liquidity_usd": 3813.05
     },
     "7mTSsMbD6Z2ZeZsE4ZYoqe5HePkQsx6baDNKrACppump": {
       "symbol": "ASCIIBELKA",
       "name": "ASCII BELKA",
-      "mcap_usd": 1699.0,
-      "price_usd": 1.698e-6,
-      "price_change_1h": -95.4,
+      "mcap_usd": 1679.0,
+      "price_usd": 1.678e-6,
+      "price_change_1h": -95.46,
       "price_change_24h": null,
-      "liquidity_usd": 3207.25
+      "liquidity_usd": 3189.61
     },
     "FUD97cJ3VXAv1HqY4w8r8KSvdNQkH5X5Qk2TAGiUpump": {
       "symbol": "BlueBuck",
       "name": "Blue Buck",
-      "mcap_usd": 124456.0,
-      "price_usd": 0.0001244,
-      "price_change_1h": 202.0,
+      "mcap_usd": 95515.0,
+      "price_usd": 0.00009551,
+      "price_change_1h": 131.0,
       "price_change_24h": null,
-      "liquidity_usd": 27855.37
+      "liquidity_usd": 24480.86
     }
   }
 }
