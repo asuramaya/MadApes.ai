@@ -35,24 +35,16 @@
     {
       "ts": 1777577053,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
-      "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
-      "signature": null
-    },
-    {
-      "ts": 1777577053,
-      "kind": "alert",
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
-      "ts": 1777576687,
+      "ts": 1777577053,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · DEVELOPING→STAIRCASE · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
@@ -74,32 +66,32 @@
     }
   ],
   "tokens": {
-    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
-      "symbol": "CLUTCH",
-      "name": "Clutch the Bald Eagle",
-      "mcap_usd": 54717.0,
-      "price_usd": 0.00005471,
-      "price_change_1h": 25.27,
+    "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT": {
+      "symbol": "$GCUL",
+      "name": "Google Cloud Universal Ledger",
+      "mcap_usd": 416352.0,
+      "price_usd": 0.0004163,
+      "price_change_1h": -0.13,
       "price_change_24h": null,
-      "liquidity_usd": 13755.09
+      "liquidity_usd": 30538.99
     },
     "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
       "symbol": "MUSK",
       "name": "Musk Foundation",
-      "mcap_usd": 285261.0,
-      "price_usd": 0.0002852,
-      "price_change_1h": 470.0,
+      "mcap_usd": 261386.0,
+      "price_usd": 0.0002613,
+      "price_change_1h": 423.0,
       "price_change_24h": null,
-      "liquidity_usd": 41018.56
+      "liquidity_usd": 39271.11
     },
-    "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT": {
-      "symbol": "$GCUL",
-      "name": "Google Cloud Universal Ledger",
-      "mcap_usd": 413097.0,
-      "price_usd": 0.000413,
-      "price_change_1h": -0.91,
+    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
+      "symbol": "CLUTCH",
+      "name": "Clutch the Bald Eagle",
+      "mcap_usd": 51954.0,
+      "price_usd": 0.00005195,
+      "price_change_1h": 12.92,
       "price_change_24h": null,
-      "liquidity_usd": 30419.36
+      "liquidity_usd": 13405.29
     }
   }
 }
