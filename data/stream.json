@@ -12,24 +12,16 @@
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
-      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
+      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
+      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
       "signature": null
     },
     {
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
-      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
-      "signature": null
-    },
-    {
-      "ts": 1777577907,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH JCig…pump · vel 2.00x→0.47x · tpm 30.9",
-      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
+      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
+      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
       "signature": null
     },
     {
@@ -50,32 +42,32 @@
     }
   ],
   "tokens": {
-    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
-      "symbol": "TOR",
-      "name": "Tor Freedom Fund",
-      "mcap_usd": 120864.0,
-      "price_usd": 0.0001208,
-      "price_change_1h": 253.0,
+    "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
+      "symbol": "MUSK",
+      "name": "Musk Foundation",
+      "mcap_usd": 2566.0,
+      "price_usd": 2.566e-6,
+      "price_change_1h": -98.89,
       "price_change_24h": null,
-      "liquidity_usd": 26823.08
+      "liquidity_usd": 3896.53
     },
     "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
       "symbol": "CLUTCH",
       "name": "Clutch the Bald Eagle",
-      "mcap_usd": 54639.0,
-      "price_usd": 0.00005463,
-      "price_change_1h": 59.54,
+      "mcap_usd": 51897.0,
+      "price_usd": 0.00005189,
+      "price_change_1h": 46.73,
       "price_change_24h": null,
-      "liquidity_usd": 13730.28
+      "liquidity_usd": 13381.38
     },
-    "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
-      "symbol": "MUSK",
-      "name": "Musk Foundation",
-      "mcap_usd": 1579.0,
-      "price_usd": 1.578e-6,
-      "price_change_1h": -99.28,
+    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
+      "symbol": "TOR",
+      "name": "Tor Freedom Fund",
+      "mcap_usd": 120577.0,
+      "price_usd": 0.0001205,
+      "price_change_1h": 253.0,
       "price_change_24h": null,
-      "liquidity_usd": 3056.12
+      "liquidity_usd": 26881.21
     }
   }
 }
