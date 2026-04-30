@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777567697,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE FWNc…pump · DEVELOPING→STAIRCASE · top +0.66%",
+      "mint": "FWNc1raoPP3Yz2CY8fRVGjdezmBoLKuXppq4vhdxpump",
+      "signature": null
+    },
+    {
       "ts": 1777567313,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -29,11 +37,20 @@
     "ARea51UmRfn22Ds7KwFZirSMEEn1gtBdrhW4zLeveeV1": {
       "symbol": "AALIEN",
       "name": "Anon Alien",
-      "mcap_usd": 51253.0,
-      "price_usd": 0.00005125,
-      "price_change_1h": 49.52,
+      "mcap_usd": 50951.0,
+      "price_usd": 0.00005095,
+      "price_change_1h": 48.64,
       "price_change_24h": null,
-      "liquidity_usd": 17341.25
+      "liquidity_usd": 17290.49
+    },
+    "FWNc1raoPP3Yz2CY8fRVGjdezmBoLKuXppq4vhdxpump": {
+      "symbol": "SBURN",
+      "name": "Scam Burnıe",
+      "mcap_usd": 39599.0,
+      "price_usd": 0.00003959,
+      "price_change_1h": 17.1,
+      "price_change_24h": null,
+      "liquidity_usd": 15258.97
     }
   }
 }
