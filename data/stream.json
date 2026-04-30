@@ -1,19 +1,19 @@
 {
   "events": [
     {
+      "ts": 1777517979,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ssM…pump · GRINDER→ACTIVE_TRAP · top +0.01%",
+      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
+      "signature": null
+    },
+    {
       "ts": 1777517653,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3KHM…pump · GRINDER→ACTIVE_TRAP · top -0.01%",
       "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
-      "signature": null
-    },
-    {
-      "ts": 1777515995,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2ssM…pump · GRINDER→ACTIVE_TRAP · top -0.05%",
-      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
       "signature": null
     },
     {
@@ -37,20 +37,20 @@
     "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
       "symbol": "Wish",
       "name": "Make A Wish",
-      "mcap_usd": 1494166.0,
-      "price_usd": 0.001494,
-      "price_change_1h": 12.49,
+      "mcap_usd": 1563916.0,
+      "price_usd": 0.001563,
+      "price_change_1h": 7.2,
       "price_change_24h": null,
-      "liquidity_usd": 120778.88
+      "liquidity_usd": 123776.65
     },
     "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump": {
       "symbol": "Goblin",
       "name": "GoblinCoin",
-      "mcap_usd": 1629009.0,
-      "price_usd": 0.002147,
-      "price_change_1h": 13.48,
+      "mcap_usd": 1480909.0,
+      "price_usd": 0.001954,
+      "price_change_1h": 17.28,
       "price_change_24h": null,
-      "liquidity_usd": 143753.08
+      "liquidity_usd": 137285.13
     }
   }
 }
