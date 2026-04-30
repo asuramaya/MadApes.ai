@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777544994,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6BWN…pump · DEVELOPING→STAIRCASE · top +0.83%",
+      "mint": "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump",
+      "signature": null
+    },
+    {
+      "ts": 1777544911,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6BWN…pump · STAIRCASE→DEVELOPING · top +0.52%",
+      "mint": "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump",
+      "signature": null
+    },
+    {
+      "ts": 1777544911,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 6BWN…pump · vel 1.32x→0.49x · tpm 10.8",
+      "mint": "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump",
+      "signature": null
+    },
+    {
       "ts": 1777544788,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -29,11 +53,11 @@
     "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump": {
       "symbol": "CDSX",
       "name": "CDSX",
-      "mcap_usd": 27099.0,
-      "price_usd": 0.00002709,
-      "price_change_1h": -16.05,
+      "mcap_usd": 26627.0,
+      "price_usd": 0.00002662,
+      "price_change_1h": -17.51,
       "price_change_24h": null,
-      "liquidity_usd": 12574.71
+      "liquidity_usd": 12467.38
     }
   }
 }
