@@ -11,25 +11,17 @@
     {
       "ts": 1777580638,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
-      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
-      "signature": null
-    },
-    {
-      "ts": 1777580638,
-      "kind": "alert",
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
       "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
     {
-      "ts": 1777579949,
+      "ts": 1777580638,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
-      "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
+      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
       "signature": null
     },
     {
@@ -37,6 +29,14 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
+      "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
+      "signature": null
+    },
+    {
+      "ts": 1777579949,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
       "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
       "signature": null
     },
@@ -69,20 +69,20 @@
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 24100.0,
-      "price_usd": 0.00002409,
-      "price_change_1h": -29.54,
+      "mcap_usd": 19398.0,
+      "price_usd": 0.00001939,
+      "price_change_1h": -43.29,
       "price_change_24h": null,
-      "liquidity_usd": 12139.3
+      "liquidity_usd": 10891.47
     },
     "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump": {
       "symbol": "TREND",
       "name": "TREND ORACLE",
-      "mcap_usd": 28245.0,
-      "price_usd": 0.00002824,
-      "price_change_1h": -17.43,
+      "mcap_usd": 28035.0,
+      "price_usd": 0.00002803,
+      "price_change_1h": -18.04,
       "price_change_24h": null,
-      "liquidity_usd": 12858.37
+      "liquidity_usd": 12810.45
     }
   }
 }
