@@ -3,25 +3,17 @@
     {
       "ts": 1777543045,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4f7s…pump · STAIRCASE→DEVELOPING · top +10.88%",
-      "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777543045,
-      "kind": "alert",
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING 4f7s…pump · top 28.37%→39.24% (+10.88%) · DEVELOPING",
       "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
       "signature": null
     },
     {
-      "ts": 1777542874,
+      "ts": 1777543045,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6TPs…pump · SURGE→DEVELOPING · top +18.67%",
-      "mint": "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump",
+      "summary": "CLASSIFICATION_CHANGE 4f7s…pump · STAIRCASE→DEVELOPING · top +10.88%",
+      "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
       "signature": null
     },
     {
@@ -33,11 +25,11 @@
       "signature": null
     },
     {
-      "ts": 1777542312,
+      "ts": 1777542874,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE ADQE…pump · STAIRCASE→DEVELOPING · top +0.01%",
-      "mint": "ADQELCPrz6x4oSKV4bBJ4y4q8RxKAVnq3dc6fgQSpump",
+      "summary": "CLASSIFICATION_CHANGE 6TPs…pump · SURGE→DEVELOPING · top +18.67%",
+      "mint": "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump",
       "signature": null
     },
     {
@@ -58,32 +50,23 @@
     }
   ],
   "tokens": {
-    "ADQELCPrz6x4oSKV4bBJ4y4q8RxKAVnq3dc6fgQSpump": {
-      "symbol": "goblicorn",
-      "name": "goblicorn",
-      "mcap_usd": 3868.0,
-      "price_usd": 3.868e-6,
-      "price_change_1h": -88.72,
-      "price_change_24h": null,
-      "liquidity_usd": 4763.02
-    },
     "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump": {
       "symbol": "CENSORED",
       "name": "Censored Coin",
-      "mcap_usd": 7994.0,
-      "price_usd": 7.993e-6,
-      "price_change_1h": -76.99,
+      "mcap_usd": 7728.0,
+      "price_usd": 7.727e-6,
+      "price_change_1h": -77.75,
       "price_change_24h": null,
-      "liquidity_usd": 6851.16
+      "liquidity_usd": 6736.37
     },
     "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump": {
       "symbol": "CRYPTOLESS",
       "name": "CRYPTOLESS",
-      "mcap_usd": 8324.0,
-      "price_usd": 8.324e-6,
-      "price_change_1h": -75.68,
+      "mcap_usd": 7038.0,
+      "price_usd": 7.038e-6,
+      "price_change_1h": -79.44,
       "price_change_24h": null,
-      "liquidity_usd": 7070.62
+      "liquidity_usd": 6498.28
     }
   }
 }
