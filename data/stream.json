@@ -41,14 +41,6 @@
       "signature": null
     },
     {
-      "ts": 1777535110,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GADq…pump · STAIRCASE→DEVELOPING · top -2.08%",
-      "mint": "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -66,41 +58,41 @@
     }
   ],
   "tokens": {
-    "ByqipPbSHxzLi6ga5LNrnE229vsLuSrCfHMaDbe1TRND": {
-      "symbol": "SIGHT ",
-      "name": "Clawglasses",
-      "mcap_usd": 650075.0,
-      "price_usd": 0.00065,
-      "price_change_1h": 9.72,
+    "12ZA2HXhpZ7bEz7HBPc8M7to4dQRRioxayTkqoTKpump": {
+      "symbol": "CREATURE",
+      "name": "Codex banned us. We're here.",
+      "mcap_usd": 125460.0,
+      "price_usd": 0.0001254,
+      "price_change_1h": 141.0,
       "price_change_24h": null,
-      "liquidity_usd": 57997.8
+      "liquidity_usd": 27529.89
     },
     "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump": {
       "symbol": "STARE",
       "name": "The Stare",
-      "mcap_usd": 15454.0,
-      "price_usd": 0.00001545,
-      "price_change_1h": -54.15,
+      "mcap_usd": 15278.0,
+      "price_usd": 0.00001527,
+      "price_change_1h": -54.67,
       "price_change_24h": null,
-      "liquidity_usd": 9566.03
+      "liquidity_usd": 9510.17
+    },
+    "ByqipPbSHxzLi6ga5LNrnE229vsLuSrCfHMaDbe1TRND": {
+      "symbol": "SIGHT ",
+      "name": "Clawglasses",
+      "mcap_usd": 647625.0,
+      "price_usd": 0.0006476,
+      "price_change_1h": 9.31,
+      "price_change_24h": null,
+      "liquidity_usd": 57889.24
     },
     "MCuf6YAxJXnv9pDmcLCaigEsFoXoNc25N9kbUK3pump": {
       "symbol": "DanceMichi",
       "name": "The Dancing michi",
-      "mcap_usd": 1488.0,
-      "price_usd": 1.488e-6,
+      "mcap_usd": 1487.0,
+      "price_usd": 1.487e-6,
       "price_change_1h": -96.26,
       "price_change_24h": null,
-      "liquidity_usd": 2973.17
-    },
-    "12ZA2HXhpZ7bEz7HBPc8M7to4dQRRioxayTkqoTKpump": {
-      "symbol": "CREATURE",
-      "name": "Codex banned us. We're here.",
-      "mcap_usd": 135053.0,
-      "price_usd": 0.000135,
-      "price_change_1h": 159.0,
-      "price_change_24h": null,
-      "liquidity_usd": 28511.13
+      "liquidity_usd": 2972.04
     }
   }
 }
