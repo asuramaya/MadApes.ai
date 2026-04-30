@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 67,
+      "mint": "XDTrLev9dXNYFcHYXvUEc8jGsbKpSLiMktmGuXnpump",
+      "symbol": "FOODBANK",
+      "classification": "GRINDER",
+      "confidence": 67,
+      "called_at": 1777563725,
+      "expires_at": 1777578125,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 113952.0,
+      "entry_price_usd": 0.0001139,
+      "entry_liquidity_usd": 26100.28,
+      "entry_top_holder_pct": 9.981773434779608,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 141122.0,
+      "current_price_usd": 0.0001411,
+      "current_liquidity_usd": 29149.91,
+      "pct_from_call": 23.880597014925353,
+      "peak_pct": 32.13345039508339,
+      "peak_at": 1777563742,
+      "trough_pct": -72.05443371378402,
+      "trough_at": 1777563725,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 66,
@@ -577,17 +608,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 17,
         "wins": 6,
@@ -598,6 +618,17 @@
         "avg_loser_pct": -64.56243309919535,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }

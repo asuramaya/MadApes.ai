@@ -1,19 +1,11 @@
 {
   "events": [
     {
-      "ts": 1777562615,
+      "ts": 1777567313,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING CgNX…pump · top 31.06%→37.81% (+6.74%) · DEVELOPING",
-      "mint": "CgNXAZEdCFzphfNEWxpyGTww5EebtUwfFsnm6kr5pump",
-      "signature": null
-    },
-    {
-      "ts": 1777562398,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 6vG4…pump · top 23.77%→28.11% (+4.34%) · DEVELOPING",
-      "mint": "6vG4JpibUYsUxhCHeCiReuoPFATYFm61Lskr9mnrpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE ARea…eeV1 · DEVELOPING→STAIRCASE · top -1.53%",
+      "mint": "ARea51UmRfn22Ds7KwFZirSMEEn1gtBdrhW4zLeveeV1",
       "signature": null
     },
     {
@@ -34,23 +26,14 @@
     }
   ],
   "tokens": {
-    "CgNXAZEdCFzphfNEWxpyGTww5EebtUwfFsnm6kr5pump": {
-      "symbol": "כוכו",
-      "name": "Koko The Zionist Dog",
-      "mcap_usd": 4835.0,
-      "price_usd": 4.835e-6,
-      "price_change_1h": -85.53,
+    "ARea51UmRfn22Ds7KwFZirSMEEn1gtBdrhW4zLeveeV1": {
+      "symbol": "AALIEN",
+      "name": "Anon Alien",
+      "mcap_usd": 50158.0,
+      "price_usd": 0.00005015,
+      "price_change_1h": 46.33,
       "price_change_24h": null,
-      "liquidity_usd": 5342.93
-    },
-    "6vG4JpibUYsUxhCHeCiReuoPFATYFm61Lskr9mnrpump": {
-      "symbol": "AIRCOIN",
-      "name": "Aircoin",
-      "mcap_usd": 13221.0,
-      "price_usd": 0.00001322,
-      "price_change_1h": -61.31,
-      "price_change_24h": null,
-      "liquidity_usd": 8822.78
+      "liquidity_usd": 17149.05
     }
   }
 }
