@@ -4,16 +4,16 @@
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
-      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
+      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
+      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
       "signature": null
     },
     {
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
-      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
+      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
+      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
       "signature": null
     },
     {
@@ -35,16 +35,16 @@
     {
       "ts": 1777577053,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
       "ts": 1777577053,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
@@ -74,30 +74,30 @@
     }
   ],
   "tokens": {
-    "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
-      "symbol": "MUSK",
-      "name": "Musk Foundation",
-      "mcap_usd": 274547.0,
-      "price_usd": 0.0002745,
-      "price_change_1h": 449.0,
-      "price_change_24h": null,
-      "liquidity_usd": 40240.91
-    },
     "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
       "symbol": "CLUTCH",
       "name": "Clutch the Bald Eagle",
-      "mcap_usd": 51859.0,
-      "price_usd": 0.00005185,
-      "price_change_1h": 13.56,
+      "mcap_usd": 54717.0,
+      "price_usd": 0.00005471,
+      "price_change_1h": 25.27,
       "price_change_24h": null,
-      "liquidity_usd": 13391.4
+      "liquidity_usd": 13755.09
+    },
+    "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
+      "symbol": "MUSK",
+      "name": "Musk Foundation",
+      "mcap_usd": 285261.0,
+      "price_usd": 0.0002852,
+      "price_change_1h": 470.0,
+      "price_change_24h": null,
+      "liquidity_usd": 41018.56
     },
     "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT": {
       "symbol": "$GCUL",
       "name": "Google Cloud Universal Ledger",
       "mcap_usd": 413097.0,
       "price_usd": 0.000413,
-      "price_change_1h": -0.7,
+      "price_change_1h": -0.91,
       "price_change_24h": null,
       "liquidity_usd": 30419.36
     }
