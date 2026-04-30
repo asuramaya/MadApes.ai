@@ -33,22 +33,6 @@
       "signature": null
     },
     {
-      "ts": 1777580638,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 9NCL…pump · deployer down 31.6% (210512033 → 143918364)",
-      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
-      "signature": null
-    },
-    {
-      "ts": 1777580638,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 9NCL…pump · vel 1.33x→0.33x · tpm 93.8",
-      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -66,32 +50,32 @@
     }
   ],
   "tokens": {
+    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
+      "symbol": "CLAUDE",
+      "name": "Claude's Body",
+      "mcap_usd": 33116.0,
+      "price_usd": 0.00003311,
+      "price_change_1h": -3.36,
+      "price_change_24h": null,
+      "liquidity_usd": 13949.0
+    },
     "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
       "symbol": "CORE",
       "name": "Create Own Run Everything",
-      "mcap_usd": 30586.0,
-      "price_usd": 0.00003058,
-      "price_change_1h": -10.5,
+      "mcap_usd": 30702.0,
+      "price_usd": 0.0000307,
+      "price_change_1h": -10.16,
       "price_change_24h": null,
-      "liquidity_usd": 13462.15
+      "liquidity_usd": 13487.54
     },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 25299.0,
-      "price_usd": 0.00002529,
-      "price_change_1h": -45.8,
+      "mcap_usd": 24064.0,
+      "price_usd": 0.00002406,
+      "price_change_1h": -48.45,
       "price_change_24h": null,
-      "liquidity_usd": 12446.23
-    },
-    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
-      "symbol": "CLAUDE",
-      "name": "Claude's Body",
-      "mcap_usd": 32867.0,
-      "price_usd": 0.00003286,
-      "price_change_1h": -4.09,
-      "price_change_24h": null,
-      "liquidity_usd": 13897.65
+      "liquidity_usd": 12138.77
     }
   }
 }
