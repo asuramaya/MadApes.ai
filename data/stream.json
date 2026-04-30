@@ -65,14 +65,6 @@
       "signature": null
     },
     {
-      "ts": 1777552984,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 5i4t…BLNK · vel 1.25x→0.48x · tpm 2.3",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -90,50 +82,50 @@
     }
   ],
   "tokens": {
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 22453.0,
-      "price_usd": 0.00002245,
-      "price_change_1h": 3.24,
-      "price_change_24h": null,
-      "liquidity_usd": 12257.27
-    },
     "9iR8Urs95yLeiajX3T6eYK9t4YBcLbrWS8pCKgoPFb7n": {
       "symbol": "PRX",
       "name": "Praxis",
-      "mcap_usd": 133291.0,
-      "price_usd": 0.0001332,
-      "price_change_1h": 51.47,
+      "mcap_usd": 117236.0,
+      "price_usd": 0.0001172,
+      "price_change_1h": 31.8,
       "price_change_24h": null,
-      "liquidity_usd": 32540.51
+      "liquidity_usd": 30506.65
     },
-    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
-      "symbol": "ETH",
-      "name": "The Ethereum Foundation. ",
-      "mcap_usd": 25627.0,
-      "price_usd": 0.00002562,
-      "price_change_1h": -23.64,
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 21407.0,
+      "price_usd": 0.0000214,
+      "price_change_1h": -15.09,
       "price_change_24h": null,
-      "liquidity_usd": 12247.0
-    },
-    "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
-      "symbol": "TTC",
-      "name": "Tittiecoin",
-      "mcap_usd": 5278.0,
-      "price_usd": 5.278e-6,
-      "price_change_1h": -84.58,
-      "price_change_24h": null,
-      "liquidity_usd": 5582.31
+      "liquidity_usd": 11964.06
     },
     "3jHQ99DkDxvnPaBHxvoYFmYeW8tpidCB9HZqDLL5pump": {
       "symbol": "PEPELKA",
       "name": "Pepelka",
-      "mcap_usd": 176904.0,
-      "price_usd": 0.0001769,
-      "price_change_1h": 410.0,
+      "mcap_usd": 32079.0,
+      "price_usd": 0.00003207,
+      "price_change_1h": -7.47,
       "price_change_24h": null,
-      "liquidity_usd": 33355.54
+      "liquidity_usd": 14269.26
+    },
+    "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
+      "symbol": "TTC",
+      "name": "Tittiecoin",
+      "mcap_usd": 4596.0,
+      "price_usd": 4.596e-6,
+      "price_change_1h": -86.57,
+      "price_change_24h": null,
+      "liquidity_usd": 5207.54
+    },
+    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
+      "symbol": "ETH",
+      "name": "The Ethereum Foundation. ",
+      "mcap_usd": 25624.0,
+      "price_usd": 0.00002562,
+      "price_change_1h": 21.75,
+      "price_change_24h": null,
+      "liquidity_usd": 12241.89
     }
   }
 }
