@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777535110,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE GADq…pump · STAIRCASE→DEVELOPING · top -2.08%",
+      "mint": "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump",
+      "signature": null
+    },
+    {
       "ts": 1777534245,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -14,22 +22,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 6Z3v…pump · GRINDER→STAIRCASE · top +0.00%",
       "mint": "6Z3vdSwVXxUtcyn7cEMKY4cj39R5p6jfeizEZKnNpump",
-      "signature": null
-    },
-    {
-      "ts": 1777533356,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING oi2a…pump · deployer down 100.0% (416190633 → 0)",
-      "mint": "oi2are2SFf2N57f6XPrafSzmJ5nevBnL9FnhoB9pump",
-      "signature": null
-    },
-    {
-      "ts": 1777533244,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING LauQ…pump · top 22.83%→26.70% (+3.87%) · DEVELOPING",
-      "mint": "LauQprDjyRQGFhwdXH2TLis9iUqXyx6grx18YnSpump",
       "signature": null
     },
     {
@@ -59,32 +51,23 @@
       "price_change_24h": null,
       "liquidity_usd": 3065.35
     },
-    "LauQprDjyRQGFhwdXH2TLis9iUqXyx6grx18YnSpump": {
-      "symbol": "BALLS",
-      "name": "Balls Coin",
-      "mcap_usd": 17605.0,
-      "price_usd": 0.0000176,
-      "price_change_1h": -49.09,
+    "GADqPjFkVgAuWwAouhQzP7YbckZCCRRnzGAmT8o3pump": {
+      "symbol": "STARE",
+      "name": "The Stare",
+      "mcap_usd": 33876.0,
+      "price_usd": 0.00003387,
+      "price_change_1h": 0.51,
       "price_change_24h": null,
-      "liquidity_usd": 10193.28
-    },
-    "oi2are2SFf2N57f6XPrafSzmJ5nevBnL9FnhoB9pump": {
-      "symbol": "DisabWhale",
-      "name": "The Disabled Whale",
-      "mcap_usd": 1525.0,
-      "price_usd": 1.525e-6,
-      "price_change_1h": -96.16,
-      "price_change_24h": null,
-      "liquidity_usd": 3001.35
+      "liquidity_usd": 14140.83
     },
     "6Z3vdSwVXxUtcyn7cEMKY4cj39R5p6jfeizEZKnNpump": {
       "symbol": "Ballscoin",
       "name": "Ballscoin",
-      "mcap_usd": 20870.0,
-      "price_usd": 0.00002087,
-      "price_change_1h": -38.89,
+      "mcap_usd": 24501.0,
+      "price_usd": 0.0000245,
+      "price_change_1h": -28.26,
       "price_change_24h": null,
-      "liquidity_usd": 11091.4
+      "liquidity_usd": 12017.82
     }
   }
 }
