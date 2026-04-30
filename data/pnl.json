@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 0.2534256249,
+  "total_value_usd": 0.252908864,
   "realized_pnl_usd": 0.0,
-  "unrealized_pnl_usd": -8.570649427200001,
+  "unrealized_pnl_usd": 0.0,
   "series": [
-    {
-      "ts": 1776894403,
-      "value_usd": 0.2663750451
-    },
     {
       "ts": 1776894703,
       "value_usd": 0.2664662382
@@ -8066,6 +8062,10 @@
     {
       "ts": 1777557051,
       "value_usd": 0.2534256249
+    },
+    {
+      "ts": 1777557351,
+      "value_usd": 0.252908864
     }
   ],
   "trades": [
