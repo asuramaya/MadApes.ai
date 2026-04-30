@@ -35,16 +35,16 @@
     {
       "ts": 1777577053,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
       "ts": 1777577053,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
       "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
@@ -69,29 +69,29 @@
     "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT": {
       "symbol": "$GCUL",
       "name": "Google Cloud Universal Ledger",
-      "mcap_usd": 412061.0,
-      "price_usd": 0.000412,
-      "price_change_1h": -1.15,
+      "mcap_usd": 415960.0,
+      "price_usd": 0.0004159,
+      "price_change_1h": -0.16,
       "price_change_24h": null,
-      "liquidity_usd": 30381.18
-    },
-    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
-      "symbol": "CLUTCH",
-      "name": "Clutch the Bald Eagle",
-      "mcap_usd": 49506.0,
-      "price_usd": 0.0000495,
-      "price_change_1h": 16.8,
-      "price_change_24h": null,
-      "liquidity_usd": 13078.17
+      "liquidity_usd": 30524.91
     },
     "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
       "symbol": "MUSK",
       "name": "Musk Foundation",
-      "mcap_usd": 281769.0,
-      "price_usd": 0.0002817,
-      "price_change_1h": 463.0,
+      "mcap_usd": 280362.0,
+      "price_usd": 0.0002803,
+      "price_change_1h": 460.0,
       "price_change_24h": null,
-      "liquidity_usd": 40761.28
+      "liquidity_usd": 40665.06
+    },
+    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
+      "symbol": "CLUTCH",
+      "name": "Clutch the Bald Eagle",
+      "mcap_usd": 49305.0,
+      "price_usd": 0.0000493,
+      "price_change_1h": 12.54,
+      "price_change_24h": null,
+      "liquidity_usd": 13051.62
     }
   }
 }
