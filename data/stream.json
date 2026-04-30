@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "ts": 1777531583,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH JB8r…pump · vel 2.00x→0.27x · tpm 34.1",
+      "mint": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
+      "signature": null
+    },
+    {
+      "ts": 1777531583,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE JB8r…pump · STAIRCASE→DEVELOPING · top -0.04%",
+      "mint": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
+      "signature": null
+    },
+    {
+      "ts": 1777531515,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE HDmo…pump · DEVELOPING→GRINDER · top -2.94%",
+      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
+      "signature": null
+    },
+    {
+      "ts": 1777531359,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE HDmo…pump · GRINDER→DEVELOPING · top -0.38%",
+      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
+      "signature": null
+    },
+    {
       "ts": 1777529978,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -25,14 +57,6 @@
       "signature": null
     },
     {
-      "ts": 1777529722,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING DwXW…pump · deployer down 34.8% (993562166 → 647807728)",
-      "mint": "DwXWgqgSawzaTuPrbDwNrty9FqmJNR8mnDv1tz3kpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -53,29 +77,38 @@
     "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump": {
       "symbol": "Peng",
       "name": "Peng",
-      "mcap_usd": 2036.0,
-      "price_usd": 2.035e-6,
-      "price_change_1h": -94.01,
+      "mcap_usd": 2094.0,
+      "price_usd": 2.093e-6,
+      "price_change_1h": -93.84,
       "price_change_24h": null,
-      "liquidity_usd": 3448.06
+      "liquidity_usd": 3496.19
     },
-    "DwXWgqgSawzaTuPrbDwNrty9FqmJNR8mnDv1tz3kpump": {
-      "symbol": "KEVSZN",
-      "name": "Kevszn official",
-      "mcap_usd": 362.0,
-      "price_usd": 1.811e-7,
-      "price_change_1h": -96.99,
+    "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump": {
+      "symbol": "BP",
+      "name": "Barking Puppy - kg",
+      "mcap_usd": 346401.0,
+      "price_usd": 0.0003464,
+      "price_change_1h": -43.22,
       "price_change_24h": null,
-      "liquidity_usd": 483.71
+      "liquidity_usd": 49017.67
+    },
+    "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump": {
+      "symbol": "MSPAINTIFY",
+      "name": "mspaintify",
+      "mcap_usd": 45514.0,
+      "price_usd": 0.00004551,
+      "price_change_1h": 33.37,
+      "price_change_24h": null,
+      "liquidity_usd": 16472.6
     },
     "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump": {
       "symbol": "CATE",
       "name": "Catecoin",
-      "mcap_usd": 45560.0,
-      "price_usd": 0.00004555,
-      "price_change_1h": 34.16,
+      "mcap_usd": 50691.0,
+      "price_usd": 0.00005069,
+      "price_change_1h": 49.27,
       "price_change_24h": null,
-      "liquidity_usd": 16819.73
+      "liquidity_usd": 17773.69
     }
   }
 }
