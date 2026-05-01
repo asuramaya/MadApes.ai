@@ -11,16 +11,16 @@
     {
       "ts": 1777664608,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6uRG…pump · STAIRCASE→DEVELOPING · top +3.23%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 6uRG…pump · top 16.06%→19.29% (+3.23%) · DEVELOPING",
       "mint": "6uRGc3LX7xyYF1SSqPcyLkApvTk1Hzc3nwEQiJfApump",
       "signature": null
     },
     {
       "ts": 1777664608,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 6uRG…pump · top 16.06%→19.29% (+3.23%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6uRG…pump · STAIRCASE→DEVELOPING · top +3.23%",
       "mint": "6uRGc3LX7xyYF1SSqPcyLkApvTk1Hzc3nwEQiJfApump",
       "signature": null
     },
@@ -54,22 +54,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 2TfS…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "2TfSKMphshQ8zFLMJuGsw2iotSdGHLhYYPM4uy1opump",
-      "signature": null
-    },
-    {
-      "ts": 1777663350,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING VKhb…pump · top 22.15%→50.03% (+27.88%) · DEVELOPING",
-      "mint": "VKhbPoHzZsZ5nFsP611FbXZMLoyoBZ7TevfeENUpump",
-      "signature": null
-    },
-    {
-      "ts": 1777663299,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING F3iV…pump · top 19.55%→21.66% (+2.11%) · DEVELOPING",
-      "mint": "F3iV4HCdr4rBCHmLZPEEFiLxBwznSVwPYx2AoQy5pump",
       "signature": null
     },
     {
@@ -114,104 +98,95 @@
     }
   ],
   "tokens": {
-    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
-      "symbol": "Pets",
-      "name": "Codex Pets",
-      "mcap_usd": 13653.0,
-      "price_usd": 0.00001401,
-      "price_change_1h": -26.3,
-      "price_change_24h": null,
-      "liquidity_usd": 9126.63
-    },
-    "CmN1NmtrwpWitGvhoakh9nyeEVZnMp8VtQZSNifUpump": {
-      "symbol": "IRL",
-      "name": "PUMPATHON IRL",
-      "mcap_usd": 100106.0,
-      "price_usd": 0.0001001,
-      "price_change_1h": 190.0,
-      "price_change_24h": null,
-      "liquidity_usd": 24720.86
-    },
-    "F3iV4HCdr4rBCHmLZPEEFiLxBwznSVwPYx2AoQy5pump": {
-      "symbol": "VIGIL",
-      "name": "VigilFi",
-      "mcap_usd": 28997.0,
-      "price_usd": 0.00002899,
-      "price_change_1h": -17.0,
-      "price_change_24h": null,
-      "liquidity_usd": 13120.71
-    },
-    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
-      "symbol": "S&L",
-      "name": "Sandy & Luna",
-      "mcap_usd": 49578.0,
-      "price_usd": 0.00004958,
-      "price_change_1h": 34.51,
-      "price_change_24h": null,
-      "liquidity_usd": 18153.09
-    },
-    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
-      "symbol": "Crayon",
-      "name": "Crayonification",
-      "mcap_usd": 3730.0,
-      "price_usd": 3.731e-6,
-      "price_change_1h": -3.49,
-      "price_change_24h": null,
-      "liquidity_usd": 4720.86
-    },
-    "VKhbPoHzZsZ5nFsP611FbXZMLoyoBZ7TevfeENUpump": {
-      "symbol": "TISM",
-      "name": "This Is A Special Memecoin",
-      "mcap_usd": 2791.0,
-      "price_usd": 2.791e-6,
-      "price_change_1h": -91.92,
-      "price_change_24h": null,
-      "liquidity_usd": 4094.32
-    },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 12975.0,
-      "price_usd": 0.00001311,
-      "price_change_1h": 105.0,
+      "mcap_usd": 10844.0,
+      "price_usd": 0.00001096,
+      "price_change_1h": 83.48,
       "price_change_24h": null,
-      "liquidity_usd": 8839.43
-    },
-    "2TfSKMphshQ8zFLMJuGsw2iotSdGHLhYYPM4uy1opump": {
-      "symbol": "FOLD",
-      "name": "Clarity Protocol",
-      "mcap_usd": 855034.0,
-      "price_usd": 0.0009716,
-      "price_change_1h": -14.72,
-      "price_change_24h": null,
-      "liquidity_usd": 88320.68
-    },
-    "6uRGc3LX7xyYF1SSqPcyLkApvTk1Hzc3nwEQiJfApump": {
-      "symbol": "scribdog",
-      "name": "scribbly dog doing",
-      "mcap_usd": 1935.0,
-      "price_usd": 1.934e-6,
-      "price_change_1h": -94.44,
-      "price_change_24h": null,
-      "liquidity_usd": 3447.33
-    },
-    "Aa3MbWqcXCHw3CDXGcxsPKYkcxJwjaXfKyxsUDYaJN3P": {
-      "symbol": "Glim",
-      "name": "Glim",
-      "mcap_usd": 167776.0,
-      "price_usd": 0.0001805,
-      "price_change_1h": -24.17,
-      "price_change_24h": null,
-      "liquidity_usd": 37208.95
+      "liquidity_usd": 8081.49
     },
     "ArGcFCL7QsFPk8GKUxcrUVRWQec5gAujruN6w99ipump": {
       "symbol": "SCRIBBELON",
       "name": "Scribbelon",
-      "mcap_usd": 198088.0,
-      "price_usd": 0.000198,
-      "price_change_1h": 71.53,
+      "mcap_usd": 84925.0,
+      "price_usd": 0.00008492,
+      "price_change_1h": -26.46,
       "price_change_24h": null,
-      "liquidity_usd": 35035.38
+      "liquidity_usd": 23070.57
+    },
+    "6uRGc3LX7xyYF1SSqPcyLkApvTk1Hzc3nwEQiJfApump": {
+      "symbol": "scribdog",
+      "name": "scribbly dog doing",
+      "mcap_usd": 1832.0,
+      "price_usd": 1.831e-6,
+      "price_change_1h": -94.74,
+      "price_change_24h": null,
+      "liquidity_usd": 3354.19
+    },
+    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
+      "symbol": "Pets",
+      "name": "Codex Pets",
+      "mcap_usd": 13193.0,
+      "price_usd": 0.00001354,
+      "price_change_1h": -18.05,
+      "price_change_24h": null,
+      "liquidity_usd": 8969.47
+    },
+    "CmN1NmtrwpWitGvhoakh9nyeEVZnMp8VtQZSNifUpump": {
+      "symbol": "IRL",
+      "name": "PUMPATHON IRL",
+      "mcap_usd": 108762.0,
+      "price_usd": 0.0001087,
+      "price_change_1h": 215.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25831.29
+    },
+    "F3iV4HCdr4rBCHmLZPEEFiLxBwznSVwPYx2AoQy5pump": {
+      "symbol": "VIGIL",
+      "name": "VigilFi",
+      "mcap_usd": 30277.0,
+      "price_usd": 0.00003027,
+      "price_change_1h": -13.34,
+      "price_change_24h": null,
+      "liquidity_usd": 13406.91
+    },
+    "2TfSKMphshQ8zFLMJuGsw2iotSdGHLhYYPM4uy1opump": {
+      "symbol": "FOLD",
+      "name": "Clarity Protocol",
+      "mcap_usd": 862333.0,
+      "price_usd": 0.0009799,
+      "price_change_1h": -12.95,
+      "price_change_24h": null,
+      "liquidity_usd": 88701.73
+    },
+    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
+      "symbol": "Crayon",
+      "name": "Crayonification",
+      "mcap_usd": 3464.0,
+      "price_usd": 3.465e-6,
+      "price_change_1h": -3.76,
+      "price_change_24h": null,
+      "liquidity_usd": 4548.46
+    },
+    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
+      "symbol": "S&L",
+      "name": "Sandy & Luna",
+      "mcap_usd": 42503.0,
+      "price_usd": 0.0000425,
+      "price_change_1h": 10.96,
+      "price_change_24h": null,
+      "liquidity_usd": 16805.47
+    },
+    "Aa3MbWqcXCHw3CDXGcxsPKYkcxJwjaXfKyxsUDYaJN3P": {
+      "symbol": "Glim",
+      "name": "Glim",
+      "mcap_usd": 160390.0,
+      "price_usd": 0.0001725,
+      "price_change_1h": -34.91,
+      "price_change_24h": null,
+      "liquidity_usd": 36406.63
     }
   }
 }
