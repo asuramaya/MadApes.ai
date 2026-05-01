@@ -100,6 +100,21 @@ def compose_tweet(meta: dict, body: str, slug: str) -> str:
 
 
 def post_x(text: str) -> dict:
+    """Two paths in preference order:
+       1) OAuth 2.0 user context (X_OAUTH2_*) — preferred, current X tokens
+       2) OAuth 1.0a user context (X_API_KEY etc.) — legacy fallback
+
+    OAuth 2.0 access tokens expire in 2h and refresh tokens are single-use
+    (rotated on each refresh). After a successful post we rotate the
+    GH_OAUTH2_REFRESH_TOKEN repo secret if a GH_PAT with `secrets: write`
+    scope is set; without it the next run will need fresh tokens because
+    X invalidates the old refresh token on use.
+    """
+    o2_client_id = os.environ.get("X_OAUTH2_CLIENT_ID")
+    o2_refresh = os.environ.get("X_OAUTH2_REFRESH_TOKEN")
+    if o2_client_id and o2_refresh:
+        return _post_x_oauth2(text)
+
     key = os.environ.get("X_API_KEY")
     secret = os.environ.get("X_API_SECRET")
     access = os.environ.get("X_ACCESS_TOKEN")
@@ -107,13 +122,15 @@ def post_x(text: str) -> dict:
     if not all([key, secret, access, access_secret]):
         missing = [
             n for n, v in [
-                ("X_API_KEY", key),
+                ("X_OAUTH2_CLIENT_ID", o2_client_id),
+                ("X_OAUTH2_REFRESH_TOKEN", o2_refresh),
+                ("(or) X_API_KEY", key),
                 ("X_API_SECRET", secret),
                 ("X_ACCESS_TOKEN", access),
                 ("X_ACCESS_TOKEN_SECRET", access_secret),
             ] if not v
         ]
-        raise RuntimeError(f"X creds missing: {missing}")
+        raise RuntimeError(f"no usable X creds — missing: {missing}")
     auth = OAuth1(key, secret, access, access_secret)
     resp = requests.post(
         "https://api.twitter.com/2/tweets",
@@ -124,6 +141,100 @@ def post_x(text: str) -> dict:
     if resp.status_code >= 300:
         raise RuntimeError(f"X POST failed {resp.status_code}: {resp.text}")
     return resp.json()
+
+
+def _post_x_oauth2(text: str) -> dict:
+    """Refresh access token, post, then rotate the stored refresh_token."""
+    client_id = os.environ["X_OAUTH2_CLIENT_ID"]
+    client_secret = os.environ.get("X_OAUTH2_CLIENT_SECRET", "")
+    refresh = os.environ["X_OAUTH2_REFRESH_TOKEN"]
+
+    # Refresh — confidential client uses Basic auth; public client passes
+    # client_id in the body. Send both forms; X picks the right one.
+    auth = (client_id, client_secret) if client_secret else None
+    refresh_resp = requests.post(
+        "https://api.twitter.com/2/oauth2/token",
+        data={
+            "grant_type": "refresh_token",
+            "refresh_token": refresh,
+            "client_id": client_id,
+        },
+        auth=auth,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        timeout=20,
+    )
+    if refresh_resp.status_code >= 300:
+        raise RuntimeError(
+            f"X OAuth2 refresh failed {refresh_resp.status_code}: {refresh_resp.text}"
+        )
+    tokens = refresh_resp.json()
+    access_token = tokens["access_token"]
+    new_refresh = tokens.get("refresh_token", refresh)
+
+    # Post.
+    post_resp = requests.post(
+        "https://api.twitter.com/2/tweets",
+        json={"text": text},
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json",
+        },
+        timeout=20,
+    )
+    if post_resp.status_code >= 300:
+        raise RuntimeError(f"X POST failed {post_resp.status_code}: {post_resp.text}")
+
+    # Rotate the refresh token in repo secrets so the next run works.
+    if new_refresh != refresh:
+        try:
+            _rotate_refresh_token(new_refresh)
+        except Exception as e:
+            print(f"  ⚠ refresh-token rotation skipped: {e}")
+            print(f"     next run will need fresh tokens (X rotates on each refresh)")
+
+    return post_resp.json()
+
+
+def _rotate_refresh_token(new_refresh: str) -> None:
+    """Update X_OAUTH2_REFRESH_TOKEN in the repo's Actions secrets via the
+    REST API. Needs a PAT with `repo` (or fine-grained: secrets: write)
+    scope in the GH_PAT secret. GITHUB_TOKEN can't manage repo secrets.
+    """
+    pat = os.environ.get("GH_PAT")
+    if not pat:
+        raise RuntimeError("GH_PAT secret not set — can't rotate refresh token")
+    repo = os.environ.get("GITHUB_REPOSITORY", "asuramaya/MadApes.ai")
+    headers = {
+        "Authorization": f"Bearer {pat}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    pk_resp = requests.get(
+        f"https://api.github.com/repos/{repo}/actions/secrets/public-key",
+        headers=headers,
+        timeout=15,
+    )
+    if pk_resp.status_code >= 300:
+        raise RuntimeError(f"public-key fetch failed: {pk_resp.text}")
+    pk = pk_resp.json()
+
+    # libsodium sealed box. PyNaCl is the standard lib for this.
+    from base64 import b64encode
+    from nacl.public import PublicKey, SealedBox
+    from nacl.encoding import Base64Encoder
+    pubkey = PublicKey(pk["key"].encode("utf-8"), encoder=Base64Encoder)
+    encrypted = SealedBox(pubkey).encrypt(new_refresh.encode("utf-8"))
+    encrypted_b64 = b64encode(encrypted).decode("utf-8")
+
+    put_resp = requests.put(
+        f"https://api.github.com/repos/{repo}/actions/secrets/X_OAUTH2_REFRESH_TOKEN",
+        json={"encrypted_value": encrypted_b64, "key_id": pk["key_id"]},
+        headers=headers,
+        timeout=15,
+    )
+    if put_resp.status_code >= 300:
+        raise RuntimeError(f"secret update failed {put_resp.status_code}: {put_resp.text}")
+    print("  ✓ rotated X_OAUTH2_REFRESH_TOKEN in repo secrets")
 
 
 def post_telegram(text: str, html: bool = False) -> dict:
