@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 57,
-    "current_liquidity_usd": 11320.72,
-    "current_mcap_usd": 21527.0,
-    "current_price_usd": 0.00002152,
+    "current_liquidity_usd": 9444.23,
+    "current_mcap_usd": 14599.0,
+    "current_price_usd": 0.00001498,
     "entry_liquidity_usd": 7962.45,
     "entry_mcap_usd": 10679.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump",
     "note": "horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": 101.68697282099343,
+    "pct_from_call": 40.39362699156514,
     "peak_at": 1777661120,
     "peak_pct": 251.82755388940961,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777659389,
     "trough_pct": -50.27179006560449
   },
-  "captured_at": 1777662426,
-  "last_snapshot_ts": 1777662299,
+  "captured_at": 1777663019,
+  "last_snapshot_ts": 1777662755,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -4371,6 +4371,34 @@
       "tx_rate": 25.0,
       "velocity": 0.8181818181818181,
       "volume_h1_usd": 147867.07
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1570,
+      "classification": "ACTIVE_TRAP",
+      "confidence": 42,
+      "distribution": 34,
+      "forensics_computed_at": 1777662894,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 11320.72,
+      "mcap_usd": 21527.0,
+      "momentum": 67,
+      "pair_dex": "pumpswap",
+      "price_change_h1": -39.17,
+      "price_usd": 0.00002152,
+      "sells_h1": 1190,
+      "smart_money_count": 0,
+      "sniper_pct": 30.63598428991485,
+      "spring": 17,
+      "timestamp": 1777662755,
+      "token_address": "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump",
+      "top10_pct": 51.73074297045148,
+      "top5_pct": 41.94332723618709,
+      "top_holder_pct": 30.652706055979255,
+      "tx_rate": 24.793388429752067,
+      "velocity": 0.6,
+      "volume_h1_usd": 149114.86
     }
   ]
 }
