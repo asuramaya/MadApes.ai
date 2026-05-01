@@ -79,70 +79,53 @@
       "summary": "$PET at $8k mcap — entry frozen",
       "mint": "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump",
       "signature": null
-    },
-    {
-      "ts": 1777659019,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$Pets at $11k mcap — entry frozen",
-      "mint": "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump",
-      "signature": null
     }
   ],
   "tokens": {
+    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
+      "symbol": "STARCAT",
+      "name": "STARCAT",
+      "mcap_usd": 78687.0,
+      "price_usd": 0.00007868,
+      "price_change_1h": 131.0,
+      "price_change_24h": null,
+      "liquidity_usd": 21722.16
+    },
     "58ASeZHtiocyBuYeCRPPcExbHEAPXWid49pxuUDpump": {
       "symbol": "Fartbuckle",
       "name": "Fartbuckle the Goblin",
-      "mcap_usd": 39965.0,
-      "price_usd": 0.00003996,
+      "mcap_usd": 32671.0,
+      "price_usd": 0.00003267,
       "price_change_1h": -99.98,
       "price_change_24h": null,
-      "liquidity_usd": 15325.75
-    },
-    "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
-      "symbol": "scribpoop",
-      "name": "scribbli poop",
-      "mcap_usd": 241600.0,
-      "price_usd": 0.0002416,
-      "price_change_1h": 409.0,
-      "price_change_24h": null,
-      "liquidity_usd": 41542.43
+      "liquidity_usd": 13863.46
     },
     "Eb3KevajAAyfTdKqj8FKHz6tvnJaqE5UkGunXqKfvamp": {
       "symbol": "vampcoin",
       "name": "vampcoin",
-      "mcap_usd": 12461.0,
-      "price_usd": 0.00001246,
+      "mcap_usd": 11400.0,
+      "price_usd": 0.00001139,
       "price_change_1h": -99.99,
       "price_change_24h": null,
-      "liquidity_usd": 8661.13
+      "liquidity_usd": 8283.13
     },
-    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
-      "symbol": "STARCAT",
-      "name": "STARCAT",
-      "mcap_usd": 64765.0,
-      "price_usd": 0.00006476,
-      "price_change_1h": 90.39,
+    "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
+      "symbol": "scribpoop",
+      "name": "scribbli poop",
+      "mcap_usd": 252163.0,
+      "price_usd": 0.0002521,
+      "price_change_1h": 367.0,
       "price_change_24h": null,
-      "liquidity_usd": 19704.82
+      "liquidity_usd": 42474.73
     },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 13179.0,
-      "price_usd": 0.00001332,
-      "price_change_1h": 8.65,
+      "mcap_usd": 12284.0,
+      "price_usd": 0.00001242,
+      "price_change_1h": 21.47,
       "price_change_24h": null,
-      "liquidity_usd": 8892.17
-    },
-    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
-      "symbol": "Pets",
-      "name": "Codex Pets",
-      "mcap_usd": 8100.0,
-      "price_usd": 8.387e-6,
-      "price_change_1h": -71.19,
-      "price_change_24h": null,
-      "liquidity_usd": 7048.86
+      "liquidity_usd": 8584.21
     }
   }
 }

@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 62,
-    "current_liquidity_usd": 20216.97,
-    "current_mcap_usd": 68187.0,
-    "current_price_usd": 0.00006818,
+    "current_liquidity_usd": 21722.16,
+    "current_mcap_usd": 78687.0,
+    "current_price_usd": 0.00007868,
     "entry_liquidity_usd": 17599.05,
     "entry_mcap_usd": 51969.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump",
     "note": "horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": 31.216320246343354,
+    "pct_from_call": 51.42417244033872,
     "peak_at": 1777669286,
     "peak_pct": 75.05773672055427,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777668411,
     "trough_pct": 0.0
   },
-  "captured_at": 1777669679,
-  "last_snapshot_ts": 1777669662,
+  "captured_at": 1777669736,
+  "last_snapshot_ts": 1777669735,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -1907,6 +1907,34 @@
       "tx_rate": 62.50000000000001,
       "velocity": 0.8,
       "volume_h1_usd": 124893.22
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 2148,
+      "classification": "STAIRCASE",
+      "confidence": 70,
+      "distribution": 55,
+      "forensics_computed_at": 1777666196,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 21722.16,
+      "mcap_usd": 78687.0,
+      "momentum": 73,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 131.0,
+      "price_usd": 0.00007868,
+      "sells_h1": 1601,
+      "smart_money_count": 1,
+      "sniper_pct": 64.79267099093754,
+      "spring": 64,
+      "timestamp": 1777669735,
+      "token_address": "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump",
+      "top10_pct": 36.1340246060943,
+      "top5_pct": 25.314476465767317,
+      "top_holder_pct": 13.729475424603063,
+      "tx_rate": 63.829787234042556,
+      "velocity": 1.25,
+      "volume_h1_usd": 127904.76
     }
   ]
 }
