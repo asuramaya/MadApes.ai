@@ -20,10 +20,10 @@
       "entry_liquidity_usd": 17599.05,
       "entry_top_holder_pct": 19.111539495162933,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 79040.0,
-      "current_price_usd": 0.00007904,
-      "current_liquidity_usd": 21812.74,
-      "pct_from_call": 52.11701308698999,
+      "current_mcap_usd": 93698.0,
+      "current_price_usd": 0.0000937,
+      "current_liquidity_usd": 23752.53,
+      "pct_from_call": 80.33102386451117,
       "peak_pct": 75.05773672055427,
       "peak_at": 1777669286,
       "trough_pct": 0.0,
@@ -50,10 +50,10 @@
       "entry_liquidity_usd": 6704.15,
       "entry_top_holder_pct": 36.8790933352759,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 11475.0,
-      "current_price_usd": 0.0000116,
-      "current_liquidity_usd": 8301.08,
-      "pct_from_call": 53.80535666931849,
+      "current_mcap_usd": 10838.0,
+      "current_price_usd": 0.00001095,
+      "current_liquidity_usd": 8066.62,
+      "pct_from_call": 45.186953062848055,
       "peak_pct": -5.26385574118271,
       "peak_at": 1777660154,
       "trough_pct": -49.363564041368335,
@@ -1388,17 +1388,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 42,
         "wins": 9,
@@ -1409,6 +1398,17 @@
         "avg_loser_pct": -56.06487025807395,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
