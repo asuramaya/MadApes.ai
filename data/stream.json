@@ -1,82 +1,58 @@
 {
   "events": [
     {
-      "ts": 1777658191,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING D5Hv…YXLt · top 10.91%→13.39% (+2.48%) · GRINDER",
-      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
-      "signature": null
-    },
-    {
-      "ts": 1777658175,
+      "ts": 1777658510,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 32.5% (161777466 → 109133177)",
+      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 33.5% (161777466 → 107532294)",
       "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
       "signature": null
     },
     {
-      "ts": 1777658175,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · STAIRCASE→GRINDER · top -0.48%",
-      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
-      "signature": null
-    },
-    {
-      "ts": 1777658158,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · GRINDER→STAIRCASE · top +0.22%",
-      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
-      "signature": null
-    },
-    {
-      "ts": 1777658141,
+      "ts": 1777658492,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 31.0% (161777466 → 111668527)",
+      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 33.5% (161777466 → 107532294)",
       "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
       "signature": null
     },
     {
-      "ts": 1777658124,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING D5Hv…YXLt · top 11.22%→13.39% (+2.17%) · GRINDER",
-      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
-      "signature": null
-    },
-    {
-      "ts": 1777658107,
+      "ts": 1777658475,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE YGiy…pump · DEVELOPING→STAIRCASE · top -0.68%",
-      "mint": "YGiyoidBDH5Bb3Yotoy9kZ8ffmRFMvzQC6EhFpapump",
-      "signature": null
-    },
-    {
-      "ts": 1777658107,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GZj5…pump · DEVELOPING→STAIRCASE · top +0.45%",
+      "summary": "CLASSIFICATION_CHANGE GZj5…pump · DEVELOPING→STAIRCASE · top +1.40%",
       "mint": "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump",
       "signature": null
     },
     {
-      "ts": 1777658106,
+      "ts": 1777658457,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 30.6% (161777466 → 112197099)",
+      "summary": "DEV_SELLING D5Hv…YXLt · deployer down 33.5% (161777466 → 107532294)",
       "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
       "signature": null
     },
     {
-      "ts": 1777658089,
+      "ts": 1777658366,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · GRINDER→STAIRCASE · top +1.60%",
+      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · DEVELOPING→STAIRCASE · top +0.91%",
+      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "signature": null
+    },
+    {
+      "ts": 1777658327,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · GRINDER→STAIRCASE · top -0.47%",
+      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "signature": null
+    },
+    {
+      "ts": 1777658294,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE D5Hv…YXLt · GRINDER→STAIRCASE · top +1.09%",
       "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
       "signature": null
     },
@@ -86,14 +62,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE RoAF…Vibe · DEVELOPING→STAIRCASE · top -0.00%",
       "mint": "RoAFTaaY51FvFTiEaiVYbg8bjFnGkBMzEor85JwVibe",
-      "signature": null
-    },
-    {
-      "ts": 1777658018,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE YGiy…pump · DEVELOPING→STAIRCASE · top -2.90%",
-      "mint": "YGiyoidBDH5Bb3Yotoy9kZ8ffmRFMvzQC6EhFpapump",
       "signature": null
     },
     {
@@ -121,14 +89,6 @@
       "signature": null
     },
     {
-      "ts": 1777657981,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE YGiy…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "YGiyoidBDH5Bb3Yotoy9kZ8ffmRFMvzQC6EhFpapump",
-      "signature": null
-    },
-    {
       "ts": 1777657963,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -137,27 +97,11 @@
       "signature": null
     },
     {
-      "ts": 1777657857,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6uv9…WAVZ · GRINDER→DEVELOPING · top +0.00%",
-      "mint": "6uv98pHormszNeFu3S4an4KnhEWFGhANkTjqTsivWAVZ",
-      "signature": null
-    },
-    {
       "ts": 1777657856,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE BJyq…ajje · STAIRCASE→DEVELOPING · top -0.04%",
       "mint": "BJyqZdnN8ymSVwKmWSFPpUb4mpoXoxzwmgv8rf6bajje",
-      "signature": null
-    },
-    {
-      "ts": 1777657833,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6uv9…WAVZ · DEVELOPING→GRINDER · top +0.00%",
-      "mint": "6uv98pHormszNeFu3S4an4KnhEWFGhANkTjqTsivWAVZ",
       "signature": null
     },
     {
@@ -185,30 +129,6 @@
       "signature": null
     },
     {
-      "ts": 1777656725,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 6uv9…WAVZ · vel 1.62x→0.25x · tpm 7.5",
-      "mint": "6uv98pHormszNeFu3S4an4KnhEWFGhANkTjqTsivWAVZ",
-      "signature": null
-    },
-    {
-      "ts": 1777656725,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6uv9…WAVZ · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "6uv98pHormszNeFu3S4an4KnhEWFGhANkTjqTsivWAVZ",
-      "signature": null
-    },
-    {
-      "ts": 1777656671,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Bmpb…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "BmpbZJXo2hXkXQ2bLvc5ZVQXWUyNPPKkkCxeCgshpump",
-      "signature": null
-    },
-    {
       "ts": 1777656074,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -226,95 +146,68 @@
     }
   ],
   "tokens": {
-    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
-      "symbol": "ELUENT",
-      "name": "Eluent Peptides",
-      "mcap_usd": 125585.0,
-      "price_usd": 0.0001255,
-      "price_change_1h": -10.98,
-      "price_change_24h": null,
-      "liquidity_usd": 28824.07
-    },
-    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
-      "symbol": "Crayon",
-      "name": "Crayonification",
-      "mcap_usd": 4211.0,
-      "price_usd": 4.212e-6,
-      "price_change_1h": -31.14,
-      "price_change_24h": null,
-      "liquidity_usd": 5026.13
-    },
-    "BmpbZJXo2hXkXQ2bLvc5ZVQXWUyNPPKkkCxeCgshpump": {
-      "symbol": "SL",
-      "name": "Sandy & Luna",
-      "mcap_usd": 5509.0,
-      "price_usd": 5.508e-6,
-      "price_change_1h": -83.82,
-      "price_change_24h": null,
-      "liquidity_usd": 5857.69
-    },
-    "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump": {
-      "symbol": "PSA10",
-      "name": "PSA10 COIN",
-      "mcap_usd": 39019.0,
-      "price_usd": 0.00003901,
-      "price_change_1h": 10.23,
-      "price_change_24h": null,
-      "liquidity_usd": 15275.32
-    },
-    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
-      "symbol": "S&L",
-      "name": "Sandy & Luna",
-      "mcap_usd": 130911.0,
-      "price_usd": 0.0001309,
-      "price_change_1h": 271.0,
-      "price_change_24h": null,
-      "liquidity_usd": 29031.42
-    },
-    "68XUiXdnJxVTTLNvFwNYi8v12okwFDqea5LYUJ4pump": {
-      "symbol": "Pokefy",
-      "name": "Pokemonification",
-      "mcap_usd": 102492.0,
-      "price_usd": 0.0001024,
-      "price_change_1h": 190.0,
-      "price_change_24h": null,
-      "liquidity_usd": 25230.34
-    },
-    "6uv98pHormszNeFu3S4an4KnhEWFGhANkTjqTsivWAVZ": {
-      "symbol": "WAVZ",
-      "name": "Wavz Fun",
-      "mcap_usd": 144125.0,
-      "price_usd": 0.0001441,
-      "price_change_1h": -44.88,
-      "price_change_24h": null,
-      "liquidity_usd": 23905.59
-    },
-    "YGiyoidBDH5Bb3Yotoy9kZ8ffmRFMvzQC6EhFpapump": {
-      "symbol": "PIKACHU",
-      "name": "1998 Pikachu Illustrator",
-      "mcap_usd": 23000.18,
-      "price_usd": 0.000023,
-      "price_change_1h": 817.0,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
     "BJyqZdnN8ymSVwKmWSFPpUb4mpoXoxzwmgv8rf6bajje": {
       "symbol": "CHONKERS",
       "name": "CHONKERS",
-      "mcap_usd": 1970451.0,
-      "price_usd": 0.001971,
-      "price_change_1h": 36.13,
+      "mcap_usd": 2081074.0,
+      "price_usd": 0.002081,
+      "price_change_1h": 43.88,
       "price_change_24h": null,
-      "liquidity_usd": 116323.2
+      "liquidity_usd": 119703.2
     },
     "RoAFTaaY51FvFTiEaiVYbg8bjFnGkBMzEor85JwVibe": {
       "symbol": "ROAF",
       "name": "Russian Oil Asset Fund",
       "mcap_usd": 2629448.0,
       "price_usd": 0.002629,
-      "price_change_1h": -0.04,
+      "price_change_1h": 0.03,
       "price_change_24h": null,
       "liquidity_usd": 137595.93
+    },
+    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
+      "symbol": "ELUENT",
+      "name": "Eluent Peptides",
+      "mcap_usd": 130836.0,
+      "price_usd": 0.0001308,
+      "price_change_1h": -5.87,
+      "price_change_24h": null,
+      "liquidity_usd": 29426.68
+    },
+    "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump": {
+      "symbol": "PSA10",
+      "name": "PSA10 COIN",
+      "mcap_usd": 37977.0,
+      "price_usd": 0.00003797,
+      "price_change_1h": 7.28,
+      "price_change_24h": null,
+      "liquidity_usd": 15096.96
+    },
+    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
+      "symbol": "S&L",
+      "name": "Sandy & Luna",
+      "mcap_usd": 102175.0,
+      "price_usd": 0.0001021,
+      "price_change_1h": 189.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25725.01
+    },
+    "68XUiXdnJxVTTLNvFwNYi8v12okwFDqea5LYUJ4pump": {
+      "symbol": "Pokefy",
+      "name": "Pokemonification",
+      "mcap_usd": 54531.0,
+      "price_usd": 0.00005453,
+      "price_change_1h": 54.54,
+      "price_change_24h": null,
+      "liquidity_usd": 18537.11
+    },
+    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
+      "symbol": "Crayon",
+      "name": "Crayonification",
+      "mcap_usd": 4178.0,
+      "price_usd": 4.179e-6,
+      "price_change_1h": -23.63,
+      "price_change_24h": null,
+      "liquidity_usd": 5007.84
     }
   }
 }
