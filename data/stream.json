@@ -25,14 +25,6 @@
       "signature": null
     },
     {
-      "ts": 1777669590,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$Fartbuckle at $23k mcap — entry frozen",
-      "mint": "58ASeZHtiocyBuYeCRPPcExbHEAPXWid49pxuUDpump",
-      "signature": null
-    },
-    {
       "ts": 1777668716,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -82,50 +74,41 @@
     }
   ],
   "tokens": {
-    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
-      "symbol": "STARCAT",
-      "name": "STARCAT",
-      "mcap_usd": 78687.0,
-      "price_usd": 0.00007868,
-      "price_change_1h": 131.0,
-      "price_change_24h": null,
-      "liquidity_usd": 21722.16
-    },
-    "58ASeZHtiocyBuYeCRPPcExbHEAPXWid49pxuUDpump": {
-      "symbol": "Fartbuckle",
-      "name": "Fartbuckle the Goblin",
-      "mcap_usd": 32671.0,
-      "price_usd": 0.00003267,
-      "price_change_1h": -99.98,
-      "price_change_24h": null,
-      "liquidity_usd": 13863.46
-    },
-    "Eb3KevajAAyfTdKqj8FKHz6tvnJaqE5UkGunXqKfvamp": {
-      "symbol": "vampcoin",
-      "name": "vampcoin",
-      "mcap_usd": 11400.0,
-      "price_usd": 0.00001139,
-      "price_change_1h": -99.99,
-      "price_change_24h": null,
-      "liquidity_usd": 8283.13
-    },
     "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
       "symbol": "scribpoop",
       "name": "scribbli poop",
-      "mcap_usd": 252163.0,
-      "price_usd": 0.0002521,
-      "price_change_1h": 367.0,
+      "mcap_usd": 170417.0,
+      "price_usd": 0.0001704,
+      "price_change_1h": 106.0,
       "price_change_24h": null,
-      "liquidity_usd": 42474.73
+      "liquidity_usd": 35084.83
+    },
+    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
+      "symbol": "STARCAT",
+      "name": "STARCAT",
+      "mcap_usd": 90745.0,
+      "price_usd": 0.00009074,
+      "price_change_1h": 174.0,
+      "price_change_24h": null,
+      "liquidity_usd": 23353.89
     },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 12284.0,
-      "price_usd": 0.00001242,
-      "price_change_1h": 21.47,
+      "mcap_usd": 12014.0,
+      "price_usd": 0.00001214,
+      "price_change_1h": 10.12,
       "price_change_24h": null,
-      "liquidity_usd": 8584.21
+      "liquidity_usd": 8494.33
+    },
+    "Eb3KevajAAyfTdKqj8FKHz6tvnJaqE5UkGunXqKfvamp": {
+      "symbol": "vampcoin",
+      "name": "vampcoin",
+      "mcap_usd": 8072.0,
+      "price_usd": 8.071e-6,
+      "price_change_1h": -100.0,
+      "price_change_24h": null,
+      "liquidity_usd": 6975.14
     }
   }
 }
