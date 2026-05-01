@@ -1,6 +1,36 @@
 {
   "active": [
     {
+      "id": 76,
+      "mint": "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump",
+      "symbol": "TROLUNCJAK",
+      "classification": "DEVELOPING",
+      "confidence": 46,
+      "called_at": 1777655538,
+      "expires_at": 1777914738,
+      "note": "horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 16365.0,
+      "entry_price_usd": 0.00001636,
+      "entry_liquidity_usd": 10497.75,
+      "entry_top_holder_pct": 32.16504091635747,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 15893.0,
+      "current_price_usd": 0.00001589,
+      "current_liquidity_usd": 10343.99,
+      "pct_from_call": -2.872860635696828,
+      "peak_pct": -2.872860635696828,
+      "peak_at": 1777655538,
+      "trough_pct": -2.872860635696828,
+      "trough_at": 1777655538,
+      "thesis_url": null
+    },
+    {
       "id": 74,
       "mint": "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump",
       "symbol": "Crayon",
@@ -848,17 +878,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 25,
         "wins": 8,
@@ -869,6 +888,17 @@
         "avg_loser_pct": -52.6731910664946,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
