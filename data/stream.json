@@ -1,7 +1,15 @@
 {
   "events": [
     {
-      "ts": 1777655809,
+      "ts": 1777656074,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$S&L at $49k mcap — entry frozen",
+      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "signature": null
+    },
+    {
+      "ts": 1777656025,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING AWJC…pump · deployer down 100.0% (172098507 → 0)",
@@ -9,7 +17,7 @@
       "signature": null
     },
     {
-      "ts": 1777655792,
+      "ts": 1777655992,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING AWJC…pump · deployer down 100.0% (172098507 → 0)",
@@ -17,7 +25,7 @@
       "signature": null
     },
     {
-      "ts": 1777655776,
+      "ts": 1777655975,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING AWJC…pump · deployer down 100.0% (172098507 → 0)",
@@ -33,30 +41,6 @@
       "signature": null
     },
     {
-      "ts": 1777655211,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6dd5…pump · deployer down 45.8% (170431860 → 92366083)",
-      "mint": "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump",
-      "signature": null
-    },
-    {
-      "ts": 1777655194,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6dd5…pump · deployer down 45.8% (170431860 → 92366083)",
-      "mint": "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump",
-      "signature": null
-    },
-    {
-      "ts": 1777655178,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6dd5…pump · deployer down 45.8% (170431860 → 92366083)",
-      "mint": "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump",
-      "signature": null
-    },
-    {
       "ts": 1777653167,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -69,38 +53,38 @@
     "AWJCEaNLSvuFmDxTMkSDwgkQtWJNPdnnA2JCJqiZpump": {
       "symbol": "crayonify",
       "name": "crayonification",
-      "mcap_usd": 11440.0,
-      "price_usd": 0.00001143,
-      "price_change_1h": -72.86,
+      "mcap_usd": 1896.0,
+      "price_usd": 1.895e-6,
+      "price_change_1h": -97.84,
       "price_change_24h": null,
-      "liquidity_usd": 8623.27
+      "liquidity_usd": 3510.54
     },
     "BmpbZJXo2hXkXQ2bLvc5ZVQXWUyNPPKkkCxeCgshpump": {
       "symbol": "SL",
       "name": "Sandy & Luna",
-      "mcap_usd": 25708.0,
-      "price_usd": 0.0000257,
-      "price_change_1h": -24.47,
+      "mcap_usd": 24548.0,
+      "price_usd": 0.00002454,
+      "price_change_1h": -27.88,
       "price_change_24h": null,
-      "liquidity_usd": 12630.19
-    },
-    "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump": {
-      "symbol": "TROLUNCJAK",
-      "name": "Trollunc Wojak",
-      "mcap_usd": 7671.0,
-      "price_usd": 7.671e-6,
-      "price_change_1h": -78.12,
-      "price_change_24h": null,
-      "liquidity_usd": 7192.67
+      "liquidity_usd": 12342.81
     },
     "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
       "symbol": "Crayon",
       "name": "Crayonification",
-      "mcap_usd": 4426.0,
-      "price_usd": 4.425e-6,
-      "price_change_1h": -87.21,
+      "mcap_usd": 4143.0,
+      "price_usd": 4.142e-6,
+      "price_change_1h": -92.95,
       "price_change_24h": null,
-      "liquidity_usd": 5151.83
+      "liquidity_usd": 4982.19
+    },
+    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
+      "symbol": "S&L",
+      "name": "Sandy & Luna",
+      "mcap_usd": 40917.0,
+      "price_usd": 0.00004091,
+      "price_change_1h": 15.88,
+      "price_change_24h": null,
+      "liquidity_usd": 16019.69
     }
   }
 }

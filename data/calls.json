@@ -1,6 +1,36 @@
 {
   "active": [
     {
+      "id": 78,
+      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "symbol": "S&L",
+      "classification": "DEVELOPING",
+      "confidence": 46,
+      "called_at": 1777656074,
+      "expires_at": 1777915274,
+      "note": "horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 49154.0,
+      "entry_price_usd": 0.00004915,
+      "entry_liquidity_usd": 17554.12,
+      "entry_top_holder_pct": 16.19195980271337,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 40917.0,
+      "current_price_usd": 0.00004091,
+      "current_liquidity_usd": 16019.69,
+      "pct_from_call": -16.765005086469998,
+      "peak_pct": -16.765005086469998,
+      "peak_at": 1777656074,
+      "trough_pct": -16.765005086469998,
+      "trough_at": 1777656074,
+      "thesis_url": null
+    },
+    {
       "id": 77,
       "mint": "BmpbZJXo2hXkXQ2bLvc5ZVQXWUyNPPKkkCxeCgshpump",
       "symbol": "SL",
@@ -20,14 +50,14 @@
       "entry_liquidity_usd": 13505.84,
       "entry_top_holder_pct": 19.756645391972278,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 28260.0,
-      "current_price_usd": 0.00002826,
-      "current_liquidity_usd": 13247.57,
-      "pct_from_call": -3.8775510204081653,
-      "peak_pct": 5.102040816326525,
-      "peak_at": 1777655676,
-      "trough_pct": -14.489795918367342,
-      "trough_at": 1777655743,
+      "current_mcap_usd": 24548.0,
+      "current_price_usd": 0.00002454,
+      "current_liquidity_usd": 12342.81,
+      "pct_from_call": -16.53061224489796,
+      "peak_pct": 11.258503401360542,
+      "peak_at": 1777655842,
+      "trough_pct": -15.340136054421771,
+      "trough_at": 1777655942,
       "thesis_url": null
     },
     {
@@ -50,10 +80,10 @@
       "entry_liquidity_usd": 5534.04,
       "entry_top_holder_pct": 52.99119155298162,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 4426.0,
-      "current_price_usd": 4.425e-6,
-      "current_liquidity_usd": 5151.83,
-      "pct_from_call": -13.354219698453107,
+      "current_mcap_usd": 4251.0,
+      "current_price_usd": 4.25e-6,
+      "current_liquidity_usd": 5046.84,
+      "pct_from_call": -16.78088897591542,
       "peak_pct": -1.58605835128256,
       "peak_at": 1777653167,
       "trough_pct": -1.58605835128256,
@@ -908,17 +938,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 26,
         "wins": 8,
@@ -929,6 +948,17 @@
         "avg_loser_pct": -51.84950155611216,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
