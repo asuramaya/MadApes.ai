@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 98,
+      "mint": "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump",
+      "symbol": "BANDIT",
+      "classification": "DEVELOPING",
+      "confidence": 59,
+      "called_at": 1777673813,
+      "expires_at": 1777679213,
+      "note": "moonshot punt on a fresh $29.1k DEV with 27% top1, tape is loud. sniper 61% but riding it. Aping in — +250 take, -25 stop, ~90min if it doesn't move. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 29110.0,
+      "entry_price_usd": 0.00002911,
+      "entry_liquidity_usd": 13349.37,
+      "entry_top_holder_pct": 27.222637405567802,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 27112.0,
+      "current_price_usd": 0.00002711,
+      "current_liquidity_usd": 12883.78,
+      "pct_from_call": -6.870491240123677,
+      "peak_pct": -6.870491240123677,
+      "peak_at": 1777673813,
+      "trough_pct": -6.870491240123677,
+      "trough_at": 1777673813,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 97,
@@ -1507,17 +1538,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 48,
         "wins": 10,
@@ -1528,6 +1548,17 @@
         "avg_loser_pct": -54.253459339004486,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
