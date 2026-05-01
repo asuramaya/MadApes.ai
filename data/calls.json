@@ -1,36 +1,5 @@
 {
-  "active": [
-    {
-      "id": 81,
-      "mint": "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump",
-      "symbol": "PET",
-      "classification": "DEVELOPING",
-      "confidence": 45,
-      "called_at": 1777660154,
-      "expires_at": 1777919354,
-      "note": "horizon=MOONSHOT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 7542.0,
-      "entry_price_usd": 7.542e-6,
-      "entry_liquidity_usd": 6704.15,
-      "entry_top_holder_pct": 36.8790933352759,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 6754.0,
-      "current_price_usd": 6.829e-6,
-      "current_liquidity_usd": 6378.6,
-      "pct_from_call": -9.453725802174484,
-      "peak_pct": -5.26385574118271,
-      "peak_at": 1777660154,
-      "trough_pct": -49.363564041368335,
-      "trough_at": 1777660281,
-      "thesis_url": null
-    }
-  ],
+  "active": [],
   "history": [
     {
       "id": 97,
@@ -510,6 +479,36 @@
       "peak_at": 1777661374,
       "trough_pct": -9.708860759493676,
       "trough_at": 1777660210,
+      "thesis_url": null
+    },
+    {
+      "id": 81,
+      "mint": "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump",
+      "symbol": "PET",
+      "classification": "DEVELOPING",
+      "confidence": 45,
+      "called_at": 1777660154,
+      "expires_at": 1777919354,
+      "note": "horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "expired",
+      "outcome_type": "expired",
+      "closed_at": 1777672758,
+      "exit_price_usd": 6.811e-6,
+      "exit_note": "-9.7% · moonshot timeout",
+      "entry_mcap_usd": 7542.0,
+      "entry_price_usd": 7.542e-6,
+      "entry_liquidity_usd": 6704.15,
+      "entry_top_holder_pct": 36.8790933352759,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 6.811e-6,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -9.692389286661363,
+      "peak_pct": -5.26385574118271,
+      "peak_at": 1777660154,
+      "trough_pct": -49.363564041368335,
+      "trough_at": 1777660281,
       "thesis_url": null
     },
     {
@@ -1475,13 +1474,13 @@
   ],
   "stats": {
     "short": {
-      "count": 45,
+      "count": 46,
       "wins": 10,
       "losses": 34,
-      "expired": 1,
+      "expired": 2,
       "win_rate": 22.727272727272727,
       "avg_winner_pct": 45.64086853090759,
-      "avg_loser_pct": -57.13845518223627,
+      "avg_loser_pct": -55.74298265589583,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
@@ -1497,17 +1496,28 @@
       "worst_pct": -20.052770448548817
     },
     "overall": {
-      "count": 48,
+      "count": 49,
       "wins": 10,
       "losses": 37,
-      "expired": 1,
+      "expired": 2,
       "win_rate": 21.27659574468085,
       "avg_winner_pct": 45.96407882149158,
-      "avg_loser_pct": -54.54947022934413,
+      "avg_loser_pct": -53.303440203158495,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 48,
+        "wins": 10,
+        "losses": 36,
+        "expired": 2,
+        "win_rate": 21.73913043478261,
+        "avg_winner_pct": 45.96407882149158,
+        "avg_loser_pct": -54.253459339004486,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -1518,17 +1528,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 47,
-        "wins": 10,
-        "losses": 36,
-        "expired": 1,
-        "win_rate": 21.73913043478261,
-        "avg_winner_pct": 45.96407882149158,
-        "avg_loser_pct": -55.56407904642634,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
       }
     }
   }
