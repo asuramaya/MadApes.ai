@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 62,
-    "current_liquidity_usd": 15078.56,
-    "current_mcap_usd": 38209.0,
-    "current_price_usd": 0.0000382,
+    "current_liquidity_usd": 15471.53,
+    "current_mcap_usd": 40220.0,
+    "current_price_usd": 0.00004022,
     "entry_liquidity_usd": 15115.46,
     "entry_mcap_usd": 38397.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump",
     "note": "horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": -0.4949205522271294,
+    "pct_from_call": 4.766866371450895,
     "peak_at": 1777657825,
     "peak_pct": -0.4949205522271294,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777657825,
     "trough_pct": -0.4949205522271294
   },
-  "captured_at": 1777657846,
-  "last_snapshot_ts": 1777657825,
+  "captured_at": 1777657922,
+  "last_snapshot_ts": 1777657908,
   "snapshots": [
     {
       "bundle_pct": 1.5490627328562443,
@@ -59,6 +59,34 @@
       "tx_rate": 90.9090909090909,
       "velocity": 1.0,
       "volume_h1_usd": 35804.66
+    },
+    {
+      "bundle_pct": 1.5490627328562443,
+      "buys_h1": 587,
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "distribution": 54,
+      "forensics_computed_at": 1777657278,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 15839.12,
+      "mcap_usd": 42155.0,
+      "momentum": 69,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 19.09,
+      "price_usd": 0.00004215,
+      "sells_h1": 540,
+      "smart_money_count": 0,
+      "sniper_pct": 64.57702565194053,
+      "spring": 61,
+      "timestamp": 1777657908,
+      "token_address": "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump",
+      "top10_pct": 40.94490689944878,
+      "top5_pct": 29.30454899055138,
+      "top_holder_pct": 17.458701698303685,
+      "tx_rate": 48.387096774193544,
+      "velocity": 0.8333333333333334,
+      "volume_h1_usd": 36938.45
     }
   ]
 }
