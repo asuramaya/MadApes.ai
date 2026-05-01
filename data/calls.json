@@ -20,14 +20,14 @@
       "entry_liquidity_usd": 13505.84,
       "entry_top_holder_pct": 19.756645391972278,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 30908.0,
-      "current_price_usd": 0.0000309,
-      "current_liquidity_usd": 13846.96,
-      "pct_from_call": 5.102040816326525,
-      "peak_pct": -1.8027210884353773,
-      "peak_at": 1777655639,
-      "trough_pct": -1.8027210884353773,
-      "trough_at": 1777655639,
+      "current_mcap_usd": 28260.0,
+      "current_price_usd": 0.00002826,
+      "current_liquidity_usd": 13247.57,
+      "pct_from_call": -3.8775510204081653,
+      "peak_pct": 5.102040816326525,
+      "peak_at": 1777655676,
+      "trough_pct": -14.489795918367342,
+      "trough_at": 1777655743,
       "thesis_url": null
     },
     {
@@ -50,10 +50,10 @@
       "entry_liquidity_usd": 5534.04,
       "entry_top_holder_pct": 52.99119155298162,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 4576.0,
-      "current_price_usd": 4.575e-6,
-      "current_liquidity_usd": 5237.42,
-      "pct_from_call": -10.41707460348541,
+      "current_mcap_usd": 4426.0,
+      "current_price_usd": 4.425e-6,
+      "current_liquidity_usd": 5151.83,
+      "pct_from_call": -13.354219698453107,
       "peak_pct": -1.58605835128256,
       "peak_at": 1777653167,
       "trough_pct": -1.58605835128256,
@@ -908,17 +908,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 26,
-        "wins": 8,
-        "losses": 17,
-        "expired": 1,
-        "win_rate": 32.0,
-        "avg_winner_pct": 46.432667765922865,
-        "avg_loser_pct": -51.84950155611216,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -929,6 +918,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 26,
+        "wins": 8,
+        "losses": 17,
+        "expired": 1,
+        "win_rate": 32.0,
+        "avg_winner_pct": 46.432667765922865,
+        "avg_loser_pct": -51.84950155611216,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
