@@ -185,8 +185,55 @@ function copyToClipboard(text, anchorEl) {
 
 // --- render: calls ---
 function callTerm(c) {
-  const m = (c.note || "").match(/horizon=(SHORT|LONG)/i);
+  const m = (c.note || "").match(/horizon=(SHORT|LONG|SCALP|MOONSHOT)/i);
   return m ? m[1].toLowerCase() : null;
+}
+
+// Strip the canonical `horizon=…` and `thesis=…` tags + any leading/trailing
+// `·` separators so the narrative reads as prose. Mirrors the server's
+// horizon::parse_with_clean — keeping front and back in sync prevents the
+// thesis paragraph from ending in stray "horizon=SHORT" suffixes.
+function cleanNote(note) {
+  if (!note) return "";
+  return note
+    .replace(/\s*·?\s*horizon=(SHORT|LONG|SCALP|MOONSHOT)\s*/gi, " ")
+    .replace(/\s*·?\s*thesis=\S+\s*/gi, " ")
+    .replace(/\s*·\s*·\s*/g, " · ")
+    .replace(/^\s*·\s*/, "")
+    .replace(/\s*·\s*$/, "")
+    .trim();
+}
+
+// Lazy chart-mount: build the DexScreener iframe only when the host scrolls
+// into view. Otherwise 6+ active calls each carry a 3rd-party iframe and
+// the page CPU stalls while the user is still on the masthead. The widget
+// URL skips the trades pane and info bar to keep the embed tight.
+let CALL_CHART_OBSERVER = null;
+function chartObserver() {
+  if (CALL_CHART_OBSERVER) return CALL_CHART_OBSERVER;
+  if (typeof IntersectionObserver !== "function") return null;
+  CALL_CHART_OBSERVER = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        const host = entry.target;
+        const mint = host.dataset.mint;
+        if (!mint || host.dataset.loaded === "1") continue;
+        const iframe = document.createElement("iframe");
+        iframe.src =
+          "https://dexscreener.com/solana/" + mint +
+          "?embed=1&theme=dark&trades=0&info=0&chartType=usd&interval=15";
+        iframe.loading = "lazy";
+        iframe.referrerPolicy = "no-referrer-when-downgrade";
+        iframe.title = "chart " + mint;
+        host.appendChild(iframe);
+        host.dataset.loaded = "1";
+        CALL_CHART_OBSERVER.unobserve(host);
+      }
+    },
+    { rootMargin: "200px 0px" }
+  );
+  return CALL_CHART_OBSERVER;
 }
 
 function fmtDate(ts) {
@@ -209,55 +256,100 @@ function renderCalls(calls /*, history (intentionally unused) */) {
     return;
   }
 
-  for (const c of active) {
+  // Newest call first — keeps the most relevant card at the top of the page.
+  const sorted = active.slice().sort((a, b) => (b.called_at || 0) - (a.called_at || 0));
+  for (let i = 0; i < sorted.length; i++) {
+    const c = sorted[i];
     const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
     const pctValue = callPctValue(c);
     const pctCls = pctValue === null ? "" : pnlClass(pctValue);
     const term = callTerm(c);
-    const entryStr = c.entry_mcap_usd ? "mcap $" + formatMcap(c.entry_mcap_usd) : null;
-    const nowStr = c.current_mcap_usd ? "now $" + formatMcap(c.current_mcap_usd) : null;
-    const entryPxStr = c.entry_price_usd ? "$" + c.entry_price_usd.toPrecision(4) : null;
+    const narrative = cleanNote(c.note);
 
-    let exp = null;
+    // Top header strip — symbol + horizon badge on the left, pct on the right.
+    const sideLabel = term ? term.toUpperCase() : "AUTO";
+    const header = el("div", { class: "card-head" }, [
+      el("div", { class: "card-head-left" }, [
+        el("a", { href: "#call=" + c.mint, class: "card-sym sym-link", text: sym }),
+        el("span", { class: "card-badge card-badge-" + (term || "auto"), text: sideLabel }),
+      ]),
+      el("div", { class: "card-head-right num " + pctCls, text: fmtPct(pctValue) }),
+    ]);
+
+    // Chart host — the iframe slots in here when scrolled into view. The
+    // placeholder keeps layout stable so the page doesn't jump on hydration.
+    const chartHost = el("div", { class: "card-chart", "data-mint": c.mint }, [
+      el("div", { class: "card-chart-skeleton", text: "chart loading…" }),
+    ]);
+    const obs = chartObserver();
+    if (obs) {
+      obs.observe(chartHost);
+    } else {
+      // No IntersectionObserver (very old browser) — load immediately.
+      const iframe = document.createElement("iframe");
+      iframe.src = "https://dexscreener.com/solana/" + c.mint + "?embed=1&theme=dark&trades=0&info=0";
+      chartHost.appendChild(iframe);
+    }
+
+    // Narrative — the thesis paragraph. Auto-fired calls now ship a structural
+    // narrative from compose_auto_narrative; operator-typed /call notes
+    // override and read editorial. Hidden when empty (older auto calls).
+    const narrativeEl = narrative
+      ? el("div", { class: "card-narrative", text: narrative })
+      : null;
+
+    // Metric pills — at-a-glance numbers. Only render the ones we have.
+    const pills = [];
+    if (c.entry_mcap_usd) pills.push("mcap " + "$" + formatMcap(c.entry_mcap_usd));
+    if (c.current_mcap_usd && c.outcome_type === "active") pills.push("now $" + formatMcap(c.current_mcap_usd));
+    if (c.entry_top_holder_pct != null) pills.push("top1 " + c.entry_top_holder_pct.toFixed(1) + "%");
+    if (c.entry_liquidity_usd) pills.push("liq $" + formatMcap(c.entry_liquidity_usd));
+    pills.push(fmtTimeAgo(c.called_at));
     if (c.expires_at) {
       const left = c.expires_at - Date.now() / 1000;
       if (left > 0) {
-        exp = left > 86400 ? Math.floor(left / 86400) + "d left" : Math.floor(left / 3600) + "h left";
+        pills.push(left > 86400 ? Math.floor(left / 86400) + "d left" : Math.floor(left / 3600) + "h left");
       } else {
-        exp = "expired";
+        pills.push("expired");
       }
     }
+    const pillsEl = el(
+      "div",
+      { class: "card-pills" },
+      pills.map((p) => el("span", { class: "card-pill", text: p }))
+    );
 
-    const metaParts = [
-      term ? term.toUpperCase() : null,
-      entryStr,
-      nowStr,
-      entryPxStr ? "entry " + entryPxStr : null,
-      fmtTimeAgo(c.called_at),
-      exp,
-    ].filter(Boolean).join(" · ");
-
-    // Symbol links to per-call detail (#call=<mint>). Routing handles
-    // both navigation directions; the link itself is just a hash.
-    const symEl = el("div", { class: "sym" }, [
-      el("a", { href: "#call=" + c.mint, class: "sym-link", text: sym }),
-    ]);
-    // Build links inline so the optional thesis 📖 only renders when set.
-    const detailChildren = [
-      metaParts + " · ",
-      el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
-      " · ",
+    // Action links — chart, scout, whales, optional thesis.
+    const linkChildren = [
+      el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "📊 chart" }),
       el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }),
-      " · ",
       el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }),
     ];
     if (c.thesis_url) {
-      detailChildren.push(" · ");
-      detailChildren.push(el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" }));
+      linkChildren.push(
+        el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" })
+      );
     }
-    const detail = el("div", { class: "detail" }, detailChildren);
-    const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
-    container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
+    const linksEl = el("div", { class: "card-links" }, linkChildren);
+
+    // Card assembly. The newest card is open by default; older cards
+    // collapse the chart to keep the list scannable. The toggle flips
+    // .card--collapsed on the host.
+    const isCollapsed = i > 0;
+    const card = el(
+      "div",
+      {
+        class: "call-card" + (isCollapsed ? " call-card--collapsed" : ""),
+        title: c.mint,
+      },
+      [header, chartHost, narrativeEl, pillsEl, linksEl].filter(Boolean)
+    );
+    header.addEventListener("click", (ev) => {
+      // Don't toggle when the click landed on a real link inside the head.
+      if (ev.target.closest("a")) return;
+      card.classList.toggle("call-card--collapsed");
+    });
+    container.appendChild(card);
   }
 }
 
