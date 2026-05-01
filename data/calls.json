@@ -20,14 +20,14 @@
       "entry_liquidity_usd": 7962.45,
       "entry_top_holder_pct": 26.942855396763882,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 7862.0,
-      "current_price_usd": 7.861e-6,
-      "current_liquidity_usd": 6830.17,
-      "pct_from_call": -26.326148078725396,
-      "peak_pct": -19.184629803186493,
-      "peak_at": 1777659019,
-      "trough_pct": -36.148078725398314,
-      "trough_at": 1777659037,
+      "current_mcap_usd": 5307.0,
+      "current_price_usd": 5.306e-6,
+      "current_liquidity_usd": 5613.82,
+      "pct_from_call": -50.27179006560449,
+      "peak_pct": -17.132146204311148,
+      "peak_at": 1777659207,
+      "trough_pct": -50.27179006560449,
+      "trough_at": 1777659389,
       "thesis_url": null
     },
     {
@@ -50,10 +50,10 @@
       "entry_liquidity_usd": 17554.12,
       "entry_top_holder_pct": 16.19195980271337,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 47391.0,
-      "current_price_usd": 0.00004739,
-      "current_liquidity_usd": 17614.28,
-      "pct_from_call": -3.580874872838258,
+      "current_mcap_usd": 50090.0,
+      "current_price_usd": 0.00005009,
+      "current_liquidity_usd": 18143.66,
+      "pct_from_call": 1.9125127161749855,
       "peak_pct": 169.58290946083414,
       "peak_at": 1777658225,
       "trough_pct": -44.45574771108851,
@@ -80,10 +80,10 @@
       "entry_liquidity_usd": 5534.04,
       "entry_top_holder_pct": 52.99119155298162,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 3739.0,
-      "current_price_usd": 3.74e-6,
-      "current_liquidity_usd": 4737.71,
-      "pct_from_call": -26.767182298805558,
+      "current_mcap_usd": 3670.0,
+      "current_price_usd": 3.671e-6,
+      "current_liquidity_usd": 4693.23,
+      "pct_from_call": -28.118269042490706,
       "peak_pct": -1.58605835128256,
       "peak_at": 1777653167,
       "trough_pct": -1.58605835128256,
@@ -998,17 +998,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 28,
         "wins": 8,
@@ -1019,6 +1008,17 @@
         "avg_loser_pct": -54.13012263253637,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
