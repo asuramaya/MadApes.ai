@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777670463,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$Hesam at $37k mcap — entry frozen",
-      "mint": "Y2T6DuPD6qJoFd7Kocyik2r3Y76HNqB3HPbpLru1uXx",
-      "signature": null
-    },
-    {
       "ts": 1777669828,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -74,41 +66,32 @@
     }
   ],
   "tokens": {
-    "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
-      "symbol": "scribpoop",
-      "name": "scribbli poop",
-      "mcap_usd": 3252.0,
-      "price_usd": 3.252e-6,
-      "price_change_1h": -96.0,
-      "price_change_24h": null,
-      "liquidity_usd": 4883.67
-    },
-    "Y2T6DuPD6qJoFd7Kocyik2r3Y76HNqB3HPbpLru1uXx": {
-      "symbol": "Hesam",
-      "name": "Justice for Hesam Alaeddin",
-      "mcap_usd": 43040.0,
-      "price_usd": 0.00004303,
-      "price_change_1h": -99.97,
-      "price_change_24h": null,
-      "liquidity_usd": 16237.16
-    },
     "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
       "symbol": "STARCAT",
       "name": "STARCAT",
-      "mcap_usd": 109931.0,
-      "price_usd": 0.0001099,
-      "price_change_1h": 224.0,
+      "mcap_usd": 104674.0,
+      "price_usd": 0.0001046,
+      "price_change_1h": 199.0,
       "price_change_24h": null,
-      "liquidity_usd": 25767.68
+      "liquidity_usd": 25149.22
+    },
+    "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
+      "symbol": "scribpoop",
+      "name": "scribbli poop",
+      "mcap_usd": 2806.0,
+      "price_usd": 2.806e-6,
+      "price_change_1h": -97.25,
+      "price_change_24h": null,
+      "liquidity_usd": 4537.03
     },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 10136.0,
-      "price_usd": 0.00001024,
-      "price_change_1h": 16.33,
+      "mcap_usd": 8625.0,
+      "price_usd": 8.72e-6,
+      "price_change_1h": -0.69,
       "price_change_24h": null,
-      "liquidity_usd": 7803.18
+      "liquidity_usd": 7200.03
     }
   }
 }
