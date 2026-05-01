@@ -73,14 +73,6 @@
       "signature": null
     },
     {
-      "ts": 1777656074,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$S&L at $49k mcap — entry frozen",
-      "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
-      "signature": null
-    },
-    {
       "ts": 1777653167,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -90,59 +82,32 @@
     }
   ],
   "tokens": {
+    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
+      "symbol": "STARCAT",
+      "name": "STARCAT",
+      "mcap_usd": 81912.0,
+      "price_usd": 0.00008191,
+      "price_change_1h": 141.0,
+      "price_change_24h": null,
+      "liquidity_usd": 22113.38
+    },
     "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
       "symbol": "scribpoop",
       "name": "scribbli poop",
-      "mcap_usd": 108503.0,
-      "price_usd": 0.0001085,
-      "price_change_1h": 212.0,
+      "mcap_usd": 112066.0,
+      "price_usd": 0.000112,
+      "price_change_1h": 222.0,
       "price_change_24h": null,
-      "liquidity_usd": 27549.63
+      "liquidity_usd": 28072.45
     },
     "Eb3KevajAAyfTdKqj8FKHz6tvnJaqE5UkGunXqKfvamp": {
       "symbol": "vampcoin",
       "name": "vampcoin",
-      "mcap_usd": 11798.0,
-      "price_usd": 0.00001179,
+      "mcap_usd": 12909.0,
+      "price_usd": 0.0000129,
       "price_change_1h": -99.99,
       "price_change_24h": null,
-      "liquidity_usd": 8425.6
-    },
-    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
-      "symbol": "PET",
-      "name": "Petification",
-      "mcap_usd": 13638.0,
-      "price_usd": 0.00001378,
-      "price_change_1h": 26.1,
-      "price_change_24h": null,
-      "liquidity_usd": 9044.83
-    },
-    "5qkq98FwnNVxaRAXRhnFGX7hfrfGy9juk9GtsuPcpump": {
-      "symbol": "PETS",
-      "name": "Codex Pets",
-      "mcap_usd": 4018.0,
-      "price_usd": 4.017e-6,
-      "price_change_1h": -99.57,
-      "price_change_24h": null,
-      "liquidity_usd": 5227.85
-    },
-    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
-      "symbol": "Pets",
-      "name": "Codex Pets",
-      "mcap_usd": 9614.0,
-      "price_usd": 9.956e-6,
-      "price_change_1h": -27.07,
-      "price_change_24h": null,
-      "liquidity_usd": 7679.27
-    },
-    "72CystEt1nfumCWW22S5Q3RNkzBDSSsA2b7FE8aCpump": {
-      "symbol": "KATIA",
-      "name": "KATIA MALNIKOVA",
-      "mcap_usd": 3962.0,
-      "price_usd": 3.962e-6,
-      "price_change_1h": -100.0,
-      "price_change_24h": null,
-      "liquidity_usd": 4832.23
+      "liquidity_usd": 8813.34
     },
     "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
       "symbol": "Crayon",
@@ -153,23 +118,41 @@
       "price_change_24h": null,
       "liquidity_usd": 3799.36
     },
-    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
-      "symbol": "S&L",
-      "name": "Sandy & Luna",
-      "mcap_usd": 22486.0,
-      "price_usd": 0.00002248,
-      "price_change_1h": -47.1,
+    "72CystEt1nfumCWW22S5Q3RNkzBDSSsA2b7FE8aCpump": {
+      "symbol": "KATIA",
+      "name": "KATIA MALNIKOVA",
+      "mcap_usd": 3764.0,
+      "price_usd": 3.763e-6,
+      "price_change_1h": -100.0,
       "price_change_24h": null,
-      "liquidity_usd": 12235.72
+      "liquidity_usd": 4708.12
     },
-    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
-      "symbol": "STARCAT",
-      "name": "STARCAT",
-      "mcap_usd": 64729.0,
-      "price_usd": 0.00006472,
-      "price_change_1h": 90.29,
+    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
+      "symbol": "Pets",
+      "name": "Codex Pets",
+      "mcap_usd": 9256.0,
+      "price_usd": 9.584e-6,
+      "price_change_1h": -37.52,
       "price_change_24h": null,
-      "liquidity_usd": 19640.57
+      "liquidity_usd": 7534.39
+    },
+    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
+      "symbol": "PET",
+      "name": "Petification",
+      "mcap_usd": 11605.0,
+      "price_usd": 0.00001173,
+      "price_change_1h": -1.36,
+      "price_change_24h": null,
+      "liquidity_usd": 8343.14
+    },
+    "5qkq98FwnNVxaRAXRhnFGX7hfrfGy9juk9GtsuPcpump": {
+      "symbol": "PETS",
+      "name": "Codex Pets",
+      "mcap_usd": 3996.0,
+      "price_usd": 3.996e-6,
+      "price_change_1h": -99.64,
+      "price_change_24h": null,
+      "liquidity_usd": 5212.79
     }
   }
 }
