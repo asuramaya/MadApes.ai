@@ -1,6 +1,86 @@
 {
   "events": [
     {
+      "ts": 1777620230,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE E1qw…pump · mom 75 · dist 51 · top 30.11%",
+      "mint": "E1qwzLDhSyQSg7yXxuHSAQujPjvRignAiL43JE85pump",
+      "signature": null
+    },
+    {
+      "ts": 1777620230,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING Bipw…pump · mom 82 · top 48.92% · 20 holders",
+      "mint": "BipwmKYCgDgakxmbMDPQwCcYMQh4gsC8rmGSB5CCpump",
+      "signature": null
+    },
+    {
+      "ts": 1777620220,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3R4e…pump · DEVELOPING→STAIRCASE · top +0.30%",
+      "mint": "3R4eD5GpzCaPRWeBHBGHLYgE5bxCRX5t9R247qXNpump",
+      "signature": null
+    },
+    {
+      "ts": 1777620217,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE hLok…pump · STAIRCASE→GRINDER · top -1.07%",
+      "mint": "hLokvfUnqYUztoVdA4gwZnpvTKsPNefkdn2DyxGpump",
+      "signature": null
+    },
+    {
+      "ts": 1777619982,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING EeJ6…pump · mom 79 · top 41.22% · 20 holders",
+      "mint": "EeJ6dmiq7JTjDdZRTqZYihgzLjyyERKpdPyP2DqRpump",
+      "signature": null
+    },
+    {
+      "ts": 1777619982,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE DLWh…pump · mom 81 · dist 55 · top 26.66%",
+      "mint": "DLWhmyVGwPnmzHVoA9F74pNu6BoyNi3rbGgwT2z3pump",
+      "signature": null
+    },
+    {
+      "ts": 1777619945,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE hLok…pump · GRINDER→STAIRCASE · top -1.46%",
+      "mint": "hLokvfUnqYUztoVdA4gwZnpvTKsPNefkdn2DyxGpump",
+      "signature": null
+    },
+    {
+      "ts": 1777619944,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8Jx8…pump · GRINDER→DEVELOPING · top +0.00%",
+      "mint": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+      "signature": null
+    },
+    {
+      "ts": 1777619940,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING Ffgi…pump · deployer down 100.0% (257092115 → 0)",
+      "mint": "FfgiM33eg3DHktHjbpcKnF49wtBvXjnsQ7FezqEKpump",
+      "signature": null
+    },
+    {
+      "ts": 1777619939,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3R4e…pump · STAIRCASE→DEVELOPING · top +0.59%",
+      "mint": "3R4eD5GpzCaPRWeBHBGHLYgE5bxCRX5t9R247qXNpump",
+      "signature": null
+    },
+    {
       "ts": 1777619749,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -14,22 +94,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING Ffgi…pump · deployer down 100.0% (257092115 → 0)",
       "mint": "FfgiM33eg3DHktHjbpcKnF49wtBvXjnsQ7FezqEKpump",
-      "signature": null
-    },
-    {
-      "ts": 1777618302,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE hpvo…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump",
-      "signature": null
-    },
-    {
-      "ts": 1777618254,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CVmf…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "CVmfApALZWCXDHBb14JtMQwxQGLdutkg5u52HjjVpump",
       "signature": null
     },
     {
@@ -50,32 +114,77 @@
     }
   ],
   "tokens": {
-    "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump": {
-      "symbol": "RJGN",
-      "name": "RetardedJewishGayNigga",
-      "mcap_usd": 285142.0,
-      "price_usd": 0.0002851,
-      "price_change_1h": -14.47,
+    "3R4eD5GpzCaPRWeBHBGHLYgE5bxCRX5t9R247qXNpump": {
+      "symbol": "MEOWNANA",
+      "name": "MEOWNANA",
+      "mcap_usd": 134330.0,
+      "price_usd": 0.0001343,
+      "price_change_1h": 256.0,
       "price_change_24h": null,
-      "liquidity_usd": 52300.21
+      "liquidity_usd": 28635.49
     },
-    "CVmfApALZWCXDHBb14JtMQwxQGLdutkg5u52HjjVpump": {
-      "symbol": "QUAI",
-      "name": "QUAI NETWORK",
-      "mcap_usd": 2343.5,
-      "price_usd": 2.343e-6,
-      "price_change_1h": -7.66,
+    "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump": {
+      "symbol": "PENGUIN",
+      "name": "Nietzschean Penguin",
+      "mcap_usd": 151666553.0,
+      "price_usd": 0.1516,
+      "price_change_1h": null,
       "price_change_24h": null,
-      "liquidity_usd": null
+      "liquidity_usd": 455026.7
     },
     "FfgiM33eg3DHktHjbpcKnF49wtBvXjnsQ7FezqEKpump": {
       "symbol": "sulana",
       "name": "sulana",
-      "mcap_usd": 20976.0,
-      "price_usd": 0.00002097,
-      "price_change_1h": -39.17,
+      "mcap_usd": 23407.0,
+      "price_usd": 0.0000234,
+      "price_change_1h": -32.12,
       "price_change_24h": null,
-      "liquidity_usd": 11133.9
+      "liquidity_usd": 11765.32
+    },
+    "EeJ6dmiq7JTjDdZRTqZYihgzLjyyERKpdPyP2DqRpump": {
+      "symbol": "GRUMP",
+      "name": "Goblin Trump",
+      "mcap_usd": 2364.93,
+      "price_usd": 2.364e-6,
+      "price_change_1h": -4.81,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "E1qwzLDhSyQSg7yXxuHSAQujPjvRignAiL43JE85pump": {
+      "symbol": "Trumplin",
+      "name": "The Trump Goblin",
+      "mcap_usd": 21026.63,
+      "price_usd": 0.00002102,
+      "price_change_1h": 782.0,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "BipwmKYCgDgakxmbMDPQwCcYMQh4gsC8rmGSB5CCpump": {
+      "symbol": "HOMO",
+      "name": "HoldOrMissOut",
+      "mcap_usd": 9666.46,
+      "price_usd": 9.666e-6,
+      "price_change_1h": 240.0,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "hLokvfUnqYUztoVdA4gwZnpvTKsPNefkdn2DyxGpump": {
+      "symbol": "CHADLON",
+      "name": "CHADLON MUSK",
+      "mcap_usd": 63343.0,
+      "price_usd": 0.00006334,
+      "price_change_1h": 48.62,
+      "price_change_24h": null,
+      "liquidity_usd": 21629.57
+    },
+    "DLWhmyVGwPnmzHVoA9F74pNu6BoyNi3rbGgwT2z3pump": {
+      "symbol": "FORCA",
+      "name": "FLASH ORCA",
+      "mcap_usd": 25692.67,
+      "price_usd": 0.00002569,
+      "price_change_1h": 990.0,
+      "price_change_24h": null,
+      "liquidity_usd": null
     }
   }
 }
