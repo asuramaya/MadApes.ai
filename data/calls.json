@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 135,
+      "mint": "DcSLSZkhxBECsJF4Jny57c1xTaMwKo9HQMKiyXYbpump",
+      "symbol": "Butt",
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "called_at": 1777765137,
+      "expires_at": 1777770537,
+      "note": "61k cap, top1 16 and 214/min, buys still edge sells, I’m in here · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 61284.0,
+      "entry_price_usd": 0.00006134,
+      "entry_liquidity_usd": 19187.02,
+      "entry_top_holder_pct": 16.009305159933447,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 59626.0,
+      "current_price_usd": 0.00005968,
+      "current_liquidity_usd": 18936.18,
+      "pct_from_call": -2.706227583958276,
+      "peak_pct": 0.0,
+      "peak_at": 1777765137,
+      "trough_pct": 0.0,
+      "trough_at": 1777765137,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 134,
@@ -2639,17 +2670,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 85,
         "wins": 23,
@@ -2660,6 +2680,17 @@
         "avg_loser_pct": -44.87370501464856,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
