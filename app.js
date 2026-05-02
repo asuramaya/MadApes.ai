@@ -491,12 +491,26 @@ function renderHistoryStats(stats) {
   }
 }
 
+// Trail-at-breakeven closes are mechanically tagged "withdrew" by the
+// scanner (the trail floor sits at 0% once the position peaks ≥+20%),
+// but they're not real wins — realized pct often lands -5..+5 due to
+// settle latency between snapshots. Classify those as "flat" so they
+// don't show as red numbers under the WON tab.
+function isFlatClose(c) {
+  if (c.outcome_type !== "withdrew") return false;
+  const pct = callPctValue(c);
+  if (pct == null) return false;
+  const peak = c.peak_pct == null ? Math.max(pct, 0) : c.peak_pct;
+  return Math.abs(pct) < 5 && peak < 20;
+}
+
 function filterHistory(rows, filter) {
   if (!Array.isArray(rows)) return [];
   if (filter === "all") return rows;
   return rows.filter((c) => {
     switch (filter) {
-      case "won": return c.outcome_type === "withdrew";
+      case "won": return c.outcome_type === "withdrew" && !isFlatClose(c);
+      case "flat": return isFlatClose(c);
       case "failed": return c.outcome_type === "failed";
       case "expired": return c.outcome_type === "expired";
       case "short": return !((c.note || "").includes("horizon=LONG"));
@@ -513,12 +527,16 @@ function renderHistoryRow(c) {
   const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
   const term = callTerm(c);
   const pct = callPctValue(c);
-  const pctCls = pct == null ? "" : pnlClass(pct);
+  const flat = isFlatClose(c);
+  // Flat-band closes get a neutral pct color instead of red — the
+  // realized number is small noise around 0%, not a real loss.
+  const pctCls = pct == null ? "" : (flat ? "dim" : pnlClass(pct));
 
-  // Outcome icon prepended to the symbol — mirrors the TG card emoji
-  // language (🟢 BANKED / 🔴 FAILED / ⏰ EXPIRED).
-  const outcomeCls = "history-outcome-" + (c.outcome_type || "closed");
-  const icon = c.outcome_type === "withdrew" ? "🟢"
+  // Outcome icon — mirrors the TG card emoji language. Flat closes get
+  // the ⚪ marker so they read as "didn't move" rather than as wins.
+  const outcomeCls = "history-outcome-" + (flat ? "flat" : (c.outcome_type || "closed"));
+  const icon = flat ? "⚪"
+             : c.outcome_type === "withdrew" ? "🟢"
              : c.outcome_type === "failed" ? "🔴"
              : c.outcome_type === "expired" ? "⏰"
              : "·";
@@ -632,14 +650,16 @@ async function renderCallDetail(mint) {
 
   clear(body);
   // Header strip: outcome + horizon + final pct
-  const icon = c.outcome_type === "withdrew" ? "🟢"
+  const flat = isFlatClose(c);
+  const icon = flat ? "⚪"
+             : c.outcome_type === "withdrew" ? "🟢"
              : c.outcome_type === "failed" ? "🔴"
              : c.outcome_type === "expired" ? "⏰"
              : c.outcome_type === "active" ? "📣"
              : "·";
   const term = callTerm(c);
   const pct = callPctValue(c);
-  const pctCls = pct == null ? "" : pnlClass(pct);
+  const pctCls = pct == null ? "" : (flat ? "dim" : pnlClass(pct));
   body.appendChild(
     el("div", { class: "detail-banner" }, [
       el("span", { class: "detail-banner-icon", text: icon }),
