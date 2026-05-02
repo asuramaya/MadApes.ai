@@ -1,18 +1,26 @@
 {
   "events": [
     {
-      "ts": 1777696293,
+      "ts": 1777696674,
       "kind": "alert",
       "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING WZcc…pump · top 21.65%→23.68% (+2.03%) · DEVELOPING",
+      "summary": "CONCENTRATING WZcc…pump · top 22.30%→24.52% (+2.22%) · DEVELOPING",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
     {
-      "ts": 1777696277,
+      "ts": 1777696523,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · STAIRCASE→DEVELOPING · top -5.15%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING WZcc…pump · top 20.51%→23.68% (+3.16%) · DEVELOPING",
+      "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777696470,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING WZcc…pump · top 21.04%→23.68% (+2.64%) · DEVELOPING",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -25,18 +33,18 @@
       "signature": null
     },
     {
-      "ts": 1777696116,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING WZcc…pump · top 21.65%→27.05% (+5.41%) · DEVELOPING",
-      "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
-      "signature": null
-    },
-    {
       "ts": 1777696067,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE WZcc…pump · STAIRCASE→DEVELOPING · top +0.29%",
+      "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777696051,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · DEVELOPING→STAIRCASE · top +0.77%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -81,26 +89,10 @@
       "signature": null
     },
     {
-      "ts": 1777695439,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING WZcc…pump · top 19.64%→28.52% (+8.88%) · STAIRCASE",
-      "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
-      "signature": null
-    },
-    {
       "ts": 1777695434,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE FxMA…pump · GRINDER→DEVELOPING · top -0.11%",
-      "mint": "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump",
-      "signature": null
-    },
-    {
-      "ts": 1777695317,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING FxMA…pump · top 19.87%→23.40% (+3.54%) · GRINDER",
       "mint": "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump",
       "signature": null
     },
@@ -133,29 +125,29 @@
     "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
       "symbol": "goblintown",
       "name": "goblintown",
-      "mcap_usd": 111713.0,
-      "price_usd": 0.0001117,
-      "price_change_1h": 224.0,
+      "mcap_usd": 101746.0,
+      "price_usd": 0.0001017,
+      "price_change_1h": 195.0,
       "price_change_24h": null,
-      "liquidity_usd": 26266.36
+      "liquidity_usd": 25102.11
     },
     "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump": {
       "symbol": "Dog",
       "name": "DogCoin",
-      "mcap_usd": 28881.0,
-      "price_usd": 0.00002888,
-      "price_change_1h": -14.58,
+      "mcap_usd": 26339.0,
+      "price_usd": 0.00002633,
+      "price_change_1h": -22.1,
       "price_change_24h": null,
-      "liquidity_usd": 13146.34
+      "liquidity_usd": 12563.02
     },
     "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump": {
       "symbol": "Dog",
       "name": "DogCoin",
-      "mcap_usd": 6130.0,
-      "price_usd": 6.129e-6,
-      "price_change_1h": -81.82,
+      "mcap_usd": 4932.0,
+      "price_usd": 4.932e-6,
+      "price_change_1h": -85.37,
       "price_change_24h": null,
-      "liquidity_usd": 6043.2
+      "liquidity_usd": 5421.65
     }
   }
 }
