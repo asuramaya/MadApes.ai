@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 100,
+      "mint": "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump",
+      "symbol": "NEWSCUM",
+      "classification": "DEVELOPING",
+      "confidence": 44,
+      "called_at": 1777680658,
+      "expires_at": 1777686058,
+      "note": "moonshot punt on a fresh $33.5k DEV with 23% top1, flow's stacking. sniper 61% but riding it. Aping in — +250 take, -25 stop, ~90min if it doesn't move. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 33533.0,
+      "entry_price_usd": 0.00003353,
+      "entry_liquidity_usd": 14059.27,
+      "entry_top_holder_pct": 22.782424354582396,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 33533.0,
+      "current_price_usd": 0.00003353,
+      "current_liquidity_usd": 14059.27,
+      "pct_from_call": 0.0,
+      "peak_pct": 0.0,
+      "peak_at": 1777680658,
+      "trough_pct": 0.0,
+      "trough_at": 1777680658,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 99,
@@ -1567,17 +1598,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 50,
-        "wins": 10,
-        "losses": 38,
-        "expired": 2,
-        "win_rate": 20.833333333333336,
-        "avg_winner_pct": 45.96407882149158,
-        "avg_loser_pct": -53.517876900000715,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -1588,6 +1608,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 50,
+        "wins": 10,
+        "losses": 38,
+        "expired": 2,
+        "win_rate": 20.833333333333336,
+        "avg_winner_pct": 45.96407882149158,
+        "avg_loser_pct": -53.517876900000715,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
