@@ -65,7 +65,23 @@ jobs:
           git add thoughts/*.html thoughts/.published.json thoughts/assets.json index.html assets/thoughts/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "no generated artifacts to commit"
-          else
-            git commit -m "diary: auto-build HTML + covers + published tracker"
-            git push
+            exit 0
           fi
+          git commit -m "diary: auto-build HTML + covers + published tracker"
+          # Pull --rebase to absorb any concurrent pushes (notably photon's
+          # image processor running on the VM pushes assets/thoughts/*.webp
+          # + assets.json on its own ~15min cadence and races this step).
+          # Retry the push up to 3 times in case the rebase target itself
+          # races again.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; echo "rebase failed on attempt $attempt"; sleep 5; continue; }
+            if git push; then
+              echo "push succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected on attempt $attempt — retrying"
+            sleep 5
+          done
+          echo "::error::push failed after 3 attempts"
+          exit 1
