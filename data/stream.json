@@ -1,43 +1,43 @@
 {
   "events": [
     {
-      "ts": 1777741693,
+      "ts": 1777742153,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.01%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741659,
+      "ts": 1777742135,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top -0.06%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741642,
+      "ts": 1777742067,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.09%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.00%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741574,
+      "ts": 1777741947,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 6.00x→0.06x · tpm 18.0",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 4.50x→0.14x · tpm 35.3",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741454,
+      "ts": 1777741796,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top +0.16%",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.33x→0.38x · tpm 18.8",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
@@ -47,52 +47,79 @@
       "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.43x→0.40x · tpm 17.2",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
-    },
-    {
-      "ts": 1777741297,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 11.00x→0.37x · tpm 26.1",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777740449,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 9xR3…pump · top 17.01%→19.43% (+2.42%) · GRINDER",
-      "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
-      "signature": null
     }
   ],
   "tokens": {
-    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
-      "symbol": "WINNING",
-      "name": "WINNING",
-      "mcap_usd": 131001.0,
-      "price_usd": 0.000131,
-      "price_change_1h": 225.0,
+    "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
+      "symbol": "Grandma",
+      "name": "Minecraft Grandma Fund",
+      "mcap_usd": 340834.0,
+      "price_usd": 0.0003408,
+      "price_change_1h": -0.99,
       "price_change_24h": null,
-      "liquidity_usd": 27884.08
+      "liquidity_usd": 72993.41
     },
     "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
       "symbol": "Piper",
       "name": "Pied Piper",
-      "mcap_usd": 9574.0,
-      "price_usd": 9.573e-6,
-      "price_change_1h": -72.36,
+      "mcap_usd": 8097.0,
+      "price_usd": 8.096e-6,
+      "price_change_1h": -76.62,
       "price_change_24h": null,
-      "liquidity_usd": 7534.87
+      "liquidity_usd": 6929.78
+    },
+    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
+      "symbol": "WINNING",
+      "name": "WINNING",
+      "mcap_usd": 146159.0,
+      "price_usd": 0.0001461,
+      "price_change_1h": 263.0,
+      "price_change_24h": null,
+      "liquidity_usd": 29462.44
     },
     "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump": {
       "symbol": "VINCENT",
       "name": "Vincent For President",
-      "mcap_usd": 55905.0,
-      "price_usd": 0.0000559,
-      "price_change_1h": 61.3,
+      "mcap_usd": 37008.0,
+      "price_usd": 0.000037,
+      "price_change_1h": 6.78,
       "price_change_24h": null,
-      "liquidity_usd": 18777.89
+      "liquidity_usd": 15335.52
     }
   },
-  "watching": []
+  "watching": [
+    {
+      "mint": "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump",
+      "symbol": "Grandma",
+      "classification": "GRINDER",
+      "confidence": 68,
+      "top_holder_pct": 11.500214853039353,
+      "age_secs": 11,
+      "gate": "top10",
+      "gap": "top10 41.1% >= 33.0% (over by 8.1pp)",
+      "last_seen": 1777742187
+    },
+    {
+      "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
+      "symbol": "VINCENT",
+      "classification": "GRINDER",
+      "confidence": 64,
+      "top_holder_pct": 14.860573842182575,
+      "age_secs": 1392,
+      "gate": "conf",
+      "gap": "conf 64 < 65 (short by 1)",
+      "last_seen": 1777740806
+    },
+    {
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
+      "symbol": "Piper",
+      "classification": "STAIRCASE",
+      "confidence": 62,
+      "top_holder_pct": 35.59914636670277,
+      "age_secs": 727,
+      "gate": "conf",
+      "gap": "conf 62 < 65 (short by 3)",
+      "last_seen": 1777741471
+    }
+  ]
 }
