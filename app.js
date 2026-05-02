@@ -491,31 +491,42 @@ function renderHistoryStats(stats) {
   }
 }
 
-// Trail-at-breakeven closes are mechanically tagged "withdrew" by the
-// scanner (the trail floor sits at 0% once the position peaks ≥+20%),
-// but they're not real wins — realized pct often lands -5..+5 due to
-// settle latency between snapshots. Classify those as "flat" so they
-// don't show as red numbers under the WON tab.
-function isFlatClose(c) {
-  if (c.outcome_type !== "withdrew") return false;
+// PnL-based bucketing — the user mental model is "did this trade make
+// money", not "which exit branch fired in the scanner". outcome_type is
+// a lifecycle tag (withdrew=ladder fired, failed=event-driven exit,
+// expired=time-out) but the trail-at-breakeven trigger fires on peak
+// alone and can fill at materially negative pct (settle-latency slip).
+// Bin by realized pct sign so the filter tabs match what the wallet
+// actually saw at exit.
+function pctBucket(c) {
   const pct = callPctValue(c);
-  if (pct == null) return false;
-  const peak = c.peak_pct == null ? Math.max(pct, 0) : c.peak_pct;
-  return Math.abs(pct) < 5 && peak < 20;
+  if (pct == null) return "unknown";
+  if (pct >= 5) return "won";
+  if (pct <= -5) return "loss";
+  return "flat";
+}
+
+function isFlatClose(c) {
+  return pctBucket(c) === "flat";
 }
 
 function filterHistory(rows, filter) {
   if (!Array.isArray(rows)) return [];
   if (filter === "all") return rows;
   return rows.filter((c) => {
+    const bucket = pctBucket(c);
     switch (filter) {
-      case "won": return c.outcome_type === "withdrew" && !isFlatClose(c);
-      case "flat": return isFlatClose(c);
-      case "failed": return c.outcome_type === "failed";
+      case "won":     return bucket === "won";
+      case "flat":    return bucket === "flat";
+      // FAILED tab = realized loss OR event-driven exit (the scanner
+      // tagged "failed" via dev-exit/structural-collapse rules even
+      // when realized was positive — the operator's *thesis* failed
+      // even if the number was green at exit time).
+      case "failed":  return bucket === "loss" || c.outcome_type === "failed";
       case "expired": return c.outcome_type === "expired";
-      case "short": return !((c.note || "").includes("horizon=LONG"));
-      case "long": return (c.note || "").includes("horizon=LONG");
-      default: return true;
+      case "short":   return !((c.note || "").includes("horizon=LONG"));
+      case "long":    return (c.note || "").includes("horizon=LONG");
+      default:        return true;
     }
   });
 }
@@ -527,18 +538,25 @@ function renderHistoryRow(c) {
   const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
   const term = callTerm(c);
   const pct = callPctValue(c);
-  const flat = isFlatClose(c);
-  // Flat-band closes get a neutral pct color instead of red — the
-  // realized number is small noise around 0%, not a real loss.
-  const pctCls = pct == null ? "" : (flat ? "dim" : pnlClass(pct));
+  const bucket = pctBucket(c);
+  // Pct color follows realized PnL (won=green / loss=red / flat=dim),
+  // independent of the scanner's outcome_type tag. Numbers + colors
+  // tell one consistent story.
+  const pctCls = pct == null ? "" : (bucket === "flat" ? "dim" : pnlClass(pct));
 
-  // Outcome icon — mirrors the TG card emoji language. Flat closes get
-  // the ⚪ marker so they read as "didn't move" rather than as wins.
-  const outcomeCls = "history-outcome-" + (flat ? "flat" : (c.outcome_type || "closed"));
-  const icon = flat ? "⚪"
-             : c.outcome_type === "withdrew" ? "🟢"
-             : c.outcome_type === "failed" ? "🔴"
-             : c.outcome_type === "expired" ? "⏰"
+  // Symbol icon + color follow the same bucket. Expired keeps its
+  // own ⏰ since it's a lifecycle thing (no movement at all).
+  const isExpired = c.outcome_type === "expired";
+  const outcomeCls = "history-outcome-" + (
+    isExpired ? "expired" :
+    bucket === "won" ? "withdrew" :
+    bucket === "flat" ? "flat" :
+    bucket === "loss" ? "failed" : "closed"
+  );
+  const icon = isExpired ? "⏰"
+             : bucket === "won" ? "🟢"
+             : bucket === "flat" ? "⚪"
+             : bucket === "loss" ? "🔴"
              : "·";
 
   // Verdict line from the settling phase ("+52% · took the win",
@@ -649,17 +667,18 @@ async function renderCallDetail(mint) {
   title.textContent = sym;
 
   clear(body);
-  // Header strip: outcome + horizon + final pct
-  const flat = isFlatClose(c);
-  const icon = flat ? "⚪"
-             : c.outcome_type === "withdrew" ? "🟢"
-             : c.outcome_type === "failed" ? "🔴"
+  // Header strip: outcome + horizon + final pct. Bucketed by realized
+  // pct except for active (in-flight) and expired (lifecycle tag).
+  const bucket = pctBucket(c);
+  const icon = c.outcome_type === "active" ? "📣"
              : c.outcome_type === "expired" ? "⏰"
-             : c.outcome_type === "active" ? "📣"
+             : bucket === "won" ? "🟢"
+             : bucket === "flat" ? "⚪"
+             : bucket === "loss" ? "🔴"
              : "·";
   const term = callTerm(c);
   const pct = callPctValue(c);
-  const pctCls = pct == null ? "" : (flat ? "dim" : pnlClass(pct));
+  const pctCls = pct == null ? "" : (bucket === "flat" ? "dim" : pnlClass(pct));
   body.appendChild(
     el("div", { class: "detail-banner" }, [
       el("span", { class: "detail-banner-icon", text: icon }),
