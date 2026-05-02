@@ -23,93 +23,44 @@
       "summary": "DEV_SELLING JAxM…pump · deployer down 64.3% (193902787 → 69129619)",
       "mint": "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump",
       "signature": null
-    },
-    {
-      "ts": 1777733482,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING JAxM…pump · deployer down 46.6% (193902787 → 103634884)",
-      "mint": "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump",
-      "signature": null
-    },
-    {
-      "ts": 1777733465,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 253K…pump · DEVELOPING→GRINDER · top +0.28%",
-      "mint": "253K9PoAt3DyfsfFEmbKejHAC9MwCogJZKkK7fo8pump",
-      "signature": null
-    },
-    {
-      "ts": 1777733449,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING JAxM…pump · deployer down 34.7% (193902787 → 126626655)",
-      "mint": "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump",
-      "signature": null
-    },
-    {
-      "ts": 1777733433,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 253K…pump · top 21.61%→29.70% (+8.09%) · DEVELOPING",
-      "mint": "253K9PoAt3DyfsfFEmbKejHAC9MwCogJZKkK7fo8pump",
-      "signature": null
-    },
-    {
-      "ts": 1777733400,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 253K…pump · GRINDER→DEVELOPING · top -6.72%",
-      "mint": "253K9PoAt3DyfsfFEmbKejHAC9MwCogJZKkK7fo8pump",
-      "signature": null
     }
   ],
   "tokens": {
+    "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump": {
+      "symbol": "50",
+      "name": "$50 and a dream",
+      "mcap_usd": 16171.0,
+      "price_usd": 0.00001617,
+      "price_change_1h": -53.26,
+      "price_change_24h": null,
+      "liquidity_usd": 9846.56
+    },
     "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 375794.0,
-      "price_usd": 0.0003757,
-      "price_change_1h": 989.0,
+      "mcap_usd": 373128.0,
+      "price_usd": 0.0003731,
+      "price_change_1h": 981.0,
       "price_change_24h": null,
-      "liquidity_usd": 51451.44
+      "liquidity_usd": 51506.49
     },
     "Pf9aSicGu3g6tTUBqrRbjNsGape9HopibspX5KSbonk": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 19921.0,
-      "price_usd": 0.00001992,
-      "price_change_1h": -33.6,
+      "mcap_usd": 10752.0,
+      "price_usd": 0.00001075,
+      "price_change_1h": -64.16,
       "price_change_24h": null,
-      "liquidity_usd": 11503.14
-    },
-    "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump": {
-      "symbol": "50",
-      "name": "$50 and a dream",
-      "mcap_usd": 17853.0,
-      "price_usd": 0.00001785,
-      "price_change_1h": -48.4,
-      "price_change_24h": null,
-      "liquidity_usd": 10343.63
-    },
-    "253K9PoAt3DyfsfFEmbKejHAC9MwCogJZKkK7fo8pump": {
-      "symbol": "WINNING",
-      "name": "WINNING",
-      "mcap_usd": 2133.0,
-      "price_usd": 2.132e-6,
-      "price_change_1h": -93.82,
-      "price_change_24h": null,
-      "liquidity_usd": 3557.43
+      "liquidity_usd": 8933.09
     },
     "5U7yW5CRQaj13whEjkq4bPF6gagTKAGtkT84ubfEpump": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 149297.0,
-      "price_usd": 0.0001492,
-      "price_change_1h": 254.0,
+      "mcap_usd": 243585.0,
+      "price_usd": 0.0002435,
+      "price_change_1h": 478.0,
       "price_change_24h": null,
-      "liquidity_usd": 30526.46
+      "liquidity_usd": 39083.99
     }
   },
   "watching": [
@@ -119,21 +70,10 @@
       "classification": "STAIRCASE",
       "confidence": 75,
       "top_holder_pct": 10.1526899914908,
-      "age_secs": 259,
+      "age_secs": 558,
       "gate": "buy_sell_high",
       "gap": "b/s 3.23 > 1.40 (FOMO peak)",
       "last_seen": 1777734897
-    },
-    {
-      "mint": "JAxMg5ErnK6ji37TnUh89yA2mouDkFVpiKGaEi1mpump",
-      "symbol": "WINNING",
-      "classification": "GRINDER",
-      "confidence": 67,
-      "top_holder_pct": 10.363488360418,
-      "age_secs": 1674,
-      "gate": "sniper",
-      "gap": "sniper 53.4% >= 30.0%",
-      "last_seen": 1777733482
     },
     {
       "mint": "Pf9aSicGu3g6tTUBqrRbjNsGape9HopibspX5KSbonk",
@@ -141,7 +81,7 @@
       "classification": "STAIRCASE",
       "confidence": 65,
       "top_holder_pct": 19.254847562184356,
-      "age_secs": 259,
+      "age_secs": 558,
       "gate": "top_holder",
       "gap": "top 19.25% >= 18.00% (over by 1.25pp)",
       "last_seen": 1777734897
