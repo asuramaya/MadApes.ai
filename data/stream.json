@@ -1,10 +1,34 @@
 {
   "events": [
     {
-      "ts": 1777751040,
+      "ts": 1777751174,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3T3e…pump · DEVELOPING→GRINDER · top -0.78%",
+      "summary": "CLASSIFICATION_CHANGE 7wC7…5Z89 · DEVELOPING→STAIRCASE · top -0.07%",
+      "mint": "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89",
+      "signature": null
+    },
+    {
+      "ts": 1777751077,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3T3e…pump · deployer down 32.4% (197160008 → 133257442)",
+      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
+      "signature": null
+    },
+    {
+      "ts": 1777751060,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE v8ss…pump · DEVELOPING→STAIRCASE · top +1.75%",
+      "mint": "v8sssEryFSYa5VFdcsq6Y1gBxQ71XaMs2DVPhBDpump",
+      "signature": null
+    },
+    {
+      "ts": 1777751058,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3T3e…pump · deployer down 34.0% (197160008 → 130155980)",
       "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
       "signature": null
     },
@@ -13,6 +37,14 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 3T3e…pump · deployer down 36.5% (197160008 → 125174246)",
+      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
+      "signature": null
+    },
+    {
+      "ts": 1777751040,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3T3e…pump · DEVELOPING→GRINDER · top -0.78%",
       "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
       "signature": null
     },
@@ -41,26 +73,10 @@
       "signature": null
     },
     {
-      "ts": 1777751012,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3T3e…pump · deployer down 32.6% (197160008 → 132957037)",
-      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
-      "signature": null
-    },
-    {
       "ts": 1777750992,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3T3e…pump · STAIRCASE→GRINDER · top +0.34%",
-      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
-      "signature": null
-    },
-    {
-      "ts": 1777750992,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3T3e…pump · deployer down 34.4% (197160008 → 129313540)",
       "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
       "signature": null
     },
@@ -70,22 +86,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3T3e…pump · GRINDER→STAIRCASE · top +0.16%",
       "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
-      "signature": null
-    },
-    {
-      "ts": 1777750894,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE B1oY…pump · DEVELOPING→STAIRCASE · top +0.48%",
-      "mint": "B1oY6Br2BaE6RjSb78zViF1QUm2Nc9y1fo86b58Wpump",
-      "signature": null
-    },
-    {
-      "ts": 1777750893,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7wC7…5Z89 · DEVELOPING→STAIRCASE · top -0.01%",
-      "mint": "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89",
       "signature": null
     },
     {
@@ -121,14 +121,6 @@
       "signature": null
     },
     {
-      "ts": 1777750512,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE SNKq…v8S6 · DEVELOPING→STAIRCASE · top -0.02%",
-      "mint": "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6",
-      "signature": null
-    },
-    {
       "ts": 1777750424,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -142,14 +134,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE Hb3Z…pump · DEVELOPING→STAIRCASE · top -2.16%",
       "mint": "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777750080,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE SNKq…v8S6 · DEVELOPING→STAIRCASE · top +0.54%",
-      "mint": "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6",
       "signature": null
     },
     {
@@ -194,86 +178,14 @@
     }
   ],
   "tokens": {
-    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
-      "symbol": "wifout",
-      "name": "dogwifouthat",
-      "mcap_usd": 83864.0,
-      "price_usd": 0.00008386,
-      "price_change_1h": -41.7,
-      "price_change_24h": null,
-      "liquidity_usd": 23503.61
-    },
-    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
-      "symbol": "LMEOW",
-      "name": "LMEOW",
-      "mcap_usd": 94254.0,
-      "price_usd": 0.00009425,
-      "price_change_1h": 172.0,
-      "price_change_24h": null,
-      "liquidity_usd": 24440.9
-    },
-    "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89": {
-      "symbol": "May4th",
-      "name": "Star Wars",
-      "mcap_usd": 47517.0,
-      "price_usd": 0.00004776,
-      "price_change_1h": 37.92,
-      "price_change_24h": null,
-      "liquidity_usd": 16846.93
-    },
     "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
       "symbol": "FINE",
       "name": "This is Fine",
-      "mcap_usd": 185467.0,
-      "price_usd": 0.0001854,
-      "price_change_1h": -12.37,
+      "mcap_usd": 167417.0,
+      "price_usd": 0.0001674,
+      "price_change_1h": -27.84,
       "price_change_24h": null,
-      "liquidity_usd": 34029.88
-    },
-    "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump": {
-      "symbol": "FLIP",
-      "name": "FLIP",
-      "mcap_usd": 156214.0,
-      "price_usd": 0.0001562,
-      "price_change_1h": 28.37,
-      "price_change_24h": null,
-      "liquidity_usd": 31345.41
-    },
-    "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump": {
-      "symbol": "Bekozu",
-      "name": "べこ〜ず",
-      "mcap_usd": 13876.0,
-      "price_usd": 0.00001387,
-      "price_change_1h": -59.39,
-      "price_change_24h": null,
-      "liquidity_usd": 9077.9
-    },
-    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
-      "symbol": "Faglon",
-      "name": "Faglon",
-      "mcap_usd": 5248.0,
-      "price_usd": 5.248e-6,
-      "price_change_1h": -84.83,
-      "price_change_24h": null,
-      "liquidity_usd": 5611.38
-    },
-    "B1oY6Br2BaE6RjSb78zViF1QUm2Nc9y1fo86b58Wpump": {
-      "symbol": "PETDEX",
-      "name": "The Codex Pet Index",
-      "mcap_usd": 13728.68,
-      "price_usd": 0.00001372,
-      "price_change_1h": -37.48,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "AxXQf12UFbQ7sFotUADH2DA99YY1vR9dRwmJbEYppump": {
-      "symbol": "GMAR",
-      "name": "GMAR",
-      "mcap_usd": 34915.0,
-      "price_usd": 0.00003491,
-      "price_change_1h": 6.65,
-      "price_change_24h": null,
-      "liquidity_usd": 14388.94
+      "liquidity_usd": 32331.89
     },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
@@ -284,14 +196,86 @@
       "price_change_24h": null,
       "liquidity_usd": 72635.01
     },
+    "AxXQf12UFbQ7sFotUADH2DA99YY1vR9dRwmJbEYppump": {
+      "symbol": "GMAR",
+      "name": "GMAR",
+      "mcap_usd": 34915.0,
+      "price_usd": 0.00003491,
+      "price_change_1h": 6.65,
+      "price_change_24h": null,
+      "liquidity_usd": 14388.94
+    },
+    "B1oY6Br2BaE6RjSb78zViF1QUm2Nc9y1fo86b58Wpump": {
+      "symbol": "PETDEX",
+      "name": "The Codex Pet Index",
+      "mcap_usd": 12153.25,
+      "price_usd": 0.00001215,
+      "price_change_1h": -46.46,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
+      "symbol": "Faglon",
+      "name": "Faglon",
+      "mcap_usd": 5236.0,
+      "price_usd": 5.236e-6,
+      "price_change_1h": -86.31,
+      "price_change_24h": null,
+      "liquidity_usd": 5604.03
+    },
     "v8sssEryFSYa5VFdcsq6Y1gBxQ71XaMs2DVPhBDpump": {
       "symbol": "DIPWHEELER",
       "name": "The Hodler",
-      "mcap_usd": 16879.0,
-      "price_usd": 0.00001687,
-      "price_change_1h": -51.23,
+      "mcap_usd": 15417.0,
+      "price_usd": 0.00001541,
+      "price_change_1h": -55.45,
       "price_change_24h": null,
-      "liquidity_usd": 10039.88
+      "liquidity_usd": 9594.93
+    },
+    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
+      "symbol": "LMEOW",
+      "name": "LMEOW",
+      "mcap_usd": 86842.0,
+      "price_usd": 0.00008684,
+      "price_change_1h": 151.0,
+      "price_change_24h": null,
+      "liquidity_usd": 23522.12
+    },
+    "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89": {
+      "symbol": "May4th",
+      "name": "Star Wars",
+      "mcap_usd": 52223.0,
+      "price_usd": 0.00005249,
+      "price_change_1h": 51.58,
+      "price_change_24h": null,
+      "liquidity_usd": 17662.98
+    },
+    "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump": {
+      "symbol": "FLIP",
+      "name": "FLIP",
+      "mcap_usd": 158979.0,
+      "price_usd": 0.0001589,
+      "price_change_1h": 29.38,
+      "price_change_24h": null,
+      "liquidity_usd": 31621.32
+    },
+    "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump": {
+      "symbol": "Bekozu",
+      "name": "べこ〜ず",
+      "mcap_usd": 14880.0,
+      "price_usd": 0.00001487,
+      "price_change_1h": -56.45,
+      "price_change_24h": null,
+      "liquidity_usd": 9399.87
+    },
+    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
+      "symbol": "wifout",
+      "name": "dogwifouthat",
+      "mcap_usd": 50879.0,
+      "price_usd": 0.00005087,
+      "price_change_1h": -58.25,
+      "price_change_24h": null,
+      "liquidity_usd": 18341.19
     }
   },
   "watching": [
@@ -301,21 +285,32 @@
       "classification": "STAIRCASE",
       "confidence": 71,
       "top_holder_pct": 20.59578131289387,
-      "age_secs": 614,
+      "age_secs": 790,
       "gate": "top10",
       "gap": "top10 65.7% >= 50.0% (over by 15.7pp)",
       "last_seen": 1777750426
     },
     {
+      "mint": "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6",
+      "symbol": "Faglon",
+      "classification": "STAIRCASE",
+      "confidence": 70,
+      "top_holder_pct": 43.89017883188239,
+      "age_secs": 643,
+      "gate": "top_holder",
+      "gap": "top 43.89% >= 25.00% (over by 18.89pp)",
+      "last_seen": 1777750573
+    },
+    {
       "mint": "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump",
       "symbol": "Grandma",
       "classification": "GRINDER",
-      "confidence": 68,
+      "confidence": 66,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 1,
+      "age_secs": 2,
       "gate": "tx_rate",
       "gap": "txr 0.3/min < 5.0 (short by 4.7)",
-      "last_seen": 1777751039
+      "last_seen": 1777751214
     }
   ]
 }
