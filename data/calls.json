@@ -2194,15 +2194,15 @@
   ],
   "stats": {
     "short": {
-      "count": 70,
-      "wins": 22,
-      "losses": 46,
-      "expired": 2,
-      "win_rate": 32.35294117647059,
-      "avg_winner_pct": 67.70416237210935,
-      "avg_loser_pct": -49.017395161258236,
-      "best_pct": 311.041104110411,
-      "worst_pct": -99.16252723311547
+      "count": 4,
+      "wins": 3,
+      "losses": 0,
+      "expired": 1,
+      "win_rate": 100.0,
+      "avg_winner_pct": 62.64022098967125,
+      "avg_loser_pct": 0.0,
+      "best_pct": 117.68707482993194,
+      "worst_pct": 10.833940276766207
     },
     "long": {
       "count": 3,
@@ -2214,6 +2214,28 @@
       "avg_loser_pct": -11.831218506623753,
       "best_pct": 49.84260230849949,
       "worst_pct": -20.052770448548817
+    },
+    "moonshot": {
+      "count": 48,
+      "wins": 13,
+      "losses": 34,
+      "expired": 1,
+      "win_rate": 27.659574468085108,
+      "avg_winner_pct": 99.00845330747532,
+      "avg_loser_pct": -46.12662434670459,
+      "best_pct": 311.041104110411,
+      "worst_pct": -96.91800736576856
+    },
+    "scalp": {
+      "count": 18,
+      "wins": 6,
+      "losses": 12,
+      "expired": 0,
+      "win_rate": 33.33333333333333,
+      "avg_winner_pct": 39.29355222670798,
+      "avg_loser_pct": -59.529289032362456,
+      "best_pct": 69.05594405594407,
+      "worst_pct": -99.16252723311547
     },
     "overall": {
       "count": 73,
@@ -2227,17 +2249,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 72,
         "wins": 22,
@@ -2248,6 +2259,17 @@
         "avg_loser_pct": -48.1441696113244,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
