@@ -3,8 +3,8 @@
     {
       "ts": 1777737239,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 4FLR…pump · top 17.31%→19.67% (+2.36%) · DEVELOPING",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -19,8 +19,8 @@
     {
       "ts": 1777737239,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 4FLR…pump · top 17.31%→19.67% (+2.36%) · DEVELOPING",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -35,16 +35,16 @@
     {
       "ts": 1777737222,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · STAIRCASE→GRINDER · top -1.85%",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
     {
       "ts": 1777737222,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · STAIRCASE→GRINDER · top -1.85%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -59,16 +59,16 @@
     {
       "ts": 1777737205,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · DEVELOPING→STAIRCASE · top -0.35%",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
     {
       "ts": 1777737205,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · DEVELOPING→STAIRCASE · top -0.35%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -137,6 +137,14 @@
       "signature": null
     },
     {
+      "ts": 1777737070,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3dPu…pump · STAIRCASE→GRINDER · top +0.76%",
+      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "signature": null
+    },
+    {
       "ts": 1777736690,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -161,93 +169,68 @@
       "signature": null
     },
     {
-      "ts": 1777735667,
+      "ts": 1777736227,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DkTT…pump · GRINDER→DEVELOPING · top -0.39%",
-      "mint": "DkTTewt1waDNaFx6LZpwrnVy5kCEqrGB9dcK1ibHpump",
-      "signature": null
-    },
-    {
-      "ts": 1777735650,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Pf9a…bonk · DEVELOPING→STAIRCASE · top +0.29%",
-      "mint": "Pf9aSicGu3g6tTUBqrRbjNsGape9HopibspX5KSbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777735650,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DkTT…pump · STAIRCASE→GRINDER · top +0.22%",
-      "mint": "DkTTewt1waDNaFx6LZpwrnVy5kCEqrGB9dcK1ibHpump",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING Gjb2…pump · top 30.74%→42.22% (+11.48%) · DEVELOPING",
+      "mint": "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump",
       "signature": null
     }
   ],
   "tokens": {
-    "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump": {
-      "symbol": "TOILET",
-      "name": "Toilet Terminal",
-      "mcap_usd": 17316.0,
-      "price_usd": 0.00001731,
-      "price_change_1h": -49.93,
+    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
+      "symbol": "GOLD",
+      "name": "Penguins Finding Gold",
+      "mcap_usd": 13930.0,
+      "price_usd": 0.00001392,
+      "price_change_1h": -58.83,
       "price_change_24h": null,
-      "liquidity_usd": 10171.78
+      "liquidity_usd": 9075.99
     },
     "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump": {
       "symbol": "LGBT",
       "name": "Luigi Got big titties",
-      "mcap_usd": 19635.0,
-      "price_usd": 0.00001963,
-      "price_change_1h": -43.24,
+      "mcap_usd": 22337.0,
+      "price_usd": 0.00002233,
+      "price_change_1h": -35.43,
       "price_change_24h": null,
-      "liquidity_usd": 10802.06
+      "liquidity_usd": 11522.32
+    },
+    "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump": {
+      "symbol": "TOILET",
+      "name": "Toilet Terminal",
+      "mcap_usd": 16360.0,
+      "price_usd": 0.00001635,
+      "price_change_1h": -52.7,
+      "price_change_24h": null,
+      "liquidity_usd": 9885.96
     },
     "E4tPSmY1EtFKfeDaqBfAgbauBpFtvPwS4iQMDfpSpump": {
       "symbol": "DOGE",
       "name": "Do Only Good Everyday",
-      "mcap_usd": 20402.0,
-      "price_usd": 0.0000204,
-      "price_change_1h": -40.99,
+      "mcap_usd": 23226.0,
+      "price_usd": 0.00002322,
+      "price_change_1h": -32.83,
       "price_change_24h": null,
-      "liquidity_usd": 11029.14
-    },
-    "Pf9aSicGu3g6tTUBqrRbjNsGape9HopibspX5KSbonk": {
-      "symbol": "WINNING",
-      "name": "WINNING",
-      "mcap_usd": 6441.0,
-      "price_usd": 6.441e-6,
-      "price_change_1h": -78.53,
-      "price_change_24h": null,
-      "liquidity_usd": 7376.44
-    },
-    "DkTTewt1waDNaFx6LZpwrnVy5kCEqrGB9dcK1ibHpump": {
-      "symbol": "Asante",
-      "name": "Asante",
-      "mcap_usd": 6373.0,
-      "price_usd": 6.373e-6,
-      "price_change_1h": -80.82,
-      "price_change_24h": null,
-      "liquidity_usd": 6166.43
+      "liquidity_usd": 11765.53
     },
     "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump": {
       "symbol": "HODLster",
       "name": "HODLster",
-      "mcap_usd": 21091.0,
-      "price_usd": 0.00002109,
-      "price_change_1h": -35.82,
+      "mcap_usd": 15929.0,
+      "price_usd": 0.00001592,
+      "price_change_1h": -51.53,
       "price_change_24h": null,
-      "liquidity_usd": 11564.19
+      "liquidity_usd": 10052.92
     },
-    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
-      "symbol": "GOLD",
-      "name": "Penguins Finding Gold",
-      "mcap_usd": 14288.0,
-      "price_usd": 0.00001428,
-      "price_change_1h": -57.77,
+    "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump": {
+      "symbol": "50",
+      "name": "$50 and a dream",
+      "mcap_usd": 4200.0,
+      "price_usd": 4.199e-6,
+      "price_change_1h": -87.86,
       "price_change_24h": null,
-      "liquidity_usd": 9192.7
+      "liquidity_usd": 5022.57
     }
   },
   "watching": []
