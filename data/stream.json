@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777697606,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CEqa…pump · GRINDER→STAIRCASE · top -0.77%",
+      "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
+      "signature": null
+    },
+    {
       "ts": 1777697245,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -27,16 +35,16 @@
     {
       "ts": 1777696470,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING WZcc…pump · top 21.04%→23.68% (+2.64%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · GRINDER→DEVELOPING · top +2.64%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
     {
       "ts": 1777696470,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · GRINDER→DEVELOPING · top +2.64%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING WZcc…pump · top 21.04%→23.68% (+2.64%) · DEVELOPING",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -59,16 +67,16 @@
     {
       "ts": 1777695923,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING FxMA…pump · top 46.86%→52.87% (+6.01%) · DEVELOPING",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING FxMA…pump · deployer down 100.0% (303776698 → 0)",
       "mint": "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump",
       "signature": null
     },
     {
       "ts": 1777695923,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING FxMA…pump · deployer down 100.0% (303776698 → 0)",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING FxMA…pump · top 46.86%→52.87% (+6.01%) · DEVELOPING",
       "mint": "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump",
       "signature": null
     },
@@ -98,41 +106,50 @@
     }
   ],
   "tokens": {
-    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
-      "symbol": "Ewon",
-      "name": "Scribbillion EWON",
-      "mcap_usd": 1128200.0,
-      "price_usd": 0.001128,
-      "price_change_1h": 21.76,
-      "price_change_24h": null,
-      "liquidity_usd": 84324.3
-    },
-    "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump": {
-      "symbol": "Dog",
-      "name": "DogCoin",
-      "mcap_usd": 3723.0,
-      "price_usd": 3.722e-6,
-      "price_change_1h": -88.96,
-      "price_change_24h": null,
-      "liquidity_usd": 4707.03
-    },
     "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
       "symbol": "goblintown",
       "name": "goblintown",
-      "mcap_usd": 135863.0,
-      "price_usd": 0.0001358,
-      "price_change_1h": 234.0,
+      "mcap_usd": 150630.0,
+      "price_usd": 0.0001506,
+      "price_change_1h": 119.0,
       "price_change_24h": null,
-      "liquidity_usd": 29132.46
+      "liquidity_usd": 30716.8
     },
     "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump": {
       "symbol": "Dog",
       "name": "DogCoin",
-      "mcap_usd": 23905.0,
-      "price_usd": 0.0000239,
-      "price_change_1h": -29.3,
+      "mcap_usd": 27915.0,
+      "price_usd": 0.00002791,
+      "price_change_1h": -17.43,
       "price_change_24h": null,
-      "liquidity_usd": 11966.59
+      "liquidity_usd": 12933.81
+    },
+    "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump": {
+      "symbol": "NPC",
+      "name": "Not Predictable Coin",
+      "mcap_usd": 38473.0,
+      "price_usd": 0.00003847,
+      "price_change_1h": 11.94,
+      "price_change_24h": null,
+      "liquidity_usd": 15043.45
+    },
+    "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump": {
+      "symbol": "Dog",
+      "name": "DogCoin",
+      "mcap_usd": 3839.0,
+      "price_usd": 3.839e-6,
+      "price_change_1h": -88.61,
+      "price_change_24h": null,
+      "liquidity_usd": 4780.85
+    },
+    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
+      "symbol": "Ewon",
+      "name": "Scribbillion EWON",
+      "mcap_usd": 1110866.0,
+      "price_usd": 0.00111,
+      "price_change_1h": 19.88,
+      "price_change_24h": null,
+      "liquidity_usd": 83697.72
     }
   }
 }
