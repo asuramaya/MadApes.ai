@@ -1,34 +1,50 @@
 {
   "events": [
     {
-      "ts": 1777742725,
+      "ts": 1777743030,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.04%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.00%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777742675,
+      "ts": 1777743011,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.00%",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777742590,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.24%",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.08%",
       "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
       "signature": null
     },
     {
-      "ts": 1777742589,
+      "ts": 1777742939,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.00%",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top -0.33%",
+      "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777742902,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.01%",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777742885,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top -0.03%",
+      "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777742794,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.01%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
@@ -82,32 +98,41 @@
     }
   ],
   "tokens": {
-    "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump": {
-      "symbol": "memegotchi",
-      "name": "your onchain pet",
-      "mcap_usd": 64038.0,
-      "price_usd": 0.00006403,
-      "price_change_1h": 84.94,
-      "price_change_24h": null,
-      "liquidity_usd": 19513.47
-    },
     "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
       "symbol": "Piper",
       "name": "Pied Piper",
-      "mcap_usd": 8278.0,
-      "price_usd": 8.277e-6,
-      "price_change_1h": -76.1,
+      "mcap_usd": 7955.0,
+      "price_usd": 7.954e-6,
+      "price_change_1h": -77.03,
       "price_change_24h": null,
-      "liquidity_usd": 7003.96
+      "liquidity_usd": 6867.13
+    },
+    "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump": {
+      "symbol": "LGBT",
+      "name": "Luigi Got Big Titties ",
+      "mcap_usd": 31787.0,
+      "price_usd": 0.00003178,
+      "price_change_1h": -8.23,
+      "price_change_24h": null,
+      "liquidity_usd": 13718.76
     },
     "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 142964.0,
-      "price_usd": 0.0001429,
-      "price_change_1h": 255.0,
+      "mcap_usd": 141607.0,
+      "price_usd": 0.0001416,
+      "price_change_1h": 252.0,
       "price_change_24h": null,
-      "liquidity_usd": 29137.25
+      "liquidity_usd": 29007.41
+    },
+    "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump": {
+      "symbol": "memegotchi",
+      "name": "your onchain pet",
+      "mcap_usd": 45042.0,
+      "price_usd": 0.00004504,
+      "price_change_1h": 30.08,
+      "price_change_24h": null,
+      "liquidity_usd": 16395.73
     },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
@@ -117,15 +142,6 @@
       "price_change_1h": -0.99,
       "price_change_24h": null,
       "liquidity_usd": 72993.41
-    },
-    "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump": {
-      "symbol": "LGBT",
-      "name": "Luigi Got Big Titties ",
-      "mcap_usd": 27911.0,
-      "price_usd": 0.00002791,
-      "price_change_1h": -19.42,
-      "price_change_24h": null,
-      "liquidity_usd": 12847.01
     }
   },
   "watching": [
@@ -135,10 +151,10 @@
       "classification": "GRINDER",
       "confidence": 68,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 12,
+      "age_secs": 5,
       "gate": "top10",
       "gap": "top10 41.1% >= 33.0% (over by 8.1pp)",
-      "last_seen": 1777742742
+      "last_seen": 1777743049
     }
   ]
 }
