@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 129,
+      "mint": "EvmirLpR7d1bLKFAPmndAimac5jYGwwg5Ee31tc7baiN",
+      "symbol": "SAM MOGMAN",
+      "classification": "GRINDER",
+      "confidence": 81,
+      "called_at": 1777757209,
+      "expires_at": 1777762609,
+      "note": "SAM at 106k, 143/min and 2.17 buys, top1 12%, top10 35%, I’m in. · horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 106558.0,
+      "entry_price_usd": 0.0001065,
+      "entry_liquidity_usd": 25531.49,
+      "entry_top_holder_pct": 12.159348972855009,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 102199.0,
+      "current_price_usd": 0.0001021,
+      "current_liquidity_usd": 25015.29,
+      "pct_from_call": -4.131455399061035,
+      "peak_pct": -8.150234741784047,
+      "peak_at": 1777757209,
+      "trough_pct": -8.150234741784047,
+      "trough_at": 1777757209,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 128,
