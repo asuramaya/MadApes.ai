@@ -19,16 +19,16 @@
     {
       "ts": 1777729811,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · STAIRCASE→DEVELOPING · top +2.82%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 2RbW…tz9Q · top 28.34%→31.15% (+2.82%) · DEVELOPING",
       "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
       "signature": null
     },
     {
       "ts": 1777729811,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 2RbW…tz9Q · top 28.34%→31.15% (+2.82%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · STAIRCASE→DEVELOPING · top +2.82%",
       "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
       "signature": null
     },
@@ -85,29 +85,29 @@
     "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q": {
       "symbol": "pepe",
       "name": "pepe",
-      "mcap_usd": 9828.0,
-      "price_usd": 9.827e-6,
-      "price_change_1h": -71.58,
+      "mcap_usd": 6894.0,
+      "price_usd": 6.894e-6,
+      "price_change_1h": -80.06,
       "price_change_24h": null,
-      "liquidity_usd": 7691.51
+      "liquidity_usd": 6440.96
     },
     "4kCZp6rLBNSrjHEYXbE54MYbFb5dpMuptBtZHnMvpump": {
       "symbol": "MSPEPE",
       "name": "MS Paint Pepe",
-      "mcap_usd": 2440.0,
-      "price_usd": 2.439e-6,
-      "price_change_1h": -98.01,
+      "mcap_usd": 2443.0,
+      "price_usd": 2.442e-6,
+      "price_change_1h": 8.83,
       "price_change_24h": null,
-      "liquidity_usd": 4111.21
+      "liquidity_usd": 4112.93
     },
     "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg": {
-      "symbol": "UNKNOWN",
-      "name": "Unknown",
-      "mcap_usd": 12081.0,
-      "price_usd": 4.83,
-      "price_change_1h": 287.0,
+      "symbol": "pPEG",
+      "name": "PEPE PEG",
+      "mcap_usd": 13954.0,
+      "price_usd": 5.58,
+      "price_change_1h": 379.0,
       "price_change_24h": null,
-      "liquidity_usd": 4946.7
+      "liquidity_usd": 5419.23
     }
   }
 }
