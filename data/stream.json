@@ -25,26 +25,26 @@
       "signature": null
     },
     {
-      "ts": 1777696196,
+      "ts": 1777696470,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · DEVELOPING→STAIRCASE · top -2.62%",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · GRINDER→DEVELOPING · top +2.64%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
     {
-      "ts": 1777696067,
+      "ts": 1777696439,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · STAIRCASE→DEVELOPING · top +0.29%",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · DEVELOPING→GRINDER · top -2.04%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
     {
-      "ts": 1777696051,
+      "ts": 1777696277,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · DEVELOPING→STAIRCASE · top +0.77%",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · STAIRCASE→DEVELOPING · top -5.15%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -105,14 +105,6 @@
       "signature": null
     },
     {
-      "ts": 1777695156,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE FxMA…pump · DEVELOPING→GRINDER · top -7.28%",
-      "mint": "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump",
-      "signature": null
-    },
-    {
       "ts": 1777693963,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -122,32 +114,32 @@
     }
   ],
   "tokens": {
-    "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
-      "symbol": "goblintown",
-      "name": "goblintown",
-      "mcap_usd": 101746.0,
-      "price_usd": 0.0001017,
-      "price_change_1h": 195.0,
+    "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump": {
+      "symbol": "Dog",
+      "name": "DogCoin",
+      "mcap_usd": 3743.0,
+      "price_usd": 3.742e-6,
+      "price_change_1h": -88.9,
       "price_change_24h": null,
-      "liquidity_usd": 25102.11
+      "liquidity_usd": 4722.09
     },
     "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump": {
       "symbol": "Dog",
       "name": "DogCoin",
-      "mcap_usd": 26339.0,
-      "price_usd": 0.00002633,
-      "price_change_1h": -22.1,
+      "mcap_usd": 28465.0,
+      "price_usd": 0.00002846,
+      "price_change_1h": -15.81,
       "price_change_24h": null,
-      "liquidity_usd": 12563.02
+      "liquidity_usd": 13060.45
     },
-    "FxMARmyGmoo8K9zdMCnDWSp5ZkusBA1dQVVx1v82pump": {
-      "symbol": "Dog",
-      "name": "DogCoin",
-      "mcap_usd": 4932.0,
-      "price_usd": 4.932e-6,
-      "price_change_1h": -85.37,
+    "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
+      "symbol": "goblintown",
+      "name": "goblintown",
+      "mcap_usd": 132606.0,
+      "price_usd": 0.0001326,
+      "price_change_1h": 285.0,
       "price_change_24h": null,
-      "liquidity_usd": 5421.65
+      "liquidity_usd": 28735.3
     }
   }
 }
