@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777750080,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE SNKq…v8S6 · DEVELOPING→STAIRCASE · top +0.54%",
+      "mint": "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6",
+      "signature": null
+    },
+    {
       "ts": 1777750077,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -130,33 +138,6 @@
     }
   ],
   "tokens": {
-    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
-      "symbol": "wifout",
-      "name": "dogwifouthat",
-      "mcap_usd": 98133.0,
-      "price_usd": 0.00009813,
-      "price_change_1h": -5.06,
-      "price_change_24h": null,
-      "liquidity_usd": 25334.64
-    },
-    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
-      "symbol": "Faglon",
-      "name": "Faglon",
-      "mcap_usd": 8289.0,
-      "price_usd": 8.289e-6,
-      "price_change_1h": -76.04,
-      "price_change_24h": null,
-      "liquidity_usd": 7049.77
-    },
-    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
-      "symbol": "FINE",
-      "name": "This is Fine",
-      "mcap_usd": 211447.0,
-      "price_usd": 0.0002114,
-      "price_change_1h": -16.41,
-      "price_change_24h": null,
-      "liquidity_usd": 36311.51
-    },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
       "name": "Minecraft Grandma Fund",
@@ -166,23 +147,14 @@
       "price_change_24h": null,
       "liquidity_usd": 72635.01
     },
-    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
-      "symbol": "LMEOW",
-      "name": "LMEOW",
-      "mcap_usd": 39807.0,
-      "price_usd": 0.0000398,
-      "price_change_1h": 14.87,
+    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
+      "symbol": "wifout",
+      "name": "dogwifouthat",
+      "mcap_usd": 93775.0,
+      "price_usd": 0.00009377,
+      "price_change_1h": -9.28,
       "price_change_24h": null,
-      "liquidity_usd": 15747.98
-    },
-    "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump": {
-      "symbol": "Bekozu",
-      "name": "べこ〜ず",
-      "mcap_usd": 11111.0,
-      "price_usd": 0.00001111,
-      "price_change_1h": -67.48,
-      "price_change_24h": null,
-      "liquidity_usd": 8118.27
+      "liquidity_usd": 24767.74
     },
     "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump": {
       "symbol": "FLIP",
@@ -192,6 +164,42 @@
       "price_change_1h": 58.54,
       "price_change_24h": null,
       "liquidity_usd": 34260.22
+    },
+    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
+      "symbol": "LMEOW",
+      "name": "LMEOW",
+      "mcap_usd": 34817.0,
+      "price_usd": 0.00003481,
+      "price_change_1h": 0.47,
+      "price_change_24h": null,
+      "liquidity_usd": 14729.6
+    },
+    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
+      "symbol": "Faglon",
+      "name": "Faglon",
+      "mcap_usd": 8145.0,
+      "price_usd": 8.144e-6,
+      "price_change_1h": -76.46,
+      "price_change_24h": null,
+      "liquidity_usd": 6988.09
+    },
+    "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump": {
+      "symbol": "Bekozu",
+      "name": "べこ〜ず",
+      "mcap_usd": 10712.0,
+      "price_usd": 0.00001071,
+      "price_change_1h": -68.65,
+      "price_change_24h": null,
+      "liquidity_usd": 7971.1
+    },
+    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
+      "symbol": "FINE",
+      "name": "This is Fine",
+      "mcap_usd": 211739.0,
+      "price_usd": 0.0002117,
+      "price_change_1h": -2.86,
+      "price_change_24h": null,
+      "liquidity_usd": 36336.7
     }
   },
   "watching": [
@@ -201,10 +209,10 @@
       "classification": "GRINDER",
       "confidence": 76,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 2,
+      "age_secs": 11,
       "gate": "tx_rate",
       "gap": "txr 0.3/min < 5.0 (short by 4.7)",
-      "last_seen": 1777750076
+      "last_seen": 1777750097
     }
   ]
 }
