@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 128,
       "mint": "C86oXELBwYeKiK4GM2wAiRcKmWsmRmFTbaoQJUMjpump",
@@ -10,28 +11,26 @@
       "expires_at": 1777762365,
       "note": "Mogman’s 67k with 150/min and buys edging sells; sniper-heavy, but I’m in for the shot · horizon=MOONSHOT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777757110,
+      "exit_price_usd": 0.00004574,
+      "exit_note": "-32.0% · moonshot stop",
       "entry_mcap_usd": 67279.0,
       "entry_price_usd": 0.00006727,
       "entry_liquidity_usd": 20842.26,
       "entry_top_holder_pct": 15.994648186814297,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 58823.0,
-      "current_price_usd": 0.00005882,
-      "current_liquidity_usd": 19492.91,
-      "pct_from_call": -12.56132005351568,
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00004574,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -32.00535156830683,
       "peak_pct": 3.2109409840939573,
       "peak_at": 1777756965,
-      "trough_pct": -12.56132005351568,
-      "trough_at": 1777757024,
+      "trough_pct": -32.00535156830683,
+      "trough_at": 1777757109,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 127,
       "mint": "5fctAP4JyfytHdQoonnS4epKTmWdQwCugUUM8EbRpump",
@@ -2427,13 +2426,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 52,
+      "count": 53,
       "wins": 14,
-      "losses": 37,
+      "losses": 38,
       "expired": 1,
-      "win_rate": 27.450980392156865,
+      "win_rate": 26.923076923076923,
       "avg_winner_pct": 117.93700716644284,
-      "avg_loser_pct": -44.81980872242989,
+      "avg_loser_pct": -44.52857105983618,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -2449,13 +2448,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 79,
+      "count": 80,
       "wins": 23,
-      "losses": 54,
+      "losses": 55,
       "expired": 2,
-      "win_rate": 29.87012987012987,
+      "win_rate": 29.48717948717949,
       "avg_winner_pct": 75.94772045928416,
-      "avg_loser_pct": -45.442052618128024,
+      "avg_loser_pct": -45.21431192236834,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -2472,13 +2471,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 78,
+        "count": 79,
         "wins": 23,
-        "losses": 53,
+        "losses": 54,
         "expired": 2,
-        "win_rate": 30.263157894736842,
+        "win_rate": 29.87012987012987,
         "avg_winner_pct": 75.94772045928416,
-        "avg_loser_pct": -45.8874786211031,
+        "avg_loser_pct": -45.64813160295143,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
