@@ -1,5 +1,78 @@
 {
-  "events": [],
-  "tokens": {},
-  "watching": []
+  "events": [
+    {
+      "ts": 1777749888,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3hHZ…pump · GRINDER→STAIRCASE · top -8.28%",
+      "mint": "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump",
+      "signature": null
+    },
+    {
+      "ts": 1777749888,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3hHZ…pump · deployer down 35.1% (132113716 → 85691828)",
+      "mint": "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump",
+      "signature": null
+    },
+    {
+      "ts": 1777749884,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CFWs…pump · GRINDER→STAIRCASE · top +1.77%",
+      "mint": "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump",
+      "signature": null
+    },
+    {
+      "ts": 1777749884,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$wifout at $75k mcap — entry frozen",
+      "mint": "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump",
+      "signature": null
+    }
+  ],
+  "tokens": {
+    "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
+      "symbol": "Grandma",
+      "name": "Minecraft Grandma Fund",
+      "mcap_usd": 337690.0,
+      "price_usd": 0.0003376,
+      "price_change_1h": -0.57,
+      "price_change_24h": null,
+      "liquidity_usd": 72635.01
+    },
+    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
+      "symbol": "FINE",
+      "name": "This is Fine",
+      "mcap_usd": 213259.0,
+      "price_usd": 0.0002132,
+      "price_change_1h": -15.35,
+      "price_change_24h": null,
+      "liquidity_usd": 36461.13
+    },
+    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
+      "symbol": "wifout",
+      "name": "dogwifouthat",
+      "mcap_usd": 76992.0,
+      "price_usd": 0.00007699,
+      "price_change_1h": 12.9,
+      "price_change_24h": null,
+      "liquidity_usd": 22425.12
+    }
+  },
+  "watching": [
+    {
+      "mint": "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump",
+      "symbol": "Grandma",
+      "classification": "GRINDER",
+      "confidence": 76,
+      "top_holder_pct": 11.500214853039353,
+      "age_secs": 24,
+      "gate": "tx_rate",
+      "gap": "txr 0.3/min < 5.0 (short by 4.7)",
+      "last_seen": 1777749887
+    }
+  ]
 }

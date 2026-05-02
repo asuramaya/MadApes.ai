@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 122,
+      "mint": "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump",
+      "symbol": "wifout",
+      "classification": "STAIRCASE",
+      "confidence": 82,
+      "called_at": 1777749884,
+      "expires_at": 1777755284,
+      "note": "in at $74.8k mc, distribution clean. flow's there. holders look weird but the tape is the tape. swing — +50/+100 ladder, stop -40. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 74793.0,
+      "entry_price_usd": 0.00007479,
+      "entry_liquidity_usd": 22101.48,
+      "entry_top_holder_pct": 14.494646022272919,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 76992.0,
+      "current_price_usd": 0.00007699,
+      "current_liquidity_usd": 22425.12,
+      "pct_from_call": 2.9415697285733566,
+      "peak_pct": 2.9415697285733566,
+      "peak_at": 1777749884,
+      "trough_pct": 2.9415697285733566,
+      "trough_at": 1777749884,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 121,
@@ -2249,17 +2280,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 72,
-        "wins": 22,
-        "losses": 48,
-        "expired": 2,
-        "win_rate": 31.428571428571427,
-        "avg_winner_pct": 66.7640802634983,
-        "avg_loser_pct": -48.1441696113244,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -2270,6 +2290,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 72,
+        "wins": 22,
+        "losses": 48,
+        "expired": 2,
+        "win_rate": 31.428571428571427,
+        "avg_winner_pct": 66.7640802634983,
+        "avg_loser_pct": -48.1441696113244,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
