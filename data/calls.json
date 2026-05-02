@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 131,
+      "mint": "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb",
+      "symbol": "CHUDMAN",
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "called_at": 1777759155,
+      "expires_at": 1777764555,
+      "note": "CHUDMAN's fresh at 34.9k, top1's 21%, 375/min, and buys are still ahead. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 34936.0,
+      "entry_price_usd": 0.00003493,
+      "entry_liquidity_usd": 14502.07,
+      "entry_top_holder_pct": 20.9272307811012,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 47363.0,
+      "current_price_usd": 0.00004736,
+      "current_liquidity_usd": 16960.82,
+      "pct_from_call": 35.5854566275408,
+      "peak_pct": 11.365588319496123,
+      "peak_at": 1777759222,
+      "trough_pct": -3.721729172630972,
+      "trough_at": 1777759155,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 130,
