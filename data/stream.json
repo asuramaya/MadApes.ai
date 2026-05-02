@@ -1,34 +1,42 @@
 {
   "events": [
     {
-      "ts": 1777741140,
+      "ts": 1777741418,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741091,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 83VT…pump · top 36.88%→40.27% (+3.40%) · DEVELOPING",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777741074,
+      "ts": 1777741401,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.13%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.01%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777741057,
+      "ts": 1777741384,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.43x→0.40x · tpm 17.2",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777741384,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.17%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top -0.02%",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777741297,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 11.00x→0.37x · tpm 26.1",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
@@ -38,30 +46,6 @@
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 3.00x→0.38x · tpm 130.4",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777740991,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 3.80x→0.25x · tpm 23.6",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777740907,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 2.71x→0.33x · tpm 23.8",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777740875,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 83VT…pump · top 37.93%→40.14% (+2.21%) · DEVELOPING",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
       "signature": null
     },
     {
@@ -78,6 +62,14 @@
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING 9xR3…pump · top 19.33%→21.41% (+2.08%) · GRINDER",
       "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777740517,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 83VT…pump · top 38.32%→41.88% (+3.57%) · DEVELOPING",
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
       "signature": null
     },
     {
@@ -111,85 +103,35 @@
       "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top -1.19%",
       "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
       "signature": null
-    },
-    {
-      "ts": 1777739536,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING E1d8…pump · top 45.25%→48.39% (+3.14%) · DEVELOPING",
-      "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
-      "signature": null
-    },
-    {
-      "ts": 1777739436,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 47xV…XP22 · top 38.97%→47.96% (+8.99%) · DEVELOPING",
-      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
-      "signature": null
-    },
-    {
-      "ts": 1777739352,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 47xV…XP22 · GRINDER→DEVELOPING · top +0.22%",
-      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
-      "signature": null
-    },
-    {
-      "ts": 1777739335,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 47xV…XP22 · top 24.83%→27.39% (+2.57%) · GRINDER",
-      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
-      "signature": null
     }
   ],
   "tokens": {
-    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
-      "symbol": "WINNING",
-      "name": "WINNING",
-      "mcap_usd": 139112.0,
-      "price_usd": 0.0001391,
-      "price_change_1h": 245.0,
-      "price_change_24h": null,
-      "liquidity_usd": 28745.58
-    },
-    "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump": {
-      "symbol": "INKWELL",
-      "name": "Inkwell Terminal",
-      "mcap_usd": 7266.0,
-      "price_usd": 7.265e-6,
-      "price_change_1h": -78.26,
-      "price_change_24h": null,
-      "liquidity_usd": 6673.49
-    },
     "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
       "symbol": "Piper",
       "name": "Pied Piper",
-      "mcap_usd": 9132.0,
-      "price_usd": 9.131e-6,
-      "price_change_1h": -73.63,
+      "mcap_usd": 11860.0,
+      "price_usd": 0.00001186,
+      "price_change_1h": -65.76,
       "price_change_24h": null,
-      "liquidity_usd": 7363.15
+      "liquidity_usd": 8389.55
+    },
+    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
+      "symbol": "WINNING",
+      "name": "WINNING",
+      "mcap_usd": 134249.0,
+      "price_usd": 0.0001342,
+      "price_change_1h": 233.0,
+      "price_change_24h": null,
+      "liquidity_usd": 28238.03
     },
     "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump": {
       "symbol": "VINCENT",
       "name": "Vincent For President",
-      "mcap_usd": 61498.0,
-      "price_usd": 0.00006149,
-      "price_change_1h": 77.44,
+      "mcap_usd": 62611.0,
+      "price_usd": 0.00006261,
+      "price_change_1h": 80.65,
       "price_change_24h": null,
-      "liquidity_usd": 19543.26
-    },
-    "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22": {
-      "symbol": "Saul",
-      "name": "Saul",
-      "mcap_usd": 3195.0,
-      "price_usd": 3.195e-6,
-      "price_change_1h": -90.78,
-      "price_change_24h": null,
-      "liquidity_usd": 4377.52
+      "liquidity_usd": 19786.34
     }
   },
   "watching": []
