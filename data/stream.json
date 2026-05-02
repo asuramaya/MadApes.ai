@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777738055,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3dPu…pump · deployer down 100.0% (207507823 → 0)",
+      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777738054,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
+      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
+      "signature": null
+    },
+    {
       "ts": 1777737239,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -11,16 +27,16 @@
     {
       "ts": 1777737239,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 4FLR…pump · top 17.31%→19.67% (+2.36%) · DEVELOPING",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
     {
       "ts": 1777737239,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 4FLR…pump · top 17.31%→19.67% (+2.36%) · DEVELOPING",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -65,22 +81,6 @@
       "signature": null
     },
     {
-      "ts": 1777737205,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
-      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777737188,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3dPu…pump · deployer down 100.0% (207507823 → 0)",
-      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
-      "signature": null
-    },
-    {
       "ts": 1777737187,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -99,17 +99,17 @@
     {
       "ts": 1777737154,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3dPu…pump · GRINDER→DEVELOPING · top +1.66%",
-      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4ar1…pump · deployer down 34.0% (208719705 → 137749699)",
+      "mint": "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump",
       "signature": null
     },
     {
       "ts": 1777737154,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4ar1…pump · deployer down 34.0% (208719705 → 137749699)",
-      "mint": "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3dPu…pump · GRINDER→DEVELOPING · top +1.66%",
+      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
       "signature": null
     },
     {
@@ -159,78 +159,44 @@
       "summary": "CLASSIFICATION_CHANGE 8vf1…pump · DEVELOPING→STAIRCASE · top +0.03%",
       "mint": "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump",
       "signature": null
-    },
-    {
-      "ts": 1777736264,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE E4tP…pump · DEVELOPING→GRINDER · top -0.01%",
-      "mint": "E4tPSmY1EtFKfeDaqBfAgbauBpFtvPwS4iQMDfpSpump",
-      "signature": null
-    },
-    {
-      "ts": 1777736227,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING Gjb2…pump · top 30.74%→42.22% (+11.48%) · DEVELOPING",
-      "mint": "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump",
-      "signature": null
     }
   ],
   "tokens": {
-    "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump": {
-      "symbol": "TOILET",
-      "name": "Toilet Terminal",
-      "mcap_usd": 15890.0,
-      "price_usd": 0.00001589,
-      "price_change_1h": -58.73,
+    "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump": {
+      "symbol": "HODLster",
+      "name": "HODLster",
+      "mcap_usd": 7124.0,
+      "price_usd": 7.123e-6,
+      "price_change_1h": -78.32,
       "price_change_24h": null,
-      "liquidity_usd": 9742.78
+      "liquidity_usd": 6727.45
     },
     "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump": {
       "symbol": "LGBT",
       "name": "Luigi Got big titties",
-      "mcap_usd": 28323.0,
-      "price_usd": 0.00002832,
-      "price_change_1h": -18.12,
+      "mcap_usd": 24817.0,
+      "price_usd": 0.00002481,
+      "price_change_1h": -28.26,
       "price_change_24h": null,
-      "liquidity_usd": 12976.49
+      "liquidity_usd": 12150.01
     },
     "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
       "symbol": "GOLD",
       "name": "Penguins Finding Gold",
-      "mcap_usd": 15966.0,
-      "price_usd": 0.00001596,
-      "price_change_1h": -52.81,
+      "mcap_usd": 15472.0,
+      "price_usd": 0.00001547,
+      "price_change_1h": -54.27,
       "price_change_24h": null,
-      "liquidity_usd": 9716.39
+      "liquidity_usd": 9568.38
     },
-    "E4tPSmY1EtFKfeDaqBfAgbauBpFtvPwS4iQMDfpSpump": {
-      "symbol": "DOGE",
-      "name": "Do Only Good Everyday",
-      "mcap_usd": 24891.0,
-      "price_usd": 0.00002489,
-      "price_change_1h": -28.01,
+    "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump": {
+      "symbol": "TOILET",
+      "name": "Toilet Terminal",
+      "mcap_usd": 15704.0,
+      "price_usd": 0.0000157,
+      "price_change_1h": 108.0,
       "price_change_24h": null,
-      "liquidity_usd": 12181.2
-    },
-    "Gjb24wEcqqj687m7dYLBJrKoQiaNBkFLeijF8kj1pump": {
-      "symbol": "50",
-      "name": "$50 and a dream",
-      "mcap_usd": 3677.0,
-      "price_usd": 3.677e-6,
-      "price_change_1h": -89.37,
-      "price_change_24h": null,
-      "liquidity_usd": 4699.5
-    },
-    "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump": {
-      "symbol": "HODLster",
-      "name": "HODLster",
-      "mcap_usd": 8819.0,
-      "price_usd": 8.818e-6,
-      "price_change_1h": -73.17,
-      "price_change_24h": null,
-      "liquidity_usd": 7482.55
+      "liquidity_usd": 9686.71
     }
   },
   "watching": []
