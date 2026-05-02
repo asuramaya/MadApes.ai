@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777738612,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE E1d8…pump · STAIRCASE→GRINDER · top -0.15%",
+      "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
+      "signature": null
+    },
+    {
+      "ts": 1777738390,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 6GpC…SsKe · top 31.37%→36.98% (+5.61%) · DEVELOPING",
+      "mint": "6GpCAUAE1eCYrt3Mm2JZTt8sT1fhBHGx7gR5WXNoSsKe",
+      "signature": null
+    },
+    {
+      "ts": 1777738389,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3dPu…pump · deployer down 100.0% (207507823 → 0)",
+      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "signature": null
+    },
+    {
       "ts": 1777738055,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -13,14 +37,6 @@
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 4FLR…pump · deployer down 100.0% (232582482 → 0)",
-      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777737239,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · GRINDER→DEVELOPING · top +2.36%",
       "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
@@ -41,19 +57,19 @@
       "signature": null
     },
     {
+      "ts": 1777737239,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · GRINDER→DEVELOPING · top +2.36%",
+      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
+      "signature": null
+    },
+    {
       "ts": 1777737223,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 3dPu…pump · deployer down 100.0% (207507823 → 0)",
       "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
-      "signature": null
-    },
-    {
-      "ts": 1777737222,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · STAIRCASE→GRINDER · top -1.85%",
-      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
     {
@@ -65,11 +81,11 @@
       "signature": null
     },
     {
-      "ts": 1777737206,
+      "ts": 1777737222,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3dPu…pump · deployer down 100.0% (207507823 → 0)",
-      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4FLR…pump · STAIRCASE→GRINDER · top -1.85%",
+      "mint": "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump",
       "signature": null
     },
     {
@@ -99,17 +115,17 @@
     {
       "ts": 1777737154,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 4ar1…pump · deployer down 34.0% (208719705 → 137749699)",
-      "mint": "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3dPu…pump · GRINDER→DEVELOPING · top +1.66%",
+      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
       "signature": null
     },
     {
       "ts": 1777737154,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3dPu…pump · GRINDER→DEVELOPING · top +1.66%",
-      "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4ar1…pump · deployer down 34.0% (208719705 → 137749699)",
+      "mint": "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump",
       "signature": null
     },
     {
@@ -143,60 +159,53 @@
       "summary": "CLASSIFICATION_CHANGE 3dPu…pump · STAIRCASE→GRINDER · top +0.76%",
       "mint": "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump",
       "signature": null
-    },
-    {
-      "ts": 1777736690,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8vf1…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump",
-      "signature": null
-    },
-    {
-      "ts": 1777736641,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8vf1…pump · DEVELOPING→STAIRCASE · top +0.03%",
-      "mint": "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump",
-      "signature": null
     }
   ],
   "tokens": {
-    "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump": {
-      "symbol": "HODLster",
-      "name": "HODLster",
-      "mcap_usd": 7124.0,
-      "price_usd": 7.123e-6,
-      "price_change_1h": -78.32,
+    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
+      "symbol": "GOLD",
+      "name": "Penguins Finding Gold",
+      "mcap_usd": 20987.0,
+      "price_usd": 0.00002098,
+      "price_change_1h": -37.97,
       "price_change_24h": null,
-      "liquidity_usd": 6727.45
+      "liquidity_usd": 11146.5
     },
     "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump": {
       "symbol": "LGBT",
       "name": "Luigi Got big titties",
-      "mcap_usd": 24817.0,
-      "price_usd": 0.00002481,
-      "price_change_1h": -28.26,
+      "mcap_usd": 39683.0,
+      "price_usd": 0.00003968,
+      "price_change_1h": 14.71,
       "price_change_24h": null,
-      "liquidity_usd": 12150.01
+      "liquidity_usd": 15375.87
     },
-    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
-      "symbol": "GOLD",
-      "name": "Penguins Finding Gold",
-      "mcap_usd": 15472.0,
-      "price_usd": 0.00001547,
-      "price_change_1h": -54.27,
+    "4ar1R1mzaVKSyH3jqagvgQBvw3qTwSjhyqroy8JTpump": {
+      "symbol": "HODLster",
+      "name": "HODLster",
+      "mcap_usd": 5917.0,
+      "price_usd": 5.916e-6,
+      "price_change_1h": -82.0,
       "price_change_24h": null,
-      "liquidity_usd": 9568.38
+      "liquidity_usd": 6133.29
     },
-    "8vf19C9QS9HqE5YyJFuvVMVuKvQqg2EjueRghW7Mpump": {
-      "symbol": "TOILET",
-      "name": "Toilet Terminal",
-      "mcap_usd": 15704.0,
-      "price_usd": 0.0000157,
-      "price_change_1h": 108.0,
+    "6GpCAUAE1eCYrt3Mm2JZTt8sT1fhBHGx7gR5WXNoSsKe": {
+      "symbol": "CASHEW",
+      "name": "Cashew",
+      "mcap_usd": 7195.0,
+      "price_usd": 7.195e-6,
+      "price_change_1h": -79.17,
       "price_change_24h": null,
-      "liquidity_usd": 9686.71
+      "liquidity_usd": 6547.34
+    },
+    "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump": {
+      "symbol": "INKWELL",
+      "name": "Inkwell Terminal",
+      "mcap_usd": 38044.0,
+      "price_usd": 0.00003804,
+      "price_change_1h": 13.84,
+      "price_change_24h": null,
+      "liquidity_usd": 15121.01
     }
   },
   "watching": []
