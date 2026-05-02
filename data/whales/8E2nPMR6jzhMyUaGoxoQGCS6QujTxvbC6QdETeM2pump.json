@@ -1,0 +1,17 @@
+{
+  "call_id": 103,
+  "captured_at": 1777725174,
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "9BF4DrzSSwGBmJg9ZRsBsqhvsuwRyTpAkeBQgu2Z7rKR",
+    "lp_supply_ui": 0.0,
+    "pair_address": "GzquePTvDgtYkvVaCb7broEPiFs4FCcz14E23yFAD86i",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "mint": "8E2nPMR6jzhMyUaGoxoQGCS6QujTxvbC6QdETeM2pump",
+  "symbol": "FOM",
+  "whales": []
+}
