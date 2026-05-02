@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 82.98130831095,
+  "total_value_usd": 120.10495154525,
   "realized_pnl_usd": 0.0,
-  "unrealized_pnl_usd": 0.0,
+  "unrealized_pnl_usd": 37.18276770185,
   "series": [
-    {
-      "ts": 1777057315,
-      "value_usd": 0.2626665257
-    },
     {
       "ts": 1777057615,
       "value_usd": 0.2626665257
@@ -8066,7 +8062,21 @@
     {
       "ts": 1777755591,
       "value_usd": 82.98130831095
+    },
+    {
+      "ts": 1777755986,
+      "value_usd": 120.10495154525
     }
   ],
-  "trades": []
+  "trades": [
+    {
+      "ts": 1777755616,
+      "side": "buy",
+      "symbol": "MAAI",
+      "mint": "9iStGeYTqTsxxx1p1GuZK73Uzh9spBcHYu3Y1suopump",
+      "token_amount_ui": 10000000.0,
+      "sol_amount_ui": 0.298125161,
+      "signature": "3zsLKbdkLUTnwnzRfYPYk3CJdKQAmV2DAyuiav3Q4KLSebfi3nQL7tUYyjh1aGbEBi76NtveDkZa9h43XguUCS4k"
+    }
+  ]
 }
