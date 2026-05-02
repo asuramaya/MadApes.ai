@@ -447,6 +447,79 @@ let HISTORY_STATE = {
 // small wallet doesn't read as a small operation: the *signal quality*
 // is the proof, not the balance. Reads from CALLS_DATA history; no new
 // server-side schema. Filtered to peak >= 50% so we don't show micro-pops.
+function renderFeatured(f) {
+  const section = document.getElementById("featured-token");
+  if (!section) return;
+  if (!f || !f.mint) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  const sym = f.symbol ? "$" + f.symbol : "$??";
+  const name = f.name || "";
+  const setText = (id, t) => {
+    const n = document.getElementById(id);
+    if (n) n.textContent = t;
+  };
+  setText("featured-symbol", sym);
+  setText("featured-name", name);
+  setText("featured-pledge", f.pledge || "");
+  // Price formatting: pump.fun coins are sub-cent territory, render to
+  // 8 sig-figs so the display is readable even at $0.000034.
+  const priceStr =
+    f.price_usd && f.price_usd > 0
+      ? "$" + f.price_usd.toFixed(f.price_usd < 0.01 ? 8 : 4).replace(/0+$/, "").replace(/\.$/, "")
+      : "—";
+  setText("featured-price", priceStr);
+  setText(
+    "featured-mcap",
+    f.mcap_usd ? "$" + formatMcap(f.mcap_usd) : "—"
+  );
+  setText(
+    "featured-liq",
+    f.liquidity_usd ? "$" + formatMcap(f.liquidity_usd) : "—"
+  );
+  const changeNode = document.getElementById("featured-change");
+  if (changeNode) {
+    if (f.price_change_h1 != null) {
+      changeNode.textContent = fmtPct(f.price_change_h1);
+      changeNode.className = "value " + pnlClass(f.price_change_h1);
+    } else {
+      changeNode.textContent = "—";
+      changeNode.className = "value dim";
+    }
+  }
+  // Holding line — pct + balance + pledge prominence.
+  const holdingNode = document.getElementById("featured-holding");
+  if (holdingNode) {
+    const pct = f.ape_holding_pct;
+    const bal = f.ape_balance;
+    if (pct > 0) {
+      holdingNode.textContent =
+        pct.toFixed(2) + "%  ·  " + (bal >= 1e6 ? (bal / 1e6).toFixed(2) + "M" : Math.round(bal).toLocaleString()) + " " + sym;
+      holdingNode.className = "value pos";
+    } else {
+      holdingNode.textContent = "wiring up…";
+      holdingNode.className = "value dim";
+    }
+  }
+  // Buy + chart links.
+  const buyBtn = document.getElementById("featured-buy");
+  if (buyBtn) {
+    if (f.buy_url) {
+      buyBtn.href = f.buy_url;
+      buyBtn.hidden = false;
+    } else {
+      buyBtn.hidden = true;
+    }
+  }
+  const chartBtn = document.getElementById("featured-chart-link");
+  if (chartBtn) {
+    chartBtn.href = "https://dexscreener.com/solana/" + f.mint;
+    chartBtn.hidden = false;
+  }
+}
+
 function renderRunners(history) {
   const container = document.getElementById("runners-list");
   if (!container) return;
@@ -474,8 +547,14 @@ function renderRunners(history) {
     if (term) meta.push(term);
     meta.push("entry $" + (c.entry_mcap_usd ? formatMcap(c.entry_mcap_usd) : "?"));
     meta.push(fmtTimeAgo(c.closed_at || c.called_at));
+    // Runner icon by outcome — 🏆 won (positive realized exit),
+    // 🥈 caught the move but stopped out negative. RUNNERS section is
+    // ordered by peak% regardless of outcome, so the icon is the
+    // shortcut signal for "did we cash this in or just watch it run."
+    const wonRunner = exitPct != null && exitPct > 0;
+    const runnerIcon = wonRunner ? "🏆 " : "🥈 ";
     const symEl = el("div", { class: "sym runner-sym" }, [
-      "🏆 ",
+      runnerIcon,
       el("a", { href: "#call=" + c.mint, class: "sym-link", text: sym }),
     ]);
     const detail = el("div", { class: "detail dim", text: meta.join(" · ") });
@@ -1726,7 +1805,7 @@ let BOOTSTRAPPED = false;
 // ticks. Called on initial load AND every 30s so the page feels live.
 // Thoughts + chart-tabs wiring only happen once at bootstrap.
 async function refreshLiveData() {
-  const [health, pnl, positions, activity, calls, stream, thoughtsIndex] = await Promise.all([
+  const [health, pnl, positions, activity, calls, stream, thoughtsIndex, featured] = await Promise.all([
     loadJson("data/health.json"),
     loadJson("data/pnl.json"),
     loadJson("data/positions.json"),
@@ -1734,8 +1813,10 @@ async function refreshLiveData() {
     loadJson("data/calls.json"),
     loadJson("data/stream.json"),
     loadJson("thoughts/index.json"),
+    loadJson("data/featured.json"),
   ]);
   const posArr = (positions && positions.positions) || [];
+  renderFeatured(featured);
   renderHealth(health);
   renderTicker(health, pnl, calls && calls.active, posArr);
   renderPnl(pnl);

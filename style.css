@@ -506,6 +506,78 @@ h1 .dot {
 /* --- sections --- */
 section { margin: 48px 0; }
 
+/* --- featured token banner — pinned top of the main column --- */
+.featured {
+  margin: 0 0 32px 0;
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(80, 220, 100, 0.06), rgba(13, 14, 17, 0.0));
+  position: relative;
+}
+.featured-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.featured-tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--fg-dim);
+  text-transform: uppercase;
+}
+.featured-pledge {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg-dim);
+  font-style: italic;
+}
+.featured-body { display: grid; grid-template-columns: minmax(140px, auto) 1fr; gap: 18px 28px; align-items: end; }
+.featured-titles { display: flex; flex-direction: column; gap: 2px; }
+.featured-symbol { font-family: var(--mono); font-size: 28px; font-weight: 600; letter-spacing: 0.02em; }
+.featured-name { font-size: 12px; color: var(--fg-dim); }
+.featured-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px 18px; }
+.featured-stat { display: flex; flex-direction: column; gap: 2px; }
+.featured-stat .value { font-family: var(--mono); font-size: 16px; }
+.featured-holding {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.featured-holding .label { margin: 0; }
+.featured-holding .value { font-family: var(--mono); font-size: 18px; }
+.featured-actions { grid-column: 1 / -1; display: flex; gap: 10px; flex-wrap: wrap; }
+.featured-btn {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--fg);
+  text-decoration: none;
+  background: transparent;
+  transition: background 0.12s ease;
+}
+.featured-btn:hover { background: rgba(255, 255, 255, 0.04); }
+.featured-btn.primary {
+  border-color: rgba(80, 220, 100, 0.6);
+  background: rgba(80, 220, 100, 0.12);
+}
+.featured-btn.primary:hover { background: rgba(80, 220, 100, 0.2); }
+@media (max-width: 720px) {
+  .featured-body { grid-template-columns: 1fr; }
+  .featured-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
 h2 {
   font-family: var(--mono);
   font-size: 13px;
