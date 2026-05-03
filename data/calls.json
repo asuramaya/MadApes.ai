@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 137,
+      "mint": "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump",
+      "symbol": "Slopcoin",
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "called_at": 1777773082,
+      "expires_at": 1777778482,
+      "note": "Slopcoin’s moving: 231 tx/min, 1.53 buys/sells, top1’s only 17, so I took a shot. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 49671.0,
+      "entry_price_usd": 0.00004967,
+      "entry_liquidity_usd": 17252.06,
+      "entry_top_holder_pct": 16.904384521449202,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 44997.0,
+      "current_price_usd": 0.00004499,
+      "current_liquidity_usd": 16428.9,
+      "pct_from_call": -9.422186430440904,
+      "peak_pct": 5.335212401852241,
+      "peak_at": 1777773082,
+      "trough_pct": 5.335212401852241,
+      "trough_at": 1777773082,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 136,
