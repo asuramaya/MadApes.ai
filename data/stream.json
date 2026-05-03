@@ -170,14 +170,32 @@
     }
   ],
   "tokens": {
-    "8yvoo1Un5SqZ5XFRXtR7AnHAAd8aNzryosRcFW3npump": {
-      "symbol": "Attention",
-      "name": "The most important currency",
-      "mcap_usd": 6360.0,
-      "price_usd": 6.36e-6,
-      "price_change_1h": -82.09,
+    "4xeCLJkMRAQRWvYzUf3RyL12mQxcLTp4mJpzLXM41JST": {
+      "symbol": "Luna",
+      "name": "ルナ",
+      "mcap_usd": 22655.0,
+      "price_usd": 0.00002265,
+      "price_change_1h": -32.97,
       "price_change_24h": null,
-      "liquidity_usd": 6140.21
+      "liquidity_usd": 11601.53
+    },
+    "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump": {
+      "symbol": "Mike",
+      "name": "MikeOSS",
+      "mcap_usd": 20924.0,
+      "price_usd": 0.00002092,
+      "price_change_1h": 34.31,
+      "price_change_24h": null,
+      "liquidity_usd": 11188.07
+    },
+    "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR": {
+      "symbol": "GMAR",
+      "name": "Global Military Arms Reserve",
+      "mcap_usd": 16266006.0,
+      "price_usd": 0.04066,
+      "price_change_1h": -4.5,
+      "price_change_24h": null,
+      "liquidity_usd": 161324.6
     },
     "6rYtoAHHmQSNfge15Y6jaPyoH5gVY3cqEyLiPPzNpump": {
       "symbol": "goblinwif",
@@ -193,18 +211,9 @@
       "name": "Make Memes Great Again",
       "mcap_usd": 3073.47,
       "price_usd": 3.073e-6,
-      "price_change_1h": -6.54,
+      "price_change_1h": -7.13,
       "price_change_24h": null,
       "liquidity_usd": null
-    },
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
-      "symbol": "memeoids",
-      "name": "memeoids",
-      "mcap_usd": 96024.0,
-      "price_usd": 0.00009602,
-      "price_change_1h": 19.12,
-      "price_change_24h": null,
-      "liquidity_usd": 26394.04
     },
     "EYuZi2uc94Nj4NsLga2pUqTULEPCEa837N5vBboHpump": {
       "symbol": "BASED",
@@ -215,6 +224,24 @@
       "price_change_24h": null,
       "liquidity_usd": null
     },
+    "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump": {
+      "symbol": "PALESTINE",
+      "name": "Children of Palestine",
+      "mcap_usd": 25368.0,
+      "price_usd": 0.00002536,
+      "price_change_1h": -41.92,
+      "price_change_24h": null,
+      "liquidity_usd": 12787.06
+    },
+    "8yvoo1Un5SqZ5XFRXtR7AnHAAd8aNzryosRcFW3npump": {
+      "symbol": "Attention",
+      "name": "The most important currency",
+      "mcap_usd": 6542.0,
+      "price_usd": 6.542e-6,
+      "price_change_1h": -79.09,
+      "price_change_24h": null,
+      "liquidity_usd": 6228.36
+    },
     "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump": {
       "symbol": "DOUG",
       "name": "Doug The Pug",
@@ -224,81 +251,54 @@
       "price_change_24h": null,
       "liquidity_usd": 7986.62
     },
-    "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump": {
-      "symbol": "Mike",
-      "name": "MikeOSS",
-      "mcap_usd": 19187.0,
-      "price_usd": 0.00001918,
-      "price_change_1h": 10.22,
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
+      "symbol": "memeoids",
+      "name": "memeoids",
+      "mcap_usd": 98387.0,
+      "price_usd": 0.00009839,
+      "price_change_1h": 16.19,
       "price_change_24h": null,
-      "liquidity_usd": 10715.59
-    },
-    "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR": {
-      "symbol": "GMAR",
-      "name": "Global Military Arms Reserve",
-      "mcap_usd": 16257521.0,
-      "price_usd": 0.04064,
-      "price_change_1h": -0.91,
-      "price_change_24h": null,
-      "liquidity_usd": 161282.51
-    },
-    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
-      "symbol": "DickButt",
-      "name": "DickButt",
-      "mcap_usd": 84439.0,
-      "price_usd": 0.00008444,
-      "price_change_1h": -5.04,
-      "price_change_24h": null,
-      "liquidity_usd": 23310.77
-    },
-    "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump": {
-      "symbol": "PALESTINE",
-      "name": "Children of Palestine",
-      "mcap_usd": 25422.0,
-      "price_usd": 0.00002542,
-      "price_change_1h": -40.76,
-      "price_change_24h": null,
-      "liquidity_usd": 12800.7
-    },
-    "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp": {
-      "symbol": "FALCON",
-      "name": "Falcon9",
-      "mcap_usd": 84090.0,
-      "price_usd": 0.00008409,
-      "price_change_1h": 4869.0,
-      "price_change_24h": null,
-      "liquidity_usd": 24059.27
-    },
-    "4xeCLJkMRAQRWvYzUf3RyL12mQxcLTp4mJpzLXM41JST": {
-      "symbol": "Luna",
-      "name": "ルナ",
-      "mcap_usd": 19172.0,
-      "price_usd": 0.00001917,
-      "price_change_1h": -43.28,
-      "price_change_24h": null,
-      "liquidity_usd": 10672.26
+      "liquidity_usd": 26718.92
     },
     "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump": {
       "symbol": "GOBLININU",
       "name": "goblin inu",
-      "mcap_usd": 1857.0,
-      "price_usd": 1.857e-6,
-      "price_change_1h": -8.44,
+      "mcap_usd": 1854.0,
+      "price_usd": 1.854e-6,
+      "price_change_1h": -8.58,
       "price_change_24h": null,
-      "liquidity_usd": 3439.02
+      "liquidity_usd": 3434.36
+    },
+    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
+      "symbol": "DickButt",
+      "name": "DickButt",
+      "mcap_usd": 75356.0,
+      "price_usd": 0.00007536,
+      "price_change_1h": -17.33,
+      "price_change_24h": null,
+      "liquidity_usd": 22021.68
+    },
+    "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp": {
+      "symbol": "FALCON",
+      "name": "Falcon9",
+      "mcap_usd": 60842.0,
+      "price_usd": 0.00006084,
+      "price_change_1h": 3495.0,
+      "price_change_24h": null,
+      "liquidity_usd": 20489.67
     }
   },
   "watching": [
     {
       "mint": "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR",
       "symbol": "GMAR",
-      "classification": "STAIRCASE",
-      "confidence": 83,
+      "classification": "DEVELOPING",
+      "confidence": 73,
       "top_holder_pct": 0.7500004333528922,
-      "age_secs": 14,
+      "age_secs": 48,
       "gate": "tx_rate",
-      "gap": "txr 1.9/min < 5.0 (short by 3.1)",
-      "last_seen": 1777806073
+      "gap": "txr 1.6/min < 5.0 (short by 3.4)",
+      "last_seen": 1777806099
     },
     {
       "mint": "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp",
@@ -306,7 +306,7 @@
       "classification": "DEVELOPING",
       "confidence": 61,
       "top_holder_pct": 20.265392500125103,
-      "age_secs": 259,
+      "age_secs": 319,
       "gate": "",
       "gap": "",
       "last_seen": 1777805828
