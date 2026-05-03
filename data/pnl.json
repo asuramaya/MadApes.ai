@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 112.27638992526475,
-  "realized_pnl_usd": 4.773332553079999,
-  "unrealized_pnl_usd": -4.519113346455253,
+  "total_value_usd": 111.57856637160731,
+  "realized_pnl_usd": 4.770481781130001,
+  "unrealized_pnl_usd": -5.147183255062681,
   "series": [
-    {
-      "ts": 1777106772,
-      "value_usd": 0.26357845669999996
-    },
     {
       "ts": 1777107072,
       "value_usd": 0.2632136843
@@ -8065,10 +8061,32 @@
     },
     {
       "ts": 1777783266,
-      "value_usd": 112.27638992526475
+      "value_usd": 112.27638992526477
+    },
+    {
+      "ts": 1777783326,
+      "value_usd": 111.57856637160731
     }
   ],
   "trades": [
+    {
+      "ts": 1777783272,
+      "side": "buy",
+      "symbol": "OBLYRA",
+      "mint": "HqvHRVLwcH4kp82p5YNKpZvBRvHxrJgAkKcvnjmgpump",
+      "token_amount_ui": 88713.11587500002,
+      "sol_amount_ui": 0.010160196,
+      "signature": "4XLnFPcXnr6vv3tzo6vq9BkDRUwCFWTDBzYTy63jnUwP1RfX7nXCoTaa3YweicV8i76pk3FByb22Xx8eves8DZ3"
+    },
+    {
+      "ts": 1777783266,
+      "side": "buy",
+      "symbol": "Stick",
+      "mint": "5nUn17oFyiRcjosXSiYbyzAvVss1oTygNt8eg2dQpump",
+      "token_amount_ui": 94316.827422,
+      "sol_amount_ui": 0.009975787,
+      "signature": "3usZxuusVybUkQuLofdtK2vDvnr5Jh7dT8DdkxPT63TiJGp1cNPo5uEyhEHTKzwRKX83v9RPMQTV3GxBNysAySwr"
+    },
     {
       "ts": 1777783140,
       "side": "buy",
@@ -8230,24 +8248,6 @@
       "token_amount_ui": 359827.928797,
       "sol_amount_ui": 0.068936506,
       "signature": "Nj4RoTSnu7RNv5dCt1egyNX6eFoqbkxmF4USFLDiRzWs4WQoazaqPTzjN3cS8JAaK1xhnWohyXq529Pg49RofSW"
-    },
-    {
-      "ts": 1777781154,
-      "side": "sell",
-      "symbol": "Soomer",
-      "mint": "Bz5WM8BZVjXZNiXgMvLkPqRLndqLvKPWCVzEK1LSpump",
-      "token_amount_ui": 341649.797607,
-      "sol_amount_ui": 0.017263763,
-      "signature": "4F2Zd2zL8NFgCGdpoae5dAnvhvJwgduJDDhHk21fSDb1M6WL37qrRXtgyNg56X9LUAQV7HrNRzwe7TSQgTbU351z"
-    },
-    {
-      "ts": 1777781059,
-      "side": "buy",
-      "symbol": "Soomer",
-      "mint": "Bz5WM8BZVjXZNiXgMvLkPqRLndqLvKPWCVzEK1LSpump",
-      "token_amount_ui": 341649.797607,
-      "sol_amount_ui": 0.035485635,
-      "signature": "2zFrdCKwJnVy1j45qmEV8Q1MjYuULZnrKtNVCCato42fVqeywsgkXzuzN5fJYmAdxBvWgV6oohdzhMgH6BAnntQg"
     }
   ]
 }
