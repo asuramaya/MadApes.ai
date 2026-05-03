@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 152,
       "mint": "bnLZr2J1uCW2rURijaBJE37KzzFS53SAb56EDrmpump",
@@ -10,28 +11,26 @@
       "expires_at": 1777816691,
       "note": "MAKAM looks like the clean grinder here, top1 14%, 3k/min tape, I took the swing. · horizon=SHORT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777811397,
+      "exit_price_usd": 0.00009643,
+      "exit_note": "+14.2% · severe dev exit",
       "entry_mcap_usd": 84451.0,
       "entry_price_usd": 0.00008445,
       "entry_liquidity_usd": 24986.1,
       "entry_top_holder_pct": 14.47491912391096,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 96437.0,
+      "current_mcap_usd": 0.0,
       "current_price_usd": 0.00009643,
-      "current_liquidity_usd": 26707.6,
+      "current_liquidity_usd": 0.0,
       "pct_from_call": 14.18590882178803,
-      "peak_pct": 0.4499703966844182,
+      "peak_pct": 14.18590882178803,
       "peak_at": 1777811291,
       "trough_pct": 0.4499703966844182,
       "trough_at": 1777811291,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 151,
       "mint": "BcahLr88n3wkAQvmbrthJJwcDVqSzYiFRhiJWhffpump",
@@ -3125,12 +3124,12 @@
   ],
   "stats": {
     "short": {
-      "count": 7,
+      "count": 8,
       "wins": 4,
-      "losses": 2,
+      "losses": 3,
       "expired": 1,
-      "win_rate": 66.66666666666666,
-      "avg_winner_pct": 60.24607390237829,
+      "win_rate": 57.14285714285714,
+      "avg_winner_pct": 52.569379722279926,
       "avg_loser_pct": -14.951330208852916,
       "best_pct": 117.68707482993194,
       "worst_pct": -22.602219182246554
@@ -3169,28 +3168,17 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 103,
+      "count": 104,
       "wins": 27,
-      "losses": 74,
+      "losses": 75,
       "expired": 2,
-      "win_rate": 26.732673267326735,
-      "avg_winner_pct": 66.05566192476235,
+      "win_rate": 26.47058823529412,
+      "avg_winner_pct": 64.0606714208018,
       "avg_loser_pct": -43.06617903220972,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 102,
-        "wins": 27,
-        "losses": 73,
-        "expired": 2,
-        "win_rate": 27.0,
-        "avg_winner_pct": 66.05566192476235,
-        "avg_loser_pct": -43.36898703988946,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3201,6 +3189,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 103,
+        "wins": 27,
+        "losses": 74,
+        "expired": 2,
+        "win_rate": 26.732673267326735,
+        "avg_winner_pct": 64.0606714208018,
+        "avg_loser_pct": -43.36898703988946,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
