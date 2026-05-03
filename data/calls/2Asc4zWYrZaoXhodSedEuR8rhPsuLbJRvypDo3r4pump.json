@@ -29,8 +29,8 @@
     "trough_at": 1777811955,
     "trough_pct": -5.616438356164388
   },
-  "captured_at": 1777812595,
-  "last_snapshot_ts": 1777812592,
+  "captured_at": 1777812625,
+  "last_snapshot_ts": 1777812621,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -1066,6 +1066,34 @@
       "top_holder_pct": 10.11040332258796,
       "tx_rate": 6.651884700665189,
       "velocity": 0.6986301369863014,
+      "volume_h1_usd": 23425.43
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 162,
+      "classification": "DEVELOPING",
+      "confidence": 66,
+      "distribution": 57,
+      "forensics_computed_at": 1777810591,
+      "holder_count": 20,
+      "insider_pct": 16.77666035675872,
+      "liquidity_usd": 30324.37,
+      "mcap_usd": 149019.0,
+      "momentum": 64,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 13.42,
+      "price_usd": 0.000149,
+      "sells_h1": 105,
+      "smart_money_count": 0,
+      "sniper_pct": 62.59545643897001,
+      "spring": 60,
+      "timestamp": 1777812621,
+      "token_address": "2Asc4zWYrZaoXhodSedEuR8rhPsuLbJRvypDo3r4pump",
+      "top10_pct": 46.60951716934878,
+      "top5_pct": 32.50662986829447,
+      "top_holder_pct": 10.131294218578539,
+      "tx_rate": 8.310249307479225,
+      "velocity": 1.0,
       "volume_h1_usd": 23425.43
     }
   ]
