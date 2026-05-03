@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 112.04569916725609,
-  "realized_pnl_usd": 0.5811919598599999,
-  "unrealized_pnl_usd": -0.47738006352390033,
+  "total_value_usd": 111.3474076518132,
+  "realized_pnl_usd": 0.5811224891500005,
+  "unrealized_pnl_usd": -1.1622215336368136,
   "series": [
-    {
-      "ts": 1777109172,
-      "value_usd": 0.263548059
-    },
     {
       "ts": 1777109472,
       "value_usd": 0.2632136843
@@ -8065,10 +8061,32 @@
     },
     {
       "ts": 1777783746,
-      "value_usd": 112.04569916725609
+      "value_usd": 112.04569916725607
+    },
+    {
+      "ts": 1777783806,
+      "value_usd": 111.3474076518132
     }
   ],
   "trades": [
+    {
+      "ts": 1777783794,
+      "side": "buy",
+      "symbol": "DickButt",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "token_amount_ui": 31315.722257000016,
+      "sol_amount_ui": 0.013069972,
+      "signature": "4dMsrATZrzYFnXcqSZihU8DU8Rpd9Nd8X3NLBQDTKah2gaCzR33fG555MvvN95HUphSTUv9QJdBKQ5wLVBismmHX"
+    },
+    {
+      "ts": 1777783751,
+      "side": "buy",
+      "symbol": "DickButt",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "token_amount_ui": 36054.28196400002,
+      "sol_amount_ui": 0.012905246,
+      "signature": "3NytttKo1KGZ7qhCCDSsANFVJyWiKEB9QcNKuMwgUCBo8f1mYJ2s3EV9ZcwYp48vJfbYtSbydCJmN543fU4ZsTNi"
+    },
     {
       "ts": 1777783699,
       "side": "buy",
@@ -8230,24 +8248,6 @@
       "token_amount_ui": 153854.826885,
       "sol_amount_ui": 0.022303583,
       "signature": "5uHZrpYU7WiDowRQHXhWFpr6v8QJJmzciT41PDaSAyEhZrJxC4MDLZHgungX2SMo9NbUSEiHERbBtJNXooSJG6pZ"
-    },
-    {
-      "ts": 1777782298,
-      "side": "buy",
-      "symbol": "OBLYRA",
-      "mint": "HqvHRVLwcH4kp82p5YNKpZvBRvHxrJgAkKcvnjmgpump",
-      "token_amount_ui": 242920.830853,
-      "sol_amount_ui": 0.046851848,
-      "signature": "3KTev2HjeDaRyvUddb4zQk2XBKyFB3swkJq3mXBJF9ijcxx1bCXSqmfp2tjerr9pr6rcM25d7m86YBghaKePWRaj"
-    },
-    {
-      "ts": 1777782151,
-      "side": "buy",
-      "symbol": "psyop",
-      "mint": "23nayzZNhAeZoLUtESYgrL5K6XCQfS6StEZrCA8Kpump",
-      "token_amount_ui": 144435.92414200003,
-      "sol_amount_ui": 0.012668125,
-      "signature": "2ThJv1mw82ytvcXS6XGvi2oYrJxx2uxKmK3e6bj6nWCs1HsRsmKWyjQgUdDUZWyPPiaxFsXnwGMaDmNLTWSQA54B"
     }
   ]
 }
