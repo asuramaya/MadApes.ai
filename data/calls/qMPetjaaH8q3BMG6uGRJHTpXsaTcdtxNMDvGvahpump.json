@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 78,
-    "current_liquidity_usd": 21084.97,
-    "current_mcap_usd": 73532.0,
-    "current_price_usd": 0.00007353,
+    "current_liquidity_usd": 20764.55,
+    "current_mcap_usd": 71302.0,
+    "current_price_usd": 0.0000713,
     "entry_liquidity_usd": 20535.45,
     "entry_mcap_usd": 69737.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "qMPetjaaH8q3BMG6uGRJHTpXsaTcdtxNMDvGvahpump",
     "note": "I’m in $CLAV, staircase still clean, 111/min and no sniper junk. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 5.449591280653943,
+    "pct_from_call": 2.2515416606912364,
     "peak_at": 1777830857,
     "peak_pct": 5.449591280653943,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777830769,
     "trough_pct": 3.9437831636311538
   },
-  "captured_at": 1777830885,
-  "last_snapshot_ts": 1777830857,
+  "captured_at": 1777830914,
+  "last_snapshot_ts": 1777830902,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -87,6 +87,34 @@
       "tx_rate": 29.41176470588235,
       "velocity": 4.0,
       "volume_h1_usd": 86856.64
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 512,
+      "classification": "STAIRCASE",
+      "confidence": 85,
+      "distribution": 55,
+      "forensics_computed_at": 1777828525,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 20764.55,
+      "mcap_usd": 71302.0,
+      "momentum": 84,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 45.17,
+      "price_usd": 0.0000713,
+      "sells_h1": 450,
+      "smart_money_count": 0,
+      "sniper_pct": 52.073066621523,
+      "spring": 69,
+      "timestamp": 1777830902,
+      "token_address": "qMPetjaaH8q3BMG6uGRJHTpXsaTcdtxNMDvGvahpump",
+      "top10_pct": 29.87753587417813,
+      "top5_pct": 21.08862863884812,
+      "top_holder_pct": 10.75834361928331,
+      "tx_rate": 30.92783505154639,
+      "velocity": 6.0,
+      "volume_h1_usd": 82876.68
     }
   ]
 }
