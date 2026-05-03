@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 112.57240016896125,
-  "realized_pnl_usd": -6.0647986574,
-  "unrealized_pnl_usd": 6.70869229736124,
+  "total_value_usd": 112.07881813825418,
+  "realized_pnl_usd": -7.3650584399,
+  "unrealized_pnl_usd": 7.515370049154169,
   "series": [
-    {
-      "ts": 1777085815,
-      "value_usd": 0.2624841395
-    },
     {
       "ts": 1777086115,
       "value_usd": 0.2622713556
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777778890,
-      "value_usd": 112.57240016896125
+      "value_usd": 112.57240016896124
+    },
+    {
+      "ts": 1777778950,
+      "value_usd": 112.07881813825418
     }
   ],
   "trades": [
+    {
+      "ts": 1777778891,
+      "side": "sell",
+      "symbol": "GAYINC",
+      "mint": "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump",
+      "token_amount_ui": 146973.955026,
+      "sol_amount_ui": 0.00815724,
+      "signature": "3PeJGqveCNqPtksqR332tCsKqrCAMfjgwW3waV1vcwVNNRcpDjR1HN1v5ibkPPomNGsCXaXCYysHv1KNg2BKAfPi"
+    },
     {
       "ts": 1777778520,
       "side": "buy",
