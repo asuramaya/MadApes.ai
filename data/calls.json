@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 165,
+      "mint": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
+      "symbol": "ScribPepe",
+      "classification": "STAIRCASE",
+      "confidence": 80,
+      "called_at": 1777831449,
+      "expires_at": 1777836849,
+      "note": "I’m in $ScribPepe here, 460k cap, clean holder split and buys still ahead 1.34x. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 460923.0,
+      "entry_price_usd": 0.0004609,
+      "entry_liquidity_usd": 52566.4,
+      "entry_top_holder_pct": 5.6504043420232,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 492522.0,
+      "current_price_usd": 0.0004925,
+      "current_liquidity_usd": 54332.14,
+      "pct_from_call": 6.85615100889565,
+      "peak_pct": 6.85615100889565,
+      "peak_at": 1777831614,
+      "trough_pct": 0.0,
+      "trough_at": 1777831449,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 164,
