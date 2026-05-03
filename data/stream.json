@@ -9,6 +9,22 @@
       "signature": null
     },
     {
+      "ts": 1777785881,
+      "kind": "alert",
+      "tag": "SMART WALLET BUY",
+      "summary": "SMART_WALLET_BUY Cv5GgkpXvtXcsrMcKCJvx46BpMjiM61mpPU1j8RbbbVL bought 4mxW…pump (bal 7927445.86) [auto: 3/6 @ 50%]",
+      "mint": "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump",
+      "signature": null
+    },
+    {
+      "ts": 1777785635,
+      "kind": "alert",
+      "tag": "SMART WALLET BUY",
+      "summary": "SMART_WALLET_BUY Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x bought 4R1V…pump (bal 1835166.16) [auto: 3/7 @ 43%]",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "signature": null
+    },
+    {
       "ts": 1777785627,
       "kind": "trade",
       "tag": "BUY",
@@ -149,38 +165,11 @@
     "EYuZi2uc94Nj4NsLga2pUqTULEPCEa837N5vBboHpump": {
       "symbol": "BASED",
       "name": "BASED",
-      "mcap_usd": 5294.31,
-      "price_usd": 5.294e-6,
-      "price_change_1h": 76.5,
+      "mcap_usd": 5682.07,
+      "price_usd": 5.682e-6,
+      "price_change_1h": 89.43,
       "price_change_24h": null,
       "liquidity_usd": null
-    },
-    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
-      "symbol": "DickButt",
-      "name": "DickButt",
-      "mcap_usd": 24955.0,
-      "price_usd": 0.00002495,
-      "price_change_1h": -23.69,
-      "price_change_24h": null,
-      "liquidity_usd": 12348.06
-    },
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
-      "symbol": "memeoids",
-      "name": "memeoids",
-      "mcap_usd": 130282.0,
-      "price_usd": 0.0001302,
-      "price_change_1h": -9.94,
-      "price_change_24h": null,
-      "liquidity_usd": 30280.77
-    },
-    "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
-      "symbol": "Slopcoin",
-      "name": "Slopcoin",
-      "mcap_usd": 4925.0,
-      "price_usd": 5.811e-6,
-      "price_change_1h": 27.37,
-      "price_change_24h": null,
-      "liquidity_usd": 5941.58
     },
     "yVhbCN8w5pqRd7XuS7qGBRCG7rKjVZLqZgnuqKFpump": {
       "symbol": "ticker",
@@ -191,23 +180,23 @@
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
-      "symbol": "MOG",
-      "name": "MOG",
-      "mcap_usd": 2366.0,
-      "price_usd": 2.366e-6,
-      "price_change_1h": 4.63,
-      "price_change_24h": null,
-      "liquidity_usd": 3755.8
-    },
     "HFSSajRMnrrLTs8RNgCPy1Ja2aHDhDq318GGxmcnpump": {
       "symbol": "MMGA",
       "name": "Make Memes Great Again",
-      "mcap_usd": 14024.42,
-      "price_usd": 0.00001402,
-      "price_change_1h": 444.0,
+      "mcap_usd": 14415.35,
+      "price_usd": 0.00001441,
+      "price_change_1h": 459.0,
       "price_change_24h": null,
       "liquidity_usd": null
+    },
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
+      "symbol": "memeoids",
+      "name": "memeoids",
+      "mcap_usd": 130282.0,
+      "price_usd": 0.0001302,
+      "price_change_1h": -9.94,
+      "price_change_24h": null,
+      "liquidity_usd": 30280.77
     },
     "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
       "symbol": "LMEOW",
@@ -217,6 +206,42 @@
       "price_change_1h": 13.17,
       "price_change_24h": null,
       "liquidity_usd": 8787.03
+    },
+    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
+      "symbol": "DickButt",
+      "name": "DickButt",
+      "mcap_usd": 29527.0,
+      "price_usd": 0.00002952,
+      "price_change_1h": -9.7,
+      "price_change_24h": null,
+      "liquidity_usd": 13432.51
+    },
+    "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump": {
+      "symbol": "Mike",
+      "name": "MikeOSS",
+      "mcap_usd": 15110.69,
+      "price_usd": 0.00001511,
+      "price_change_1h": 451.0,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
+      "symbol": "Slopcoin",
+      "name": "Slopcoin",
+      "mcap_usd": 4925.0,
+      "price_usd": 5.811e-6,
+      "price_change_1h": 27.37,
+      "price_change_24h": null,
+      "liquidity_usd": 5941.58
+    },
+    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
+      "symbol": "MOG",
+      "name": "MOG",
+      "mcap_usd": 2366.0,
+      "price_usd": 2.366e-6,
+      "price_change_1h": 4.63,
+      "price_change_24h": null,
+      "liquidity_usd": 3755.8
     }
   },
   "watching": []
