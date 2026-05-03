@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 81,
-    "current_liquidity_usd": 36288.14,
-    "current_mcap_usd": 174378.0,
-    "current_price_usd": 0.0002001,
+    "current_liquidity_usd": 36717.37,
+    "current_mcap_usd": 178527.0,
+    "current_price_usd": 0.0002048,
     "entry_liquidity_usd": 36439.99,
     "entry_mcap_usd": 177175.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "F1JnncwQzrT8BM9DNkU9uqU4qqiH11GbhRWqCTeHpump",
     "note": "I’m in $SOLANAAI here, 177k cap, 10/35 distro, staircase tape, 1h buys still edge sells · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -1.0385756676557834,
+    "pct_from_call": 1.285855588526208,
     "peak_at": 1777843299,
     "peak_pct": 5.3907022749752675,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777842236,
     "trough_pct": -13.155291790306622
   },
-  "captured_at": 1777844114,
-  "last_snapshot_ts": 1777844091,
+  "captured_at": 1777844173,
+  "last_snapshot_ts": 1777844156,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -1011,6 +1011,34 @@
       "tx_rate": 3.374578177727784,
       "velocity": 2.462686567164179,
       "volume_h1_usd": 48288.62
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 355,
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "distribution": 57,
+      "forensics_computed_at": 1777841702,
+      "holder_count": 428,
+      "insider_pct": 0.0,
+      "liquidity_usd": 36717.37,
+      "mcap_usd": 178527.0,
+      "momentum": 60,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 28.3,
+      "price_usd": 0.0002048,
+      "sells_h1": 233,
+      "smart_money_count": 0,
+      "sniper_pct": 55.16515549063264,
+      "spring": 28,
+      "timestamp": 1777844156,
+      "token_address": "F1JnncwQzrT8BM9DNkU9uqU4qqiH11GbhRWqCTeHpump",
+      "top10_pct": 33.992755019161365,
+      "top5_pct": 21.318474422817058,
+      "top_holder_pct": 9.29270413517199,
+      "tx_rate": 3.167898627243928,
+      "velocity": 0.2268041237113402,
+      "volume_h1_usd": 47805.11
     }
   ]
 }
