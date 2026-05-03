@@ -20,18 +20,48 @@
       "entry_liquidity_usd": 16281.69,
       "entry_top_holder_pct": 17.610203421873997,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 58372.0,
-      "current_price_usd": 0.00005837,
-      "current_liquidity_usd": 18684.25,
-      "pct_from_call": 31.109613656783463,
-      "peak_pct": -5.525606469002698,
-      "peak_at": 1777792522,
+      "current_mcap_usd": 55561.0,
+      "current_price_usd": 0.00005556,
+      "current_liquidity_usd": 18251.68,
+      "pct_from_call": 24.797843665768205,
+      "peak_pct": 25.13477088948788,
+      "peak_at": 1777792679,
       "trough_pct": -5.525606469002698,
       "trough_at": 1777792522,
       "thesis_url": null
     }
   ],
   "history": [
+    {
+      "id": 146,
+      "mint": "DzG9PumAiq5uHVzEKxYUGX2beC2pJTESGPFG9wN9pump",
+      "symbol": "Trumpcoin",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777792613,
+      "expires_at": 1777798013,
+      "note": "I took Trumpcoin at 60.9k; clean enough spread, buys still 1.48x sells · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777792683,
+      "exit_price_usd": 0.00004289,
+      "exit_note": "-29.5% · severe dev exit",
+      "entry_mcap_usd": 60883.0,
+      "entry_price_usd": 0.00006088,
+      "entry_liquidity_usd": 19038.7,
+      "entry_top_holder_pct": 15.890888726215465,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00004289,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -29.549934296977664,
+      "peak_pct": 6.0446780551905555,
+      "peak_at": 1777792613,
+      "trough_pct": 6.0446780551905555,
+      "trough_at": 1777792613,
+      "thesis_url": null
+    },
     {
       "id": 144,
       "mint": "6rYtoAHHmQSNfge15Y6jaPyoH5gVY3cqEyLiPPzNpump",
@@ -2937,13 +2967,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 67,
+      "count": 68,
       "wins": 16,
-      "losses": 50,
+      "losses": 51,
       "expired": 1,
-      "win_rate": 24.242424242424242,
+      "win_rate": 23.88059701492537,
       "avg_winner_pct": 88.70551725982519,
-      "avg_loser_pct": -43.16687801852857,
+      "avg_loser_pct": -42.92371830921517,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -2959,17 +2989,28 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 96,
+      "count": 97,
       "wins": 26,
-      "losses": 68,
+      "losses": 69,
       "expired": 2,
-      "win_rate": 27.659574468085108,
+      "win_rate": 27.368421052631582,
       "avg_winner_pct": 66.745355302726,
-      "avg_loser_pct": -43.84199338376516,
+      "avg_loser_pct": -43.64349256311534,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 96,
+        "wins": 26,
+        "losses": 68,
+        "expired": 2,
+        "win_rate": 27.659574468085108,
+        "avg_winner_pct": 66.745355302726,
+        "avg_loser_pct": -43.97575625486979,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -2980,17 +3021,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 95,
-        "wins": 26,
-        "losses": 67,
-        "expired": 2,
-        "win_rate": 27.956989247311824,
-        "avg_winner_pct": 66.745355302726,
-        "avg_loser_pct": -44.18183942569682,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
       }
     }
   }
