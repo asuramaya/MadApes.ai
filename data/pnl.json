@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 111.3474076518132,
-  "realized_pnl_usd": 0.5811224891500005,
-  "unrealized_pnl_usd": -1.1622215336368136,
+  "total_value_usd": 110.96676432782306,
+  "realized_pnl_usd": 0.58112248915,
+  "unrealized_pnl_usd": -1.5428648576269555,
   "series": [
-    {
-      "ts": 1777109472,
-      "value_usd": 0.2632136843
-    },
     {
       "ts": 1777109772,
       "value_usd": 0.263244082
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777783806,
       "value_usd": 111.3474076518132
+    },
+    {
+      "ts": 1777783866,
+      "value_usd": 110.96676432782306
     }
   ],
   "trades": [
+    {
+      "ts": 1777783842,
+      "side": "buy",
+      "symbol": "DickButt",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "token_amount_ui": 58934.27509199997,
+      "sol_amount_ui": 0.018261947,
+      "signature": "3rboqJRkf75xpYSTB3nZpDpbzNpjTBHexmPfZc8aGiUfM3qy8KAExagxNQwijhzgzDhdQ43L7EwWCBAupjje8kdh"
+    },
     {
       "ts": 1777783794,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 146214.92068300006,
       "sol_amount_ui": 0.022357973,
       "signature": "TxgeizZ2zafUe2tvasMGEmWx223LPg1t3A8LHeNxy1Hoy3seTaVs5nwvaLnfZoAgT6ydzfRMsYsnPpsdBCvLtUW"
-    },
-    {
-      "ts": 1777782466,
-      "side": "buy",
-      "symbol": "OBLYRA",
-      "mint": "HqvHRVLwcH4kp82p5YNKpZvBRvHxrJgAkKcvnjmgpump",
-      "token_amount_ui": 153854.826885,
-      "sol_amount_ui": 0.022303583,
-      "signature": "5uHZrpYU7WiDowRQHXhWFpr6v8QJJmzciT41PDaSAyEhZrJxC4MDLZHgungX2SMo9NbUSEiHERbBtJNXooSJG6pZ"
     }
   ]
 }
