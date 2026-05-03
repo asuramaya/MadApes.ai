@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 126.89241764268075,
-  "realized_pnl_usd": -13.770493571199982,
-  "unrealized_pnl_usd": 24.535659164420746,
+  "total_value_usd": 126.26811824523435,
+  "realized_pnl_usd": -13.76067970239999,
+  "unrealized_pnl_usd": 23.984306738214343,
   "series": [
-    {
-      "ts": 1777438514,
-      "value_usd": 0.25835005229999997
-    },
     {
       "ts": 1777438632,
       "value_usd": 0.25847772263999996
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777828376,
       "value_usd": 126.89241764268075
+    },
+    {
+      "ts": 1777828406,
+      "value_usd": 126.26811824523435
     }
   ],
   "trades": [
+    {
+      "ts": 1777828387,
+      "side": "buy",
+      "symbol": "EPIC",
+      "mint": "9mKakEnqf7G7vcKqkSdVKden4gtRWMJJg3yHoNMKpump",
+      "token_amount_ui": 1094238.45515,
+      "sol_amount_ui": 0.142666311,
+      "signature": "5Lu2Dc2dyL2q9LGoiFERfuFPY61cqn2XxqRRRCCUjjUbYZFFJ2dKDwDvZbo9a3e4ovFTr5FC46AWZVCcf4p4xLZn"
+    },
     {
       "ts": 1777827875,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 526752.695069,
       "sol_amount_ui": 0.122140497,
       "signature": "5oNSYSHHHKHPBPtKD6xnLgPtKSbigxEGMucFSAhJiBXZoMR3UphgYwZ5qXNfGvuBaa1pYMjXo7H67pJWffoP64Yi"
-    },
-    {
-      "ts": 1777822972,
-      "side": "sell",
-      "symbol": "conviction",
-      "mint": "BeTkvw4KtPdMxqVBoPcMXvfsqhZFFWyMPSqqmUFrpump",
-      "token_amount_ui": 772063.342116,
-      "sol_amount_ui": 0.611786475,
-      "signature": "4drZphhH62GcHeJukCs2E3BPXNhTfLhvtdF9VDAzecH9WoRbU7LxdeAAYcw1tRmerzJDzkjQAvxyyCXiDMhbGBAZ"
     }
   ]
 }
