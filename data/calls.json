@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 157,
+      "mint": "BeTkvw4KtPdMxqVBoPcMXvfsqhZFFWyMPSqqmUFrpump",
+      "symbol": "conviction",
+      "classification": "GRINDER",
+      "confidence": 75,
+      "called_at": 1777822567,
+      "expires_at": 1777827967,
+      "note": "$conviction at 100k, top1 13, no snipers, buys still ahead 1.43x · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 100896.0,
+      "entry_price_usd": 0.000108,
+      "entry_liquidity_usd": 25643.0,
+      "entry_top_holder_pct": 12.569154695054749,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 87227.0,
+      "current_price_usd": 0.00009341,
+      "current_liquidity_usd": 23886.53,
+      "pct_from_call": -13.509259259259254,
+      "peak_pct": 1.3888888888889062,
+      "peak_at": 1777822567,
+      "trough_pct": 1.3888888888889062,
+      "trough_at": 1777822567,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 156,
