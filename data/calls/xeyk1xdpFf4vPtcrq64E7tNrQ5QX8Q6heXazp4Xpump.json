@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 24834.86,
-    "current_mcap_usd": 101800.0,
-    "current_price_usd": 0.0001018,
+    "current_liquidity_usd": 26077.19,
+    "current_mcap_usd": 112123.0,
+    "current_price_usd": 0.0001121,
     "entry_liquidity_usd": 23713.12,
     "entry_mcap_usd": 93120.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "xeyk1xdpFf4vPtcrq64E7tNrQ5QX8Q6heXazp4Xpump",
     "note": "SPIRIT2.0 looks clean here, 1500/min and no insider baggage, quick flip only · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": 9.321305841924389,
+    "pct_from_call": 20.382302405498276,
     "peak_at": 1777843500,
     "peak_pct": 16.301546391752588,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777843422,
     "trough_pct": 3.125
   },
-  "captured_at": 1777843541,
-  "last_snapshot_ts": 1777843541,
+  "captured_at": 1777843600,
+  "last_snapshot_ts": 1777843591,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -115,6 +115,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 121851.94
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1636,
+      "classification": "GRINDER",
+      "confidence": 75,
+      "distribution": 54,
+      "forensics_computed_at": 1777842638,
+      "holder_count": 454,
+      "insider_pct": 0.0,
+      "liquidity_usd": 26077.19,
+      "mcap_usd": 112123.0,
+      "momentum": 68,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 223.0,
+      "price_usd": 0.0001121,
+      "sells_h1": 1409,
+      "smart_money_count": 0,
+      "sniper_pct": 67.05867628906675,
+      "spring": 61,
+      "timestamp": 1777843591,
+      "token_address": "xeyk1xdpFf4vPtcrq64E7tNrQ5QX8Q6heXazp4Xpump",
+      "top10_pct": 32.67824347395206,
+      "top5_pct": 23.33713727545639,
+      "top_holder_pct": 11.957868090637437,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 130009.7
     }
   ]
 }
