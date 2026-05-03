@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 83,
-    "current_liquidity_usd": 17752.6,
-    "current_mcap_usd": 50525.0,
-    "current_price_usd": 0.00005052,
+    "current_liquidity_usd": 17611.88,
+    "current_mcap_usd": 49720.0,
+    "current_price_usd": 0.00004972,
     "entry_liquidity_usd": 21347.11,
     "entry_mcap_usd": 73651.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
     "note": "Fatcoin's staircase is intact, 58/min and no bundle/sniper noise, I'm in for the swing. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -31.40529531568229,
+    "pct_from_call": -32.49151391717584,
     "peak_at": 1777826405,
     "peak_pct": -7.997284453496267,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777827114,
     "trough_pct": -39.21249151391718
   },
-  "captured_at": 1777827549,
-  "last_snapshot_ts": 1777827543,
+  "captured_at": 1777827609,
+  "last_snapshot_ts": 1777827600,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -619,6 +619,34 @@
       "tx_rate": 40.54054054054054,
       "velocity": 3.0,
       "volume_h1_usd": 233758.22
+    },
+    {
+      "bundle_pct": 16.46518256374009,
+      "buys_h1": 2850,
+      "classification": "STAIRCASE",
+      "confidence": 71,
+      "distribution": 54,
+      "forensics_computed_at": 1777827602,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17611.88,
+      "mcap_usd": 49720.0,
+      "momentum": 71,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 33.15,
+      "price_usd": 0.00004972,
+      "sells_h1": 1933,
+      "smart_money_count": 1,
+      "sniper_pct": 35.96776704598858,
+      "spring": 62,
+      "timestamp": 1777827600,
+      "token_address": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
+      "top10_pct": 37.88959703502174,
+      "top5_pct": 27.09149318497324,
+      "top_holder_pct": 16.46518256374009,
+      "tx_rate": 30.0,
+      "velocity": 1.5,
+      "volume_h1_usd": 206695.28
     }
   ]
 }
