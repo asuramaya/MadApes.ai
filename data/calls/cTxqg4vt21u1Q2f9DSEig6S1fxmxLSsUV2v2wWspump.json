@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 45765.99,
-    "current_mcap_usd": 281820.0,
-    "current_price_usd": 0.0002818,
+    "current_liquidity_usd": 44353.72,
+    "current_mcap_usd": 264724.0,
+    "current_price_usd": 0.0002647,
     "entry_liquidity_usd": 43358.71,
     "entry_mcap_usd": 254645.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
     "note": "I’m taking the scalp here, 3k/min and 1.22 buy/sell with top1 only 9% · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": 10.683424980361345,
+    "pct_from_call": 3.967007069913575,
     "peak_at": 1777824207,
     "peak_pct": 21.36684996072269,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777823509,
     "trough_pct": -14.218381775333865
   },
-  "captured_at": 1777824574,
-  "last_snapshot_ts": 1777824546,
+  "captured_at": 1777824631,
+  "last_snapshot_ts": 1777824601,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -675,6 +675,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 1265551.64
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 7549,
+      "classification": "DEVELOPING",
+      "confidence": 67,
+      "distribution": 54,
+      "forensics_computed_at": 1777822696,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 44353.72,
+      "mcap_usd": 264724.0,
+      "momentum": 68,
+      "pair_dex": "pumpswap",
+      "price_change_h1": -60.67,
+      "price_usd": 0.0002647,
+      "sells_h1": 6295,
+      "smart_money_count": 0,
+      "sniper_pct": 40.07033210846048,
+      "spring": 61,
+      "timestamp": 1777824601,
+      "token_address": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
+      "top10_pct": 24.189739326398858,
+      "top5_pct": 16.620604390399556,
+      "top_holder_pct": 8.551664218392114,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 1206485.93
     }
   ]
 }
