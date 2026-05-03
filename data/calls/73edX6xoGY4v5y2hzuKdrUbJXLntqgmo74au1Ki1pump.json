@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 76,
-    "current_liquidity_usd": 20927.02,
-    "current_mcap_usd": 71976.0,
-    "current_price_usd": 0.00007197,
+    "current_liquidity_usd": 20309.63,
+    "current_mcap_usd": 67703.0,
+    "current_price_usd": 0.0000677,
     "entry_liquidity_usd": 21529.08,
     "entry_mcap_usd": 77202.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump",
     "note": "I like $Staccana here: 600/min, 1.35 buys/sells, and the holder stack is still light. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -6.774611398963737,
+    "pct_from_call": -12.305699481865284,
     "peak_at": 1777845604,
     "peak_pct": 5.569948186528495,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777845787,
     "trough_pct": -19.572538860103638
   },
-  "captured_at": 1777845869,
-  "last_snapshot_ts": 1777845865,
+  "captured_at": 1777845929,
+  "last_snapshot_ts": 1777845919,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -171,6 +171,34 @@
       "tx_rate": 136.36363636363637,
       "velocity": 3.0,
       "volume_h1_usd": 124353.01
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1540,
+      "classification": "DEVELOPING",
+      "confidence": 59,
+      "distribution": 53,
+      "forensics_computed_at": 1777844342,
+      "holder_count": 380,
+      "insider_pct": 0.0,
+      "liquidity_usd": 20309.63,
+      "mcap_usd": 67703.0,
+      "momentum": 65,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 95.96,
+      "price_usd": 0.0000677,
+      "sells_h1": 1107,
+      "smart_money_count": 0,
+      "sniper_pct": 82.364887978478,
+      "spring": 59,
+      "timestamp": 1777845919,
+      "token_address": "73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump",
+      "top10_pct": 38.17349742884415,
+      "top5_pct": 28.753551574861934,
+      "top_holder_pct": 15.76002987953919,
+      "tx_rate": 103.44827586206895,
+      "velocity": 0.75,
+      "volume_h1_usd": 126206.08
     }
   ]
 }
