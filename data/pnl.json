@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 110.59054476886753,
+  "total_value_usd": 110.58260355496486,
   "realized_pnl_usd": -6.0647986574,
-  "unrealized_pnl_usd": 2.3266409138873994,
+  "unrealized_pnl_usd": 4.718895683364862,
   "series": [
-    {
-      "ts": 1777084015,
-      "value_usd": 0.26239294639999994
-    },
     {
       "ts": 1777084315,
       "value_usd": 0.26233215099999996
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777778530,
-      "value_usd": 110.59054476886753
+      "value_usd": 110.59054476886752
+    },
+    {
+      "ts": 1777778590,
+      "value_usd": 110.58260355496486
     }
   ],
   "trades": [
+    {
+      "ts": 1777778520,
+      "side": "buy",
+      "symbol": "nugget",
+      "mint": "91kDvTYSe6QwxsGpBqnjWWek6bpTc7ktV692yHLipump",
+      "token_amount_ui": 308682.196446,
+      "sol_amount_ui": 0.053302121,
+      "signature": "rEVisSLQNepd4gLjPs4At1n2YrcxuTKYPucyAMuWoDt2Q16NeH3c65jxMuKkZkrofzYMiQ3oJ9YSs9WqgbKUxgU"
+    },
     {
       "ts": 1777778373,
       "side": "buy",
