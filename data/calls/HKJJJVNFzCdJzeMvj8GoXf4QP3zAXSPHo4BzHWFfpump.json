@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 62,
-    "current_liquidity_usd": 19799.07,
-    "current_mcap_usd": 63893.0,
-    "current_price_usd": 0.00006389,
+    "current_liquidity_usd": 20233.44,
+    "current_mcap_usd": 66523.0,
+    "current_price_usd": 0.00006652,
     "entry_liquidity_usd": 16281.69,
     "entry_mcap_usd": 44527.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
     "note": "I’m taking $GOBLININU here at 44.5k; 158/min, no snipers, buys still ahead. · horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": 43.50853548966755,
+    "pct_from_call": 49.4159928122192,
     "peak_at": 1777792920,
     "peak_pct": 53.234501347708886,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777792522,
     "trough_pct": -5.525606469002698
   },
-  "captured_at": 1777793157,
-  "last_snapshot_ts": 1777793148,
+  "captured_at": 1777793187,
+  "last_snapshot_ts": 1777793175,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -675,6 +675,34 @@
       "tx_rate": 120.0,
       "velocity": 0.6,
       "volume_h1_usd": 174625.51
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1303,
+      "classification": "GRINDER",
+      "confidence": 74,
+      "distribution": 54,
+      "forensics_computed_at": 1777792332,
+      "holder_count": 453,
+      "insider_pct": 0.0,
+      "liquidity_usd": 20233.44,
+      "mcap_usd": 66523.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 87.53,
+      "price_usd": 0.00006652,
+      "sells_h1": 958,
+      "smart_money_count": 0,
+      "sniper_pct": 48.593266624645906,
+      "spring": 60,
+      "timestamp": 1777793175,
+      "token_address": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
+      "top10_pct": 30.781702819750237,
+      "top5_pct": 22.47168275505376,
+      "top_holder_pct": 14.399797565793968,
+      "tx_rate": 187.5,
+      "velocity": 0.5,
+      "volume_h1_usd": 179979.99
     }
   ]
 }
