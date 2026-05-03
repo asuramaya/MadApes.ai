@@ -26,11 +26,11 @@
     "status": "active",
     "symbol": "WormTower",
     "thesis_url": null,
-    "trough_at": 1777807141,
-    "trough_pct": 0.0
+    "trough_at": 1777807196,
+    "trough_pct": -1.928812885265463
   },
-  "captured_at": 1777807197,
-  "last_snapshot_ts": 1777807196,
+  "captured_at": 1777807227,
+  "last_snapshot_ts": 1777807217,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -87,6 +87,34 @@
       "tx_rate": 1000.0000000000001,
       "velocity": 1.0,
       "volume_h1_usd": 17886.85
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 669,
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "distribution": 53,
+      "forensics_computed_at": 1777807016,
+      "holder_count": 302,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17897.37,
+      "mcap_usd": 53631.0,
+      "momentum": 70,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 56.55,
+      "price_usd": 0.00005397,
+      "sells_h1": 462,
+      "smart_money_count": 0,
+      "sniper_pct": 52.051068969018964,
+      "spring": 61,
+      "timestamp": 1777807217,
+      "token_address": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
+      "top10_pct": 37.14419857933503,
+      "top5_pct": 28.032901660091284,
+      "top_holder_pct": 17.23938097272873,
+      "tx_rate": 250.00000000000003,
+      "velocity": 1.0,
+      "volume_h1_usd": 23443.24
     }
   ]
 }
