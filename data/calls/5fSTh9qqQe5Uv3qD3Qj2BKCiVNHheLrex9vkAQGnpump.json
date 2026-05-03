@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 83,
-    "current_liquidity_usd": 17852.57,
-    "current_mcap_usd": 51256.0,
-    "current_price_usd": 0.00005125,
+    "current_liquidity_usd": 17477.62,
+    "current_mcap_usd": 49129.0,
+    "current_price_usd": 0.00004912,
     "entry_liquidity_usd": 21347.11,
     "entry_mcap_usd": 73651.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
     "note": "Fatcoin's staircase is intact, 58/min and no bundle/sniper noise, I'm in for the swing. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -30.414120841819415,
+    "pct_from_call": -33.306177868296,
     "peak_at": 1777826405,
     "peak_pct": -7.997284453496267,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777826830,
     "trough_pct": -37.04005431093008
   },
-  "captured_at": 1777826946,
-  "last_snapshot_ts": 1777826919,
+  "captured_at": 1777826976,
+  "last_snapshot_ts": 1777826965,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -255,6 +255,34 @@
       "tx_rate": 40.54054054054054,
       "velocity": 0.5,
       "volume_h1_usd": 242146.32
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 3352,
+      "classification": "DEVELOPING",
+      "confidence": 57,
+      "distribution": 54,
+      "forensics_computed_at": 1777823963,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17477.62,
+      "mcap_usd": 49129.0,
+      "momentum": 61,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 37.34,
+      "price_usd": 0.00004912,
+      "sells_h1": 2246,
+      "smart_money_count": 1,
+      "sniper_pct": 54.403835574371904,
+      "spring": 57,
+      "timestamp": 1777826965,
+      "token_address": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
+      "top10_pct": 40.17878289981987,
+      "top5_pct": 29.325297468883022,
+      "top_holder_pct": 18.698986847649874,
+      "tx_rate": 32.25806451612903,
+      "velocity": 0.13043478260869565,
+      "volume_h1_usd": 244015.53
     }
   ]
 }
