@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 109.3408339789566,
-  "realized_pnl_usd": -9.965394965520002,
-  "unrealized_pnl_usd": 7.431244630266599,
+  "total_value_usd": 105.70492552146678,
+  "realized_pnl_usd": -9.28219356336,
+  "unrealized_pnl_usd": 3.0719930467867753,
   "series": [
-    {
-      "ts": 1777090777,
-      "value_usd": 0.2627881165
-    },
     {
       "ts": 1777091077,
       "value_usd": 0.2627273211
@@ -8066,9 +8062,31 @@
     {
       "ts": 1777779948,
       "value_usd": 109.3408339789566
+    },
+    {
+      "ts": 1777780008,
+      "value_usd": 105.70492552146678
     }
   ],
   "trades": [
+    {
+      "ts": 1777779990,
+      "side": "sell",
+      "symbol": "nugget",
+      "mint": "91kDvTYSe6QwxsGpBqnjWWek6bpTc7ktV692yHLipump",
+      "token_amount_ui": 308682.196446,
+      "sol_amount_ui": 0.061513229,
+      "signature": "2sm6RfeWSrCNzhEtodUT1Vg7kUgCmcF9eRL6hoi1r2xZ3yH6Kt69QSkRtNaNGiVs4jKz4TLgfU9KDgZmhCSw9ycw"
+    },
+    {
+      "ts": 1777779968,
+      "side": "buy",
+      "symbol": "ROCK",
+      "mint": "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump",
+      "token_amount_ui": 360975.415989,
+      "sol_amount_ui": 0.052740945,
+      "signature": "3eLUT3czFwswShuAEhvFuGbRXngJrwfU9x2MyWsVkH88siZCoyn5yBVzW4nXMJTxrBp7uQAh3xvvPk51HmhcKLQc"
+    },
     {
       "ts": 1777779789,
       "side": "sell",
