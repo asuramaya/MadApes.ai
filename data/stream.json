@@ -185,14 +185,6 @@
       "signature": null
     },
     {
-      "ts": 1777781782,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH HdnL…pump · vel 1.17x→0.40x · tpm 83.3",
-      "mint": "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump",
-      "signature": null
-    },
-    {
       "ts": 1777773327,
       "kind": "call",
       "tag": "CALL WITHDREW",
@@ -234,24 +226,6 @@
     }
   ],
   "tokens": {
-    "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump": {
-      "symbol": "ROCK",
-      "name": "Official Pet Rock",
-      "mcap_usd": 24023.0,
-      "price_usd": 0.00002402,
-      "price_change_1h": -29.15,
-      "price_change_24h": null,
-      "liquidity_usd": 12114.41
-    },
-    "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump": {
-      "symbol": "CAMERON",
-      "name": "The Patriot Foundation",
-      "mcap_usd": 35935.0,
-      "price_usd": 0.00003593,
-      "price_change_1h": 4.57,
-      "price_change_24h": null,
-      "liquidity_usd": 14631.13
-    },
     "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
       "symbol": "MOG",
       "name": "MOG",
@@ -261,59 +235,59 @@
       "price_change_24h": null,
       "liquidity_usd": 3741.59
     },
-    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
-      "symbol": "CHUDMAN",
-      "name": "Sam Chudman",
-      "mcap_usd": 5962.0,
-      "price_usd": 5.962e-6,
-      "price_change_1h": 8.85,
-      "price_change_24h": null,
-      "liquidity_usd": 6055.07
-    },
-    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
-      "symbol": "LMEOW",
-      "name": "LMEOW",
-      "mcap_usd": 10243.0,
-      "price_usd": 0.00001024,
-      "price_change_1h": -15.51,
-      "price_change_24h": null,
-      "liquidity_usd": 8511.31
-    },
     "HqvHRVLwcH4kp82p5YNKpZvBRvHxrJgAkKcvnjmgpump": {
       "symbol": "OBLYRA",
       "name": "Oblyra",
-      "mcap_usd": 11726.0,
-      "price_usd": 0.00001172,
-      "price_change_1h": -66.32,
+      "mcap_usd": 11579.0,
+      "price_usd": 0.00001157,
+      "price_change_1h": -66.74,
       "price_change_24h": null,
-      "liquidity_usd": 8329.0
+      "liquidity_usd": 8276.24
     },
     "5nUn17oFyiRcjosXSiYbyzAvVss1oTygNt8eg2dQpump": {
       "symbol": "Stick",
       "name": "Just a stick",
-      "mcap_usd": 3621.27,
-      "price_usd": 3.621e-6,
-      "price_change_1h": 27.87,
+      "mcap_usd": 4193.14,
+      "price_usd": 4.193e-6,
+      "price_change_1h": 48.07,
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
-      "symbol": "DickButt",
-      "name": "DickButt",
-      "mcap_usd": 27808.94,
-      "price_usd": 0.0000278,
-      "price_change_1h": 946.0,
+    "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump": {
+      "symbol": "ROCK",
+      "name": "Official Pet Rock",
+      "mcap_usd": 26700.0,
+      "price_usd": 0.0000267,
+      "price_change_1h": -21.26,
       "price_change_24h": null,
-      "liquidity_usd": null
+      "liquidity_usd": 12771.2
     },
     "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
       "symbol": "memeoids",
       "name": "memeoids",
-      "mcap_usd": 143564.0,
-      "price_usd": 0.0001435,
-      "price_change_1h": -5.06,
+      "mcap_usd": 143086.0,
+      "price_usd": 0.000143,
+      "price_change_1h": -5.99,
       "price_change_24h": null,
-      "liquidity_usd": 31719.11
+      "liquidity_usd": 31665.24
+    },
+    "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump": {
+      "symbol": "CAMERON",
+      "name": "The Patriot Foundation",
+      "mcap_usd": 35848.0,
+      "price_usd": 0.00003584,
+      "price_change_1h": 4.32,
+      "price_change_24h": null,
+      "liquidity_usd": 14612.74
+    },
+    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
+      "symbol": "DickButt",
+      "name": "DickButt",
+      "mcap_usd": 26383.26,
+      "price_usd": 0.00002638,
+      "price_change_1h": 892.0,
+      "price_change_24h": null,
+      "liquidity_usd": null
     },
     "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
       "symbol": "Slopcoin",
@@ -323,6 +297,24 @@
       "price_change_1h": 0.12,
       "price_change_24h": null,
       "liquidity_usd": 5223.96
+    },
+    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
+      "symbol": "LMEOW",
+      "name": "LMEOW",
+      "mcap_usd": 9830.0,
+      "price_usd": 9.83e-6,
+      "price_change_1h": -18.15,
+      "price_change_24h": null,
+      "liquidity_usd": 8335.45
+    },
+    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
+      "symbol": "CHUDMAN",
+      "name": "Sam Chudman",
+      "mcap_usd": 5962.0,
+      "price_usd": 5.962e-6,
+      "price_change_1h": 8.85,
+      "price_change_24h": null,
+      "liquidity_usd": 6055.07
     }
   },
   "watching": []
