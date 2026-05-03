@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 162,
+      "mint": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
+      "symbol": "Fatcoin",
+      "classification": "STAIRCASE",
+      "confidence": 83,
+      "called_at": 1777826332,
+      "expires_at": 1777831732,
+      "note": "Fatcoin's staircase is intact, 58/min and no bundle/sniper noise, I'm in for the swing. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 73651.0,
+      "entry_price_usd": 0.00007365,
+      "entry_liquidity_usd": 21347.11,
+      "entry_top_holder_pct": 14.532992933387343,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 67765.0,
+      "current_price_usd": 0.00006776,
+      "current_liquidity_usd": 20476.73,
+      "pct_from_call": -7.997284453496267,
+      "peak_pct": -8.255261371350976,
+      "peak_at": 1777826332,
+      "trough_pct": -8.255261371350976,
+      "trough_at": 1777826332,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 161,
