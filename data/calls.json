@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 149,
+      "mint": "EiUPu4rdjfRxBenJgqGj4n53538tKKkuEGF1UrgPpump",
+      "symbol": "BIGOB",
+      "classification": "DEVELOPING",
+      "confidence": 61,
+      "called_at": 1777797230,
+      "expires_at": 1777802630,
+      "note": "I’m in BIGOB here: 49.5k cap, 188/min, top1 17, top10 29, buys 1.8x sells. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 49513.0,
+      "entry_price_usd": 0.00004951,
+      "entry_liquidity_usd": 17145.21,
+      "entry_top_holder_pct": 17.1123675002796,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 52534.0,
+      "current_price_usd": 0.00005253,
+      "current_liquidity_usd": 17672.87,
+      "pct_from_call": 6.099777822662089,
+      "peak_pct": 5.857402544940427,
+      "peak_at": 1777797230,
+      "trough_pct": 5.857402544940427,
+      "trough_at": 1777797230,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 148,
@@ -3059,17 +3090,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 99,
         "wins": 27,
@@ -3080,6 +3100,17 @@
         "avg_loser_pct": -44.432050024917494,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
