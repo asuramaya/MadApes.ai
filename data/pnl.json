@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 97.6726395158,
-  "realized_pnl_usd": -21.063246396859988,
-  "unrealized_pnl_usd": -1.2080324011900017,
+  "total_value_usd": 102.06592238022057,
+  "realized_pnl_usd": -21.063246396859963,
+  "unrealized_pnl_usd": 3.1852504632305596,
   "series": [
-    {
-      "ts": 1777599559,
-      "value_usd": 0.253516818
-    },
     {
       "ts": 1777599859,
       "value_usd": 0.2537599996
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777846802,
       "value_usd": 97.6726395158
+    },
+    {
+      "ts": 1777846832,
+      "value_usd": 102.06592238022057
     }
   ],
   "trades": [
+    {
+      "ts": 1777846830,
+      "side": "buy",
+      "symbol": "Bwilly",
+      "mint": "6H61vxjJraFVznbPMQfab9yXZvC5unD7KRagV9YZpump",
+      "token_amount_ui": 708174.004028,
+      "sol_amount_ui": 0.052754519,
+      "signature": "5dBz7puoAUNFhs6V4TCYWf1Uqea3Zm1PKtrKw8hpMDfSYix6pgpdGstaDoidrDFSod1pmwGRrrNJvECD4o5Te4fV"
+    },
     {
       "ts": 1777846576,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 201425.19661400001,
       "sol_amount_ui": 0.054896321,
       "signature": "4y4XpmysbYQrzmufrWbpv7ePS9CZ6XFSQjQuyTVhaThj2d3udmTzSP7tMmVSx9UUBhhGFkyPJ4hcan9FMWYtMfff"
-    },
-    {
-      "ts": 1777832608,
-      "side": "buy",
-      "symbol": "HARD",
-      "mint": "5YhzMyQ8eSX5EoKnbw41ngaNYJpBCQQSbL6BE9bcpump",
-      "token_amount_ui": 441931.23403600004,
-      "sol_amount_ui": 0.149135073,
-      "signature": "J4753zpiHT3cWHbrvFKTbCxnM6iXZ4vuTgyrumnmhRpzSe8CYTMdgfcnLnRsJbQGa6W3ciK5RPmQQ4qxzWMDeDT"
     }
   ]
 }
