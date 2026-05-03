@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 46238.96,
-    "current_mcap_usd": 288067.0,
-    "current_price_usd": 0.000288,
+    "current_liquidity_usd": 46001.55,
+    "current_mcap_usd": 284936.0,
+    "current_price_usd": 0.0002849,
     "entry_liquidity_usd": 43358.71,
     "entry_mcap_usd": 254645.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
     "note": "I’m taking the scalp here, 3k/min and 1.22 buy/sell with top1 only 9% · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": 13.118617439120195,
+    "pct_from_call": 11.901021209740769,
     "peak_at": 1777824066,
     "peak_pct": 13.118617439120195,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777823509,
     "trough_pct": -14.218381775333865
   },
-  "captured_at": 1777824090,
-  "last_snapshot_ts": 1777824066,
+  "captured_at": 1777824120,
+  "last_snapshot_ts": 1777824112,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -479,6 +479,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 2194997.41
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 12466,
+      "classification": "GRINDER",
+      "confidence": 74,
+      "distribution": 54,
+      "forensics_computed_at": 1777822696,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 46001.55,
+      "mcap_usd": 284936.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": -8.86,
+      "price_usd": 0.0002849,
+      "sells_h1": 10144,
+      "smart_money_count": 0,
+      "sniper_pct": 40.07033210846048,
+      "spring": 60,
+      "timestamp": 1777824112,
+      "token_address": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
+      "top10_pct": 24.03091063017713,
+      "top5_pct": 16.348252296031863,
+      "top_holder_pct": 8.279312124024694,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 2116655.45
     }
   ]
 }
