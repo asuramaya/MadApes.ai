@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777780082,
+      "ts": 1777780149,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING HdnL…pump · deployer down 100.0% (97545455 → 0)",
@@ -9,7 +9,7 @@
       "signature": null
     },
     {
-      "ts": 1777780082,
+      "ts": 1777780149,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 91kD…pump · deployer down 100.0% (50494118 → 0)",
@@ -17,7 +17,7 @@
       "signature": null
     },
     {
-      "ts": 1777780065,
+      "ts": 1777780132,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING HdnL…pump · deployer down 100.0% (97545455 → 0)",
@@ -25,7 +25,7 @@
       "signature": null
     },
     {
-      "ts": 1777780064,
+      "ts": 1777780116,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 91kD…pump · deployer down 100.0% (50494118 → 0)",
@@ -33,12 +33,28 @@
       "signature": null
     },
     {
-      "ts": 1777780048,
+      "ts": 1777780115,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING HdnL…pump · deployer down 100.0% (97545455 → 0)",
+      "mint": "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump",
+      "signature": null
+    },
+    {
+      "ts": 1777780099,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 91kD…pump · deployer down 100.0% (50494118 → 0)",
       "mint": "91kDvTYSe6QwxsGpBqnjWWek6bpTc7ktV692yHLipump",
       "signature": null
+    },
+    {
+      "ts": 1777780082,
+      "kind": "trade",
+      "tag": "SELL",
+      "summary": "cut 361.0k tokens of 7kDW…pump for 0.022 SOL",
+      "mint": "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump",
+      "signature": "3yQdrNku8JfhQbUcUQ1nConqTtYaVkEEHZjZXFFysGTooVxX4Z5cmJhRfz5cb1pANa5Ayx1HWXrBGGpWwas7uoei"
     },
     {
       "ts": 1777779990,
@@ -113,14 +129,6 @@
       "signature": "3VNfvek4i93hud7VkauheEPif59GCPR5AeqmZrv3CprhK7Yju1zUPbYXwgJbtqyfZr9S7fiEjzn1iJ1yGiPLKzVt"
     },
     {
-      "ts": 1777778190,
-      "kind": "trade",
-      "tag": "BUY",
-      "summary": "bought 68.5k tokens of 4evi…BAGS for 0.033 SOL",
-      "mint": "4eviw9nB6qx7z3hSF1hMv9ViTrzzhbsKFtAm88EPBAGS",
-      "signature": "3k4D4yY3Rr6cZYP4VrjTfyyYnxqaFUVGYh9xx9fJPARmNXux6cDzQg9WoQZPB8wimq7JNaRkxqq7bYpHDbEjggAi"
-    },
-    {
       "ts": 1777773327,
       "kind": "call",
       "tag": "CALL WITHDREW",
@@ -162,59 +170,23 @@
     }
   ],
   "tokens": {
-    "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump": {
-      "symbol": "ROCK",
-      "name": "Solid Investment",
-      "mcap_usd": 10161.84,
-      "price_usd": 0.00001016,
-      "price_change_1h": 259.0,
+    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
+      "symbol": "MOG",
+      "name": "MOG",
+      "mcap_usd": 2303.0,
+      "price_usd": 2.303e-6,
+      "price_change_1h": -3.43,
       "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump": {
-      "symbol": "GAY",
-      "name": "Gay Inc",
-      "mcap_usd": 48586.0,
-      "price_usd": 0.00004858,
-      "price_change_1h": -3.29,
-      "price_change_24h": null,
-      "liquidity_usd": 17157.67
-    },
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
-      "symbol": "memeoids",
-      "name": "memeoids",
-      "mcap_usd": 144624.0,
-      "price_usd": 0.0001446,
-      "price_change_1h": 4.3,
-      "price_change_24h": null,
-      "liquidity_usd": 31632.97
+      "liquidity_usd": 3701.59
     },
     "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
       "symbol": "LMEOW",
       "name": "LMEOW",
       "mcap_usd": 12010.0,
       "price_usd": 0.00001201,
-      "price_change_1h": -20.51,
+      "price_change_1h": -18.58,
       "price_change_24h": null,
       "liquidity_usd": 9208.79
-    },
-    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
-      "symbol": "CHUDMAN",
-      "name": "Sam Chudman",
-      "mcap_usd": 5477.0,
-      "price_usd": 5.477e-6,
-      "price_change_1h": -16.37,
-      "price_change_24h": null,
-      "liquidity_usd": 5800.7
-    },
-    "4eviw9nB6qx7z3hSF1hMv9ViTrzzhbsKFtAm88EPBAGS": {
-      "symbol": "SPIRIT",
-      "name": "Lets Buy Spirit",
-      "mcap_usd": 22139.0,
-      "price_usd": 0.00002213,
-      "price_change_1h": -46.97,
-      "price_change_24h": null,
-      "liquidity_usd": 10324.07
     },
     "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
       "symbol": "Slopcoin",
@@ -225,41 +197,77 @@
       "price_change_24h": null,
       "liquidity_usd": 5215.94
     },
+    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
+      "symbol": "CHUDMAN",
+      "name": "Sam Chudman",
+      "mcap_usd": 5477.0,
+      "price_usd": 5.477e-6,
+      "price_change_1h": -16.37,
+      "price_change_24h": null,
+      "liquidity_usd": 5800.7
+    },
     "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump": {
       "symbol": "ROCK",
       "name": "Official Pet Rock",
-      "mcap_usd": 30421.97,
-      "price_usd": 0.00003042,
-      "price_change_1h": 975.0,
+      "mcap_usd": 26437.0,
+      "price_usd": 0.00002643,
+      "price_change_1h": -22.03,
       "price_change_24h": null,
-      "liquidity_usd": null
+      "liquidity_usd": 12481.04
     },
     "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump": {
       "symbol": "GAYINC",
       "name": "Gay Inc",
-      "mcap_usd": 6389.8,
-      "price_usd": 6.389e-6,
-      "price_change_1h": -48.7,
+      "mcap_usd": 6144.46,
+      "price_usd": 6.144e-6,
+      "price_change_1h": -50.94,
       "price_change_24h": null,
       "liquidity_usd": null
+    },
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
+      "symbol": "memeoids",
+      "name": "memeoids",
+      "mcap_usd": 131279.0,
+      "price_usd": 0.0001312,
+      "price_change_1h": -7.33,
+      "price_change_24h": null,
+      "liquidity_usd": 30141.21
     },
     "91kDvTYSe6QwxsGpBqnjWWek6bpTc7ktV692yHLipump": {
       "symbol": "nugget",
       "name": "nugget69420",
-      "mcap_usd": 13295.0,
-      "price_usd": 0.00001329,
-      "price_change_1h": -61.8,
+      "mcap_usd": 13969.0,
+      "price_usd": 0.00001396,
+      "price_change_1h": -59.87,
       "price_change_24h": null,
-      "liquidity_usd": 8879.0
+      "liquidity_usd": 9101.07
     },
-    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
-      "symbol": "MOG",
-      "name": "MOG",
-      "mcap_usd": 2303.0,
-      "price_usd": 2.303e-6,
-      "price_change_1h": -3.43,
+    "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump": {
+      "symbol": "ROCK",
+      "name": "Solid Investment",
+      "mcap_usd": 4560.95,
+      "price_usd": 4.56e-6,
+      "price_change_1h": 61.07,
       "price_change_24h": null,
-      "liquidity_usd": 3701.59
+      "liquidity_usd": null
+    },
+    "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump": {
+      "symbol": "GAY",
+      "name": "Gay Inc",
+      "mcap_usd": 47265.0,
+      "price_usd": 0.00004726,
+      "price_change_1h": 57.91,
+      "price_change_24h": null,
+      "liquidity_usd": 16928.67
+    },
+    "4eviw9nB6qx7z3hSF1hMv9ViTrzzhbsKFtAm88EPBAGS": {
+      "symbol": "SPIRIT",
+      "name": "Lets Buy Spirit",
+      "mcap_usd": 22292.0,
+      "price_usd": 0.00002229,
+      "price_change_1h": -46.6,
+      "price_change_24h": null,
+      "liquidity_usd": 10359.78
     }
   },
   "watching": []
