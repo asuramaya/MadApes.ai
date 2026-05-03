@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 80503.27,
-    "current_mcap_usd": 641303.0,
-    "current_price_usd": 0.0007665,
+    "current_liquidity_usd": 80950.46,
+    "current_mcap_usd": 648463.0,
+    "current_price_usd": 0.000775,
     "entry_liquidity_usd": 82026.36,
     "entry_mcap_usd": 666652.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "HDG8Ng6YLpiYXzBASD1Zd5Wh7T8DHRYFcbf4YGuvpump",
     "note": "I’m in $Octopus: clean grinder, no bundle/insider noise, 1500/min, bid still ahead. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -3.80271084337348,
+    "pct_from_call": -2.7359437751004023,
     "peak_at": 1777825953,
     "peak_pct": 0.0,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777826168,
     "trough_pct": -3.777610441767054
   },
-  "captured_at": 1777826198,
-  "last_snapshot_ts": 1777826168,
+  "captured_at": 1777826225,
+  "last_snapshot_ts": 1777826219,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -115,6 +115,34 @@
       "tx_rate": 1000.0000000000001,
       "velocity": 1.0,
       "volume_h1_usd": 54918.29
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 332,
+      "classification": "GRINDER",
+      "confidence": 75,
+      "distribution": 55,
+      "forensics_computed_at": 1777825039,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 80950.46,
+      "mcap_usd": 648463.0,
+      "momentum": 67,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 3.73,
+      "price_usd": 0.000775,
+      "sells_h1": 300,
+      "smart_money_count": 0,
+      "sniper_pct": 15.037406930480103,
+      "spring": 61,
+      "timestamp": 1777826219,
+      "token_address": "HDG8Ng6YLpiYXzBASD1Zd5Wh7T8DHRYFcbf4YGuvpump",
+      "top10_pct": 22.88889430314889,
+      "top5_pct": 15.039821923728107,
+      "top_holder_pct": 6.389603501559803,
+      "tx_rate": 76.92307692307693,
+      "velocity": 1.2,
+      "volume_h1_usd": 54385.97
     }
   ]
 }
