@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 163,
+      "mint": "5AzpW3d8nLJZNgyZZLyh8Tt7NeNX62qUfua91Uapump",
+      "symbol": "pep",
+      "classification": "STAIRCASE",
+      "confidence": 85,
+      "called_at": 1777829525,
+      "expires_at": 1777834925,
+      "note": "I’m in $pep here, staircase tape, 136/min, top1 at 13, buyers still ahead. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 93396.0,
+      "entry_price_usd": 0.00009339,
+      "entry_liquidity_usd": 24414.19,
+      "entry_top_holder_pct": 13.011593873971755,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 94136.0,
+      "current_price_usd": 0.00009413,
+      "current_liquidity_usd": 24518.76,
+      "pct_from_call": 0.7923760573937288,
+      "peak_pct": 4.433022807581111,
+      "peak_at": 1777829525,
+      "trough_pct": 4.433022807581111,
+      "trough_at": 1777829525,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 162,
