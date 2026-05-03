@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 152,
+      "mint": "bnLZr2J1uCW2rURijaBJE37KzzFS53SAb56EDrmpump",
+      "symbol": "MAKAM",
+      "classification": "GRINDER",
+      "confidence": 76,
+      "called_at": 1777811291,
+      "expires_at": 1777816691,
+      "note": "MAKAM looks like the clean grinder here, top1 14%, 3k/min tape, I took the swing. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 84451.0,
+      "entry_price_usd": 0.00008445,
+      "entry_liquidity_usd": 24986.1,
+      "entry_top_holder_pct": 14.47491912391096,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 96437.0,
+      "current_price_usd": 0.00009643,
+      "current_liquidity_usd": 26707.6,
+      "pct_from_call": 14.18590882178803,
+      "peak_pct": 0.4499703966844182,
+      "peak_at": 1777811291,
+      "trough_pct": 0.4499703966844182,
+      "trough_at": 1777811291,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 151,
@@ -3149,17 +3180,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 102,
         "wins": 27,
@@ -3170,6 +3190,17 @@
         "avg_loser_pct": -43.36898703988946,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
