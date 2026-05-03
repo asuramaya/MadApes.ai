@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 160,
       "mint": "AMw3KmR8uLVAw236iGcNaJfkCdmFW7ijuPgjMg8nNpmK",
@@ -10,28 +11,26 @@
       "expires_at": 1777830818,
       "note": "I took Kenny here: 1500/min, 1.26 buy/sell, top1 at 15%, swing still works. · horizon=SHORT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777825605,
+      "exit_price_usd": 0.000037,
+      "exit_note": "-46.1% · severe collapse",
       "entry_mcap_usd": 68631.0,
       "entry_price_usd": 0.00006863,
       "entry_liquidity_usd": 20914.5,
       "entry_top_holder_pct": 14.772175772863369,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 37003.0,
+      "current_mcap_usd": 0.0,
       "current_price_usd": 0.000037,
-      "current_liquidity_usd": 15456.54,
+      "current_liquidity_usd": 0.0,
       "pct_from_call": -46.08771674194959,
       "peak_pct": 7.358298120355533,
       "peak_at": 1777825418,
       "trough_pct": -33.64417893049686,
       "trough_at": 1777825581,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 159,
       "mint": "53qdahrK8D6TmtD16zPpAdcNtgEvi8vTnbfc2auUpump",
@@ -3365,15 +3364,15 @@
   ],
   "stats": {
     "short": {
-      "count": 12,
+      "count": 13,
       "wins": 4,
-      "losses": 7,
+      "losses": 8,
       "expired": 1,
-      "win_rate": 36.36363636363637,
+      "win_rate": 33.33333333333333,
       "avg_winner_pct": 36.74353952025073,
-      "avg_loser_pct": -10.800886805901944,
+      "avg_loser_pct": -19.622594289913856,
       "best_pct": 117.68707482993194,
-      "worst_pct": -22.602219182246554
+      "worst_pct": -46.08771674194959
     },
     "long": {
       "count": 3,
@@ -3409,13 +3408,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 110,
+      "count": 111,
       "wins": 27,
-      "losses": 81,
+      "losses": 82,
       "expired": 2,
-      "win_rate": 25.0,
+      "win_rate": 24.770642201834864,
       "avg_winner_pct": 56.11225136864165,
-      "avg_loser_pct": -42.06123713460906,
+      "avg_loser_pct": -42.111568129700814,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -3432,13 +3431,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 109,
+        "count": 110,
         "wins": 27,
-        "losses": 80,
+        "losses": 81,
         "expired": 2,
-        "win_rate": 25.233644859813083,
+        "win_rate": 25.0,
         "avg_winner_pct": 56.11225136864165,
-        "avg_loser_pct": -42.34339696391752,
+        "avg_loser_pct": -42.390793416804,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
