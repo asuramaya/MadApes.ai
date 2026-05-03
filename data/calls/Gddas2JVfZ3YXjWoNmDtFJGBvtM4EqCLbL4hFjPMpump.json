@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 79,
-    "current_liquidity_usd": 21618.97,
-    "current_mcap_usd": 77355.0,
-    "current_price_usd": 0.00007735,
+    "current_liquidity_usd": 22043.71,
+    "current_mcap_usd": 80406.0,
+    "current_price_usd": 0.0000804,
     "entry_liquidity_usd": 22811.97,
     "entry_mcap_usd": 86179.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
     "note": "MTGA’s staircasing with top1 at 13 and 1.8 buys/sells, I’m taking the swing · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -10.245996750986318,
+    "pct_from_call": -6.706892550475752,
     "peak_at": 1777832914,
     "peak_pct": 1.5432815038291858,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777833048,
     "trough_pct": -10.245996750986318
   },
-  "captured_at": 1777833073,
-  "last_snapshot_ts": 1777833048,
+  "captured_at": 1777833102,
+  "last_snapshot_ts": 1777833091,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -115,6 +115,34 @@
       "tx_rate": 27.027027027027028,
       "velocity": 3.4,
       "volume_h1_usd": 72291.17
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1021,
+      "classification": "DEVELOPING",
+      "confidence": 59,
+      "distribution": 55,
+      "forensics_computed_at": 1777832532,
+      "holder_count": 20,
+      "insider_pct": 7.49533187372262,
+      "liquidity_usd": 22043.71,
+      "mcap_usd": 80406.0,
+      "momentum": 59,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 18.79,
+      "price_usd": 0.0000804,
+      "sells_h1": 582,
+      "smart_money_count": 0,
+      "sniper_pct": 56.52033254786916,
+      "spring": 27,
+      "timestamp": 1777833091,
+      "token_address": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
+      "top10_pct": 34.7759347384909,
+      "top5_pct": 24.19387156257112,
+      "top_holder_pct": 13.969183964880727,
+      "tx_rate": 31.250000000000004,
+      "velocity": 0.33333333333333337,
+      "volume_h1_usd": 72429.19
     }
   ]
 }
