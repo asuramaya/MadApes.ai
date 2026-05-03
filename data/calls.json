@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 144,
+      "mint": "6rYtoAHHmQSNfge15Y6jaPyoH5gVY3cqEyLiPPzNpump",
+      "symbol": "goblinwif",
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "called_at": 1777791229,
+      "expires_at": 1777796629,
+      "note": "goblinwif at 42.5k, 214/min and 1.52 buys/sells, with no bundle noise · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 42489.0,
+      "entry_price_usd": 0.00004248,
+      "entry_liquidity_usd": 15960.2,
+      "entry_top_holder_pct": 17.5183302196333,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 48658.0,
+      "current_price_usd": 0.00004865,
+      "current_liquidity_usd": 17107.36,
+      "pct_from_call": 14.524482109227854,
+      "peak_pct": 2.6365348399246757,
+      "peak_at": 1777791229,
+      "trough_pct": 2.6365348399246757,
+      "trough_at": 1777791229,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 143,
@@ -2909,17 +2940,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 94,
         "wins": 26,
@@ -2930,6 +2950,17 @@
         "avg_loser_pct": -43.43613284896288,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
