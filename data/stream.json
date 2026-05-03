@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777831418,
+      "kind": "alert",
+      "tag": "SMART WALLET BUY",
+      "summary": "SMART_WALLET_BUY CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD bought 3ToK…pump (bal 7077194.62) [auto: 3/7 @ 43%]",
+      "mint": "3ToKnopDeSUAy8fc1bX6rUK25UMCA24Xwe1WXqZspump",
+      "signature": null
+    },
+    {
       "ts": 1777831374,
       "kind": "alert",
       "tag": "SMART WALLET BUY",
@@ -15,6 +23,14 @@
       "summary": "SMART_WALLET_BUY STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk bought 6EKb…pump (bal 1393091.45) [auto: 6/14 @ 43%]",
       "mint": "6EKbK3wp6GZcXwdnugtFhErK1nxpi8H1bgCrFUEPpump",
       "signature": null
+    },
+    {
+      "ts": 1777831371,
+      "kind": "trade",
+      "tag": "SELL",
+      "summary": "cut 1.01M tokens of 5o5E…pump for 0.040 SOL",
+      "mint": "5o5ERWK7VtwC2fQMM8VDA3kMt1L1hVyArDj5HteTpump",
+      "signature": "PcjtRYBA7UY6cjm2UBnfUovu4NHTBCai7LJWhzRbZ6chiTJwEJveBwyDSsC5YEBJyrTh59LazWtwZukpQ6bJC2Q"
     },
     {
       "ts": 1777831333,
@@ -60,16 +76,16 @@
       "ts": 1777831173,
       "kind": "alert",
       "tag": "SMART WALLET BUY",
-      "summary": "SMART_WALLET_BUY CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD bought Gdda…pump (bal 1283149.52) [auto: 3/7 @ 43%]",
-      "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
+      "summary": "SMART_WALLET_BUY CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD bought HedE…riz1 (bal 1962001.21) [auto: 3/7 @ 43%]",
+      "mint": "HedEKKqFHHLAbByaWuRHKJKseij9myqf66vsxnvTriz1",
       "signature": null
     },
     {
       "ts": 1777831173,
       "kind": "alert",
       "tag": "SMART WALLET BUY",
-      "summary": "SMART_WALLET_BUY CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD bought HedE…riz1 (bal 1962001.21) [auto: 3/7 @ 43%]",
-      "mint": "HedEKKqFHHLAbByaWuRHKJKseij9myqf66vsxnvTriz1",
+      "summary": "SMART_WALLET_BUY CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD bought Gdda…pump (bal 1283149.52) [auto: 3/7 @ 43%]",
+      "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
       "signature": null
     },
     {
@@ -169,14 +185,6 @@
       "signature": null
     },
     {
-      "ts": 1777830863,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE DezX…B263 · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
-      "signature": null
-    },
-    {
       "ts": 1777830608,
       "kind": "trade",
       "tag": "BUY",
@@ -233,14 +241,6 @@
       "signature": null
     },
     {
-      "ts": 1777829464,
-      "kind": "trade",
-      "tag": "BUY",
-      "summary": "bought 44.9k tokens of 6tda…pump for 0.007 SOL",
-      "mint": "6tdahKUAQxmqU543S514DhWCGRyKgznZLF7rnSXYpump",
-      "signature": "3KLEEjbdtsGKjQ5L3YwFBNvsaTb86chey78dmtH4yAcfzmhwjYfht7axwXjHJWzYfTHzn9GBM2htATSwCFvNXF9W"
-    },
-    {
       "ts": 1777825605,
       "kind": "call",
       "tag": "CALL FAILED",
@@ -266,14 +266,140 @@
     }
   ],
   "tokens": {
+    "Ha5Z2DfRv6Ar2nAeBLCGWHqzwXKL3of4DqKwzzwpump": {
+      "symbol": "FOFAR",
+      "name": "FOFAR",
+      "mcap_usd": 1440742.0,
+      "price_usd": 0.00144,
+      "price_change_1h": -8.07,
+      "price_change_24h": null,
+      "liquidity_usd": 109541.18
+    },
     "4nKDbjHsojCGaRezKkifEd3nnJxSNJ6totuXMoxzpump": {
       "symbol": "TROLLBULL",
       "name": "Troll Bull",
-      "mcap_usd": 84393.0,
-      "price_usd": 0.00008439,
-      "price_change_1h": -1.93,
+      "mcap_usd": 84678.0,
+      "price_usd": 0.00008467,
+      "price_change_1h": 11.13,
       "price_change_24h": null,
-      "liquidity_usd": 23460.62
+      "liquidity_usd": 23504.02
+    },
+    "5o5ERWK7VtwC2fQMM8VDA3kMt1L1hVyArDj5HteTpump": {
+      "symbol": "TROLL2",
+      "name": "TROLLFACE2",
+      "mcap_usd": 3222.55,
+      "price_usd": 3.222e-6,
+      "price_change_1h": 24.19,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "HedEKKqFHHLAbByaWuRHKJKseij9myqf66vsxnvTriz1": {
+      "symbol": "SuccessKid",
+      "name": "Success Kid",
+      "mcap_usd": 41897.0,
+      "price_usd": 0.00004211,
+      "price_change_1h": 63.92,
+      "price_change_24h": null,
+      "liquidity_usd": 18711.83
+    },
+    "CN9itYACMJ9Fn4iUNS1QiEmNhrnzqQrgg7oNCKVJpump": {
+      "symbol": "S",
+      "name": "S",
+      "mcap_usd": 91410.0,
+      "price_usd": 0.00009141,
+      "price_change_1h": 168.0,
+      "price_change_24h": null,
+      "liquidity_usd": 24022.44
+    },
+    "AMw3KmR8uLVAw236iGcNaJfkCdmFW7ijuPgjMg8nNpmK": {
+      "symbol": "Kenny",
+      "name": "Justice For Kenny",
+      "mcap_usd": 31923.0,
+      "price_usd": 0.00003192,
+      "price_change_1h": 100.0,
+      "price_change_24h": null,
+      "liquidity_usd": 14493.62
+    },
+    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
+      "symbol": "MAGA",
+      "name": "Make Aliens Great Again ",
+      "mcap_usd": 13752171.0,
+      "price_usd": 0.01405,
+      "price_change_1h": -2.21,
+      "price_change_24h": null,
+      "liquidity_usd": 400768.41
+    },
+    "9VWFnLHLTXpekBqPm9ADapqxcrpoTGJrH6yyZMQ5pump": {
+      "symbol": "MEGUSTA",
+      "name": "Me Gusta",
+      "mcap_usd": 2313.0,
+      "price_usd": 2.313e-6,
+      "price_change_1h": -93.42,
+      "price_change_24h": null,
+      "liquidity_usd": 3703.65
+    },
+    "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump": {
+      "symbol": "Fatcoin",
+      "name": "Fatcoin",
+      "mcap_usd": 4080.0,
+      "price_usd": 4.08e-6,
+      "price_change_1h": -94.58,
+      "price_change_24h": null,
+      "liquidity_usd": 5069.73
+    },
+    "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+      "symbol": "TROLL",
+      "name": "TROLL",
+      "mcap_usd": 45714682.0,
+      "price_usd": 0.04576,
+      "price_change_1h": 0.67,
+      "price_change_24h": null,
+      "liquidity_usd": 2396723.97
+    },
+    "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": {
+      "symbol": "GIGA",
+      "name": "GIGACHAD",
+      "mcap_usd": 17835781.0,
+      "price_usd": 0.001857,
+      "price_change_1h": 6.34,
+      "price_change_24h": null,
+      "liquidity_usd": 1251490.17
+    },
+    "EWwaRFnyoZNxybcDNNVHf5jgUjNgKJrhdfZU8Wgpump": {
+      "symbol": "CHAD",
+      "name": "Yes Chad",
+      "mcap_usd": 26080.0,
+      "price_usd": 0.00002888,
+      "price_change_1h": 297.0,
+      "price_change_24h": null,
+      "liquidity_usd": 14103.49
+    },
+    "4uYwdkwWT1kNa6k9mzD1UZHfYLjxfVme1YBwRp4vpump": {
+      "symbol": "shoebill",
+      "name": "shoebill",
+      "mcap_usd": 144906.0,
+      "price_usd": 0.0001449,
+      "price_change_1h": -1.07,
+      "price_change_24h": null,
+      "liquidity_usd": 32398.31
+    },
+    "6EKbK3wp6GZcXwdnugtFhErK1nxpi8H1bgCrFUEPpump": {
+      "symbol": "cannons",
+      "name": "cannons",
+      "mcap_usd": 48581.0,
+      "price_usd": 0.00004859,
+      "price_change_1h": -31.66,
+      "price_change_24h": null,
+      "liquidity_usd": 19930.66
+    },
+    "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump": {
+      "symbol": "RJGN",
+      "name": "RetardedJewishGayNigga",
+      "mcap_usd": 101312.0,
+      "price_usd": 0.0001013,
+      "price_change_1h": -23.08,
+      "price_change_24h": null,
+      "liquidity_usd": 32613.23
     },
     "JWvGJKm9H8QKbi7psLDcHD5HQyKk41XaZj2n887pump": {
       "symbol": "OXYGAS",
@@ -284,239 +410,158 @@
       "price_change_24h": null,
       "liquidity_usd": 6460.43
     },
-    "4uYwdkwWT1kNa6k9mzD1UZHfYLjxfVme1YBwRp4vpump": {
-      "symbol": "shoebill",
-      "name": "shoebill",
-      "mcap_usd": 141191.0,
-      "price_usd": 0.0001411,
-      "price_change_1h": -4.26,
-      "price_change_24h": null,
-      "liquidity_usd": 31975.99
-    },
-    "HedEKKqFHHLAbByaWuRHKJKseij9myqf66vsxnvTriz1": {
-      "symbol": "SuccessKid",
-      "name": "Success Kid",
-      "mcap_usd": 42486.0,
-      "price_usd": 0.0000427,
-      "price_change_1h": 66.23,
-      "price_change_24h": null,
-      "liquidity_usd": 18842.67
-    },
-    "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
-      "symbol": "Bonk",
-      "name": "Bonk",
-      "mcap_usd": 548336592.0,
-      "price_usd": 6.231e-6,
-      "price_change_1h": -0.51,
-      "price_change_24h": null,
-      "liquidity_usd": 882020.67
-    },
-    "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump": {
-      "symbol": "PALESTINE",
-      "name": "Children of Palestine",
-      "mcap_usd": 6765.0,
-      "price_usd": 6.765e-6,
-      "price_change_1h": 1.55,
-      "price_change_24h": null,
-      "liquidity_usd": 6628.86
-    },
-    "5oq4zKetRkUMMrFtkWH7r1Q6HZJMsTjgCeU6isgYpump": {
-      "symbol": "mogging",
-      "name": "mogging",
-      "mcap_usd": 276363.0,
-      "price_usd": 0.0002764,
-      "price_change_1h": -5.9,
-      "price_change_24h": null,
-      "liquidity_usd": 55926.37
-    },
-    "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump": {
-      "symbol": "ScribPepe",
-      "name": "Scribbli Pepe",
-      "mcap_usd": 472072.0,
-      "price_usd": 0.000472,
-      "price_change_1h": 49.26,
-      "price_change_24h": null,
-      "liquidity_usd": 53197.88
-    },
-    "qMPetjaaH8q3BMG6uGRJHTpXsaTcdtxNMDvGvahpump": {
-      "symbol": "CLAV",
-      "name": "Clavicular Coin",
-      "mcap_usd": 45541.0,
-      "price_usd": 0.00004554,
-      "price_change_1h": 0.87,
-      "price_change_24h": null,
-      "liquidity_usd": 16624.78
-    },
-    "3BNj66UskfkTqX4MFp1H8EBPYt3LJyMZc6Jtqg2Zpump": {
-      "symbol": "Paws",
-      "name": "Paws",
-      "mcap_usd": 2675.26,
-      "price_usd": 2.675e-6,
-      "price_change_1h": 13.62,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "F3iV4HCdr4rBCHmLZPEEFiLxBwznSVwPYx2AoQy5pump": {
-      "symbol": "VIGIL",
-      "name": "VigilFi",
-      "mcap_usd": 53053.0,
-      "price_usd": 0.00005323,
-      "price_change_1h": 31.83,
-      "price_change_24h": null,
-      "liquidity_usd": 18420.9
-    },
-    "Ha5Z2DfRv6Ar2nAeBLCGWHqzwXKL3of4DqKwzzwpump": {
-      "symbol": "FOFAR",
-      "name": "FOFAR",
-      "mcap_usd": 1416408.0,
-      "price_usd": 0.001416,
-      "price_change_1h": -9.67,
-      "price_change_24h": null,
-      "liquidity_usd": 108616.67
-    },
-    "AMw3KmR8uLVAw236iGcNaJfkCdmFW7ijuPgjMg8nNpmK": {
-      "symbol": "Kenny",
-      "name": "Justice For Kenny",
-      "mcap_usd": 32259.0,
-      "price_usd": 0.00003226,
-      "price_change_1h": 110.0,
-      "price_change_24h": null,
-      "liquidity_usd": 14569.16
-    },
-    "EWwaRFnyoZNxybcDNNVHf5jgUjNgKJrhdfZU8Wgpump": {
-      "symbol": "CHAD",
-      "name": "Yes Chad",
-      "mcap_usd": 23514.0,
-      "price_usd": 0.00002604,
-      "price_change_1h": 258.0,
-      "price_change_24h": null,
-      "liquidity_usd": 13392.81
-    },
     "7EV9ShfBB5NGtGcFVBQPVUVVtW3D6Emr3dPmh8rBpump": {
       "symbol": "Peewell",
       "name": "Jerum Peewell",
       "mcap_usd": 3831.0,
       "price_usd": 3.831e-6,
-      "price_change_1h": -5.94,
+      "price_change_1h": -5.38,
       "price_change_24h": null,
       "liquidity_usd": 5135.8
     },
-    "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump": {
-      "symbol": "MTGA",
-      "name": "Make Troll Great Again",
-      "mcap_usd": 85561.0,
-      "price_usd": 0.00008556,
-      "price_change_1h": 25.72,
+    "6tdahKUAQxmqU543S514DhWCGRyKgznZLF7rnSXYpump": {
+      "symbol": "S",
+      "name": "S",
+      "mcap_usd": 7030.0,
+      "price_usd": 7.03e-6,
+      "price_change_1h": -79.43,
       "price_change_24h": null,
-      "liquidity_usd": 22643.46
+      "liquidity_usd": 6480.09
     },
-    "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
-      "symbol": "BURNIE",
-      "name": "Burnie Senders",
-      "mcap_usd": 11744911.0,
-      "price_usd": 0.01198,
-      "price_change_1h": 2.09,
+    "VNo7EjR3XVzvbjUgQrFAXNwSms34fHwHBt1Xoaopump": {
+      "symbol": "chudhouse",
+      "name": "chudhouse",
+      "mcap_usd": 511702.0,
+      "price_usd": 0.0005134,
+      "price_change_1h": 18.51,
       "price_change_24h": null,
-      "liquidity_usd": 585351.02
+      "liquidity_usd": 71553.26
     },
-    "EC1TMMg4shn1XrYNy5Y5a98LT6kjNcFtgnav11jSpump": {
-      "symbol": "ROBO",
-      "name": "robo",
-      "mcap_usd": 129529.0,
-      "price_usd": 0.0001295,
-      "price_change_1h": -1.75,
+    "qMPetjaaH8q3BMG6uGRJHTpXsaTcdtxNMDvGvahpump": {
+      "symbol": "CLAV",
+      "name": "Clavicular Coin",
+      "mcap_usd": 44668.0,
+      "price_usd": 0.00004466,
+      "price_change_1h": 11.12,
       "price_change_24h": null,
-      "liquidity_usd": 32961.65
+      "liquidity_usd": 16465.7
     },
     "3TYgKwkE2Y3rxdw9osLRSpxpXmSC1C1oo19W9KHspump": {
       "symbol": "BULL",
       "name": "Bull",
-      "mcap_usd": 3923300.0,
-      "price_usd": 0.003923,
-      "price_change_1h": -3.92,
+      "mcap_usd": 3894938.0,
+      "price_usd": 0.003895,
+      "price_change_1h": -5.24,
       "price_change_24h": null,
-      "liquidity_usd": 260401.77
+      "liquidity_usd": 259445.54
+    },
+    "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
+      "symbol": "TripleT",
+      "name": "Tung Tung Tung Sahur",
+      "mcap_usd": 4776823.0,
+      "price_usd": 0.004776,
+      "price_change_1h": 11.12,
+      "price_change_24h": null,
+      "liquidity_usd": 314704.91
+    },
+    "3ToKnopDeSUAy8fc1bX6rUK25UMCA24Xwe1WXqZspump": {
+      "symbol": "BIT",
+      "name": "Lil Bit",
+      "mcap_usd": 7068.0,
+      "price_usd": 7.069e-6,
+      "price_change_1h": -2.08,
+      "price_change_24h": null,
+      "liquidity_usd": 7791.63
     },
     "ekFLEJY4eZGZN3NxYh3f5dR4txtLgQe8DJKEjVoXmey": {
       "symbol": "NEWFACE",
       "name": "Newface",
-      "mcap_usd": 12001.27,
-      "price_usd": 0.000012,
-      "price_change_1h": 276.0,
+      "mcap_usd": 5248.7,
+      "price_usd": 5.248e-6,
+      "price_change_1h": 64.31,
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-      "symbol": "TROLL",
-      "name": "TROLL",
-      "mcap_usd": 45706647.0,
-      "price_usd": 0.04575,
-      "price_change_1h": 1.71,
+    "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump": {
+      "symbol": "MTGA",
+      "name": "Make Troll Great Again",
+      "mcap_usd": 77175.0,
+      "price_usd": 0.00007717,
+      "price_change_1h": 17.14,
       "price_change_24h": null,
-      "liquidity_usd": 2396644.52
+      "liquidity_usd": 21515.88
+    },
+    "F3iV4HCdr4rBCHmLZPEEFiLxBwznSVwPYx2AoQy5pump": {
+      "symbol": "VIGIL",
+      "name": "VigilFi",
+      "mcap_usd": 52485.0,
+      "price_usd": 0.00005266,
+      "price_change_1h": 32.12,
+      "price_change_24h": null,
+      "liquidity_usd": 18321.03
+    },
+    "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump": {
+      "symbol": "ScribPepe",
+      "name": "Scribbli Pepe",
+      "mcap_usd": 460923.0,
+      "price_usd": 0.0004609,
+      "price_change_1h": 40.85,
+      "price_change_24h": null,
+      "liquidity_usd": 52566.4
+    },
+    "HZQjvySLZEyBAmqe2ijkg8DksD9kiF2m1HRKFBtpump": {
+      "symbol": "YODA",
+      "name": "Space Goblin",
+      "mcap_usd": 18599.0,
+      "price_usd": 0.00001859,
+      "price_change_1h": -46.27,
+      "price_change_24h": null,
+      "liquidity_usd": 10497.74
+    },
+    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
+      "symbol": "DickButt",
+      "name": "DickButt",
+      "mcap_usd": 218415.0,
+      "price_usd": 0.0002184,
+      "price_change_1h": 33.23,
+      "price_change_24h": null,
+      "liquidity_usd": 38573.89
+    },
+    "EC1TMMg4shn1XrYNy5Y5a98LT6kjNcFtgnav11jSpump": {
+      "symbol": "ROBO",
+      "name": "robo",
+      "mcap_usd": 126215.0,
+      "price_usd": 0.0001262,
+      "price_change_1h": -4.27,
+      "price_change_24h": null,
+      "liquidity_usd": 32535.84
     },
     "5AzpW3d8nLJZNgyZZLyh8Tt7NeNX62qUfua91Uapump": {
       "symbol": "pep",
       "name": "peptide",
-      "mcap_usd": 49491.0,
-      "price_usd": 0.00004949,
-      "price_change_1h": 15.62,
+      "mcap_usd": 47779.0,
+      "price_usd": 0.00004777,
+      "price_change_1h": 11.55,
       "price_change_24h": null,
-      "liquidity_usd": 17910.75
+      "liquidity_usd": 17602.21
     },
-    "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": {
-      "symbol": "GIGA",
-      "name": "GIGACHAD",
-      "mcap_usd": 17802369.0,
-      "price_usd": 0.001853,
-      "price_change_1h": 8.38,
+    "5oq4zKetRkUMMrFtkWH7r1Q6HZJMsTjgCeU6isgYpump": {
+      "symbol": "mogging",
+      "name": "mogging",
+      "mcap_usd": 272476.0,
+      "price_usd": 0.0002725,
+      "price_change_1h": -7.22,
       "price_change_24h": null,
-      "liquidity_usd": 1250328.1
+      "liquidity_usd": 55535.59
     },
-    "5o5ERWK7VtwC2fQMM8VDA3kMt1L1hVyArDj5HteTpump": {
-      "symbol": "TROLL2",
-      "name": "TROLLFACE2",
-      "mcap_usd": 7714.65,
-      "price_usd": 7.714e-6,
-      "price_change_1h": 197.0,
+    "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump": {
+      "symbol": "PALESTINE",
+      "name": "Children of Palestine",
+      "mcap_usd": 6726.0,
+      "price_usd": 6.726e-6,
+      "price_change_1h": 1.01,
       "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "6EKbK3wp6GZcXwdnugtFhErK1nxpi8H1bgCrFUEPpump": {
-      "symbol": "cannons",
-      "name": "cannons",
-      "mcap_usd": 55049.0,
-      "price_usd": 0.00005506,
-      "price_change_1h": -22.56,
-      "price_change_24h": null,
-      "liquidity_usd": 21211.85
-    },
-    "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump": {
-      "symbol": "RJGN",
-      "name": "RetardedJewishGayNigga",
-      "mcap_usd": 100632.0,
-      "price_usd": 0.0001006,
-      "price_change_1h": -24.54,
-      "price_change_24h": null,
-      "liquidity_usd": 32503.97
-    },
-    "9VWFnLHLTXpekBqPm9ADapqxcrpoTGJrH6yyZMQ5pump": {
-      "symbol": "MEGUSTA",
-      "name": "Me Gusta",
-      "mcap_usd": 2366.0,
-      "price_usd": 2.365e-6,
-      "price_change_1h": -93.27,
-      "price_change_24h": null,
-      "liquidity_usd": 3745.45
-    },
-    "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump": {
-      "symbol": "Fatcoin",
-      "name": "Fatcoin",
-      "mcap_usd": 4047.0,
-      "price_usd": 4.046e-6,
-      "price_change_1h": -94.08,
-      "price_change_24h": null,
-      "liquidity_usd": 5049.4
+      "liquidity_usd": 6608.92
     },
     "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump": {
       "symbol": "GOBLININU",
@@ -527,69 +572,35 @@
       "price_change_24h": null,
       "liquidity_usd": 3332.16
     },
-    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
-      "symbol": "MAGA",
-      "name": "Make Aliens Great Again ",
-      "mcap_usd": 13666803.0,
-      "price_usd": 0.01397,
-      "price_change_1h": -2.79,
+    "3BNj66UskfkTqX4MFp1H8EBPYt3LJyMZc6Jtqg2Zpump": {
+      "symbol": "Paws",
+      "name": "Paws",
+      "mcap_usd": 2726.16,
+      "price_usd": 2.726e-6,
+      "price_change_1h": 15.78,
       "price_change_24h": null,
-      "liquidity_usd": 399546.56
-    },
-    "6tdahKUAQxmqU543S514DhWCGRyKgznZLF7rnSXYpump": {
-      "symbol": "S",
-      "name": "S",
-      "mcap_usd": 9610.0,
-      "price_usd": 9.61e-6,
-      "price_change_1h": -71.88,
-      "price_change_24h": null,
-      "liquidity_usd": 7580.09
-    },
-    "CN9itYACMJ9Fn4iUNS1QiEmNhrnzqQrgg7oNCKVJpump": {
-      "symbol": "S",
-      "name": "S",
-      "mcap_usd": 87571.0,
-      "price_usd": 0.00008757,
-      "price_change_1h": 156.0,
-      "price_change_24h": null,
-      "liquidity_usd": 23496.75
-    },
-    "HZQjvySLZEyBAmqe2ijkg8DksD9kiF2m1HRKFBtpump": {
-      "symbol": "YODA",
-      "name": "Space Goblin",
-      "mcap_usd": 21127.0,
-      "price_usd": 0.00002112,
-      "price_change_1h": -38.97,
-      "price_change_24h": null,
-      "liquidity_usd": 11189.01
-    },
-    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
-      "symbol": "DickButt",
-      "name": "DickButt",
-      "mcap_usd": 220428.0,
-      "price_usd": 0.0002204,
-      "price_change_1h": 34.65,
-      "price_change_24h": null,
-      "liquidity_usd": 38751.19
-    },
-    "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump": {
-      "symbol": "ECASH",
-      "name": "eCash",
-      "mcap_usd": 248608.0,
-      "price_usd": 0.0002486,
-      "price_change_1h": -20.39,
-      "price_change_24h": null,
-      "liquidity_usd": 43391.01
+      "liquidity_usd": null
     }
   },
   "watching": [
+    {
+      "mint": "VNo7EjR3XVzvbjUgQrFAXNwSms34fHwHBt1Xoaopump",
+      "symbol": "chudhouse",
+      "classification": "STAIRCASE",
+      "confidence": 85,
+      "top_holder_pct": 7.049369167618695,
+      "age_secs": 8,
+      "gate": "buy_sell_low",
+      "gap": "b/s 0.80 < 1.10 (dumping)",
+      "last_seen": 1777831447
+    },
     {
       "mint": "5AzpW3d8nLJZNgyZZLyh8Tt7NeNX62qUfua91Uapump",
       "symbol": "pep",
       "classification": "STAIRCASE",
       "confidence": 85,
       "top_holder_pct": 14.034388525264577,
-      "age_secs": 1193,
+      "age_secs": 1253,
       "gate": "",
       "gap": "",
       "last_seen": 1777830202
@@ -600,54 +611,65 @@
       "classification": "STAIRCASE",
       "confidence": 85,
       "top_holder_pct": 3.304968267046256,
-      "age_secs": 1497,
+      "age_secs": 1557,
       "gate": "momentum_delta",
       "gap": "mom_delta -1 < 0",
       "last_seen": 1777829898
     },
     {
+      "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+      "symbol": "TROLL",
+      "classification": "STAIRCASE",
+      "confidence": 83,
+      "top_holder_pct": 8.535959496886798,
+      "age_secs": 14,
+      "gate": "buy_sell_low",
+      "gap": "b/s 0.96 < 1.10 (dumping)",
+      "last_seen": 1777831441
+    },
+    {
+      "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+      "symbol": "TripleT",
+      "classification": "STAIRCASE",
+      "confidence": 83,
+      "top_holder_pct": 3.151332238050896,
+      "age_secs": 18,
+      "gate": "age",
+      "gap": "age 181s < 900s",
+      "last_seen": 1777831437
+    },
+    {
       "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
       "symbol": "MAGA",
       "classification": "STAIRCASE",
-      "confidence": 84,
+      "confidence": 82,
       "top_holder_pct": 2.044519726280178,
-      "age_secs": 4,
+      "age_secs": 19,
       "gate": "",
       "gap": "",
-      "last_seen": 1777831391
+      "last_seen": 1777831436
     },
     {
       "mint": "4nKDbjHsojCGaRezKkifEd3nnJxSNJ6totuXMoxzpump",
       "symbol": "TROLLBULL",
       "classification": "STAIRCASE",
-      "confidence": 83,
-      "top_holder_pct": 14.006007035306297,
-      "age_secs": 3,
+      "confidence": 81,
+      "top_holder_pct": 13.629084141907398,
+      "age_secs": 20,
       "gate": "buy_sell_high",
       "gap": "b/s 5.99 > 3.00 (FOMO peak)",
-      "last_seen": 1777831392
-    },
-    {
-      "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
-      "symbol": "ECASH",
-      "classification": "STAIRCASE",
-      "confidence": 80,
-      "top_holder_pct": 8.409834095486802,
-      "age_secs": 49,
-      "gate": "",
-      "gap": "",
-      "last_seen": 1777831346
+      "last_seen": 1777831435
     },
     {
       "mint": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
       "symbol": "ScribPepe",
       "classification": "STAIRCASE",
       "confidence": 80,
-      "top_holder_pct": 5.661362054241299,
-      "age_secs": 65,
+      "top_holder_pct": 5.6504043420232,
+      "age_secs": 6,
       "gate": "buy_sell_low",
       "gap": "b/s 1.05 < 1.10 (dumping)",
-      "last_seen": 1777831330
+      "last_seen": 1777831449
     },
     {
       "mint": "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump",
@@ -655,7 +677,7 @@
       "classification": "STAIRCASE",
       "confidence": 80,
       "top_holder_pct": 14.8712431089597,
-      "age_secs": 1324,
+      "age_secs": 1384,
       "gate": "momentum_delta",
       "gap": "mom_delta -4 < 0",
       "last_seen": 1777830071
@@ -666,32 +688,10 @@
       "classification": "STAIRCASE",
       "confidence": 80,
       "top_holder_pct": 12.29049592073638,
-      "age_secs": 1726,
+      "age_secs": 1786,
       "gate": "buy_sell_low",
-      "gap": "b/s 0.57 < 1.10 (dumping)",
+      "gap": "b/s 0.67 < 1.10 (dumping)",
       "last_seen": 1777829669
-    },
-    {
-      "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
-      "symbol": "TROLL",
-      "classification": "STAIRCASE",
-      "confidence": 79,
-      "top_holder_pct": 8.535959496886798,
-      "age_secs": 63,
-      "gate": "buy_sell_low",
-      "gap": "b/s 0.96 < 1.10 (dumping)",
-      "last_seen": 1777831332
-    },
-    {
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "symbol": "BURNIE",
-      "classification": "GRINDER",
-      "confidence": 79,
-      "top_holder_pct": 3.931147876606674,
-      "age_secs": 1559,
-      "gate": "",
-      "gap": "",
-      "last_seen": 1777829836
     }
   ]
 }
