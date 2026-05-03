@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 142,
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "symbol": "DickButt",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777784908,
+      "expires_at": 1777790308,
+      "note": "I'm in DickButt at 44k, 300/min, top1 17, no bundle noise. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 44014.0,
+      "entry_price_usd": 0.00004401,
+      "entry_liquidity_usd": 16248.39,
+      "entry_top_holder_pct": 17.199187753073545,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 50420.0,
+      "current_price_usd": 0.00005042,
+      "current_liquidity_usd": 17398.36,
+      "pct_from_call": 14.56487162008635,
+      "peak_pct": -9.543285616905251,
+      "peak_at": 1777784908,
+      "trough_pct": -9.543285616905251,
+      "trough_at": 1777784908,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 141,
@@ -2849,17 +2880,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 92,
-        "wins": 26,
-        "losses": 64,
-        "expired": 2,
-        "win_rate": 28.888888888888886,
-        "avg_winner_pct": 66.745355302726,
-        "avg_loser_pct": -43.70704575231086,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -2870,6 +2890,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 92,
+        "wins": 26,
+        "losses": 64,
+        "expired": 2,
+        "win_rate": 28.888888888888886,
+        "avg_winner_pct": 66.745355302726,
+        "avg_loser_pct": -43.70704575231086,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
