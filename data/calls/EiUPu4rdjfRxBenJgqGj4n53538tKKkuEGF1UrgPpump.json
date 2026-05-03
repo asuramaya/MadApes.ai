@@ -20,8 +20,8 @@
     "note": "I’m in BIGOB here: 49.5k cap, 188/min, top1 17, top10 29, buys 1.8x sells. · horizon=MOONSHOT",
     "outcome_type": "active",
     "pct_from_call": 22.864067865077754,
-    "peak_at": 1777797230,
-    "peak_pct": 5.857402544940427,
+    "peak_at": 1777797485,
+    "peak_pct": 22.864067865077754,
     "source": "notifier",
     "status": "active",
     "symbol": "BIGOB",
@@ -29,8 +29,8 @@
     "trough_at": 1777797311,
     "trough_pct": -10.401939002221772
   },
-  "captured_at": 1777797489,
-  "last_snapshot_ts": 1777797485,
+  "captured_at": 1777797519,
+  "last_snapshot_ts": 1777797507,
   "snapshots": [
     {
       "bundle_pct": 19.1938562707628,
@@ -311,6 +311,34 @@
       "tx_rate": 250.00000000000003,
       "velocity": 1.0,
       "volume_h1_usd": 86162.15
+    },
+    {
+      "bundle_pct": 19.1938562707628,
+      "buys_h1": 784,
+      "classification": "STAIRCASE",
+      "confidence": 70,
+      "distribution": 53,
+      "forensics_computed_at": 1777797107,
+      "holder_count": 320,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17252.91,
+      "mcap_usd": 49329.0,
+      "momentum": 71,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 36.72,
+      "price_usd": 0.00004932,
+      "sells_h1": 501,
+      "smart_money_count": 0,
+      "sniper_pct": 48.497196956109704,
+      "spring": 62,
+      "timestamp": 1777797507,
+      "token_address": "EiUPu4rdjfRxBenJgqGj4n53538tKKkuEGF1UrgPpump",
+      "top10_pct": 33.1633408431542,
+      "top5_pct": 26.0067085836481,
+      "top_holder_pct": 18.425451128220498,
+      "tx_rate": 230.76923076923077,
+      "velocity": 1.0,
+      "volume_h1_usd": 95417.6
     }
   ]
 }
