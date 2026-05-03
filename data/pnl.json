@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 111.60350817806119,
-  "realized_pnl_usd": -13.747519232021393,
-  "unrealized_pnl_usd": 9.223775360622605,
+  "total_value_usd": 120.043784635,
+  "realized_pnl_usd": -17.39620029415345,
+  "unrealized_pnl_usd": 21.298939406353462,
   "series": [
-    {
-      "ts": 1777439209,
-      "value_usd": 0.2575597121
-    },
     {
       "ts": 1777439509,
       "value_usd": 0.2579852799
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777828526,
-      "value_usd": 111.60350817806119
+      "value_usd": 111.6035081780612
+    },
+    {
+      "ts": 1777828556,
+      "value_usd": 120.043784635
     }
   ],
   "trades": [
+    {
+      "ts": 1777828532,
+      "side": "sell",
+      "symbol": "EPIC",
+      "mint": "9mKakEnqf7G7vcKqkSdVKden4gtRWMJJg3yHoNMKpump",
+      "token_amount_ui": 1094238.45515,
+      "sol_amount_ui": 0.0993522,
+      "signature": "tJizVrDRr82YENU84CBbE9EuCs5T1WaB6aARReetaNLsWs7wA1qk88Mz3LRyifepY6oRZ5hi2Ybv5HyYv5LstMH"
+    },
     {
       "ts": 1777828407,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 367481.767676,
       "sol_amount_ui": 0.051401808,
       "signature": "2a63wnkpyoXB1YHbrSZPjCuULFddXntoPKBBSh4JEyc5wD1TR8coxZ3PdW4jd6HieWehivbrqyYVPsZgant3U8AF"
-    },
-    {
-      "ts": 1777823656,
-      "side": "buy",
-      "symbol": "DILLEY",
-      "mint": "61SKDNUXYBxwWDnUUh5kRjfoA1VReTgdHs7kJ3xhpump",
-      "token_amount_ui": 367481.767676,
-      "sol_amount_ui": 0.102148854,
-      "signature": "3UfvoHAhVagMWk6Qarmxprnw9SAudRdY73jXfmwkMq5KYXyxqMPuGCeDHeobvB2Z9RRRQGKj27wBXWb8LvhzMTc4"
     }
   ]
 }
