@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 143,
+      "mint": "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump",
+      "symbol": "DOUG",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777786701,
+      "expires_at": 1777792101,
+      "note": "Took DOUG here: 44.8k cap, 200/min tape, 1.5x buys, no bundle noise · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 44826.0,
+      "entry_price_usd": 0.00004482,
+      "entry_liquidity_usd": 16359.26,
+      "entry_top_holder_pct": 17.90637353476384,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 40830.0,
+      "current_price_usd": 0.00004083,
+      "current_liquidity_usd": 15613.47,
+      "pct_from_call": -8.90227576974565,
+      "peak_pct": 0.0,
+      "peak_at": 1777786701,
+      "trough_pct": 0.0,
+      "trough_at": 1777786701,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 142,
