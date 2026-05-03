@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 117.41338559162341,
-  "realized_pnl_usd": -7.69134990365,
-  "unrealized_pnl_usd": 13.176228798973392,
+  "total_value_usd": 113.4469600598779,
+  "realized_pnl_usd": 2.4732932686000004,
+  "unrealized_pnl_usd": -0.9548399050221157,
   "series": [
-    {
-      "ts": 1777104672,
-      "value_usd": 0.26290970729999996
-    },
     {
       "ts": 1777104972,
       "value_usd": 0.26290970729999996
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777782846,
-      "value_usd": 117.41338559162341
+      "value_usd": 117.4133855916234
+    },
+    {
+      "ts": 1777782906,
+      "value_usd": 113.4469600598779
     }
   ],
   "trades": [
+    {
+      "ts": 1777782868,
+      "side": "sell",
+      "symbol": "CAMERON",
+      "mint": "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump",
+      "token_amount_ui": 417357.253432,
+      "sol_amount_ui": 0.212807467,
+      "signature": "4uJJaFdFyP8rQks8baFPsYhjHYJxQNY5kopS5BCgvZNEU91vVFP43Cdr4ZbT58y84NtbfEPsVr9wWt7UpzD4uozJ"
+    },
     {
       "ts": 1777782672,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 240546.302148096,
       "sol_amount_ui": 0.055110967,
       "signature": "3gtaC9ZRFk6HMwLdyTRmqiVMboUijASh5r71AV6PvBtkLSxGcRc4BW1EgdFqCcCZEqrrwmZtjuDh36KaZVcA9A5r"
-    },
-    {
-      "ts": 1777779316,
-      "side": "buy",
-      "symbol": "GAY",
-      "mint": "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump",
-      "token_amount_ui": 86713.60659500002,
-      "sol_amount_ui": 0.033711596,
-      "signature": "56DK5Zakp9h5KX7Hmj3kgnCJ7ydw9qqPcLPNfpPiyGVmhLeRcSueySMueiEzdBJzV98JsbsFhbypqkX3AQmnvmzL"
     }
   ]
 }
