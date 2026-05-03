@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 111.57856637160731,
-  "realized_pnl_usd": 4.770481781130001,
-  "unrealized_pnl_usd": -5.147183255062681,
+  "total_value_usd": 108.81301114311495,
+  "realized_pnl_usd": 0.5816782548300011,
+  "unrealized_pnl_usd": -3.804218404975056,
   "series": [
-    {
-      "ts": 1777107072,
-      "value_usd": 0.2632136843
-    },
     {
       "ts": 1777107372,
       "value_usd": 0.2634264682
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777783326,
-      "value_usd": 111.57856637160731
+      "value_usd": 111.57856637160732
+    },
+    {
+      "ts": 1777783386,
+      "value_usd": 108.81301114311495
     }
   ],
   "trades": [
+    {
+      "ts": 1777783358,
+      "side": "sell",
+      "symbol": "Stick",
+      "mint": "5nUn17oFyiRcjosXSiYbyzAvVss1oTygNt8eg2dQpump",
+      "token_amount_ui": 755749.024851,
+      "sol_amount_ui": 0.044951924,
+      "signature": "w16kf4m3xPyGy8YVPrtFUGFCYv5eYgXALedZiaYavwQBPpVuM93VCon9PQrePGceTjdMWLMRCrTUnKXpUzP8RZD"
+    },
     {
       "ts": 1777783272,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 57529.324635000026,
       "sol_amount_ui": 0.022356996,
       "signature": "2ckvu9n3uLa4tAaNKFvwBLEAo6KpAGLHY5eLhmo71J2t26G9ou5fUGb69Edebt81CjWWJWwSVBdqGBSfKWBGNgkR"
-    },
-    {
-      "ts": 1777781218,
-      "side": "buy",
-      "symbol": "CAMERON",
-      "mint": "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump",
-      "token_amount_ui": 359827.928797,
-      "sol_amount_ui": 0.068936506,
-      "signature": "Nj4RoTSnu7RNv5dCt1egyNX6eFoqbkxmF4USFLDiRzWs4WQoazaqPTzjN3cS8JAaK1xhnWohyXq529Pg49RofSW"
     }
   ]
 }
