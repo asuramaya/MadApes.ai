@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 111.60431121691605,
-  "realized_pnl_usd": -7.3650584399,
-  "unrealized_pnl_usd": 7.040863127816045,
+  "total_value_usd": 111.73222533996199,
+  "realized_pnl_usd": -7.36858028494,
+  "unrealized_pnl_usd": 7.118776797501984,
   "series": [
-    {
-      "ts": 1777087015,
-      "value_usd": 0.2657974888
-    },
     {
       "ts": 1777087315,
       "value_usd": 0.2627577188
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777779130,
       "value_usd": 111.60431121691605
+    },
+    {
+      "ts": 1777779228,
+      "value_usd": 111.73222533996199
     }
   ],
   "trades": [
+    {
+      "ts": 1777779192,
+      "side": "buy",
+      "symbol": "GAY",
+      "mint": "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump",
+      "token_amount_ui": 81495.24042199999,
+      "sol_amount_ui": 0.037922189,
+      "signature": "61hcD3VX46udN6jZoqkHRT4KAKXqyfsXDcdcYY3S5a5Lx1f9BFz3oWin4XPUmiVMwmfqSjmEHqaiPMLiHnqWCnXc"
+    },
     {
       "ts": 1777778891,
       "side": "sell",
