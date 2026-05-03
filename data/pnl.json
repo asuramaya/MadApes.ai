@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 99.33738103038158,
-  "realized_pnl_usd": -11.819918693970003,
-  "unrealized_pnl_usd": -0.7176845898584194,
+  "total_value_usd": 103.3122580222938,
+  "realized_pnl_usd": -13.34344941189,
+  "unrealized_pnl_usd": 4.780723119973788,
   "series": [
-    {
-      "ts": 1777097129,
-      "value_usd": 0.26233215099999996
-    },
     {
       "ts": 1777097429,
       "value_usd": 0.26251453719999995
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777781122,
       "value_usd": 99.33738103038158
+    },
+    {
+      "ts": 1777781182,
+      "value_usd": 103.3122580222938
     }
   ],
   "trades": [
+    {
+      "ts": 1777781154,
+      "side": "sell",
+      "symbol": "Soomer",
+      "mint": "Bz5WM8BZVjXZNiXgMvLkPqRLndqLvKPWCVzEK1LSpump",
+      "token_amount_ui": 341649.797607,
+      "sol_amount_ui": 0.017263763,
+      "signature": "4F2Zd2zL8NFgCGdpoae5dAnvhvJwgduJDDhHk21fSDb1M6WL37qrRXtgyNg56X9LUAQV7HrNRzwe7TSQgTbU351z"
+    },
     {
       "ts": 1777781059,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 33238.586417,
       "sol_amount_ui": 0.016662724,
       "signature": "3Hv7a5MnZWuFrWmAMXrxKy3pEd5F5NdB4iVidzqEzm2Avk1r6GkTYGuAiN7EVcQNM954gCwuVsgZKgccy6kxKtGM"
-    },
-    {
-      "ts": 1777776383,
-      "side": "buy",
-      "symbol": "Farm",
-      "mint": "J3WdM5Ui8SvhZCgHB1CVoGx6nFZUMZ754wVQex6Upump",
-      "token_amount_ui": 296440.877939,
-      "sol_amount_ui": 0.060715739,
-      "signature": "5S42vppFfuvf6AqiCi64w47ZumSVz5byi8Yp9cTZpwhYTqkMCDP1mZXtiV1pdK3dnuYp52tvM6CiLTyWaKwe38xp"
     }
   ]
 }
