@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 115.46168967967155,
-  "realized_pnl_usd": -7.36681936242,
-  "unrealized_pnl_usd": 10.87324136389155,
+  "total_value_usd": 117.88421552667755,
+  "realized_pnl_usd": -9.972546307440002,
+  "unrealized_pnl_usd": 15.901494072247539,
   "series": [
-    {
-      "ts": 1777089878,
-      "value_usd": 0.26281851419999996
-    },
     {
       "ts": 1777090177,
       "value_usd": 0.2627273211
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777779768,
-      "value_usd": 115.46168967967155
+      "value_usd": 115.46168967967157
+    },
+    {
+      "ts": 1777779828,
+      "value_usd": 117.88421552667755
     }
   ],
   "trades": [
+    {
+      "ts": 1777779789,
+      "side": "sell",
+      "symbol": "SPIRIT",
+      "mint": "4eviw9nB6qx7z3hSF1hMv9ViTrzzhbsKFtAm88EPBAGS",
+      "token_amount_ui": 240546.302148096,
+      "sol_amount_ui": 0.055110967,
+      "signature": "3gtaC9ZRFk6HMwLdyTRmqiVMboUijASh5r71AV6PvBtkLSxGcRc4BW1EgdFqCcCZEqrrwmZtjuDh36KaZVcA9A5r"
+    },
     {
       "ts": 1777779316,
       "side": "buy",
