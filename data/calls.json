@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 151,
       "mint": "BcahLr88n3wkAQvmbrthJJwcDVqSzYiFRhiJWhffpump",
@@ -10,28 +11,26 @@
       "expires_at": 1777813601,
       "note": "I’m in WormTower here: 48k cap, 750/min, and top1 at 17% isn’t killing it. · horizon=MOONSHOT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777808358,
+      "exit_price_usd": 0.00003556,
+      "exit_note": "-26.1% · severe dev exit",
       "entry_mcap_usd": 48108.0,
       "entry_price_usd": 0.0000481,
       "entry_liquidity_usd": 16906.76,
       "entry_top_holder_pct": 17.267524447488,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 35564.0,
+      "current_mcap_usd": 0.0,
       "current_price_usd": 0.00003556,
-      "current_liquidity_usd": 14589.22,
+      "current_liquidity_usd": 0.0,
       "pct_from_call": -26.070686070686065,
       "peak_pct": -17.941787941787936,
       "peak_at": 1777808325,
       "trough_pct": -26.7983367983368,
       "trough_at": 1777808201,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 150,
       "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
@@ -3117,13 +3116,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 73,
+      "count": 74,
       "wins": 17,
-      "losses": 55,
+      "losses": 56,
       "expired": 1,
-      "win_rate": 23.61111111111111,
+      "win_rate": 23.28767123287671,
       "avg_winner_pct": 85.43864255930932,
-      "avg_loser_pct": -42.52369766968679,
+      "avg_loser_pct": -42.25397616806382,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -3139,13 +3138,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 102,
+      "count": 103,
       "wins": 27,
-      "losses": 73,
+      "losses": 74,
       "expired": 2,
-      "win_rate": 27.0,
+      "win_rate": 26.732673267326735,
       "avg_winner_pct": 66.05566192476235,
-      "avg_loser_pct": -43.28980393959819,
+      "avg_loser_pct": -43.06617903220972,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -3162,13 +3161,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 101,
+        "count": 102,
         "wins": 27,
-        "losses": 72,
+        "losses": 73,
         "expired": 2,
-        "win_rate": 27.27272727272727,
+        "win_rate": 27.0,
         "avg_winner_pct": 66.05566192476235,
-        "avg_loser_pct": -43.59963105281218,
+        "avg_loser_pct": -43.36898703988946,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
