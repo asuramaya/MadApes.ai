@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 181,
+      "mint": "ziffq43QSCC95DUjVc7cULKYttEHyA1pops25gDpump",
+      "symbol": "CARDS",
+      "classification": "STAIRCASE",
+      "confidence": 82,
+      "called_at": 1777896652,
+      "expires_at": 1777902052,
+      "note": "I’m in CARDS here, 136/min, no bundle or insider mess, staircase still clean. · horizon=SHORT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 583405.0,
+      "entry_price_usd": 0.0005834,
+      "entry_liquidity_usd": 60987.24,
+      "entry_top_holder_pct": 5.4767059375969565,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 539988.0,
+      "current_price_usd": 0.0005399,
+      "current_liquidity_usd": 58698.27,
+      "pct_from_call": -7.456290709633184,
+      "peak_pct": -6.11930065135412,
+      "peak_at": 1777896652,
+      "trough_pct": -6.11930065135412,
+      "trough_at": 1777896652,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 180,
