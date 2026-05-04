@@ -3685,10 +3685,10 @@
       "current_price_usd": 0.0006087,
       "current_liquidity_usd": 0.0,
       "pct_from_call": 10.833940276766207,
-      "peak_pct": 12.764020393299358,
-      "peak_at": 1777248887,
-      "trough_pct": 3.423160961398408,
-      "trough_at": 1777250036,
+      "peak_pct": 10.833940276766207,
+      "peak_at": 1777251893,
+      "trough_pct": null,
+      "trough_at": null,
       "thesis_url": null
     },
     {
@@ -3745,8 +3745,8 @@
       "current_price_usd": 0.001818,
       "current_liquidity_usd": 0.0,
       "pct_from_call": -20.052770448548817,
-      "peak_pct": 60.51011433597186,
-      "peak_at": 1777249584,
+      "peak_pct": 40.06156552330695,
+      "peak_at": 1777342579,
       "trough_pct": 30.958663148636777,
       "trough_at": 1777343848,
       "thesis_url": "thoughts/2026-04-22_first-call-psyopanime-one-trader-vs-a-network.md"
@@ -3809,17 +3809,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 123,
         "wins": 34,
@@ -3830,6 +3819,17 @@
         "avg_loser_pct": -42.3188856668492,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
