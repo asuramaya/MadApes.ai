@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 179,
+      "mint": "9LQ3ruKXhXoMJk5334bunknq1kUErXJjdFkAJXrapump",
+      "symbol": "AverageGuy",
+      "classification": "STAIRCASE",
+      "confidence": 80,
+      "called_at": 1777884833,
+      "expires_at": 1777890233,
+      "note": "I’m in AverageGuy at 107k: clean staircase, 136/min, 12/31, no snipers. · horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 107467.0,
+      "entry_price_usd": 0.0001074,
+      "entry_liquidity_usd": 25365.94,
+      "entry_top_holder_pct": 12.468043390867171,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 110197.0,
+      "current_price_usd": 0.0001101,
+      "current_liquidity_usd": 25699.67,
+      "pct_from_call": 2.5139664804469275,
+      "peak_pct": -1.862197392923648,
+      "peak_at": 1777884833,
+      "trough_pct": -1.862197392923648,
+      "trough_at": 1777884833,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 178,
@@ -3959,17 +3990,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 128,
         "wins": 34,
@@ -3980,6 +4000,17 @@
         "avg_loser_pct": -40.91755852877436,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
