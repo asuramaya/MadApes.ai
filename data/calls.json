@@ -2,6 +2,36 @@
   "active": [],
   "history": [
     {
+      "id": 178,
+      "mint": "5hPBp5VoWRqsuov9NMgQqankb1zUpbnHhe7zPEY4pump",
+      "symbol": "TrollGoon",
+      "classification": "GRINDER",
+      "confidence": 79,
+      "called_at": 1777881074,
+      "expires_at": 1777886474,
+      "note": "Took $TrollGoon here, 103k cap with 12/26 holders and buys still ahead. · horizon=SHORT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777881127,
+      "exit_price_usd": 0.0001027,
+      "exit_note": "-0.5% · severe dev exit",
+      "entry_mcap_usd": 103294.0,
+      "entry_price_usd": 0.0001032,
+      "entry_liquidity_usd": 25689.67,
+      "entry_top_holder_pct": 12.418588181796201,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.0001027,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -0.4844961240310086,
+      "peak_pct": 0.0,
+      "peak_at": 1777881074,
+      "trough_pct": 0.0,
+      "trough_at": 1777881074,
+      "thesis_url": null
+    },
+    {
       "id": 177,
       "mint": "3eMG67f9WeWB119wd9dsGd5ih5DB21rM2fGwP5k5pump",
       "symbol": "CHILLTROLL",
@@ -3874,13 +3904,13 @@
   ],
   "stats": {
     "short": {
-      "count": 24,
+      "count": 25,
       "wins": 9,
-      "losses": 14,
+      "losses": 15,
       "expired": 1,
-      "win_rate": 39.130434782608695,
+      "win_rate": 37.5,
       "avg_winner_pct": 36.5219109855412,
-      "avg_loser_pct": -30.892442773793103,
+      "avg_loser_pct": -28.358447219646262,
       "best_pct": 117.68707482993194,
       "worst_pct": -91.31272174353776
     },
@@ -3918,28 +3948,17 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 128,
+      "count": 129,
       "wins": 34,
-      "losses": 92,
+      "losses": 93,
       "expired": 2,
-      "win_rate": 26.984126984126984,
+      "win_rate": 26.77165354330709,
       "avg_winner_pct": 51.024699687201554,
-      "avg_loser_pct": -41.137426779611644,
+      "avg_loser_pct": -40.685727550105184,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 127,
-        "wins": 34,
-        "losses": 91,
-        "expired": 2,
-        "win_rate": 27.200000000000003,
-        "avg_winner_pct": 51.024699687201554,
-        "avg_loser_pct": -41.37702514701008,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3950,6 +3969,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 128,
+        "wins": 34,
+        "losses": 92,
+        "expired": 2,
+        "win_rate": 26.984126984126984,
+        "avg_winner_pct": 51.024699687201554,
+        "avg_loser_pct": -40.91755852877436,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
