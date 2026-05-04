@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 61.9256359060861,
-  "realized_pnl_usd": -56.92028265023997,
-  "unrealized_pnl_usd": -1.6718594255939045,
+  "total_value_usd": 63.09258798759403,
+  "realized_pnl_usd": -56.818348046640004,
+  "unrealized_pnl_usd": -0.39101498138597335,
   "series": [
-    {
-      "ts": 1777671163,
-      "value_usd": 19.102279127849997
-    },
     {
       "ts": 1777671193,
       "value_usd": 19.102279127849997
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777857399,
       "value_usd": 61.9256359060861
+    },
+    {
+      "ts": 1777857459,
+      "value_usd": 63.09258798759403
     }
   ],
   "trades": [
+    {
+      "ts": 1777857441,
+      "side": "buy",
+      "symbol": "JEEVES",
+      "mint": "4RcXJro1tHWZJKqmWmw892ACTYBgpj4xzBRnxceipump",
+      "token_amount_ui": 889529.335941,
+      "sol_amount_ui": 0.102582671,
+      "signature": "523KaTJqon2kV4tQRP4rVrxk1FAeFiwRErZPyh8cTFDDFr6MjNV6PxC5FfZ35q2XbX5c4CM2EPbjmvEi73QEqcXc"
+    },
     {
       "ts": 1777857197,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 930817.083789,
       "sol_amount_ui": 0.11139412,
       "signature": "2jeqiXxw7EZWnCXVhEMCxNFqGWUAc56356MMAZAimyPAfpTHUapisFRToB2sZ38UY5G2oMBC3RTQcm5WhFZqqkzM"
-    },
-    {
-      "ts": 1777850560,
-      "side": "buy",
-      "symbol": "LIGHT",
-      "mint": "8JLyS83Z3xjakosNkU9YS5Rx2FJihTTCbbkPMnwXpump",
-      "token_amount_ui": 930817.083789,
-      "sol_amount_ui": 0.12622999,
-      "signature": "5u9M4QeANLyKe3DNxmLMdiKAtkWgpayV35BwUXv9xza9FDz5Cfc6is48coPkHLmanCq3NdXcUfYe4thaAGUsBQJi"
     }
   ]
 }
