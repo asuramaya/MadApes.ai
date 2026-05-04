@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 81,
-    "current_liquidity_usd": 44450.77,
-    "current_mcap_usd": 296080.0,
-    "current_price_usd": 0.000296,
+    "current_liquidity_usd": 49470.66,
+    "current_mcap_usd": 366237.0,
+    "current_price_usd": 0.0003662,
     "entry_liquidity_usd": 44724.35,
     "entry_mcap_usd": 305522.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
     "note": "Took $GYMCOIN for the scalp, 231/min, staircase tape and buys still ahead · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": -3.109656301145669,
+    "pct_from_call": 19.86906710310965,
     "peak_at": 1777904367,
     "peak_pct": 13.682487725040904,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777904677,
     "trough_pct": -3.109656301145669
   },
-  "captured_at": 1777904701,
-  "last_snapshot_ts": 1777904677,
+  "captured_at": 1777904731,
+  "last_snapshot_ts": 1777904712,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -283,6 +283,34 @@
       "tx_rate": 600.0,
       "velocity": 1.0,
       "volume_h1_usd": 1084165.69
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1411,
+      "classification": "STAIRCASE",
+      "confidence": 83,
+      "distribution": 54,
+      "forensics_computed_at": 1777903785,
+      "holder_count": 20,
+      "insider_pct": 11.7047788639619,
+      "liquidity_usd": 49470.66,
+      "mcap_usd": 366237.0,
+      "momentum": 83,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 362.0,
+      "price_usd": 0.0003662,
+      "sells_h1": 808,
+      "smart_money_count": 0,
+      "sniper_pct": 86.6933408695464,
+      "spring": 68,
+      "timestamp": 1777904712,
+      "token_address": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
+      "top10_pct": 21.737102489801202,
+      "top5_pct": 14.3734520403943,
+      "top_holder_pct": 7.229431670358499,
+      "tx_rate": 100.0,
+      "velocity": 3.0,
+      "volume_h1_usd": 1097616.61
     }
   ]
 }
