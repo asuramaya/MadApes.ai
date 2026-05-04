@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 54.60501043252,
-  "realized_pnl_usd": -64.70330253386999,
-  "unrealized_pnl_usd": -0.8204696918899999,
+  "total_value_usd": 52.16694105438728,
+  "realized_pnl_usd": -64.78080080017,
+  "unrealized_pnl_usd": -3.3249248409227192,
   "series": [
-    {
-      "ts": 1777672144,
-      "value_usd": 19.1136998376
-    },
     {
       "ts": 1777672229,
       "value_usd": 19.127404689299997
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777858097,
       "value_usd": 54.60501043252
+    },
+    {
+      "ts": 1777858157,
+      "value_usd": 52.16694105438728
     }
   ],
   "trades": [
+    {
+      "ts": 1777858114,
+      "side": "buy",
+      "symbol": "KOSDAQ",
+      "mint": "3gyHPjmCdQZrGz1QNyKcA2xpVyisYRMmE3eXWZ9Gpump",
+      "token_amount_ui": 805870.004956,
+      "sol_amount_ui": 0.068543505,
+      "signature": "3hx7ErHnL2WaYBwcNWvfRnnXqX5md8MX3A4aZfztkzQ69YGEy6dJZMmcwi9jh7WPda9WLjUgA7UhKzbvxe5C8ccd"
+    },
     {
       "ts": 1777857934,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 303420.894411,
       "sol_amount_ui": 0.204224056,
       "signature": "55Ww6H7MCBENYvgF4AXeJ33uGtCrQnnDyVLG5cuLXjzUuYMP5wy73wu5seKDnk1LRfAWguaM6zNAn8jw3znXZU9m"
-    },
-    {
-      "ts": 1777855401,
-      "side": "buy",
-      "symbol": "RG",
-      "mint": "GqXmtjYoYmmMMq4vyaAQbZW3VQdppYcLMcB2TChzpump",
-      "token_amount_ui": 606841.788822,
-      "sol_amount_ui": 0.102384987,
-      "signature": "3vq47AfSZVQwcL5MVu6tsxZ3SYmkbWRt44qgYZRziAyn9xR1SXNacL5hBqgYTCeFfgwjamXgBozGqmH716T1qQpX"
     }
   ]
 }
