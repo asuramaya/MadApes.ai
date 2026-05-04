@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 184,
+      "mint": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
+      "symbol": "GYMCOIN",
+      "classification": "STAIRCASE",
+      "confidence": 81,
+      "called_at": 1777904367,
+      "expires_at": 1777909767,
+      "note": "Took $GYMCOIN for the scalp, 231/min, staircase tape and buys still ahead · horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 305522.0,
+      "entry_price_usd": 0.0003055,
+      "entry_liquidity_usd": 44724.35,
+      "entry_top_holder_pct": 7.158215626471999,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 299924.0,
+      "current_price_usd": 0.0002999,
+      "current_liquidity_usd": 44363.41,
+      "pct_from_call": -1.833060556464805,
+      "peak_pct": 13.682487725040904,
+      "peak_at": 1777904367,
+      "trough_pct": 13.682487725040904,
+      "trough_at": 1777904367,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 183,
