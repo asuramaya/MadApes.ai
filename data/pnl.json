@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 30.788447870183692,
-  "realized_pnl_usd": -82.1723964008,
-  "unrealized_pnl_usd": -9.98806551641631,
+  "total_value_usd": 30.75027199162,
+  "realized_pnl_usd": -90.71399272356,
+  "unrealized_pnl_usd": -1.3839262461800006,
   "series": [
-    {
-      "ts": 1777689496,
-      "value_usd": 19.179939954149997
-    },
     {
       "ts": 1777689796,
       "value_usd": 19.17537167025
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777862237,
       "value_usd": 30.788447870183692
+    },
+    {
+      "ts": 1777862297,
+      "value_usd": 30.75027199162
     }
   ],
   "trades": [
+    {
+      "ts": 1777862247,
+      "side": "sell",
+      "symbol": "kekcoin",
+      "mint": "EyWMXoGDfCS8TB1kjAfx8mwTBeJaN9kWb8mNSEwopump",
+      "token_amount_ui": 619820.861191,
+      "sol_amount_ui": 0.024366645,
+      "signature": "thh2UYsDVJqfwCtRRDEZobiKp5S8N3TqoCj3AjLbHxqSMejSRzoFP8CUWqguQsiaKmg2HhXkLAwqeH7nryo1GUr"
+    },
     {
       "ts": 1777858899,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 362865.201126,
       "sol_amount_ui": 0.024317124,
       "signature": "3bRgLzBu2x35hQA7nc1c7pZkAykXiZetKLUUK6VeSq5k71HWxzWgs8nwUkKF1qzgoawWHStbSZiVDYLf9Qs77ikv"
-    },
-    {
-      "ts": 1777856339,
-      "side": "buy",
-      "symbol": "YOTTAFLOP",
-      "mint": "Cho6XJGPjJj4H1nu2reeyRi9s4PQWn4ecitnidnFpump",
-      "token_amount_ui": 362865.201126,
-      "sol_amount_ui": 0.052702943,
-      "signature": "3mC8v7ubSmd91zVFz58shQP7PNFndX6quoqxznNs4QHrmAqLM4aT5ZBBE8a3ZBpJZjGgYucBTGjCC5Aqd1Vi3xXZ"
     }
   ]
 }
