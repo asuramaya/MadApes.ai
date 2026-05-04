@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 81,
-    "current_liquidity_usd": 48483.78,
-    "current_mcap_usd": 349689.0,
-    "current_price_usd": 0.0003496,
+    "current_liquidity_usd": 49925.81,
+    "current_mcap_usd": 370118.0,
+    "current_price_usd": 0.0003701,
     "entry_liquidity_usd": 44724.35,
     "entry_mcap_usd": 305522.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
     "note": "Took $GYMCOIN for the scalp, 231/min, staircase tape and buys still ahead · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": 14.435351882160386,
+    "pct_from_call": 21.145662847790515,
     "peak_at": 1777904712,
     "peak_pct": 19.86906710310965,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777904677,
     "trough_pct": -3.109656301145669
   },
-  "captured_at": 1777904792,
-  "last_snapshot_ts": 1777904774,
+  "captured_at": 1777904821,
+  "last_snapshot_ts": 1777904814,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -367,6 +367,34 @@
       "tx_rate": 93.75,
       "velocity": 0.14285714285714285,
       "volume_h1_usd": 1145733.89
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1564,
+      "classification": "STAIRCASE",
+      "confidence": 77,
+      "distribution": 54,
+      "forensics_computed_at": 1777903785,
+      "holder_count": 20,
+      "insider_pct": 11.7047788639619,
+      "liquidity_usd": 49925.81,
+      "mcap_usd": 370118.0,
+      "momentum": 71,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 367.0,
+      "price_usd": 0.0003701,
+      "sells_h1": 874,
+      "smart_money_count": 0,
+      "sniper_pct": 86.6933408695464,
+      "spring": 62,
+      "timestamp": 1777904814,
+      "token_address": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
+      "top10_pct": 20.433737811176,
+      "top5_pct": 13.379008225537302,
+      "top_holder_pct": 6.2669803253334,
+      "tx_rate": 100.0,
+      "velocity": 0.6666666666666667,
+      "volume_h1_usd": 1158736.36
     }
   ]
 }
