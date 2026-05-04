@@ -26,11 +26,11 @@
     "status": "active",
     "symbol": "GYMCOIN",
     "thesis_url": null,
-    "trough_at": 1777904443,
-    "trough_pct": -3.0114566284779043
+    "trough_at": 1777904677,
+    "trough_pct": -3.109656301145669
   },
-  "captured_at": 1777904672,
-  "last_snapshot_ts": 1777904645,
+  "captured_at": 1777904701,
+  "last_snapshot_ts": 1777904677,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -255,6 +255,34 @@
       "tx_rate": 187.5,
       "velocity": 0.5,
       "volume_h1_usd": 1070150.12
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1376,
+      "classification": "GRINDER",
+      "confidence": 76,
+      "distribution": 54,
+      "forensics_computed_at": 1777903785,
+      "holder_count": 20,
+      "insider_pct": 11.7047788639619,
+      "liquidity_usd": 44450.77,
+      "mcap_usd": 296080.0,
+      "momentum": 70,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 273.0,
+      "price_usd": 0.000296,
+      "sells_h1": 788,
+      "smart_money_count": 0,
+      "sniper_pct": 86.6933408695464,
+      "spring": 62,
+      "timestamp": 1777904677,
+      "token_address": "89fhG9XK8rkAbXDZ5rfeG4M59Kiohdf7JU6Y2Tcjpump",
+      "top10_pct": 22.368587843692,
+      "top5_pct": 14.768187980386802,
+      "top_holder_pct": 7.583568650790501,
+      "tx_rate": 600.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 1084165.69
     }
   ]
 }
