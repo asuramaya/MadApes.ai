@@ -4139,17 +4139,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 134,
-        "wins": 35,
-        "losses": 97,
-        "expired": 2,
-        "win_rate": 26.515151515151516,
-        "avg_winner_pct": 46.34934078329566,
-        "avg_loser_pct": -40.54576666411723,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -4160,6 +4149,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 134,
+        "wins": 35,
+        "losses": 97,
+        "expired": 2,
+        "win_rate": 26.515151515151516,
+        "avg_winner_pct": 46.34934078329566,
+        "avg_loser_pct": -40.54576666411723,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
